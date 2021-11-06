@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Tutorial Demo</title>
+</head>
+
+<body>
+  <!-- 引入 G6 -->
+  <div id="mountNode"></div>
+</body>
+<script src="https://gw.alipayobjects.com/os/lib/antv/g6/4.3.11/dist/g6.min.js"></script>
+
+<script>
+
+  const minimap = new G6.Minimap({
+    size: [100, 100],
+    className: 'minimap',
+    type: 'delegate',
+  });
+
+  console.log(G6.Global.version);
+  const grid = new G6.Grid();
+
+  const graph = new G6.Graph({
+    container: 'mountNode', // 指定挂载容器
+    width: 1920, // 图的宽度
+    height: 1080, // 图的高度
+
+    plugins: [minimap], // 将 minimap 实例配置到图上
+
+
+    defaultNode: {
+      size: 30, // 节点大小
+      // ...                 // 节点的其他配置
+      // 节点样式配置
+      style: {
+        fill: 'steelblue', // 节点填充色
+        stroke: '#666', // 节点描边色
+        lineWidth: 2, // 节点描边粗细
+      },
+      // 节点上的标签文本配置
+      labelCfg: {
+        position: 'right',
+        // 节点上的标签文本样式配置
+        style: {
+          fill: '#666', // 节点标签文字颜色'
+          fontSize:21,
+          fontFamily:'Helvetica',
+          opacity:0,
+          //opacity:1,
+        },
+      },
+    },
+    defaultEdge: {
+      // ...                 // 边的其他配置
+      // 边样式配置
+      style: {
+        opacity: 0.6, // 边透明度
+        stroke: 'grey', // 边描边颜色
+        lineWidth: 0.1,
+      },
+      // 边上的标签文本配置
+      labelCfg: {
+        autoRotate: true, // 边上的标签文本根据边的方向旋转
+      },
+    },
+    nodeStateStyles: {
+      highlight: {
+        opacity: 1,
+      },
+      dark: {
+        opacity: 0.01,
+        fillOpacity: 0.1,
+      },
+    },
+    edgeStateStyles: {
+      highlight: {
+        stroke: '#999',
+        lineWidth: 3,
+      },
+    },
+    layout: {
+      // Object，可选，布局的方法及其配置项，默认为 random 布局。
+      // type: 'force', // 指定为力导向布局
+      // edgeStrength: 0.7,
+      // preventOverlap: true, // 防止节点重叠
+      // nodeSpacing: 20,
+      // gpuEnabled: false,
+      // workerEnabled: false,
+      // nodeSize: 30        // 节点大小，用于算法中防止节点重叠时的碰撞检测。由于已经在上一节的元素配置中设置了每个节点的 size 属性，则不需要在此设置 nodeSize。
+    },
+    modes: {
+      default: ['drag-canvas', 'zoom-canvas'], // 允许拖拽画布、放缩画布、拖拽节点
+      //'drag-node'
+    },
+
+
+
+    plugins: [grid], // 将 grid 实例配置到图上
+
+    animate: true, // Boolean，切换布局时是否使用动画过度，默认为 false
+    animateCfg: {
+      duration: 500, // Number，一次动画的时长
+      easing: 'linearEasing', // String，动画函数
+    },
+
+  });
+
+  function clearAllStats() {
+    graph.setAutoPaint(false);
+    graph.getNodes().forEach(function (node) {
+      graph.clearItemStates(node);
+      graph.updateItem(node, {
+        labelCfg: {
+          style: {
+            opacity: 0,
+          },
+        },
+      });
+    });
+    graph.getEdges().forEach(function (edge) {
+      graph.clearItemStates(edge);
+    });
+
+    graph.paint();
+    graph.setAutoPaint(true);
+  }
+
+
+  graph.on('node:mouseenter', function (e) {
+    const item = e.item;
+    graph.setAutoPaint(false);
+    graph.getNodes().forEach(function (node) {
+      graph.clearItemStates(node);
+      graph.setItemState(node, 'dark', true);
+      graph.updateItem(node, {
+        labelCfg: {
+          style: {
+            opacity: 0,
+          },
+        },
+      });
+    });
+    graph.setItemState(item, 'dark', false);
+    graph.updateItem(item, {
+      labelCfg: {
+        style: {
+          opacity: 1,
+        },
+      },
+    });
+    graph.setItemState(item, 'highlight', true);
+    graph.getEdges().forEach(function (edge) {
+      if (edge.getSource() === item) {
+        graph.setItemState(edge.getTarget(), 'dark', false);
+        graph.setItemState(edge.getTarget(), 'highlight', true);
+        graph.updateItem(edge.getTarget(), {
+          labelCfg: {
+            style: {
+              opacity: 1,
+            },
+          },
+        });
+        graph.setItemState(edge, 'highlight', true);
+      } else if (edge.getTarget() === item) {
+        graph.setItemState(edge.getSource(), 'dark', false);
+        graph.setItemState(edge.getSource(), 'highlight', true);
+        graph.updateItem(edge.getSource(), {
+          labelCfg: {
+            style: {
+              opacity: 1,
+            },
+          },
+        });
+        graph.setItemState(edge, 'highlight', true);
+      } else {
+        graph.setItemState(edge, 'highlight', false);
+      }
+    });
+    graph.paint();
+    graph.setAutoPaint(true);
+  });
+  graph.on('node:mouseleave', clearAllStats);
+  graph.on('canvas:click', clearAllStats);
+
+  const main = async () => {
+    const response = await fetch('https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/network_group_union_new_fromGephi.json?token=AGJAZABQOZ345IIWN7VROOLBRT3OW');
+    const data = await response.json();
+    console.log(data);
+    const nodes = data.nodes;
+    const edges = data.edges;
+
+    // 遍历点数据
+    nodes.forEach(node => {
+      if (!node.style) {
+        node.style = {};
+      }
+      node.size = node.Degree * 2.5;
+
+      switch (node.type) {
+        case 'animals': {
+          node.style.stroke = '#7262fd';
+          node.style.fill = '#7262fd';
+          break;
+        }
+        case 'fruits': {
+          node.style.stroke = '#F08BB4';
+          node.style.fill = '#F08BB4';
+          break;
+        }
+        case 'foods': {
+          node.style.stroke = '#F6903D';
+          node.style.fill = '#F6903D';
+          break;
+        }
+        case 'supermarketitems': {
+          node.style.stroke = '#9661BC';
+          node.style.fill = '#9661BC';
+          break;
+        }
+        case 'vegetables': {
+          node.style.stroke = '#008685';
+          node.style.fill = '#008685';
+          break;
+        }
+        case 'tools': {
+          node.style.stroke = '#5B8FF9';
+          node.style.fill = '#5B8FF9';
+          break;
+        }
+      }
+      switch (node.activation_status) {
+        case 0: {
+          node.style.fillOpacity = 0.2;
+          //console.log('good');
+        }
+        case 1: {
+          node.style.opacity = 1;
+        }
+        case 2: {
+          node.style.opacity = 1;
+        }
+      }
+      // node.style.lineWidth = 1;
+      // node.style.stroke = '#666';
+      // node.style.fill = 'steelblue';
+    });
+
+    // 遍历边数据
+    edges.forEach((edge) => {
+      if (!edge.style) {
+        edge.style = {};
+      }
+      //edge.style.lineWidth = edge.weight; // 边的粗细映射边数据中的 weight 属性数值
+    });
+
+    graph.data(data); // 加载数据
+    graph.render(); // 渲染
+
+    graph.on('node:dragstart', function (e) {
+      graph.layout();
+      refreshDragedNodePosition(e);
+    });
+    graph.on('node:drag', function (e) {
+      graph.layout();
+      refreshDragedNodePosition(e);
+    });
+    graph.on('node:dragend', function (e) {
+      e.item.get('model').fx = null;
+      e.item.get('model').fy = null;
+    });
+
+    function refreshDragedNodePosition(e) {
+      const model = e.item.get('model');
+      model.fx = e.x;
+      model.fy = e.y;
+    }
+
+  };
+
+  main();
+
+</script>
+
+</html>
