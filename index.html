@@ -16,7 +16,8 @@
 
   console.log(G6.Global.version);
   const grid = new G6.Grid();
-  const states = ['highlight', 'dark', 'hovered', 'selected', 'unselected']
+  const states = ['activated', 'deactivated', 'activated_highlight', 'deactivated_highlight', 'dark', 'activated_hovered', 'deactivated_hovered', 'activated_selected', 'deactivated_selected', 'deselected']
+  let selectedNodes = [];
 
   G6.registerBehavior('click-select-node', {
     getEvents() {
@@ -24,30 +25,64 @@
         'node:click': 'onClick',
         'node:mouseenter': 'onHover',
         'node:mouseleave': 'onLeave',
-        'canvas:click': 'onCanvasClick',
+        //'canvas:click': 'onCanvasClick',
       };
     },
     onHover(evt) {
       const item = evt.item;
-      if (!item.hasState('selected')) {
-
-      } else {
+      //console.log(item);
+      graph.setAutoPaint(false);
+      if (!item.hasState('deactivated_selected')) {
         graph.clearItemStates(item, states);
-        graph.setItemState(item, 'hovered', true);
-      }
+        if (item.getModel().activation_status == 0) {
+          graph.setItemState(item, 'deactivated_hovered', true);
+        } else {
+          graph.setItemState(item, 'activated_hovered', true);
+        }
+        graph.updateItem(item, {
+          labelCfg: {
+            style: {
+              opacity: 1,
+            },
+          },
+        });
+      };
+      console.log(item.getStates());
+      graph.paint();
+      graph.setAutoPaint(true);
+    },
+    onLeave(evt) {
+      intializeAllStates();
     },
     onClick(evt) {
       const self = this;
       const item = evt.item;
-      if (item.hasState('selected')) {
-        graph.setItemState(item, 'selected', false);
-        graph.setItemState(item, 'unselected', true);
-        const selectedNodes = graph.findAllByState('nodes', 'selected');
-      } else {
-        graph.setItemState(item, 'unselected', false);
-        graph.setItemState(item, 'selected', true);
-        const selectedNodes = graph.findAllByState('nodes', 'selected');
-      }
+      graph.setAutoPaint(false);
+      if (item.hasState('deactivated_hovered')) {
+        graph.clearItemStates(item, states);
+        graph.setItemState(item, 'deactivated_selected', true);
+        console.log(item.getStates());
+        selectedNodes.push(item);
+      } else if (item.hasState('deactivated_selected')) {
+        graph.clearItemStates(item, states);
+        graph.setItemState(item, 'deactivated_hovered', true);
+        console.log(item.getStates());
+        const index = selectedNodes.indexOf(item);
+        if (index > -1) {
+          selectedNodes.splice(index, 1);
+        }
+      };
+      // if (item.getModel().activation_status == 0) {
+      //   graph.setItemState(item, 'deactivated_selected', true);
+      // } else {
+      //   graph.setItemState(item, 'activated_selected', true);
+      // }
+      // graph.setItemState(item, 'unselected', false);
+      // graph.setItemState(item, 'selected', true);
+      //selectedNodes = graph.findAllByState('nodes', 'selected');
+
+      graph.paint();
+      graph.setAutoPaint(true);
     },
   });
 
@@ -80,20 +115,20 @@
           },
         },
       });
-      if(item.getModel().activation_status==0){
+      if (item.getModel().activation_status == 0) {
         graph.setItemState(item, 'deactivated_highlight', true);
-      }else{
+      } else {
         graph.setItemState(item, 'activated_highlight', true);
       }
       graph.getEdges().forEach(function (edge) {
         if (edge.getSource() === item) {
           graph.setItemState(edge.getTarget(), 'dark', false);
-          if(edge.getTarget().getModel().activation_status==0){
+          if (edge.getTarget().getModel().activation_status == 0) {
             graph.setItemState(edge.getTarget(), 'deactivated_highlight', true);
-          }else{
+          } else {
             graph.setItemState(edge.getTarget(), 'activated_highlight', true);
           }
-          
+
           graph.updateItem(edge.getTarget(), {
             labelCfg: {
               style: {
@@ -104,9 +139,9 @@
           graph.setItemState(edge, 'highlight', true);
         } else if (edge.getTarget() === item) {
           graph.setItemState(edge.getSource(), 'dark', false);
-          if(edge.getSource().getModel().activation_status==0){
+          if (edge.getSource().getModel().activation_status == 0) {
             graph.setItemState(edge.getSource(), 'deactivated_highlight', true);
-          }else{
+          } else {
             graph.setItemState(edge.getSource(), 'activated_highlight', true);
           }
           graph.updateItem(edge.getSource(), {
@@ -125,6 +160,8 @@
       graph.setAutoPaint(true);
     },
     onLeave(evt) {
+      const item = evt.item;
+      console.log(item.getStates());
       intializeAllStates();
     },
   });
@@ -207,22 +244,33 @@
         strokeOpacity: 0,
       },
       activated_highlight: {
-        fillOpacity:1,
+        fillOpacity: 1,
         strokeOpacity: 1,
       },
-      deactivated_highlight:{
-        fillOpacity:0.1,
+      deactivated_highlight: {
+        fillOpacity: 0.1,
         strokeOpacity: 1,
       },
       dark: {
         fillOpacity: 0.05,
         strokeOpacity: 0,
       },
-      hovered: {
+      activated_hovered: {
+        fillOpacity: 1,
         strokeOpacity: 1,
         lineDash: [2, 2],
       },
-      selected: {
+      deactivated_hovered: {
+        fillOpacity: 0.1,
+        strokeOpacity: 1,
+        lineDash: [2, 2],
+      },
+      activated_selected: {
+        fillOpacity: 1,
+        strokeOpacity: 1,
+      },
+      deactivated_selected: {
+        fillOpacity: 0.1,
         strokeOpacity: 1,
       },
       deselected: {
@@ -250,44 +298,76 @@
   // });
 
   function intializeAllStates() {
+
+
     graph.setAutoPaint(false);
     graph.getEdges().forEach(function (edge) {
       graph.clearItemStates(edge);
     });
-    graph.getNodes().forEach(function (node) {
-      // console.log(node.getModel().activation_status);
-      graph.clearItemStates(node);
-      
-      // if(node.activation_status=='0'){
-      //   console.log('0');
-      // };
-      switch (node.getModel().activation_status) {
-        case 0: {
-          graph.setItemState(node, 'deactivated', true);
-          break;
+
+    if (graph.getCurrentMode() == 'default') {
+      graph.getNodes().forEach(function (node) {
+        graph.clearItemStates(node);
+        switch (node.getModel().activation_status) {
+          case 0: {
+            graph.setItemState(node, 'deactivated', true);
+            break;
+          }
+          case 1: {
+            graph.setItemState(node, 'activated', true);
+            //console.log(node);
+            break;
+          }
+          case 2: {
+            graph.setItemState(node, 'activated', true);
+            //console.log(node);
+            break;
+          }
         }
-        case 1: {
-          graph.setItemState(node, 'activated', true);
-          //console.log(node);
-          break;
-        }
-        case 2: {
-          graph.setItemState(node, 'activated', true);
-          //console.log(node);
-          break;
-        }
-      }
-      graph.updateItem(node, {
-        labelCfg: {
-          style: {
-            opacity: 0,
+        graph.updateItem(node, {
+          labelCfg: {
+            style: {
+              opacity: 0,
+            },
           },
-        },
+        });
       });
-    });
+    } else {
+      graph.getNodes().forEach(function (node) {
+        //console.log(node);
+        if (!selectedNodes.includes(node)) {
+          //console.log('false');
+          graph.clearItemStates(node);
+          switch (node.getModel().activation_status) {
+            case 0: {
+              graph.setItemState(node, 'deactivated', true);
+              break;
+            }
+            case 1: {
+              graph.setItemState(node, 'activated', true);
+              //console.log(node);
+              break;
+            }
+            case 2: {
+              graph.setItemState(node, 'activated', true);
+              //console.log(node);
+              break;
+            }
+          }
+          graph.updateItem(node, {
+            labelCfg: {
+              style: {
+                opacity: 0,
+              },
+            },
+          });
+        }
+      });
+
+    };
+
     graph.paint();
     graph.setAutoPaint(true);
-    //main();
   }
 
 
@@ -383,6 +463,7 @@
       const value = e.target.value;
       // change the behavior mode
       graph.setMode(value);
+      intializeAllStates();
     });
   };
 
