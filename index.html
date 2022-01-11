@@ -185,8 +185,8 @@
 
   const graph = new G6.Graph({
     container: 'mountNode', // 指定挂载容器
-    width: 1920, // 图的宽度
-    height: 1080, // 图的高度
+    width: 2560, // 图的宽度
+    height: 1600, // 图的高度
 
     //plugins: [minimap], // 将 minimap 实例配置到图上
 
@@ -240,7 +240,7 @@
         strokeOpacity: 0,
       },
       deactivated: {
-        fillOpacity: 0.1,
+        fillOpacity: 0.25,
         strokeOpacity: 0,
       },
       activated_highlight: {
@@ -324,13 +324,30 @@
             break;
           }
         }
-        graph.updateItem(node, {
-          labelCfg: {
-            style: {
-              opacity: 0,
+        // graph.updateItem(node, {
+        //   labelCfg: {
+        //     style: {
+        //       opacity: 0,
+        //     },
+        //   },
+        // });
+        if (node.getModel().Degree > 15) {
+          graph.updateItem(node, {
+            labelCfg: {
+              style: {
+                opacity: 1,
+              }
+            }
+          });
+        } else {
+          graph.updateItem(node, {
+            labelCfg: {
+              style: {
+                opacity: 0,
+              },
             },
-          },
-        });
+          });
+        }
       });
     } else {
       graph.getNodes().forEach(function (node) {
@@ -354,13 +371,23 @@
               break;
             }
           }
-          graph.updateItem(node, {
-            labelCfg: {
-              style: {
-                opacity: 0,
+          if (node.getModel().Degree > 15) {
+            graph.updateItem(node, {
+              labelCfg: {
+                style: {
+                  opacity: 1,
+                }
+              }
+            });
+          } else {
+            graph.updateItem(node, {
+              labelCfg: {
+                style: {
+                  opacity: 0,
+                },
               },
-            },
-          });
+            });
+          }
         }
       });
 
@@ -372,7 +399,7 @@
 
 
   const main = async () => {
-    const response = await fetch('https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/network_group_union_new_fromGephi.json?token=AGJAZABQOZ345IIWN7VROOLBRT3OW');
+    const response = await fetch('https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/network_group_union_new_fromGephi.json?token=AGJAZAGPODFJUMWVOEYYL6LBV6ERK');
     const data = await response.json();
     console.log(data);
     const nodes = data.nodes;
@@ -391,7 +418,6 @@
         case 'animals': {
           node.style.stroke = '#7262fd';
           node.style.fill = '#7262fd';
-
           break;
         }
         case 'fruits': {
