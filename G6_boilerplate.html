@@ -16,24 +16,45 @@
 <script>
     const container = document.getElementById('container');
     const width = container.scrollWidth;
-    const height = container.scrollHeight || 500;
+    const height = container.scrollHeight || 1280;
     const graph = new G6.Graph({
         container: 'container',
         width,
         height,
+        modes: {
+            default: ['drag-canvas', 'drag-node', 'zoom-canvas',      
+            {
+        type: 'tooltip',
+        formatText(model) {
+          return model.id;
+        },
+        offset: 10,
+      }],
+        },
+        animate: true,
         layout: {
-            type: 'force',
+            type: 'forceAtlas2',
+            kr: 30,
+            // speed: 10,
+            // gravity: 1,
+            // maxIteration: 2000,
+            // // for rendering after each iteration
+            // tick: () => {
+            // graph.refreshPositions()
+            // },
             preventOverlap: true,
-            kr: 10,
+            workerEnabled: true,      // 可选，开启 web-worker
+            // gpuEnabled: true          // 可选，开启 GPU 并行计算，G6 4.0 支持
+            // kr: 10,
         },
         defaultNode: {
-            size: 15,
+            size: 10,
         },
     });
 
     const main = async () => {
         // fetch('https://gw.alipayobjects.com/os/antvdemo/assets/data/relations.json')
-        fetch('https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/04_G6/CCFD_G6_Concept_PWA-Minor.json_139?token=GHSAT0AAAAAABLZIDBAFDBLBR2QZ7DNNULCYPG5AGA')
+        fetch('https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/04_G6/CCFD_G6_Concept_PWA-Minor.json_276?token=GHSAT0AAAAAABLZIDBBXDUEOTFTWBXGI3S2YPVJX3Q')
 
             .then((res) => res.json())
             .then((data) => {
@@ -46,19 +67,22 @@
                 });
                 graph.render();
 
-                graph.on('node:dragstart', function (e) {
-                    graph.layout();
-                    refreshDragedNodePosition(e);
-                });
-                graph.on('node:drag', function (e) {
-                    const forceLayout = graph.get('layoutController').layoutMethods[0];
-                    forceLayout.execute();
-                    refreshDragedNodePosition(e);
-                });
-                graph.on('node:dragend', function (e) {
-                    e.item.get('model').fx = null;
-                    e.item.get('model').fy = null;
-                });
+                // graph.on('node:dragstart', function (e) {
+                //     const forceLayout = graph.get('layoutController').layoutMethods[0];
+                //     forceLayout.stop()
+                //     // graph.layout();
+                //     // refreshDragedNodePosition(e);
+                // });
+                // graph.on('node:drag', function (e) {
+                //     // const forceLayout = graph.get('layoutController').layoutMethods[0];
+                //     // forceLayout.execute();
+                //     refreshDragedNodePosition(e);
+                //     graph.layout()
+                // });
+                // graph.on('node:dragend', function (e) {
+                //     e.item.get('model').fx = null;
+                //     e.item.get('model').fy = null;
+                // });
 
                 if (typeof window !== 'undefined')
                     window.onresize = () => {
@@ -73,6 +97,8 @@
         const model = e.item.get('model');
         model.fx = e.x;
         model.fy = e.y;
+        model.x = e.x;
+        model.y = e.y;
     }
 
     main();
