@@ -15,21 +15,37 @@
 
 <script>
     const container = document.getElementById('container');
-    const width = container.scrollWidth;
-    const height = container.scrollHeight || 1280;
+    const width = container.scrollWidth || 2560;
+    const height = container.scrollHeight || 1440;
+
+    const colors = [
+        '#5F95FF', // blue
+        '#61DDAA',
+        '#65789B',
+        '#F6BD16',
+        '#7262FD',
+        '#78D3F8',
+        '#9661BC',
+        '#F6903D',
+        '#008685',
+        '#F08BB4',
+    ];
+    const colorSets = G6.Util.getColorSetsBySubjectColors(colors, '#fff', 'default', '#777');
+
     const graph = new G6.Graph({
         container: 'container',
         width,
         height,
         modes: {
-            default: ['drag-canvas', 'drag-node', 'zoom-canvas',      
-            {
-        type: 'tooltip',
-        formatText(model) {
-          return model.id;
-        },
-        offset: 10,
-      }],
+            default: ['drag-canvas', 'drag-node', 'zoom-canvas',
+                // {
+                //     type: 'tooltip',
+                //     formatText(model) {
+                //         return model.id;
+                //     },
+                //     offset: 10,
+                // }
+            ],
         },
         animate: true,
         layout: {
@@ -43,54 +59,96 @@
             // graph.refreshPositions()
             // },
             preventOverlap: true,
-            workerEnabled: true,      // 可选，开启 web-worker
+            workerEnabled: true, // 可选，开启 web-worker
             // gpuEnabled: true          // 可选，开启 GPU 并行计算，G6 4.0 支持
             // kr: 10,
         },
         defaultNode: {
             size: 10,
+            style: {
+                lineWidth: 2,
+                // fillOpacity: 0.5,
+            },
+            labelCfg: {
+                position: 'bottom',
+                style: {
+                    fill: '#666', // 节点标签文字颜色'
+                    fontSize: 12,
+                    fontFamily: 'Helvetica',
+                    opacity: 1,
+                },
+            },
         },
+        defaultEdge: {
+            style: {
+                opacity: 0.6,
+                stroke: "grey",
+                lineWidth: 0.1,
+            }
+        }
     });
 
     const main = async () => {
         // fetch('https://gw.alipayobjects.com/os/antvdemo/assets/data/relations.json')
-        fetch('https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/04_Compare/ConceptNetwork_Experiment.json?token=GHSAT0AAAAAABLZIDBAWDM4T3Q4F6XOFGL6YPX64WA')
+        const response = await fetch(
+            'https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/04_Compare/ConceptNetwork_Experiment_G6.json?token=GHSAT0AAAAAABLZIDBA66KXLKLF7NLHOCR2YPX67OQ'
+        )
+        const data = await response.json();
+        const nodes = data.nodes;
+        const edges = data.edges;
 
-            .then((res) => res.json())
-            .then((data) => {
-                graph.data({
-                    nodes: data.nodes,
-                    edges: data.edges.map(function (edge, i) {
-                        edge.id = 'edge' + i;
-                        return Object.assign({}, edge);
-                    }),
-                });
-                graph.render();
+        console.log(nodes);
 
-                // graph.on('node:dragstart', function (e) {
-                //     const forceLayout = graph.get('layoutController').layoutMethods[0];
-                //     forceLayout.stop()
-                //     // graph.layout();
-                //     // refreshDragedNodePosition(e);
-                // });
-                // graph.on('node:drag', function (e) {
-                //     // const forceLayout = graph.get('layoutController').layoutMethods[0];
-                //     // forceLayout.execute();
-                //     refreshDragedNodePosition(e);
-                //     graph.layout()
-                // });
-                // graph.on('node:dragend', function (e) {
-                //     e.item.get('model').fx = null;
-                //     e.item.get('model').fy = null;
-                // });
+        nodes.forEach(node => {
+            if (!node.style) {
+                node.style = {};
+            }
+            node.size = Math.pow((node.closeness_centrality * 10), 2) * 5;
+            node.label = node.id;
+            node.style.fillOpacity = node.picture_naming / 3; 
 
-                if (typeof window !== 'undefined')
-                    window.onresize = () => {
-                        if (!graph || graph.get('destroyed')) return;
-                        if (!container || !container.scrollWidth || !container.scrollHeight) return;
-                        graph.changeSize(container.scrollWidth, container.scrollHeight);
-                    };
-            });
+            switch (node.maincategory) {
+                case '动物': {
+                    node.style.stroke = '#7262fd';
+                    node.style.fill = '#7262fd';
+                    break;
+                }
+                case '植物': {
+                    node.style.stroke = '#F08BB4';
+                    node.style.fill = '#F08BB4';
+                    break;
+                }
+                case '食物': {
+                    node.style.stroke = '#F6903D';
+                    node.style.fill = '#F6903D';
+                    break;
+                }
+                case '自然物': {
+                    node.style.stroke = '#9661BC';
+                    node.style.fill = '#9661BC';
+                    break;
+                }
+                case '人造物': {
+                    node.style.stroke = '#008685';
+                    node.style.fill = '#008685';
+                    break;
+                }
+                case '交通工具': {
+                    node.style.stroke = '#5B8FF9';
+                    node.style.fill = '#5B8FF9';
+                    break;
+                }
+            }
+        })
+
+
+        // To Do:
+        // 是否做过语义特征分析 - 状态标签
+        // Legend
+        
+        
+        graph.data(data); // 加载数据
+        graph.render(); // 渲染
     }
 
     function refreshDragedNodePosition(e) {
