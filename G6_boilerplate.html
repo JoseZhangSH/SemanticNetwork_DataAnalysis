@@ -18,26 +18,99 @@
     const width = container.scrollWidth || 2560;
     const height = container.scrollHeight || 1440;
 
-    const colors = [
-        '#5F95FF', // blue
-        '#61DDAA',
-        '#65789B',
-        '#F6BD16',
-        '#7262FD',
-        '#78D3F8',
-        '#9661BC',
-        '#F6903D',
-        '#008685',
-        '#F08BB4',
-    ];
-    const colorSets = G6.Util.getColorSetsBySubjectColors(colors, '#fff', 'default', '#777');
+    G6.registerNode(
+        'custom-node', {
+            draw(cfg, group) {
+
+                let r = cfg.size;
+                //   if (isNumber(cfg.size)) {
+                //     r = cfg.size / 2;
+                //   } else if (isArray(cfg.size)) {
+                //     r = cfg.size[0] / 2;
+                //   }
+                const style = cfg.style || {};
+                // console.log(style);
+                //   const colorSet = cfg.colorSet || colorSets[0];
+
+                const keyShape = group.addShape('circle', {
+                    attrs: {
+                        ...style,
+                        x: 0,
+                        y: 0,
+                        r,
+                        fill: style.fill,
+                        fillOpacity: style.fillOpacity,
+                        stroke: style.stroke,
+                        lineWidth: 2,
+                        cursor: 'pointer',
+                    },
+                    name: 'custom-node-keyShape',
+                });
+
+                let labelStyle = {};
+                if (cfg.labelCfg) {
+                    labelStyle = Object.assign(labelStyle, cfg.labelCfg.style);
+                }
+
+                if (cfg.label) {
+                    const text = cfg.label;
+                    let labelStyle = {};
+                    let refY = 0;
+                    if (cfg.labelCfg) {
+                        labelStyle = Object.assign(labelStyle, cfg.labelCfg.style);
+                        refY += cfg.labelCfg.refY || 0;
+                    }
+                    // console.log(labelStyle);
+                    let offsetY = 0;
+                    const fontSize = labelStyle.fontSize < 8 ? 8 : labelStyle.fontSize;
+                    const lineNum = cfg.labelLineNum || 1;
+                    offsetY = lineNum * (fontSize || 12);
+                    group.addShape('text', {
+                        attrs: {
+                            ...labelStyle,
+                            text,
+                            x: 0,
+                            y: r + refY + offsetY + 5,
+                            textAlign: 'center',
+                            textBaseLine: 'alphabetic',
+                            cursor: 'pointer',
+                            fontSize,
+                            fill: '#000',
+                            opacity: 0.85,
+                            fontWeight: 400,
+                            // stroke: '#000',
+                        },
+                        name: 'text-shape',
+                        className: 'text-shape',
+                    });
+                }
+
+                if (cfg.semantic_feature == 1) {
+                    // console.log("1");
+                    group.addShape('circle', {
+                        attrs: {
+                            x: r - 0.414 * r + 2,
+                            y: -r + 0.414 * r - 2,
+                            r: 4,
+                            fill: '#6DD400',
+                            lineWidth: 0.5,
+                            stroke: '#FFFFFF',
+                        },
+                        name: 'typeNode-tag-circle',
+                    });
+                };
+                return keyShape;
+            }
+        },
+        'aggregated-node',
+    );
 
     const graph = new G6.Graph({
         container: 'container',
         width,
         height,
         modes: {
-            default: ['drag-canvas', 'drag-node', 'zoom-canvas',
+            default: ['drag-canvas', 'drag-node', 'zoom-canvas', 'lasso-select','activate-relations','click-select',
                 // {
                 //     type: 'tooltip',
                 //     formatText(model) {
@@ -50,7 +123,7 @@
         animate: true,
         layout: {
             type: 'forceAtlas2',
-            kr: 30,
+            kr: 40,
             // speed: 10,
             // gravity: 1,
             // maxIteration: 2000,
@@ -64,9 +137,10 @@
             // kr: 10,
         },
         defaultNode: {
+            type: "custom-node",
             size: 10,
             style: {
-                lineWidth: 2,
+                lineWidth: 0.5,
                 // fillOpacity: 0.5,
             },
             labelCfg: {
@@ -78,12 +152,19 @@
                     opacity: 1,
                 },
             },
+            icon: {
+                show: true,
+                // img: '...', 可更换为其他图片地址
+                // text: '...', 使用 iconfont
+                width: 10,
+                height: 10,
+            },
         },
         defaultEdge: {
             style: {
-                opacity: 0.6,
+                opacity: 0.1,
                 stroke: "grey",
-                lineWidth: 0.1,
+                lineWidth: 0.3,
             }
         }
     });
@@ -97,15 +178,19 @@
         const nodes = data.nodes;
         const edges = data.edges;
 
-        console.log(nodes);
+        // console.log(nodes);
 
         nodes.forEach(node => {
             if (!node.style) {
                 node.style = {};
             }
-            node.size = Math.pow((node.closeness_centrality * 10), 2) * 5;
+            node.size = Math.pow((node.closeness_centrality * 10), 2) * 3;
             node.label = node.id;
-            node.style.fillOpacity = node.picture_naming / 3; 
+            node.style.fillOpacity = node.picture_naming / 3;
+
+            if (node.semantic_feature == 1) {
+                console.log(node.style);
+            }
 
             switch (node.maincategory) {
                 case '动物': {
@@ -143,12 +228,30 @@
 
 
         // To Do:
+        // 自定义节点
         // 是否做过语义特征分析 - 状态标签
+        // capture click interaction and output selected node id
+        // search in the database
+        // losso select data and output selected nodes id
+        // query subgraph
+        // visualize as a matrix
+
         // Legend
-        
-        
+
+
         graph.data(data); // 加载数据
         graph.render(); // 渲染
+        graph.on('node:click', evt => {
+            console.log(evt.item.getModel().id);
+        });
+        graph.on('nodeselectchange', evt => {
+            var selection = []
+            evt.selectedItems.nodes.forEach(item => {
+
+                selection.push(item.getModel().id);
+            })
+            console.log(selection);
+        });
     }
 
     function refreshDragedNodePosition(e) {
