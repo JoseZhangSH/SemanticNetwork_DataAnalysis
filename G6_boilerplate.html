@@ -17,20 +17,133 @@
     const container = document.getElementById('container');
     const width = container.scrollWidth || 2560;
     const height = container.scrollHeight || 1440;
+    const maincategory = ['交通工具', '人造物', '动物', '植物', '自然物', '身体部位', '食物'];
+    const clusterMap = new Map();
+
+
+    // Generate color sets according to subject colors
+    const subjectColors = [
+        '#5F95FF', // blue
+        '#61DDAA',
+        '#65789B',
+        '#F6BD16',
+        '#7262FD',
+        '#78D3F8',
+        '#9661BC',
+        '#F6903D',
+        '#008685',
+        '#F08BB4',
+    ];
+    const backColor = 'rgb(43, 47, 51)';
+    const theme = 'dark';
+    const disableColor = '#777';
+    const colorSets = G6.Util.getColorSetsBySubjectColors(
+        subjectColors,
+        backColor,
+        theme,
+        disableColor,
+    );
+
+    // Legend
+
+    const legendData = {
+        nodes: [{
+                id: '交通工具',
+                label: '交通工具',
+            },
+            {
+                id: '人造物',
+                label: '人造物',
+            },
+            {
+                id: '动物',
+                label: '动物',
+            },
+            {
+                id: '植物',
+                label: '植物',
+            },
+            {
+                id: '自然物',
+                label: '自然物',
+            },
+            {
+                id: '身体部位',
+                label: '身体部位',
+            },
+            {
+                id: '食物',
+                label: '食物',
+            }
+        ]
+    }
+
+    legendData.nodes.forEach(node => {
+        const cid = clusterMap.get(node.id);
+        const category = maincategory.findIndex((e) => e === node.id);
+        colorSet = colorSets[category];
+        node.style = {
+            fill: colorSet.mainFill,
+            stroke: colorSet.mainStroke,
+            strokeWidth: 2,
+        };
+    })
+
+    const legend = new G6.Legend({
+        data: legendData,
+        align: 'center',
+        layout: 'horizontal', // vertical
+        position: 'top-left',
+        vertiSep: 12,
+        horiSep: 24,
+        offsetY: -24,
+        padding: [4, 16, 8, 16],
+        containerStyle: {
+            fill: '#fff',
+            lineWidth: 1
+        },
+        title: 'Legend',
+        titleConfig: {
+            position: 'left',
+            offsetX: 0,
+            offsetY: 12,
+        },
+        filter: {
+            enable: false,
+            multiple: true,
+            trigger: 'click',
+            graphActiveState: 'activeByLegend',
+            graphInactiveState: 'inactiveByLegend',
+            filterFunctions: {
+                'a': (d) => {
+                    if (d.cluster === 'a') return true;
+                    return false
+                },
+                'b': (d) => {
+                    if (d.cluster === 'b') return true;
+                    return false
+                },
+                'c': (d) => {
+                    if (d.cluster === 'c') return true;
+                    return false
+                },
+                'd': (d) => {
+                    if (d.cluster === 'd') return true;
+                    return false
+                },
+            }
+        }
+    });
+
 
     G6.registerNode(
         'custom-node', {
             draw(cfg, group) {
-
                 let r = cfg.size;
-                //   if (isNumber(cfg.size)) {
-                //     r = cfg.size / 2;
-                //   } else if (isArray(cfg.size)) {
-                //     r = cfg.size[0] / 2;
-                //   }
                 const style = cfg.style || {};
                 // console.log(style);
-                //   const colorSet = cfg.colorSet || colorSets[0];
+
+                const colorSet = cfg.colorSet || colorSets[0];
 
                 const keyShape = group.addShape('circle', {
                     attrs: {
@@ -38,10 +151,10 @@
                         x: 0,
                         y: 0,
                         r,
-                        fill: style.fill,
-                        fillOpacity: style.fillOpacity,
-                        stroke: style.stroke,
-                        lineWidth: 2,
+                        fill: colorSet.mainFill,
+                        // fillOpacity: style.fillOpacity,
+                        stroke: colorSet.mainStroke,
+                        lineWidth: 1,
                         cursor: 'pointer',
                     },
                     name: 'custom-node-keyShape',
@@ -52,39 +165,40 @@
                     labelStyle = Object.assign(labelStyle, cfg.labelCfg.style);
                 }
 
-                if (cfg.label) {
-                    const text = cfg.label;
-                    let labelStyle = {};
-                    let refY = 0;
-                    if (cfg.labelCfg) {
-                        labelStyle = Object.assign(labelStyle, cfg.labelCfg.style);
-                        refY += cfg.labelCfg.refY || 0;
-                    }
-                    // console.log(labelStyle);
-                    let offsetY = 0;
-                    const fontSize = labelStyle.fontSize < 8 ? 8 : labelStyle.fontSize;
-                    const lineNum = cfg.labelLineNum || 1;
-                    offsetY = lineNum * (fontSize || 12);
-                    group.addShape('text', {
-                        attrs: {
-                            ...labelStyle,
-                            text,
-                            x: 0,
-                            y: r + refY + offsetY + 5,
-                            textAlign: 'center',
-                            textBaseLine: 'alphabetic',
-                            cursor: 'pointer',
-                            fontSize,
-                            fill: '#000',
-                            opacity: 0.85,
-                            fontWeight: 400,
-                            // stroke: '#000',
-                        },
-                        name: 'text-shape',
-                        className: 'text-shape',
-                    });
-                }
+                // if (cfg.label) {
+                //     const text = cfg.label;
+                //     let labelStyle = {};
+                //     let refY = 0;
+                //     if (cfg.labelCfg) {
+                //         labelStyle = Object.assign(labelStyle, cfg.labelCfg.style);
+                //         refY += cfg.labelCfg.refY || 0;
+                //     }
+                //     // console.log(labelStyle);
+                //     let offsetY = 0;
+                //     const fontSize = labelStyle.fontSize < 8 ? 8 : labelStyle.fontSize;
+                //     const lineNum = cfg.labelLineNum || 1;
+                //     offsetY = lineNum * (fontSize || 12);
+                //     group.addShape('text', {
+                //         attrs: {
+                //             ...labelStyle,
+                //             text,
+                //             x: 0,
+                //             y: r + refY + offsetY + 5,
+                //             textAlign: 'center',
+                //             textBaseLine: 'alphabetic',
+                //             cursor: 'pointer',
+                //             fontSize,
+                //             fill: '#000',
+                //             opacity: 0.85,
+                //             fontWeight: 400,
+                //             // stroke: '#000',
+                //         },
+                //         name: 'text-shape',
+                //         className: 'text-shape',
+                //     });
+                // }
 
+                // tag for new node
                 if (cfg.semantic_feature == 1) {
                     // console.log("1");
                     group.addShape('circle', {
@@ -102,7 +216,7 @@
                 return keyShape;
             }
         },
-        'aggregated-node',
+        // 'aggregated-node',
     );
 
     const graph = new G6.Graph({
@@ -110,31 +224,32 @@
         width,
         height,
         modes: {
-            default: ['drag-canvas', 'drag-node', 'zoom-canvas', 'lasso-select','activate-relations','click-select',
-                // {
-                //     type: 'tooltip',
-                //     formatText(model) {
-                //         return model.id;
-                //     },
-                //     offset: 10,
-                // }
+            default: ['drag-canvas', 'drag-node', 'zoom-canvas', 'lasso-select',
+                'click-select',
+                {
+                    type: 'tooltip',
+                    formatText(model) {
+                        return model.id;
+                    },
+                    offset: 10,
+                }
             ],
         },
+        plugins: [legend],
         animate: true,
         layout: {
             type: 'forceAtlas2',
-            kr: 40,
-            // speed: 10,
-            // gravity: 1,
-            // maxIteration: 2000,
+            kr: 10,
+            mode: 'linlog',
+            barnesHut: true,
+            gravity: 1,
+            maxIteration: 200,
             // // for rendering after each iteration
             // tick: () => {
             // graph.refreshPositions()
             // },
             preventOverlap: true,
             workerEnabled: true, // 可选，开启 web-worker
-            // gpuEnabled: true          // 可选，开启 GPU 并行计算，G6 4.0 支持
-            // kr: 10,
         },
         defaultNode: {
             type: "custom-node",
@@ -172,7 +287,11 @@
     const main = async () => {
         // fetch('https://gw.alipayobjects.com/os/antvdemo/assets/data/relations.json')
         // const response = await fetch('https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/04_Compare/ConceptNetwork_Experiment_G6.json?token=GHSAT0AAAAAABLZIDBA66KXLKLF7NLHOCR2YPX67OQ')
-        const response = await fetch('https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/02_Graph/ConceptNetwork_Complete_Weight_12.json?token=GHSAT0AAAAAABLZIDBB3AXBIYDXK3JY73K2YP6U5ZQ')
+        const response = await fetch(
+            'https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/02_Graph/ConceptNetwork_Complete_Weight_15.json?token=GHSAT0AAAAAABLZIDBATRR63WDOJQDNQ32WYP6VAGA'
+        )
+        container.style.backgroundColor = '#2b2f33'
+
         const data = await response.json();
         const nodes = data.nodes;
         const edges = data.edges;
@@ -186,10 +305,12 @@
             node.size = Math.pow((node.closeness_centrality * 10), 2) * 3;
             node.label = node.id;
             node.style.fillOpacity = node.picture_naming / 3;
+            const category = maincategory.findIndex((e) => e === node.maincategory);
+            node.colorSet = colorSets[category];
 
-            if (node.semantic_feature == 1) {
-                console.log(node.style);
-            }
+            // if (node.semantic_feature == 1) {
+            //     console.log(node.style);
+            // }
 
             // switch (node.maincategory) {
             //     case '动物': {
@@ -234,8 +355,6 @@
         // losso select data and output selected nodes id
         // query subgraph
         // visualize as a matrix
-
-        // Legend
 
 
         graph.data(data); // 加载数据
