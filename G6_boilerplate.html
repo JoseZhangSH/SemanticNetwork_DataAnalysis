@@ -135,10 +135,10 @@
     });
     const filterLens = new G6.EdgeFilterLens({
         trigger: 'mousemove',
-        r: 120,
+        r: 300,
         // delegateStyle:{ stroke: '#000', strokeOpacity: 0.8, lineWidth: 2, fillOpacity: 0.2, fill: '#fff' },
         shouldShow: d => {
-            return d.weight >8;
+            return d.weight >15;
         }
     });
 
@@ -244,6 +244,7 @@
             ],
         },
         plugins: [legend,filterLens],
+        //filterLens
         animate: true,
         layout: {
             type: 'forceAtlas2',
@@ -287,7 +288,7 @@
         },
         defaultEdge: {
             style: {
-                opacity: 0.1,
+                opacity: 0.5,
                 stroke: "grey",
                 lineWidth: 0.3,
             }
@@ -298,7 +299,7 @@
         // fetch('https://gw.alipayobjects.com/os/antvdemo/assets/data/relations.json')
         // const response = await fetch('https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/04_Compare/ConceptNetwork_Experiment_G6.json?token=GHSAT0AAAAAABLZIDBA66KXLKLF7NLHOCR2YPX67OQ')
         const response = await fetch(
-            'https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/02_Graph/ConceptNetwork_Body.json?token=GHSAT0AAAAAABLZIDBBJWZXOESBFB5DK2NEYQAT7FQ'
+            'https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/02_Graph/ConceptNetwork_Transportation.json?token=GHSAT0AAAAAABLZIDBASI7J3ALSRX7UPAQKYQAYMJQ'
         )
         container.style.backgroundColor = '#2b2f33'
 
