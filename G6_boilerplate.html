@@ -214,9 +214,10 @@
                     });
                 };
                 return keyShape;
-            }
+            },
+
         },
-        // 'aggregated-node',
+        'single-node',
     );
 
     const graph = new G6.Graph({
@@ -233,17 +234,20 @@
                     },
                     offset: 10,
                 }
+                //'activate-relations'
             ],
         },
         plugins: [legend],
         animate: true,
         layout: {
             type: 'forceAtlas2',
-            kr: 10,
+            kr: 5,
             mode: 'linlog',
             barnesHut: true,
-            gravity: 1,
-            maxIteration: 200,
+            kg: 5,
+            maxIteration: 1000,
+            width: 1920,
+            height: 1080,
             // // for rendering after each iteration
             // tick: () => {
             // graph.refreshPositions()
@@ -288,7 +292,7 @@
         // fetch('https://gw.alipayobjects.com/os/antvdemo/assets/data/relations.json')
         // const response = await fetch('https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/04_Compare/ConceptNetwork_Experiment_G6.json?token=GHSAT0AAAAAABLZIDBA66KXLKLF7NLHOCR2YPX67OQ')
         const response = await fetch(
-            'https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/02_Graph/ConceptNetwork_Complete_Weight_15.json?token=GHSAT0AAAAAABLZIDBATRR63WDOJQDNQ32WYP6VAGA'
+            'https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/02_Graph/ConceptNetwork_Complete_Weight_12.json?token=GHSAT0AAAAAABLZIDBBLJF4L2ND5TNOK25UYP7NS4A'
         )
         container.style.backgroundColor = '#2b2f33'
 
@@ -307,42 +311,34 @@
             node.style.fillOpacity = node.picture_naming / 3;
             const category = maincategory.findIndex((e) => e === node.maincategory);
             node.colorSet = colorSets[category];
+            node.stateStyles = {
+                active: {
+                    fill: node.colorSet.activeFill,
+                    stroke: node.colorSet.activeStroke,
+                    shadowColor: node.colorSet.activeStroke,
+                },
+                inactive: {
+                    fill: node.colorSet.inactiveFill,
+                    stroke: node.colorSet.inactiveStroke,
+                },
+                selected: {
+                    fill: node.colorSet.selectedFill,
+                    stroke: node.colorSet.selectedStroke,
+                    shadowColor: node.colorSet.selectedStroke,
+                },
+                highlight: {
+                    fill: node.colorSet.highlightFill,
+                    stroke: node.colorSet.highlightStroke,
+                },
+                disable: {
+                    fill: node.colorSet.disableFill,
+                    stroke: node.colorSet.disableStroke,
+                },
+            }
+
 
             // if (node.semantic_feature == 1) {
             //     console.log(node.style);
-            // }
-
-            // switch (node.maincategory) {
-            //     case '动物': {
-            //         node.style.stroke = '#7262fd';
-            //         node.style.fill = '#7262fd';
-            //         break;
-            //     }
-            //     case '植物': {
-            //         node.style.stroke = '#F08BB4';
-            //         node.style.fill = '#F08BB4';
-            //         break;
-            //     }
-            //     case '食物': {
-            //         node.style.stroke = '#F6903D';
-            //         node.style.fill = '#F6903D';
-            //         break;
-            //     }
-            //     case '自然物': {
-            //         node.style.stroke = '#9661BC';
-            //         node.style.fill = '#9661BC';
-            //         break;
-            //     }
-            //     case '人造物': {
-            //         node.style.stroke = '#008685';
-            //         node.style.fill = '#008685';
-            //         break;
-            //     }
-            //     case '交通工具': {
-            //         node.style.stroke = '#5B8FF9';
-            //         node.style.fill = '#5B8FF9';
-            //         break;
-            //     }
             // }
         })
 
@@ -359,6 +355,32 @@
 
         graph.data(data); // 加载数据
         graph.render(); // 渲染
+
+        graph.on('node:mouseenter', (e) => {
+            console.log(e);
+            graph.getNodes().forEach((node) => {
+                graph.setItemState(node, 'active', false);
+            });
+            graph.setItemState(e.item, 'active', true);
+        });
+
+        graph.on('node:mouseleave', (e) => {
+            graph.setItemState(e.item, 'active', false);
+        });
+
+        graph.on('node:click', (e) => {
+            graph.getNodes().forEach((node) => {
+                graph.setItemState(node, 'selected', false);
+            });
+            graph.setItemState(e.item, 'selected', true);
+        });
+
+        graph.on('canvas:click', (e) => {
+            graph.getNodes().forEach((node) => {
+                graph.setItemState(node, 'selected', false);
+            });
+        });
+
         graph.on('node:click', evt => {
             console.log(evt.item.getModel().id);
         });
