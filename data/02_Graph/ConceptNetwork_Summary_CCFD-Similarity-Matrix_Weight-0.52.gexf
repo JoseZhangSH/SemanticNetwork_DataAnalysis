@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-02-04">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="count" type="long" />
+      <attribute id="1" title="maincategory" type="string" />
+    </attributes>
+    <nodes>
+      <node id="食物" label="食物">
+        <attvalues>
+          <attvalue for="0" value="214" />
+          <attvalue for="1" value="食物" />
+        </attvalues>
+      </node>
+      <node id="身体部位" label="身体部位">
+        <attvalues>
+          <attvalue for="0" value="44" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="自然物" label="自然物">
+        <attvalues>
+          <attvalue for="0" value="36" />
+          <attvalue for="1" value="自然物" />
+        </attvalues>
+      </node>
+      <node id="交通工具" label="交通工具">
+        <attvalues>
+          <attvalue for="0" value="53" />
+          <attvalue for="1" value="交通工具" />
+        </attvalues>
+      </node>
+      <node id="植物" label="植物">
+        <attvalues>
+          <attvalue for="0" value="211" />
+          <attvalue for="1" value="植物" />
+        </attvalues>
+      </node>
+      <node id="动物" label="动物">
+        <attvalues>
+          <attvalue for="0" value="196" />
+          <attvalue for="1" value="动物" />
+        </attvalues>
+      </node>
+      <node id="人造物" label="人造物">
+        <attvalues>
+          <attvalue for="0" value="656" />
+          <attvalue for="1" value="人造物" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="食物" target="身体部位" id="0" weight="0" />
+      <edge source="食物" target="自然物" id="1" weight="1.074335021" />
+      <edge source="食物" target="交通工具" id="2" weight="0" />
+      <edge source="食物" target="植物" id="3" weight="140.25399183899987" />
+      <edge source="食物" target="动物" id="4" weight="0.525996292" />
+      <edge source="食物" target="人造物" id="5" weight="11.346872345000003" />
+      <edge source="身体部位" target="自然物" id="6" weight="0" />
+      <edge source="身体部位" target="交通工具" id="7" weight="0" />
+      <edge source="身体部位" target="植物" id="8" weight="0" />
+      <edge source="身体部位" target="动物" id="9" weight="0" />
+      <edge source="身体部位" target="人造物" id="10" weight="69.46705303399996" />
+      <edge source="自然物" target="交通工具" id="11" weight="0" />
+      <edge source="自然物" target="植物" id="12" weight="0" />
+      <edge source="自然物" target="动物" id="13" weight="0" />
+      <edge source="自然物" target="人造物" id="14" weight="10.221582708" />
+      <edge source="交通工具" target="植物" id="15" weight="0" />
+      <edge source="交通工具" target="动物" id="16" weight="0" />
+      <edge source="交通工具" target="人造物" id="17" weight="16.979880809" />
+      <edge source="植物" target="动物" id="18" weight="0" />
+      <edge source="植物" target="人造物" id="19" weight="0.608751211" />
+      <edge source="动物" target="人造物" id="20" weight="0.57229623" />
+    </edges>
+  </graph>
+</gexf>
