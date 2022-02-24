@@ -160,8 +160,11 @@
             rankdir: 'LR',
             align: 'UL',
             controlPoints: true,
-        nodesepFunc: () => 1,
-        ranksepFunc: () => 1,
+            nodesep: 1,
+            ranksep: 40,
+
+            // nodesepFunc: () => 2,
+            // ranksepFunc: () => 1,
         },
         defaultNode: {
             // type: "custom-node",
@@ -188,11 +191,16 @@
             },
         },
         defaultEdge: {
+            type: 'polyline',
+            size: 1,
+            color: '#e2e2e2',
             style: {
-                opacity: 0.5,
-                stroke: "grey",
-                lineWidth: 0.3,
-            }
+                endArrow: {
+                    path: 'M 0,0 L 8,4 L 8,-4 Z',
+                    fill: '#e2e2e2',
+                },
+                radius: 20,
+            },
         }
     });
 
@@ -200,7 +208,7 @@
 
         // Plan Graph
         const response = await fetch(
-            'https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/05_PlanGraph/PlanGraph_Sample.json?token=GHSAT0AAAAAABLZIDBAHAZFMOEFQOKN65ESYQ63WRQ'
+            'https://raw.githubusercontent.com/JoseZhangSH/SemanticNetwork_VA/main/data/05_PlanGraph/PathLinker-subnetwork-50-paths-3.json?token=GHSAT0AAAAAABLZIDBB2K5NT2ZHF4WR722SYQ64MWA'
         );
         const data = await response.json();
         const nodes = data.nodes;
