@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-02-20">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="subcategory" type="string" />
+      <attribute id="1" title="maincategory" type="string" />
+    </attributes>
+    <nodes>
+      <node id="喉" label="喉">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="脚背" label="脚背">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="牙齿" label="牙齿">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="耳垂" label="耳垂">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="肩膀" label="肩膀">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="胡须" label="胡须">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="手" label="手">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="肋骨" label="肋骨">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="骨架" label="骨架">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="臀部" label="臀部">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="膝盖" label="膝盖">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="眉毛" label="眉毛">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="关节" label="关节">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="手指" label="手指">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="睫毛" label="睫毛">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="皮肤" label="皮肤">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="鼻子" label="鼻子">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="手掌" label="手掌">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="口腔" label="口腔">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="脚趾" label="脚趾">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="拇指" label="拇指">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="大腿" label="大腿">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="眼睛" label="眼睛">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="心脏" label="心脏">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="脚" label="脚">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="大脑" label="大脑">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="手臂" label="手臂">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="腿" label="腿">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="头发" label="头发">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="耳朵" label="耳朵">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="指甲" label="指甲">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="头皮" label="头皮">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="嘴唇" label="嘴唇">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="泪珠" label="泪珠">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="血管" label="血管">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="头" label="头">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+      <node id="脚后跟" label="脚后跟">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="喉" target="大腿" id="0" weight="0.594531182" />
+      <edge source="喉" target="耳垂" id="1" weight="0.56741338" />
+      <edge source="喉" target="喉" id="2" weight="1.0" />
+      <edge source="喉" target="肩膀" id="3" weight="0.62417493" />
+      <edge source="喉" target="脚趾" id="4" weight="0.663047498" />
+      <edge source="喉" target="拇指" id="5" weight="0.640121326" />
+      <edge source="喉" target="手臂" id="6" weight="0.521696631" />
+      <edge source="喉" target="腿" id="7" weight="0.553339292" />
+      <edge source="喉" target="臀部" id="8" weight="0.776358075" />
+      <edge source="喉" target="膝盖" id="9" weight="0.567365948" />
+      <edge source="喉" target="心脏" id="10" weight="0.60156091" />
+      <edge source="喉" target="血管" id="11" weight="0.570299872" />
+      <edge source="喉" target="嘴唇" id="12" weight="0.551616542" />
+      <edge source="脚背" target="大腿" id="13" weight="0.553321982" />
+      <edge source="脚背" target="肩膀" id="14" weight="0.552953136" />
+      <edge source="脚背" target="脚背" id="15" weight="1.0" />
+      <edge source="脚背" target="脚趾" id="16" weight="0.650789451" />
+      <edge source="脚背" target="睫毛" id="17" weight="0.593221239" />
+      <edge source="脚背" target="眉毛" id="18" weight="0.593708555" />
+      <edge source="脚背" target="拇指" id="19" weight="0.531581283" />
+      <edge source="脚背" target="皮肤" id="20" weight="0.626566669" />
+      <edge source="脚背" target="臀部" id="21" weight="0.642226042" />
+      <edge source="脚背" target="指甲" id="22" weight="0.520180069" />
+      <edge source="脚背" target="嘴唇" id="23" weight="0.836049488" />
+      <edge source="牙齿" target="关节" id="24" weight="0.57033051" />
+      <edge source="牙齿" target="肩膀" id="25" weight="0.603148127" />
+      <edge source="牙齿" target="脚后跟" id="26" weight="0.578885596" />
+      <edge source="牙齿" target="口腔" id="27" weight="0.581126101" />
+      <edge source="牙齿" target="臀部" id="28" weight="0.528840961" />
+      <edge source="牙齿" target="膝盖" id="29" weight="0.583770203" />
+      <edge source="牙齿" target="牙齿" id="30" weight="1.0" />
+      <edge source="耳垂" target="大腿" id="31" weight="0.570013456" />
+      <edge source="耳垂" target="耳垂" id="32" weight="1.0" />
+      <edge source="耳垂" target="臀部" id="33" weight="0.561136143" />
+      <edge source="肩膀" target="大腿" id="34" weight="0.702242358" />
+      <edge source="肩膀" target="关节" id="35" weight="0.702484719" />
+      <edge source="肩膀" target="肩膀" id="36" weight="1.0" />
+      <edge source="肩膀" target="脚" id="37" weight="0.535956906" />
+      <edge source="肩膀" target="脚后跟" id="38" weight="0.739715895" />
+      <edge source="肩膀" target="脚趾" id="39" weight="0.710090041" />
+      <edge source="肩膀" target="拇指" id="40" weight="0.689211951" />
+      <edge source="肩膀" target="手臂" id="41" weight="0.599953726" />
+      <edge source="肩膀" target="手掌" id="42" weight="0.541384209" />
+      <edge source="肩膀" target="手指" id="43" weight="0.537761756" />
+      <edge source="肩膀" target="腿" id="44" weight="0.632256398" />
+      <edge source="肩膀" target="臀部" id="45" weight="0.821104206" />
+      <edge source="肩膀" target="膝盖" id="46" weight="0.802018551" />
+      <edge source="肩膀" target="心脏" id="47" weight="0.651037555" />
+      <edge source="肩膀" target="血管" id="48" weight="0.578915635" />
+      <edge source="胡须" target="胡须" id="49" weight="1.0" />
+      <edge source="胡须" target="睫毛" id="50" weight="0.54778248" />
+      <edge source="胡须" target="眉毛" id="51" weight="0.530345061" />
+      <edge source="胡须" target="头发" id="52" weight="0.533760224" />
+      <edge source="手" target="脚趾" id="53" weight="0.537168845" />
+      <edge source="手" target="拇指" id="54" weight="0.636473875" />
+      <edge source="手" target="手" id="55" weight="1.0" />
+      <edge source="手" target="手臂" id="56" weight="0.852983229" />
+      <edge source="手" target="手掌" id="57" weight="0.864065397" />
+      <edge source="手" target="手指" id="58" weight="0.887756355" />
+      <edge source="手" target="臀部" id="59" weight="0.585001422" />
+      <edge source="手" target="心脏" id="60" weight="0.530388659" />
+      <edge source="肋骨" target="骨架" id="61" weight="0.692887325" />
+      <edge source="肋骨" target="肋骨" id="62" weight="1.0" />
+      <edge source="肋骨" target="指甲" id="63" weight="0.575959049" />
+      <edge source="骨架" target="骨架" id="64" weight="1.0" />
+      <edge source="骨架" target="泪珠" id="65" weight="0.533019067" />
+      <edge source="骨架" target="头皮" id="66" weight="0.529086687" />
+      <edge source="骨架" target="指甲" id="67" weight="0.754968441" />
+      <edge source="臀部" target="鼻子" id="68" weight="0.600055297" />
+      <edge source="臀部" target="大脑" id="69" weight="0.577027093" />
+      <edge source="臀部" target="大腿" id="70" weight="0.811203123" />
+      <edge source="臀部" target="耳朵" id="71" weight="0.584147185" />
+      <edge source="臀部" target="关节" id="72" weight="0.654424439" />
+      <edge source="臀部" target="脚" id="73" weight="0.651190277" />
+      <edge source="臀部" target="脚后跟" id="74" weight="0.643732033" />
+      <edge source="臀部" target="脚趾" id="75" weight="0.852598629" />
+      <edge source="臀部" target="拇指" id="76" weight="0.834059366" />
+      <edge source="臀部" target="手臂" id="77" weight="0.684903322" />
+      <edge source="臀部" target="手掌" id="78" weight="0.625284889" />
+      <edge source="臀部" target="手指" id="79" weight="0.625265234" />
+      <edge source="臀部" target="腿" id="80" weight="0.740296575" />
+      <edge source="臀部" target="臀部" id="81" weight="1.0" />
+      <edge source="臀部" target="膝盖" id="82" weight="0.757021794" />
+      <edge source="臀部" target="心脏" id="83" weight="0.796276364" />
+      <edge source="臀部" target="血管" id="84" weight="0.711301039" />
+      <edge source="臀部" target="眼睛" id="85" weight="0.597361832" />
+      <edge source="臀部" target="嘴唇" id="86" weight="0.631456027" />
+      <edge source="膝盖" target="大腿" id="87" weight="0.666081574" />
+      <edge source="膝盖" target="关节" id="88" weight="0.849954039" />
+      <edge source="膝盖" target="脚" id="89" weight="0.520260342" />
+      <edge source="膝盖" target="脚后跟" id="90" weight="0.66183986" />
+      <edge source="膝盖" target="脚趾" id="91" weight="0.645606702" />
+      <edge source="膝盖" target="拇指" id="92" weight="0.638423169" />
+      <edge source="膝盖" target="手臂" id="93" weight="0.546000455" />
+      <edge source="膝盖" target="腿" id="94" weight="0.617338945" />
+      <edge source="膝盖" target="膝盖" id="95" weight="1.0" />
+      <edge source="膝盖" target="心脏" id="96" weight="0.629627064" />
+      <edge source="膝盖" target="血管" id="97" weight="0.535683969" />
+      <edge source="眉毛" target="睫毛" id="98" weight="0.918043979" />
+      <edge source="眉毛" target="眉毛" id="99" weight="1.0" />
+      <edge source="眉毛" target="皮肤" id="100" weight="0.566501264" />
+      <edge source="眉毛" target="头发" id="101" weight="0.716238309" />
+      <edge source="眉毛" target="嘴唇" id="102" weight="0.636505106" />
+      <edge source="关节" target="关节" id="103" weight="1.0" />
+      <edge source="关节" target="脚后跟" id="104" weight="0.56142955" />
+      <edge source="关节" target="脚趾" id="105" weight="0.570055978" />
+      <edge source="关节" target="拇指" id="106" weight="0.55587264" />
+      <edge source="关节" target="心脏" id="107" weight="0.552685258" />
+      <edge source="关节" target="血管" id="108" weight="0.544158207" />
+      <edge source="手指" target="大腿" id="109" weight="0.599171571" />
+      <edge source="手指" target="脚趾" id="110" weight="0.579889989" />
+      <edge source="手指" target="拇指" id="111" weight="0.705455249" />
+      <edge source="手指" target="手臂" id="112" weight="0.916958628" />
+      <edge source="手指" target="手掌" id="113" weight="0.804232548" />
+      <edge source="手指" target="手指" id="114" weight="1.0" />
+      <edge source="手指" target="腿" id="115" weight="0.522496209" />
+      <edge source="睫毛" target="睫毛" id="116" weight="1.0" />
+      <edge source="睫毛" target="皮肤" id="117" weight="0.568020134" />
+      <edge source="睫毛" target="头发" id="118" weight="0.713342222" />
+      <edge source="睫毛" target="嘴唇" id="119" weight="0.639553872" />
+      <edge source="皮肤" target="皮肤" id="120" weight="1.0" />
+      <edge source="皮肤" target="嘴唇" id="121" weight="0.65862589" />
+      <edge source="鼻子" target="鼻子" id="122" weight="1.0" />
+      <edge source="鼻子" target="大腿" id="123" weight="0.598223695" />
+      <edge source="手掌" target="大腿" id="124" weight="0.537393656" />
+      <edge source="手掌" target="脚趾" id="125" weight="0.547087863" />
+      <edge source="手掌" target="手臂" id="126" weight="0.883878504" />
+      <edge source="手掌" target="手掌" id="127" weight="1.0" />
+      <edge source="口腔" target="口腔" id="128" weight="1.0" />
+      <edge source="脚趾" target="大腿" id="129" weight="0.712543515" />
+      <edge source="脚趾" target="耳朵" id="130" weight="0.543578924" />
+      <edge source="脚趾" target="脚" id="131" weight="0.654197784" />
+      <edge source="脚趾" target="脚后跟" id="132" weight="0.578086113" />
+      <edge source="脚趾" target="脚趾" id="133" weight="1.0" />
+      <edge source="脚趾" target="拇指" id="134" weight="0.798374245" />
+      <edge source="脚趾" target="手臂" id="135" weight="0.595530122" />
+      <edge source="脚趾" target="腿" id="136" weight="0.649496215" />
+      <edge source="脚趾" target="心脏" id="137" weight="0.636842534" />
+      <edge source="脚趾" target="血管" id="138" weight="0.610529148" />
+      <edge source="脚趾" target="嘴唇" id="139" weight="0.539084796" />
+      <edge source="拇指" target="大腿" id="140" weight="0.6932626" />
+      <edge source="拇指" target="脚" id="141" weight="0.597088296" />
+      <edge source="拇指" target="脚后跟" id="142" weight="0.536980421" />
+      <edge source="拇指" target="拇指" id="143" weight="1.0" />
+      <edge source="拇指" target="手臂" id="144" weight="0.59333827" />
+      <edge source="拇指" target="腿" id="145" weight="0.638777551" />
+      <edge source="拇指" target="心脏" id="146" weight="0.616929919" />
+      <edge source="拇指" target="血管" id="147" weight="0.594081601" />
+      <edge source="拇指" target="嘴唇" id="148" weight="0.521715459" />
+      <edge source="大腿" target="大脑" id="149" weight="0.550517086" />
+      <edge source="大腿" target="大腿" id="150" weight="1.0" />
+      <edge source="大腿" target="脚" id="151" weight="0.604539946" />
+      <edge source="大腿" target="脚后跟" id="152" weight="0.533987382" />
+      <edge source="大腿" target="手臂" id="153" weight="0.634338848" />
+      <edge source="大腿" target="腿" id="154" weight="0.790359332" />
+      <edge source="大腿" target="心脏" id="155" weight="0.684361942" />
+      <edge source="大腿" target="血管" id="156" weight="0.765620454" />
+      <edge source="眼睛" target="心脏" id="157" weight="0.524439705" />
+      <edge source="眼睛" target="眼睛" id="158" weight="1.0" />
+      <edge source="心脏" target="大脑" id="159" weight="0.547428125" />
+      <edge source="心脏" target="耳朵" id="160" weight="0.544189751" />
+      <edge source="心脏" target="手臂" id="161" weight="0.543053678" />
+      <edge source="心脏" target="腿" id="162" weight="0.620603378" />
+      <edge source="心脏" target="心脏" id="163" weight="1.0" />
+      <edge source="心脏" target="血管" id="164" weight="0.694034661" />
+      <edge source="脚" target="脚" id="165" weight="1.0" />
+      <edge source="脚" target="脚后跟" id="166" weight="0.566642194" />
+      <edge source="脚" target="腿" id="167" weight="0.590018516" />
+      <edge source="大脑" target="大脑" id="168" weight="1.0" />
+      <edge source="大脑" target="头" id="169" weight="0.683568478" />
+      <edge source="大脑" target="血管" id="170" weight="0.531164825" />
+      <edge source="手臂" target="手臂" id="171" weight="1.0" />
+      <edge source="手臂" target="腿" id="172" weight="0.582054693" />
+      <edge source="手臂" target="血管" id="173" weight="0.534402451" />
+      <edge source="腿" target="腿" id="174" weight="1.0" />
+      <edge source="腿" target="血管" id="175" weight="0.600906035" />
+      <edge source="头发" target="头发" id="176" weight="1.0" />
+      <edge source="头发" target="头皮" id="177" weight="0.679533601" />
+      <edge source="耳朵" target="耳朵" id="178" weight="1.0" />
+      <edge source="指甲" target="泪珠" id="179" weight="0.54012589" />
+      <edge source="指甲" target="头皮" id="180" weight="0.556835831" />
+      <edge source="指甲" target="指甲" id="181" weight="1.0" />
+      <edge source="指甲" target="嘴唇" id="182" weight="0.526651358" />
+      <edge source="头皮" target="头皮" id="183" weight="1.0" />
+      <edge source="嘴唇" target="嘴唇" id="184" weight="1.0" />
+      <edge source="泪珠" target="泪珠" id="185" weight="1.0" />
+      <edge source="血管" target="血管" id="186" weight="1.0" />
+      <edge source="头" target="头" id="187" weight="1.0" />
+      <edge source="脚后跟" target="脚后跟" id="188" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

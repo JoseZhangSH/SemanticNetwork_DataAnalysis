@@ -1,0 +1,2680 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<key attr.name="subcategory" attr.type="string" for="node" id="0"/>
+<key attr.name="maincategory" attr.type="string" for="node" id="1"/>
+<key attr.name="PageRank" attr.type="double" for="node" id="pageranks"/>
+<graph edgedefault="undirected">
+<node id="糕点">
+<data key="label">糕点</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007541222417609374</data>
+<data key="size">25.991611</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-1109.8037</data>
+<data key="y">14.79064</data>
+</node>
+<node id="花生米">
+<data key="label">花生米</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007709271852846375</data>
+<data key="size">26.490364</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">462.37347</data>
+<data key="y">1089.098</data>
+</node>
+<node id="甜甜圈">
+<data key="label">甜甜圈</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004360873976902331</data>
+<data key="size">16.552708</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-307.4095</data>
+<data key="y">562.9451</data>
+</node>
+<node id="荞麦">
+<data key="label">荞麦</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008268580023059618</data>
+<data key="size">28.150326</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">816.42017</data>
+<data key="y">780.73315</data>
+</node>
+<node id="清汤">
+<data key="label">清汤</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007375433826033166</data>
+<data key="size">25.49957</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1250.1025</data>
+<data key="y">313.76007</data>
+</node>
+<node id="巧克力">
+<data key="label">巧克力</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005869417185410853</data>
+<data key="size">21.02989</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">282.00098</data>
+<data key="y">922.68536</data>
+</node>
+<node id="番茄酱">
+<data key="label">番茄酱</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004281991972285683</data>
+<data key="size">16.318596</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-379.94525</data>
+<data key="y">-726.69135</data>
+</node>
+<node id="八宝粥">
+<data key="label">八宝粥</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.00478788869499288</data>
+<data key="size">17.820038</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">317.77524</data>
+<data key="y">88.49546</data>
+</node>
+<node id="谷物">
+<data key="label">谷物</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006209149634854255</data>
+<data key="size">22.038176</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">677.69836</data>
+<data key="y">763.61145</data>
+</node>
+<node id="二锅头">
+<data key="label">二锅头</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007586415031247153</data>
+<data key="size">26.125738</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-0.019791199</data>
+<data key="y">0.09785532</data>
+</node>
+<node id="蛋卷冰淇淋">
+<data key="label">蛋卷冰淇淋</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.010041173822027773</data>
+<data key="size">33.41118</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-140.43863</data>
+<data key="y">1019.0598</data>
+</node>
+<node id="油饼">
+<data key="label">油饼</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.01142009253212495</data>
+<data key="size">37.503647</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-290.55853</data>
+<data key="y">321.56754</data>
+</node>
+<node id="百事可乐">
+<data key="label">百事可乐</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.009199953875764593</data>
+<data key="size">30.914534</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">609.8708</data>
+<data key="y">-656.39075</data>
+</node>
+<node id="水">
+<data key="label">水</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0021530015683924233</data>
+<data key="size">10.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">744.15845</data>
+<data key="y">-910.5303</data>
+</node>
+<node id="寿司">
+<data key="label">寿司</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.003043825744938188</data>
+<data key="size">12.643862</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-897.9635</data>
+<data key="y">103.77744</data>
+</node>
+<node id="奶油">
+<data key="label">奶油</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008861247126848323</data>
+<data key="size">29.909292</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-228.32101</data>
+<data key="y">1013.7566</data>
+</node>
+<node id="菠萝汁">
+<data key="label">菠萝汁</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004829340502153638</data>
+<data key="size">17.943062</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">367.1759</data>
+<data key="y">-286.9613</data>
+</node>
+<node id="蛋卷">
+<data key="label">蛋卷</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008833655571017104</data>
+<data key="size">29.827402</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-238.48633</data>
+<data key="y">552.4419</data>
+</node>
+<node id="爆米花">
+<data key="label">爆米花</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005657253684397736</data>
+<data key="size">20.400211</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-340.85922</data>
+<data key="y">953.75946</data>
+</node>
+<node id="热狗">
+<data key="label">热狗</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0022669722007304955</data>
+<data key="size">10.338251</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-711.1184</data>
+<data key="y">275.9227</data>
+</node>
+<node id="白酒">
+<data key="label">白酒</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006815629557557929</data>
+<data key="size">23.838137</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">25.21726</data>
+<data key="y">-70.321396</data>
+</node>
+<node id="炸酱面">
+<data key="label">炸酱面</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006424292495414681</data>
+<data key="size">22.676693</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-275.85413</data>
+<data key="y">-90.570175</data>
+</node>
+<node id="冰棍">
+<data key="label">冰棍</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004593542104813126</data>
+<data key="size">17.24324</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-148.09096</data>
+<data key="y">1119.8774</data>
+</node>
+<node id="小麦">
+<data key="label">小麦</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.010350103697745349</data>
+<data key="size">34.32804</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">744.31146</data>
+<data key="y">749.27216</data>
+</node>
+<node id="粥">
+<data key="label">粥</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004852313408635223</data>
+<data key="size">18.011244</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">397.89337</data>
+<data key="y">-13.816697</data>
+</node>
+<node id="蛋糕">
+<data key="label">蛋糕</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008998872385721052</data>
+<data key="size">30.317747</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-389.57474</data>
+<data key="y">683.0384</data>
+</node>
+<node id="果酱">
+<data key="label">果酱</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005742030871403179</data>
+<data key="size">20.651821</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-515.7231</data>
+<data key="y">-629.44354</data>
+</node>
+<node id="卷饼">
+<data key="label">卷饼</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008016982691897349</data>
+<data key="size">27.403614</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-1014.33777</data>
+<data key="y">-27.700459</data>
+</node>
+<node id="通心粉">
+<data key="label">通心粉</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.012366815495934267</data>
+<data key="size">40.313408</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">24.554533</data>
+<data key="y">183.48749</data>
+</node>
+<node id="绿豆汤">
+<data key="label">绿豆汤</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004048889556485571</data>
+<data key="size">15.626775</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1300.4196</data>
+<data key="y">320.7857</data>
+</node>
+<node id="牛奶">
+<data key="label">牛奶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.009780570729836801</data>
+<data key="size">32.637737</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">694.9892</data>
+<data key="y">78.859375</data>
+</node>
+<node id="大米">
+<data key="label">大米</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.003922325419364055</data>
+<data key="size">15.251147</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">612.2997</data>
+<data key="y">834.2502</data>
+</node>
+<node id="可口可乐">
+<data key="label">可口可乐</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008811892082981124</data>
+<data key="size">29.76281</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">516.61127</data>
+<data key="y">-683.39667</data>
+</node>
+<node id="白粥">
+<data key="label">白粥</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006901252305112978</data>
+<data key="size">24.092255</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">267.5988</data>
+<data key="y">95.44154</data>
+</node>
+<node id="香槟">
+<data key="label">香槟</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.00656379315808856</data>
+<data key="size">23.090715</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-22.140669</data>
+<data key="y">-132.16145</data>
+</node>
+<node id="白水">
+<data key="label">白水</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.00489189613920606</data>
+<data key="size">18.12872</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">788.41</data>
+<data key="y">-779.18744</data>
+</node>
+<node id="法式面包">
+<data key="label">法式面包</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0058106944604521624</data>
+<data key="size">20.855606</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-38.907043</data>
+<data key="y">447.09247</data>
+</node>
+<node id="方便面">
+<data key="label">方便面</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006600621834371321</data>
+<data key="size">23.20002</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-212.13846</data>
+<data key="y">-106.267715</data>
+</node>
+<node id="茶包">
+<data key="label">茶包</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005968707435332126</data>
+<data key="size">21.32457</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1197.2981</data>
+<data key="y">-481.5285</data>
+</node>
+<node id="油条">
+<data key="label">油条</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004868324752288584</data>
+<data key="size">18.058762</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-254.13824</data>
+<data key="y">402.51587</data>
+</node>
+<node id="花生">
+<data key="label">花生</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.010197658228005417</data>
+<data key="size">33.875603</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">531.7967</data>
+<data key="y">1123.0802</data>
+</node>
+<node id="橙汁">
+<data key="label">橙汁</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008579473466159736</data>
+<data key="size">29.073019</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">415.70782</data>
+<data key="y">-233.78192</data>
+</node>
+<node id="饺子">
+<data key="label">饺子</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008280396822180909</data>
+<data key="size">28.185394</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-932.685</data>
+<data key="y">-77.8178</data>
+</node>
+<node id="棉花糖">
+<data key="label">棉花糖</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008735990437193865</data>
+<data key="size">29.537544</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-270.5183</data>
+<data key="y">948.15564</data>
+</node>
+<node id="魔芋">
+<data key="label">魔芋</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007140398638567122</data>
+<data key="size">24.802013</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">814.36237</data>
+<data key="y">717.16266</data>
+</node>
+<node id="大饼">
+<data key="label">大饼</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007307067259347254</data>
+<data key="size">25.296667</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-50.753113</data>
+<data key="y">292.09583</data>
+</node>
+<node id="红酒">
+<data key="label">红酒</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0077835544329911376</data>
+<data key="size">26.710825</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">76.55641</data>
+<data key="y">-5.104575</data>
+</node>
+<node id="味精">
+<data key="label">味精</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.009526996236596698</data>
+<data key="size">31.885157</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-338.02115</data>
+<data key="y">-977.78986</data>
+</node>
+<node id="普洱茶">
+<data key="label">普洱茶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008168430198732424</data>
+<data key="size">27.853092</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1272.3389</data>
+<data key="y">-475.8228</data>
+</node>
+<node id="包子">
+<data key="label">包子</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007434575221356597</data>
+<data key="size">25.675095</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-1103.4039</data>
+<data key="y">-82.04807</data>
+</node>
+<node id="蔗糖">
+<data key="label">蔗糖</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.00848056599090672</data>
+<data key="size">28.779474</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-344.78317</data>
+<data key="y">-1069.7251</data>
+</node>
+<node id="麻花">
+<data key="label">麻花</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.003733681141663092</data>
+<data key="size">14.691273</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-82.13746</data>
+<data key="y">423.58157</data>
+</node>
+<node id="酱油">
+<data key="label">酱油</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.009255642828010871</data>
+<data key="size">31.079811</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-259.95465</data>
+<data key="y">-621.0614</data>
+</node>
+<node id="面筋">
+<data key="label">面筋</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007613812142335193</data>
+<data key="size">26.207048</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">66.79612</data>
+<data key="y">371.0216</data>
+</node>
+<node id="泉水">
+<data key="label">泉水</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005435626817189426</data>
+<data key="size">19.74245</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">816.95056</data>
+<data key="y">-924.42725</data>
+</node>
+<node id="羹汤">
+<data key="label">羹汤</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008605973319676413</data>
+<data key="size">29.151669</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1232.0538</data>
+<data key="y">250.0052</data>
+</node>
+<node id="苹果汁">
+<data key="label">苹果汁</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008426673843526982</data>
+<data key="size">28.61953</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">399.33224</data>
+<data key="y">-347.55954</data>
+</node>
+<node id="肉汤">
+<data key="label">肉汤</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005708433614400266</data>
+<data key="size">20.552109</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1288.1431</data>
+<data key="y">271.38046</data>
+</node>
+<node id="香草冰淇淋">
+<data key="label">香草冰淇淋</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0070820749347616785</data>
+<data key="size">24.628914</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-93.822556</data>
+<data key="y">961.49677</data>
+</node>
+<node id="汉堡">
+<data key="label">汉堡</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007803352284239742</data>
+<data key="size">26.769583</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-755.0068</data>
+<data key="y">281.1716</data>
+</node>
+<node id="馅饼">
+<data key="label">馅饼</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.010179862349048534</data>
+<data key="size">33.822784</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-982.6142</data>
+<data key="y">76.50804</data>
+</node>
+<node id="冰糖">
+<data key="label">冰糖</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008287811184559606</data>
+<data key="size">28.2074</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-427.6661</data>
+<data key="y">-1021.1297</data>
+</node>
+<node id="芝麻">
+<data key="label">芝麻</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.003073265769923733</data>
+<data key="size">12.731237</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">778.0075</data>
+<data key="y">900.1401</data>
+</node>
+<node id="葡萄汁">
+<data key="label">葡萄汁</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.009386157967492812</data>
+<data key="size">31.467167</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">287.51624</data>
+<data key="y">-287.4487</data>
+</node>
+<node id="三明治">
+<data key="label">三明治</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0038453797488257695</data>
+<data key="size">15.022781</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-806.25165</data>
+<data key="y">334.83752</data>
+</node>
+<node id="黑胡椒">
+<data key="label">黑胡椒</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0027662901314802215</data>
+<data key="size">11.820169</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-629.90985</data>
+<data key="y">-927.9396</data>
+</node>
+<node id="果汁">
+<data key="label">果汁</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.015630619260283</data>
+<data key="size">50.0</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">543.5152</data>
+<data key="y">-345.2072</data>
+</node>
+<node id="醋">
+<data key="label">醋</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0024896143763226044</data>
+<data key="size">10.999027</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-239.12668</data>
+<data key="y">-560.64813</data>
+</node>
+<node id="蜂蜜">
+<data key="label">蜂蜜</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005631533326128058</data>
+<data key="size">20.323877</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-18.187704</data>
+<data key="y">-508.3032</data>
+</node>
+<node id="白糖">
+<data key="label">白糖</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005975848387767546</data>
+<data key="size">21.345764</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-373.58542</data>
+<data key="y">-1139.5487</data>
+</node>
+<node id="烤面包">
+<data key="label">烤面包</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004164273871217225</data>
+<data key="size">15.969222</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">9.090269</data>
+<data key="y">431.01743</data>
+</node>
+<node id="酸奶">
+<data key="label">酸奶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0032752683813857316</data>
+<data key="size">13.330757</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">664.2251</data>
+<data key="y">5.866516</data>
+</node>
+<node id="馒头">
+<data key="label">馒头</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006805664258230391</data>
+<data key="size">23.80856</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-186.19992</data>
+<data key="y">349.26904</data>
+</node>
+<node id="米线">
+<data key="label">米线</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006834635379703146</data>
+<data key="size">23.894543</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">125.55346</data>
+<data key="y">286.19635</data>
+</node>
+<node id="白饭">
+<data key="label">白饭</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005018214927639281</data>
+<data key="size">18.50362</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">211.4742</data>
+<data key="y">125.39308</data>
+</node>
+<node id="炒面">
+<data key="label">炒面</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004633352701697849</data>
+<data key="size">17.361393</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-255.581</data>
+<data key="y">17.31896</data>
+</node>
+<node id="瓶装水">
+<data key="label">瓶装水</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007456442977947203</data>
+<data key="size">25.739996</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">707.64087</data>
+<data key="y">-762.1227</data>
+</node>
+<node id="橘子汽水">
+<data key="label">橘子汽水</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.01016734707362866</data>
+<data key="size">33.785645</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">449.40833</data>
+<data key="y">-559.7083</data>
+</node>
+<node id="煎蛋卷">
+<data key="label">煎蛋卷</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.01337416124208046</data>
+<data key="size">43.303093</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-344.5001</data>
+<data key="y">469.23514</data>
+</node>
+<node id="椒盐">
+<data key="label">椒盐</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0021878918283054624</data>
+<data key="size">10.10355</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-516.72565</data>
+<data key="y">-936.43134</data>
+</node>
+<node id="面粉">
+<data key="label">面粉</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.003861889042951443</data>
+<data key="size">15.071779</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">114.1719</data>
+<data key="y">137.66312</data>
+</node>
+<node id="牦牛奶">
+<data key="label">牦牛奶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006689168762631445</data>
+<data key="size">23.462816</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">845.57556</data>
+<data key="y">234.88652</data>
+</node>
+<node id="花生酱">
+<data key="label">花生酱</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.014664656120632657</data>
+<data key="size">47.133133</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-317.9766</data>
+<data key="y">-827.39545</data>
+</node>
+<node id="沙拉酱">
+<data key="label">沙拉酱</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006359837634767858</data>
+<data key="size">22.485401</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-446.93887</data>
+<data key="y">-622.19525</data>
+</node>
+<node id="巧克力冰淇淋">
+<data key="label">巧克力冰淇淋</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005516192422055557</data>
+<data key="size">19.98156</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-147.87468</data>
+<data key="y">951.4763</data>
+</node>
+<node id="辣椒酱">
+<data key="label">辣椒酱</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.011407793165221149</data>
+<data key="size">37.467144</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-479.48236</data>
+<data key="y">-712.762</data>
+</node>
+<node id="全脂牛奶">
+<data key="label">全脂牛奶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006566350862424044</data>
+<data key="size">23.098305</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">884.404</data>
+<data key="y">275.70758</data>
+</node>
+<node id="糖果">
+<data key="label">糖果</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008879101259440617</data>
+<data key="size">29.96228</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">344.3251</data>
+<data key="y">932.9508</data>
+</node>
+<node id="咖啡豆">
+<data key="label">咖啡豆</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0030759597763771692</data>
+<data key="size">12.739233</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">556.7946</data>
+<data key="y">1178.1017</data>
+</node>
+<node id="冰淇淋">
+<data key="label">冰淇淋</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0068691177192729755</data>
+<data key="size">23.996883</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-176.48355</data>
+<data key="y">1085.5975</data>
+</node>
+<node id="凉皮">
+<data key="label">凉皮</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008332226009703955</data>
+<data key="size">28.339218</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">54.813145</data>
+<data key="y">290.80292</data>
+</node>
+<node id="豆浆">
+<data key="label">豆浆</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.009364629131037455</data>
+<data key="size">31.40327</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">391.37833</data>
+<data key="y">-97.98194</data>
+</node>
+<node id="巧克力牛奶">
+<data key="label">巧克力牛奶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.00517733874795135</data>
+<data key="size">18.97588</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">895.9567</data>
+<data key="y">226.73729</data>
+</node>
+<node id="凉粉">
+<data key="label">凉粉</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006360361008719019</data>
+<data key="size">22.486954</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">141.1183</data>
+<data key="y">348.60944</data>
+</node>
+<node id="白砂糖">
+<data key="label">白砂糖</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008940745672226507</data>
+<data key="size">30.145233</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-437.78522</data>
+<data key="y">-1106.0348</data>
+</node>
+<node id="谷子">
+<data key="label">谷子</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.012007442042652012</data>
+<data key="size">39.24683</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">762.2124</data>
+<data key="y">843.63184</data>
+</node>
+<node id="清酒">
+<data key="label">清酒</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0073871771252649095</data>
+<data key="size">25.534422</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">56.07259</data>
+<data key="y">-149.03845</data>
+</node>
+<node id="辣椒粉">
+<data key="label">辣椒粉</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.01494278936997398</data>
+<data key="size">47.9586</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-469.66913</data>
+<data key="y">-886.7276</data>
+</node>
+<node id="冰淇淋蛋糕">
+<data key="label">冰淇淋蛋糕</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004969051692291737</data>
+<data key="size">18.357708</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-410.29498</data>
+<data key="y">766.825</data>
+</node>
+<node id="全麦饼干">
+<data key="label">全麦饼干</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004916940803927612</data>
+<data key="size">18.203049</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-478.60312</data>
+<data key="y">806.649</data>
+</node>
+<node id="煎饼">
+<data key="label">煎饼</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0092597417289762</data>
+<data key="size">31.091976</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-1093.5066</data>
+<data key="y">119.574165</data>
+</node>
+<node id="苏打水">
+<data key="label">苏打水</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.009488293726906669</data>
+<data key="size">31.770294</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">610.2643</data>
+<data key="y">-757.7135</data>
+</node>
+<node id="冷面">
+<data key="label">冷面</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007573857553956778</data>
+<data key="size">26.08847</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-301.73886</data>
+<data key="y">-24.61412</data>
+</node>
+<node id="热水">
+<data key="label">热水</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.003958361566813222</data>
+<data key="size">15.358098</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">842.8228</data>
+<data key="y">-954.4829</data>
+</node>
+<node id="饼干">
+<data key="label">饼干</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007625561192831283</data>
+<data key="size">26.241919</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-530.71497</data>
+<data key="y">653.8502</data>
+</node>
+<node id="棒棒糖">
+<data key="label">棒棒糖</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.003912657142962964</data>
+<data key="size">15.222453</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">367.50906</data>
+<data key="y">884.00995</data>
+</node>
+<node id="威士忌酒">
+<data key="label">威士忌酒</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007702391060482939</data>
+<data key="size">26.46994</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">99.350075</data>
+<data key="y">-85.82017</data>
+</node>
+<node id="甜点">
+<data key="label">甜点</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007421215324248687</data>
+<data key="size">25.635445</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-309.63364</data>
+<data key="y">630.30725</data>
+</node>
+<node id="胡椒">
+<data key="label">胡椒</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005602921200584959</data>
+<data key="size">20.23896</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-607.80084</data>
+<data key="y">-898.36475</data>
+</node>
+<node id="稀饭">
+<data key="label">稀饭</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006563058214240485</data>
+<data key="size">23.088535</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">342.29086</data>
+<data key="y">45.057148</data>
+</node>
+<node id="汽水">
+<data key="label">汽水</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.009087560372678272</data>
+<data key="size">30.580963</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">517.5316</data>
+<data key="y">-784.25806</data>
+</node>
+<node id="豆奶">
+<data key="label">豆奶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007543814903512103</data>
+<data key="size">25.999306</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">479.9758</data>
+<data key="y">-50.92027</data>
+</node>
+<node id="糖浆">
+<data key="label">糖浆</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.002800278959342341</data>
+<data key="size">11.921044</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">18.58049</data>
+<data key="y">-525.22034</data>
+</node>
+<node id="干果">
+<data key="label">干果</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008142481621356393</data>
+<data key="size">27.776077</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">391.30923</data>
+<data key="y">1064.434</data>
+</node>
+<node id="芝士蛋糕">
+<data key="label">芝士蛋糕</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006429432284318087</data>
+<data key="size">22.691948</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-423.9404</data>
+<data key="y">821.13477</data>
+</node>
+<node id="鸡尾酒">
+<data key="label">鸡尾酒</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0070969954195882826</data>
+<data key="size">24.673199</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">-51.900646</data>
+<data key="y">-55.7122</data>
+</node>
+<node id="奶酪">
+<data key="label">奶酪</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006317341595244323</data>
+<data key="size">22.359276</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-307.88596</data>
+<data key="y">1010.53143</data>
+</node>
+<node id="葡萄酒">
+<data key="label">葡萄酒</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008731422468914698</data>
+<data key="size">29.523987</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">168.80247</data>
+<data key="y">-37.859764</data>
+</node>
+<node id="纯净水">
+<data key="label">纯净水</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.011227034853675452</data>
+<data key="size">36.93067</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">756.3192</data>
+<data key="y">-855.3892</data>
+</node>
+<node id="馄饨">
+<data key="label">馄饨</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008025362654961996</data>
+<data key="size">27.428482</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-1018.6163</data>
+<data key="y">-135.24454</data>
+</node>
+<node id="可可巧克力">
+<data key="label">可可巧克力</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.005347004581487144</data>
+<data key="size">19.479427</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">231.4563</data>
+<data key="y">922.258</data>
+</node>
+<node id="茶">
+<data key="label">茶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004602352167171061</data>
+<data key="size">17.269386</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1337.0134</data>
+<data key="y">-453.12967</data>
+</node>
+<node id="碧螺春">
+<data key="label">碧螺春</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007889413303100083</data>
+<data key="size">27.025002</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1346.856</data>
+<data key="y">-512.896</data>
+</node>
+<node id="意大利面">
+<data key="label">意大利面</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.00845882778148851</data>
+<data key="size">28.714958</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-226.40157</data>
+<data key="y">-40.58454</data>
+</node>
+<node id="葵花籽">
+<data key="label">葵花籽</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0077687522799378805</data>
+<data key="size">26.666893</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">449.67523</data>
+<data key="y">1155.1372</data>
+</node>
+<node id="比萨">
+<data key="label">比萨</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006622086885994005</data>
+<data key="size">23.263725</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-750.57404</data>
+<data key="y">384.10025</data>
+</node>
+<node id="咖喱酱">
+<data key="label">咖喱酱</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004545687571067064</data>
+<data key="size">17.101213</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-560.8852</data>
+<data key="y">-780.10205</data>
+</node>
+<node id="布丁">
+<data key="label">布丁</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.007775594029668664</data>
+<data key="size">26.687199</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-474.9663</data>
+<data key="y">744.6736</data>
+</node>
+<node id="小米">
+<data key="label">小米</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006936587040062114</data>
+<data key="size">24.197124</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">632.7678</data>
+<data key="y">795.0804</data>
+</node>
+<node id="乌龙茶">
+<data key="label">乌龙茶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.009551059473962144</data>
+<data key="size">31.956573</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1196.4038</data>
+<data key="y">-559.02655</data>
+</node>
+<node id="奶茶">
+<data key="label">奶茶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.006364004637509564</data>
+<data key="size">22.497766</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1118.2325</data>
+<data key="y">-542.6983</data>
+</node>
+<node id="草莓酱">
+<data key="label">草莓酱</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0025908149426874666</data>
+<data key="size">11.299379</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-555.32324</data>
+<data key="y">-610.98804</data>
+</node>
+<node id="坚果">
+<data key="label">坚果</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0059265490630289845</data>
+<data key="size">21.19945</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">392.62177</data>
+<data key="y">1125.8867</data>
+</node>
+<node id="春卷">
+<data key="label">春卷</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.010098680673347038</data>
+<data key="size">33.58185</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-869.94464</data>
+<data key="y">22.960003</data>
+</node>
+<node id="牛肉面">
+<data key="label">牛肉面</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.009398218340891306</data>
+<data key="size">31.50296</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-188.29579</data>
+<data key="y">29.491959</data>
+</node>
+<node id="冰红茶">
+<data key="label">冰红茶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.004947272024963697</data>
+<data key="size">18.293068</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1065.5347</data>
+<data key="y">-595.9338</data>
+</node>
+<node id="红茶">
+<data key="label">红茶</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008456649400959585</data>
+<data key="size">28.708492</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">1284.7186</data>
+<data key="y">-556.5519</data>
+</node>
+<node id="面包酱">
+<data key="label">面包酱</data>
+<data key="0">调料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.008404249637763548</data>
+<data key="size">28.552975</data>
+<data key="r">40</data>
+<data key="g">179</data>
+<data key="b">106</data>
+<data key="x">-367.53287</data>
+<data key="y">-653.3693</data>
+</node>
+<node id="米饭">
+<data key="label">米饭</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.00650010930887588</data>
+<data key="size">22.90171</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">162.84764</data>
+<data key="y">140.64694</data>
+</node>
+<node id="柠檬水">
+<data key="label">柠檬水</data>
+<data key="0">酒水饮料</data>
+<data key="1">食物</data>
+<data key="pageranks">0.0028457499576654585</data>
+<data key="size">12.055996</data>
+<data key="r">249</data>
+<data key="g">119</data>
+<data key="b">67</data>
+<data key="x">484.77524</data>
+<data key="y">-472.9536</data>
+</node>
+<node id="披萨">
+<data key="label">披萨</data>
+<data key="0">固态干粮</data>
+<data key="1">食物</data>
+<data key="pageranks">0.011061459855461945</data>
+<data key="size">36.439266</data>
+<data key="r">154</data>
+<data key="g">150</data>
+<data key="b">229</data>
+<data key="x">-920.4677</data>
+<data key="y">191.96428</data>
+</node>
+<edge id="0" source="糕点" target="包子">
+<data key="weight">0.7352098226547241</data>
+</edge>
+<edge id="1" source="糕点" target="春卷">
+<data key="weight">0.676156222820282</data>
+</edge>
+<edge id="3" source="糕点" target="馄饨">
+<data key="weight">0.581853985786438</data>
+</edge>
+<edge id="4" source="糕点" target="煎饼">
+<data key="weight">0.8135498762130737</data>
+</edge>
+<edge id="5" source="糕点" target="饺子">
+<data key="weight">0.6820074319839478</data>
+</edge>
+<edge id="6" source="糕点" target="卷饼">
+<data key="weight">0.5663744211196899</data>
+</edge>
+<edge id="7" source="糕点" target="披萨">
+<data key="weight">0.6812711954116821</data>
+</edge>
+<edge id="8" source="糕点" target="馅饼">
+<data key="weight">0.7468013167381287</data>
+</edge>
+<edge id="9" source="花生米" target="干果">
+<data key="weight">0.5239081978797913</data>
+</edge>
+<edge id="10" source="花生米" target="花生">
+<data key="weight">0.6433190703392029</data>
+</edge>
+<edge id="12" source="花生米" target="葵花籽">
+<data key="weight">0.5853539705276489</data>
+</edge>
+<edge id="13" source="甜甜圈" target="蛋卷">
+<data key="weight">0.5222710967063904</data>
+</edge>
+<edge id="14" source="甜甜圈" target="煎蛋卷">
+<data key="weight">0.5488038063049316</data>
+</edge>
+<edge id="15" source="甜甜圈" target="甜点">
+<data key="weight">0.5711426138877869</data>
+</edge>
+<edge id="17" source="荞麦" target="谷子">
+<data key="weight">0.6914584040641785</data>
+</edge>
+<edge id="18" source="荞麦" target="魔芋">
+<data key="weight">0.7111244797706604</data>
+</edge>
+<edge id="20" source="荞麦" target="小麦">
+<data key="weight">0.7250727415084839</data>
+</edge>
+<edge id="21" source="清汤" target="羹汤">
+<data key="weight">0.7965152859687805</data>
+</edge>
+<edge id="22" source="清汤" target="绿豆汤">
+<data key="weight">0.5355973839759827</data>
+</edge>
+<edge id="24" source="清汤" target="肉汤">
+<data key="weight">0.8183910846710205</data>
+</edge>
+<edge id="25" source="巧克力" target="可可巧克力">
+<data key="weight">0.5885672569274902</data>
+</edge>
+<edge id="27" source="巧克力" target="糖果">
+<data key="weight">0.5585355162620544</data>
+</edge>
+<edge id="29" source="番茄酱" target="花生酱">
+<data key="weight">0.5739139318466187</data>
+</edge>
+<edge id="30" source="番茄酱" target="辣椒酱">
+<data key="weight">0.5229203701019287</data>
+</edge>
+<edge id="31" source="番茄酱" target="面包酱">
+<data key="weight">0.5502838492393494</data>
+</edge>
+<edge id="33" source="八宝粥" target="白粥">
+<data key="weight">0.5866502523422241</data>
+</edge>
+<edge id="34" source="八宝粥" target="稀饭">
+<data key="weight">0.564622700214386</data>
+</edge>
+<edge id="36" source="谷物" target="小麦">
+<data key="weight">0.6150277853012085</data>
+</edge>
+<edge id="37" source="谷物" target="小米">
+<data key="weight">0.5718339681625366</data>
+</edge>
+<edge id="38" source="二锅头" target="白酒">
+<data key="weight">0.8306349515914917</data>
+</edge>
+<edge id="40" source="二锅头" target="红酒">
+<data key="weight">0.8703842163085938</data>
+</edge>
+<edge id="41" source="二锅头" target="鸡尾酒">
+<data key="weight">0.7718501091003418</data>
+</edge>
+<edge id="42" source="二锅头" target="葡萄酒">
+<data key="weight">0.7656171917915344</data>
+</edge>
+<edge id="43" source="二锅头" target="清酒">
+<data key="weight">0.8972193002700806</data>
+</edge>
+<edge id="44" source="二锅头" target="威士忌酒">
+<data key="weight">0.8683609366416931</data>
+</edge>
+<edge id="45" source="二锅头" target="香槟">
+<data key="weight">0.659673810005188</data>
+</edge>
+<edge id="46" source="蛋卷冰淇淋" target="冰淇淋">
+<data key="weight">0.5668361186981201</data>
+</edge>
+<edge id="48" source="蛋卷冰淇淋" target="奶油">
+<data key="weight">0.5330294370651245</data>
+</edge>
+<edge id="49" source="蛋卷冰淇淋" target="巧克力冰淇淋">
+<data key="weight">0.7600557804107666</data>
+</edge>
+<edge id="50" source="蛋卷冰淇淋" target="香草冰淇淋">
+<data key="weight">0.6850994825363159</data>
+</edge>
+<edge id="51" source="油饼" target="饼干">
+<data key="weight">0.5389237403869629</data>
+</edge>
+<edge id="52" source="油饼" target="大饼">
+<data key="weight">0.647300660610199</data>
+</edge>
+<edge id="53" source="油饼" target="蛋卷">
+<data key="weight">0.5733320713043213</data>
+</edge>
+<edge id="54" source="油饼" target="汉堡">
+<data key="weight">0.6013576984405518</data>
+</edge>
+<edge id="55" source="油饼" target="煎蛋卷">
+<data key="weight">0.6909845471382141</data>
+</edge>
+<edge id="56" source="油饼" target="麻花">
+<data key="weight">0.5535354614257812</data>
+</edge>
+<edge id="57" source="油饼" target="馒头">
+<data key="weight">0.5909531116485596</data>
+</edge>
+<edge id="59" source="油饼" target="油条">
+<data key="weight">0.7063109278678894</data>
+</edge>
+<edge id="61" source="百事可乐" target="纯净水">
+<data key="weight">0.5981004238128662</data>
+</edge>
+<edge id="62" source="百事可乐" target="果汁">
+<data key="weight">0.5880013704299927</data>
+</edge>
+<edge id="63" source="百事可乐" target="橘子汽水">
+<data key="weight">0.7349934577941895</data>
+</edge>
+<edge id="64" source="百事可乐" target="可口可乐">
+<data key="weight">0.8647212386131287</data>
+</edge>
+<edge id="65" source="百事可乐" target="瓶装水">
+<data key="weight">0.5819072723388672</data>
+</edge>
+<edge id="66" source="百事可乐" target="汽水">
+<data key="weight">0.8842746615409851</data>
+</edge>
+<edge id="67" source="百事可乐" target="苏打水">
+<data key="weight">0.9424433708190918</data>
+</edge>
+<edge id="68" source="水" target="纯净水">
+<data key="weight">0.5844530463218689</data>
+</edge>
+<edge id="70" source="寿司" target="春卷">
+<data key="weight">0.5669731497764587</data>
+</edge>
+<edge id="71" source="寿司" target="披萨">
+<data key="weight">0.5386364459991455</data>
+</edge>
+<edge id="73" source="寿司" target="馅饼">
+<data key="weight">0.5357930064201355</data>
+</edge>
+<edge id="74" source="奶油" target="棉花糖">
+<data key="weight">0.6847187280654907</data>
+</edge>
+<edge id="75" source="奶油" target="奶酪">
+<data key="weight">0.6222209334373474</data>
+</edge>
+<edge id="77" source="奶油" target="香草冰淇淋">
+<data key="weight">0.5426561236381531</data>
+</edge>
+<edge id="79" source="菠萝汁" target="橙汁">
+<data key="weight">0.6367579102516174</data>
+</edge>
+<edge id="80" source="菠萝汁" target="果汁">
+<data key="weight">0.5398591160774231</data>
+</edge>
+<edge id="81" source="菠萝汁" target="苹果汁">
+<data key="weight">0.6372016668319702</data>
+</edge>
+<edge id="82" source="菠萝汁" target="葡萄汁">
+<data key="weight">0.6131621599197388</data>
+</edge>
+<edge id="83" source="蛋卷" target="蛋糕">
+<data key="weight">0.5842341780662537</data>
+</edge>
+<edge id="85" source="蛋卷" target="法式面包">
+<data key="weight">0.5581482648849487</data>
+</edge>
+<edge id="86" source="蛋卷" target="煎蛋卷">
+<data key="weight">0.6494832634925842</data>
+</edge>
+<edge id="87" source="蛋卷" target="甜点">
+<data key="weight">0.7252208590507507</data>
+</edge>
+<edge id="89" source="爆米花" target="饼干">
+<data key="weight">0.5414379835128784</data>
+</edge>
+<edge id="90" source="爆米花" target="棉花糖">
+<data key="weight">0.5507413148880005</data>
+</edge>
+<edge id="91" source="爆米花" target="奶酪">
+<data key="weight">0.5267124772071838</data>
+</edge>
+<edge id="92" source="热狗" target="汉堡">
+<data key="weight">0.6479974985122681</data>
+</edge>
+<edge id="95" source="白酒" target="红酒">
+<data key="weight">0.7190927863121033</data>
+</edge>
+<edge id="96" source="白酒" target="鸡尾酒">
+<data key="weight">0.6438740491867065</data>
+</edge>
+<edge id="97" source="白酒" target="葡萄酒">
+<data key="weight">0.6389599442481995</data>
+</edge>
+<edge id="98" source="白酒" target="清酒">
+<data key="weight">0.7470934987068176</data>
+</edge>
+<edge id="99" source="白酒" target="威士忌酒">
+<data key="weight">0.7357109189033508</data>
+</edge>
+<edge id="100" source="白酒" target="香槟">
+<data key="weight">0.6903862953186035</data>
+</edge>
+<edge id="101" source="炸酱面" target="方便面">
+<data key="weight">0.648701012134552</data>
+</edge>
+<edge id="102" source="炸酱面" target="冷面">
+<data key="weight">0.6285942792892456</data>
+</edge>
+<edge id="103" source="炸酱面" target="牛肉面">
+<data key="weight">0.617359459400177</data>
+</edge>
+<edge id="104" source="炸酱面" target="意大利面">
+<data key="weight">0.6936260461807251</data>
+</edge>
+<edge id="107" source="冰棍" target="冰淇淋">
+<data key="weight">0.8660421967506409</data>
+</edge>
+<edge id="108" source="小麦" target="谷子">
+<data key="weight">0.672797679901123</data>
+</edge>
+<edge id="109" source="小麦" target="魔芋">
+<data key="weight">0.560890257358551</data>
+</edge>
+<edge id="111" source="粥" target="豆浆">
+<data key="weight">0.5644490122795105</data>
+</edge>
+<edge id="112" source="粥" target="豆奶">
+<data key="weight">0.5718733668327332</data>
+</edge>
+<edge id="113" source="粥" target="稀饭">
+<data key="weight">0.600532054901123</data>
+</edge>
+<edge id="115" source="蛋糕" target="布丁">
+<data key="weight">0.6676778793334961</data>
+</edge>
+<edge id="117" source="蛋糕" target="煎蛋卷">
+<data key="weight">0.5951647758483887</data>
+</edge>
+<edge id="118" source="蛋糕" target="全麦饼干">
+<data key="weight">0.6396664977073669</data>
+</edge>
+<edge id="119" source="蛋糕" target="甜点">
+<data key="weight">0.5230240821838379</data>
+</edge>
+<edge id="120" source="蛋糕" target="芝士蛋糕">
+<data key="weight">0.6673883199691772</data>
+</edge>
+<edge id="121" source="果酱" target="草莓酱">
+<data key="weight">0.5225682854652405</data>
+</edge>
+<edge id="123" source="果酱" target="辣椒酱">
+<data key="weight">0.6214151382446289</data>
+</edge>
+<edge id="124" source="果酱" target="沙拉酱">
+<data key="weight">0.5263327360153198</data>
+</edge>
+<edge id="125" source="卷饼" target="包子">
+<data key="weight">0.6631397604942322</data>
+</edge>
+<edge id="126" source="卷饼" target="春卷">
+<data key="weight">0.7968741655349731</data>
+</edge>
+<edge id="127" source="卷饼" target="馄饨">
+<data key="weight">0.9102758765220642</data>
+</edge>
+<edge id="128" source="卷饼" target="煎饼">
+<data key="weight">0.6996196508407593</data>
+</edge>
+<edge id="129" source="卷饼" target="饺子">
+<data key="weight">0.7595899701118469</data>
+</edge>
+<edge id="131" source="卷饼" target="披萨">
+<data key="weight">0.7607247829437256</data>
+</edge>
+<edge id="132" source="卷饼" target="馅饼">
+<data key="weight">0.7277584671974182</data>
+</edge>
+<edge id="133" source="通心粉" target="大饼">
+<data key="weight">0.6345061659812927</data>
+</edge>
+<edge id="134" source="通心粉" target="凉粉">
+<data key="weight">0.5768862962722778</data>
+</edge>
+<edge id="135" source="通心粉" target="凉皮">
+<data key="weight">0.6862099766731262</data>
+</edge>
+<edge id="136" source="通心粉" target="馒头">
+<data key="weight">0.5292404294013977</data>
+</edge>
+<edge id="137" source="通心粉" target="米饭">
+<data key="weight">0.6285912394523621</data>
+</edge>
+<edge id="138" source="通心粉" target="米线">
+<data key="weight">0.6361287236213684</data>
+</edge>
+<edge id="139" source="通心粉" target="面粉">
+<data key="weight">0.5585280656814575</data>
+</edge>
+<edge id="140" source="通心粉" target="牛肉面">
+<data key="weight">0.5671922564506531</data>
+</edge>
+<edge id="142" source="绿豆汤" target="羹汤">
+<data key="weight">0.5239164233207703</data>
+</edge>
+<edge id="144" source="牛奶" target="豆浆">
+<data key="weight">0.623291015625</data>
+</edge>
+<edge id="145" source="牛奶" target="豆奶">
+<data key="weight">0.5624473094940186</data>
+</edge>
+<edge id="146" source="牛奶" target="羹汤">
+<data key="weight">0.5410852432250977</data>
+</edge>
+<edge id="147" source="牛奶" target="果汁">
+<data key="weight">0.5319105982780457</data>
+</edge>
+<edge id="148" source="牛奶" target="牦牛奶">
+<data key="weight">0.6229208111763</data>
+</edge>
+<edge id="150" source="牛奶" target="全脂牛奶">
+<data key="weight">0.6175486445426941</data>
+</edge>
+<edge id="151" source="牛奶" target="酸奶">
+<data key="weight">0.6956542134284973</data>
+</edge>
+<edge id="153" source="大米" target="小米">
+<data key="weight">0.5372520089149475</data>
+</edge>
+<edge id="154" source="可口可乐" target="纯净水">
+<data key="weight">0.5802631378173828</data>
+</edge>
+<edge id="155" source="可口可乐" target="果汁">
+<data key="weight">0.5592003464698792</data>
+</edge>
+<edge id="156" source="可口可乐" target="橘子汽水">
+<data key="weight">0.680479884147644</data>
+</edge>
+<edge id="158" source="可口可乐" target="瓶装水">
+<data key="weight">0.598705530166626</data>
+</edge>
+<edge id="159" source="可口可乐" target="汽水">
+<data key="weight">0.8157355785369873</data>
+</edge>
+<edge id="160" source="可口可乐" target="苏打水">
+<data key="weight">0.8453177213668823</data>
+</edge>
+<edge id="161" source="白粥" target="白饭">
+<data key="weight">0.5472687482833862</data>
+</edge>
+<edge id="163" source="白粥" target="稀饭">
+<data key="weight">0.621391773223877</data>
+</edge>
+<edge id="164" source="香槟" target="红酒">
+<data key="weight">0.7359609007835388</data>
+</edge>
+<edge id="165" source="香槟" target="鸡尾酒">
+<data key="weight">0.6619665622711182</data>
+</edge>
+<edge id="166" source="香槟" target="葡萄酒">
+<data key="weight">0.6551260352134705</data>
+</edge>
+<edge id="167" source="香槟" target="清酒">
+<data key="weight">0.6616511940956116</data>
+</edge>
+<edge id="168" source="香槟" target="威士忌酒">
+<data key="weight">0.7239896059036255</data>
+</edge>
+<edge id="171" source="白水" target="冰红茶">
+<data key="weight">0.5800614356994629</data>
+</edge>
+<edge id="172" source="白水" target="纯净水">
+<data key="weight">0.77875816822052</data>
+</edge>
+<edge id="173" source="白水" target="瓶装水">
+<data key="weight">0.6255564093589783</data>
+</edge>
+<edge id="175" source="法式面包" target="烤面包">
+<data key="weight">0.6783425211906433</data>
+</edge>
+<edge id="176" source="法式面包" target="麻花">
+<data key="weight">0.5782272219657898</data>
+</edge>
+<edge id="178" source="方便面" target="冷面">
+<data key="weight">0.5564973950386047</data>
+</edge>
+<edge id="179" source="方便面" target="牛肉面">
+<data key="weight">0.6916356682777405</data>
+</edge>
+<edge id="180" source="方便面" target="意大利面">
+<data key="weight">0.7754566073417664</data>
+</edge>
+<edge id="181" source="茶包" target="碧螺春">
+<data key="weight">0.539050817489624</data>
+</edge>
+<edge id="183" source="茶包" target="奶茶">
+<data key="weight">0.5428229570388794</data>
+</edge>
+<edge id="184" source="茶包" target="普洱茶">
+<data key="weight">0.5389505624771118</data>
+</edge>
+<edge id="185" source="茶包" target="乌龙茶">
+<data key="weight">0.6969690322875977</data>
+</edge>
+<edge id="186" source="油条" target="煎蛋卷">
+<data key="weight">0.6756671667098999</data>
+</edge>
+<edge id="187" source="油条" target="馒头">
+<data key="weight">0.5663526058197021</data>
+</edge>
+<edge id="189" source="花生" target="谷子">
+<data key="weight">0.5246520042419434</data>
+</edge>
+<edge id="191" source="花生" target="咖啡豆">
+<data key="weight">0.5415670275688171</data>
+</edge>
+<edge id="192" source="花生" target="葵花籽">
+<data key="weight">0.6235442757606506</data>
+</edge>
+<edge id="194" source="橙汁" target="豆浆">
+<data key="weight">0.5835404992103577</data>
+</edge>
+<edge id="195" source="橙汁" target="豆奶">
+<data key="weight">0.5485645532608032</data>
+</edge>
+<edge id="196" source="橙汁" target="果汁">
+<data key="weight">0.7167137861251831</data>
+</edge>
+<edge id="197" source="橙汁" target="橘子汽水">
+<data key="weight">0.5522240400314331</data>
+</edge>
+<edge id="198" source="橙汁" target="苹果汁">
+<data key="weight">0.7865327596664429</data>
+</edge>
+<edge id="199" source="橙汁" target="葡萄汁">
+<data key="weight">0.8847804069519043</data>
+</edge>
+<edge id="200" source="饺子" target="包子">
+<data key="weight">0.6667292714118958</data>
+</edge>
+<edge id="201" source="饺子" target="春卷">
+<data key="weight">0.812556803226471</data>
+</edge>
+<edge id="202" source="饺子" target="馄饨">
+<data key="weight">0.8025002479553223</data>
+</edge>
+<edge id="203" source="饺子" target="煎饼">
+<data key="weight">0.7799871563911438</data>
+</edge>
+<edge id="205" source="饺子" target="披萨">
+<data key="weight">0.796615481376648</data>
+</edge>
+<edge id="206" source="饺子" target="馅饼">
+<data key="weight">0.8009001612663269</data>
+</edge>
+<edge id="207" source="棉花糖" target="可可巧克力">
+<data key="weight">0.5354386568069458</data>
+</edge>
+<edge id="209" source="棉花糖" target="奶酪">
+<data key="weight">0.5344986319541931</data>
+</edge>
+<edge id="210" source="魔芋" target="谷子">
+<data key="weight">0.5353463888168335</data>
+</edge>
+<edge id="213" source="大饼" target="凉皮">
+<data key="weight">0.5413830280303955</data>
+</edge>
+<edge id="214" source="大饼" target="馒头">
+<data key="weight">0.52253657579422</data>
+</edge>
+<edge id="215" source="大饼" target="面筋">
+<data key="weight">0.5745837688446045</data>
+</edge>
+<edge id="217" source="红酒" target="鸡尾酒">
+<data key="weight">0.8439298868179321</data>
+</edge>
+<edge id="218" source="红酒" target="葡萄酒">
+<data key="weight">0.8617215752601624</data>
+</edge>
+<edge id="219" source="红酒" target="清酒">
+<data key="weight">0.8493167161941528</data>
+</edge>
+<edge id="220" source="红酒" target="威士忌酒">
+<data key="weight">0.9495348334312439</data>
+</edge>
+<edge id="221" source="味精" target="白砂糖">
+<data key="weight">0.807246208190918</data>
+</edge>
+<edge id="222" source="味精" target="白糖">
+<data key="weight">0.6494696736335754</data>
+</edge>
+<edge id="223" source="味精" target="冰糖">
+<data key="weight">0.6212475299835205</data>
+</edge>
+<edge id="224" source="味精" target="花生酱">
+<data key="weight">0.6744255423545837</data>
+</edge>
+<edge id="225" source="味精" target="辣椒粉">
+<data key="weight">0.6128199100494385</data>
+</edge>
+<edge id="226" source="味精" target="辣椒酱">
+<data key="weight">0.5420467853546143</data>
+</edge>
+<edge id="228" source="味精" target="蔗糖">
+<data key="weight">0.8009197115898132</data>
+</edge>
+<edge id="229" source="普洱茶" target="碧螺春">
+<data key="weight">0.7473522424697876</data>
+</edge>
+<edge id="230" source="普洱茶" target="茶">
+<data key="weight">0.5544459819793701</data>
+</edge>
+<edge id="231" source="普洱茶" target="红茶">
+<data key="weight">0.8334481120109558</data>
+</edge>
+<edge id="233" source="普洱茶" target="乌龙茶">
+<data key="weight">0.6394874453544617</data>
+</edge>
+<edge id="235" source="包子" target="春卷">
+<data key="weight">0.6131779551506042</data>
+</edge>
+<edge id="236" source="包子" target="馄饨">
+<data key="weight">0.7159225344657898</data>
+</edge>
+<edge id="237" source="包子" target="煎饼">
+<data key="weight">0.6985217332839966</data>
+</edge>
+<edge id="238" source="包子" target="披萨">
+<data key="weight">0.6150999069213867</data>
+</edge>
+<edge id="239" source="包子" target="馅饼">
+<data key="weight">0.694351851940155</data>
+</edge>
+<edge id="240" source="蔗糖" target="白砂糖">
+<data key="weight">0.7868430018424988</data>
+</edge>
+<edge id="241" source="蔗糖" target="白糖">
+<data key="weight">0.7288705706596375</data>
+</edge>
+<edge id="242" source="蔗糖" target="冰糖">
+<data key="weight">0.681499719619751</data>
+</edge>
+<edge id="243" source="蔗糖" target="花生酱">
+<data key="weight">0.6157275438308716</data>
+</edge>
+<edge id="244" source="蔗糖" target="辣椒粉">
+<data key="weight">0.578972339630127</data>
+</edge>
+<edge id="247" source="酱油" target="醋">
+<data key="weight">0.6191141605377197</data>
+</edge>
+<edge id="248" source="酱油" target="蜂蜜">
+<data key="weight">0.58745938539505</data>
+</edge>
+<edge id="249" source="酱油" target="花生酱">
+<data key="weight">0.5609090924263</data>
+</edge>
+<edge id="251" source="酱油" target="辣椒粉">
+<data key="weight">0.5467333793640137</data>
+</edge>
+<edge id="252" source="酱油" target="面包酱">
+<data key="weight">0.5813895463943481</data>
+</edge>
+<edge id="253" source="酱油" target="沙拉酱">
+<data key="weight">0.5206171274185181</data>
+</edge>
+<edge id="254" source="面筋" target="烤面包">
+<data key="weight">0.5434404015541077</data>
+</edge>
+<edge id="255" source="面筋" target="凉粉">
+<data key="weight">0.5299198627471924</data>
+</edge>
+<edge id="256" source="面筋" target="凉皮">
+<data key="weight">0.5801121592521667</data>
+</edge>
+<edge id="257" source="面筋" target="米线">
+<data key="weight">0.5765547752380371</data>
+</edge>
+<edge id="259" source="泉水" target="纯净水">
+<data key="weight">0.5404446721076965</data>
+</edge>
+<edge id="261" source="泉水" target="热水">
+<data key="weight">0.9064295887947083</data>
+</edge>
+<edge id="263" source="羹汤" target="肉汤">
+<data key="weight">0.831254243850708</data>
+</edge>
+<edge id="264" source="苹果汁" target="豆浆">
+<data key="weight">0.5709519386291504</data>
+</edge>
+<edge id="265" source="苹果汁" target="豆奶">
+<data key="weight">0.5286211967468262</data>
+</edge>
+<edge id="266" source="苹果汁" target="果汁">
+<data key="weight">0.7733508944511414</data>
+</edge>
+<edge id="267" source="苹果汁" target="橘子汽水">
+<data key="weight">0.5923848748207092</data>
+</edge>
+<edge id="269" source="苹果汁" target="葡萄汁">
+<data key="weight">0.7309942841529846</data>
+</edge>
+<edge id="271" source="香草冰淇淋" target="巧克力冰淇淋">
+<data key="weight">0.5676316022872925</data>
+</edge>
+<edge id="273" source="汉堡" target="比萨">
+<data key="weight">0.637173593044281</data>
+</edge>
+<edge id="274" source="汉堡" target="春卷">
+<data key="weight">0.5442631840705872</data>
+</edge>
+<edge id="276" source="汉堡" target="三明治">
+<data key="weight">0.6079359650611877</data>
+</edge>
+<edge id="277" source="汉堡" target="馅饼">
+<data key="weight">0.5333859324455261</data>
+</edge>
+<edge id="278" source="馅饼" target="春卷">
+<data key="weight">0.8092301487922668</data>
+</edge>
+<edge id="279" source="馅饼" target="馄饨">
+<data key="weight">0.7085142731666565</data>
+</edge>
+<edge id="280" source="馅饼" target="煎饼">
+<data key="weight">0.8619224429130554</data>
+</edge>
+<edge id="281" source="馅饼" target="披萨">
+<data key="weight">0.8301534652709961</data>
+</edge>
+<edge id="283" source="冰糖" target="白砂糖">
+<data key="weight">0.8314725756645203</data>
+</edge>
+<edge id="284" source="冰糖" target="白糖">
+<data key="weight">0.6639376282691956</data>
+</edge>
+<edge id="286" source="冰糖" target="花生酱">
+<data key="weight">0.6693260073661804</data>
+</edge>
+<edge id="287" source="冰糖" target="辣椒粉">
+<data key="weight">0.6120346784591675</data>
+</edge>
+<edge id="288" source="芝麻" target="谷子">
+<data key="weight">0.5943470597267151</data>
+</edge>
+<edge id="290" source="葡萄汁" target="豆浆">
+<data key="weight">0.5392230153083801</data>
+</edge>
+<edge id="291" source="葡萄汁" target="蜂蜜">
+<data key="weight">0.5276655554771423</data>
+</edge>
+<edge id="292" source="葡萄汁" target="果汁">
+<data key="weight">0.6554667353630066</data>
+</edge>
+<edge id="293" source="葡萄汁" target="橘子汽水">
+<data key="weight">0.546896755695343</data>
+</edge>
+<edge id="294" source="葡萄汁" target="葡萄酒">
+<data key="weight">0.5459036231040955</data>
+</edge>
+<edge id="296" source="三明治" target="比萨">
+<data key="weight">0.5427724719047546</data>
+</edge>
+<edge id="297" source="三明治" target="披萨">
+<data key="weight">0.5410593152046204</data>
+</edge>
+<edge id="300" source="黑胡椒" target="胡椒">
+<data key="weight">0.6520949006080627</data>
+</edge>
+<edge id="301" source="果汁" target="豆浆">
+<data key="weight">0.589101254940033</data>
+</edge>
+<edge id="302" source="果汁" target="豆奶">
+<data key="weight">0.5716325640678406</data>
+</edge>
+<edge id="304" source="果汁" target="橘子汽水">
+<data key="weight">0.6719686388969421</data>
+</edge>
+<edge id="305" source="果汁" target="柠檬水">
+<data key="weight">0.6481186151504517</data>
+</edge>
+<edge id="306" source="果汁" target="汽水">
+<data key="weight">0.7208989262580872</data>
+</edge>
+<edge id="307" source="果汁" target="苏打水">
+<data key="weight">0.6150386333465576</data>
+</edge>
+<edge id="308" source="果汁" target="酸奶">
+<data key="weight">0.5470471978187561</data>
+</edge>
+<edge id="311" source="蜂蜜" target="糖浆">
+<data key="weight">0.6348001956939697</data>
+</edge>
+<edge id="312" source="白糖" target="白砂糖">
+<data key="weight">0.8171035647392273</data>
+</edge>
+<edge id="316" source="馒头" target="煎蛋卷">
+<data key="weight">0.600749135017395</data>
+</edge>
+<edge id="318" source="米线" target="凉粉">
+<data key="weight">0.6003729104995728</data>
+</edge>
+<edge id="319" source="米线" target="凉皮">
+<data key="weight">0.7788126468658447</data>
+</edge>
+<edge id="322" source="白饭" target="米饭">
+<data key="weight">0.7335063219070435</data>
+</edge>
+<edge id="324" source="炒面" target="冷面">
+<data key="weight">0.5239287614822388</data>
+</edge>
+<edge id="325" source="炒面" target="牛肉面">
+<data key="weight">0.5822581052780151</data>
+</edge>
+<edge id="326" source="炒面" target="意大利面">
+<data key="weight">0.626059353351593</data>
+</edge>
+<edge id="327" source="瓶装水" target="纯净水">
+<data key="weight">0.8007445335388184</data>
+</edge>
+<edge id="329" source="瓶装水" target="汽水">
+<data key="weight">0.5425103902816772</data>
+</edge>
+<edge id="330" source="瓶装水" target="苏打水">
+<data key="weight">0.6578508615493774</data>
+</edge>
+<edge id="332" source="橘子汽水" target="柠檬水">
+<data key="weight">0.532178521156311</data>
+</edge>
+<edge id="333" source="橘子汽水" target="汽水">
+<data key="weight">0.7203768491744995</data>
+</edge>
+<edge id="334" source="橘子汽水" target="苏打水">
+<data key="weight">0.7507545948028564</data>
+</edge>
+<edge id="335" source="煎蛋卷" target="比萨">
+<data key="weight">0.6000800132751465</data>
+</edge>
+<edge id="336" source="煎蛋卷" target="饼干">
+<data key="weight">0.6905120015144348</data>
+</edge>
+<edge id="337" source="煎蛋卷" target="煎饼">
+<data key="weight">0.5553271174430847</data>
+</edge>
+<edge id="339" source="煎蛋卷" target="甜点">
+<data key="weight">0.5880642533302307</data>
+</edge>
+<edge id="341" source="椒盐" target="辣椒粉">
+<data key="weight">0.5906457304954529</data>
+</edge>
+<edge id="342" source="面粉" target="米饭">
+<data key="weight">0.545046865940094</data>
+</edge>
+<edge id="345" source="牦牛奶" target="巧克力牛奶">
+<data key="weight">0.9058228135108948</data>
+</edge>
+<edge id="346" source="牦牛奶" target="全脂牛奶">
+<data key="weight">0.9172652363777161</data>
+</edge>
+<edge id="347" source="花生酱" target="白砂糖">
+<data key="weight">0.6225439310073853</data>
+</edge>
+<edge id="348" source="花生酱" target="胡椒">
+<data key="weight">0.5309364199638367</data>
+</edge>
+<edge id="350" source="花生酱" target="咖喱酱">
+<data key="weight">0.5904775857925415</data>
+</edge>
+<edge id="351" source="花生酱" target="辣椒粉">
+<data key="weight">0.7235983610153198</data>
+</edge>
+<edge id="352" source="花生酱" target="辣椒酱">
+<data key="weight">0.6472452282905579</data>
+</edge>
+<edge id="353" source="花生酱" target="面包酱">
+<data key="weight">0.6311821937561035</data>
+</edge>
+<edge id="354" source="沙拉酱" target="辣椒酱">
+<data key="weight">0.6156018972396851</data>
+</edge>
+<edge id="355" source="沙拉酱" target="面包酱">
+<data key="weight">0.6486664414405823</data>
+</edge>
+<edge id="358" source="辣椒酱" target="咖喱酱">
+<data key="weight">0.653040885925293</data>
+</edge>
+<edge id="359" source="辣椒酱" target="辣椒粉">
+<data key="weight">0.6802987456321716</data>
+</edge>
+<edge id="361" source="辣椒酱" target="面包酱">
+<data key="weight">0.5577595233917236</data>
+</edge>
+<edge id="362" source="全脂牛奶" target="巧克力牛奶">
+<data key="weight">0.8622145056724548</data>
+</edge>
+<edge id="364" source="糖果" target="棒棒糖">
+<data key="weight">0.656258225440979</data>
+</edge>
+<edge id="365" source="糖果" target="干果">
+<data key="weight">0.5249038338661194</data>
+</edge>
+<edge id="369" source="凉皮" target="凉粉">
+<data key="weight">0.6767538785934448</data>
+</edge>
+<edge id="372" source="豆浆" target="豆奶">
+<data key="weight">0.9025149941444397</data>
+</edge>
+<edge id="373" source="豆浆" target="葡萄酒">
+<data key="weight">0.5206820368766785</data>
+</edge>
+<edge id="377" source="白砂糖" target="辣椒粉">
+<data key="weight">0.5852752327919006</data>
+</edge>
+<edge id="379" source="清酒" target="鸡尾酒">
+<data key="weight">0.7574940323829651</data>
+</edge>
+<edge id="380" source="清酒" target="葡萄酒">
+<data key="weight">0.7520188093185425</data>
+</edge>
+<edge id="382" source="清酒" target="威士忌酒">
+<data key="weight">0.8292204141616821</data>
+</edge>
+<edge id="383" source="辣椒粉" target="胡椒">
+<data key="weight">0.6411628127098083</data>
+</edge>
+<edge id="384" source="辣椒粉" target="咖喱酱">
+<data key="weight">0.5767261385917664</data>
+</edge>
+<edge id="386" source="辣椒粉" target="面包酱">
+<data key="weight">0.5258271098136902</data>
+</edge>
+<edge id="388" source="冰淇淋蛋糕" target="布丁">
+<data key="weight">0.5684662461280823</data>
+</edge>
+<edge id="389" source="冰淇淋蛋糕" target="甜点">
+<data key="weight">0.5840286612510681</data>
+</edge>
+<edge id="390" source="冰淇淋蛋糕" target="芝士蛋糕">
+<data key="weight">0.617572546005249</data>
+</edge>
+<edge id="391" source="全麦饼干" target="布丁">
+<data key="weight">0.5874904990196228</data>
+</edge>
+<edge id="393" source="全麦饼干" target="芝士蛋糕">
+<data key="weight">0.533479630947113</data>
+</edge>
+<edge id="394" source="煎饼" target="春卷">
+<data key="weight">0.7730330228805542</data>
+</edge>
+<edge id="395" source="煎饼" target="馄饨">
+<data key="weight">0.6488564610481262</data>
+</edge>
+<edge id="397" source="煎饼" target="披萨">
+<data key="weight">0.8093914985656738</data>
+</edge>
+<edge id="398" source="苏打水" target="纯净水">
+<data key="weight">0.670242428779602</data>
+</edge>
+<edge id="399" source="苏打水" target="汽水">
+<data key="weight">0.8785482048988342</data>
+</edge>
+<edge id="402" source="冷面" target="牛肉面">
+<data key="weight">0.7189614176750183</data>
+</edge>
+<edge id="403" source="冷面" target="意大利面">
+<data key="weight">0.659274697303772</data>
+</edge>
+<edge id="405" source="饼干" target="比萨">
+<data key="weight">0.6989819407463074</data>
+</edge>
+<edge id="407" source="饼干" target="布丁">
+<data key="weight">0.6101832389831543</data>
+</edge>
+<edge id="409" source="威士忌酒" target="鸡尾酒">
+<data key="weight">0.8471572399139404</data>
+</edge>
+<edge id="410" source="威士忌酒" target="葡萄酒">
+<data key="weight">0.8080347776412964</data>
+</edge>
+<edge id="415" source="汽水" target="纯净水">
+<data key="weight">0.5676905512809753</data>
+</edge>
+<edge id="420" source="干果" target="坚果">
+<data key="weight">0.7114789485931396</data>
+</edge>
+<edge id="421" source="芝士蛋糕" target="布丁">
+<data key="weight">0.5604527592658997</data>
+</edge>
+<edge id="424" source="鸡尾酒" target="葡萄酒">
+<data key="weight">0.7203799486160278</data>
+</edge>
+<edge id="428" source="馄饨" target="春卷">
+<data key="weight">0.8221868276596069</data>
+</edge>
+<edge id="430" source="馄饨" target="披萨">
+<data key="weight">0.7046900391578674</data>
+</edge>
+<edge id="432" source="茶" target="碧螺春">
+<data key="weight">0.5343144536018372</data>
+</edge>
+<edge id="434" source="茶" target="红茶">
+<data key="weight">0.5988809466362</data>
+</edge>
+<edge id="436" source="碧螺春" target="红茶">
+<data key="weight">0.7597405314445496</data>
+</edge>
+<edge id="437" source="碧螺春" target="乌龙茶">
+<data key="weight">0.6051197648048401</data>
+</edge>
+<edge id="438" source="意大利面" target="牛肉面">
+<data key="weight">0.7378060221672058</data>
+</edge>
+<edge id="440" source="葵花籽" target="坚果">
+<data key="weight">0.5507745146751404</data>
+</edge>
+<edge id="443" source="比萨" target="披萨">
+<data key="weight">0.6138246059417725</data>
+</edge>
+<edge id="447" source="乌龙茶" target="冰红茶">
+<data key="weight">0.6060338020324707</data>
+</edge>
+<edge id="448" source="乌龙茶" target="红茶">
+<data key="weight">0.6759812235832214</data>
+</edge>
+<edge id="449" source="乌龙茶" target="奶茶">
+<data key="weight">0.6976587176322937</data>
+</edge>
+<edge id="451" source="奶茶" target="冰红茶">
+<data key="weight">0.6404792070388794</data>
+</edge>
+<edge id="452" source="奶茶" target="红茶">
+<data key="weight">0.5706729292869568</data>
+</edge>
+<edge id="457" source="春卷" target="披萨">
+<data key="weight">0.7569208145141602</data>
+</edge>
+</graph>
+</graphml>
