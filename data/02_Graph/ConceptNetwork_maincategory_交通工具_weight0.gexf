@@ -1,0 +1,1036 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-02-28">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="subcategory" type="string" />
+      <attribute id="1" title="maincategory" type="string" />
+      <attribute id="2" title="closeness_centrality" type="double" />
+      <attribute id="3" title="clustering_coefficent" type="double" />
+      <attribute id="4" title="degree_centrality" type="double" />
+      <attribute id="5" title="betweenness_centrality" type="long" />
+      <attribute id="6" title="pagerank" type="double" />
+      <attribute id="7" title="laplacian_centrality" type="double" />
+      <attribute id="8" title="louvain_community" type="long" />
+      <attribute id="9" title="x" type="double" />
+      <attribute id="10" title="y" type="double" />
+    </attributes>
+    <nodes>
+      <node id="救护车" label="救护车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.1066925315227934" />
+          <attvalue for="3" value="0.6559082" />
+          <attvalue for="4" value="0.02077922077922078" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0009483845670748039" />
+          <attvalue for="7" value="0.001257733251758211" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1642.822" />
+          <attvalue for="10" value="1059.8334" />
+        </attvalues>
+      </node>
+      <node id="敞篷跑车" label="敞篷跑车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10779784404311914" />
+          <attvalue for="3" value="0.6311093" />
+          <attvalue for="4" value="0.02857142857142857" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013906209409616699" />
+          <attvalue for="7" value="0.00209115881411763" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1631.7563" />
+          <attvalue for="10" value="990.9881" />
+        </attvalues>
+      </node>
+      <node id="独木舟" label="独木舟">
+        <attvalues>
+          <attvalue for="0" value="船" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.08827238335435057" />
+          <attvalue for="3" value="0.3990339" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0011804489237196604" />
+          <attvalue for="7" value="0.0001406108473338054" />
+          <attvalue for="8" value="11" />
+          <attvalue for="9" value="1282.3406" />
+          <attvalue for="10" value="1489.3965" />
+        </attvalues>
+      </node>
+      <node id="吉普车" label="吉普车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.11912128712871287" />
+          <attvalue for="3" value="0.49196443" />
+          <attvalue for="4" value="0.04025974025974026" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.002100789119865933" />
+          <attvalue for="7" value="0.0033239886955789798" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1587.4733" />
+          <attvalue for="10" value="925.74274" />
+        </attvalues>
+      </node>
+      <node id="运钞车" label="运钞车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.11592893706714845" />
+          <attvalue for="3" value="0.29363996" />
+          <attvalue for="4" value="0.015584415584415584" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007186831482287843" />
+          <attvalue for="7" value="0.0009988286569230576" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1374.4313" />
+          <attvalue for="10" value="757.46735" />
+        </attvalues>
+      </node>
+      <node id="跑车" label="跑车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10787335388063883" />
+          <attvalue for="3" value="0.59249556" />
+          <attvalue for="4" value="0.03506493506493506" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0017554932761871765" />
+          <attvalue for="7" value="0.0028242321711635953" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1708.3145" />
+          <attvalue for="10" value="986.7196" />
+        </attvalues>
+      </node>
+      <node id="卡车" label="卡车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.11913971839702925" />
+          <attvalue for="3" value="0.44724646" />
+          <attvalue for="4" value="0.04155844155844156" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.002232902016277081" />
+          <attvalue for="7" value="0.0034356614953299754" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1543.4501" />
+          <attvalue for="10" value="1024.638" />
+        </attvalues>
+      </node>
+      <node id="公交车" label="公交车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10787335388063883" />
+          <attvalue for="3" value="0.5915274" />
+          <attvalue for="4" value="0.03506493506493506" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0017564485178248877" />
+          <attvalue for="7" value="0.002811866395122998" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1704.7473" />
+          <attvalue for="10" value="1024.4636" />
+        </attvalues>
+      </node>
+      <node id="有轨电车" label="有轨电车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10767724793735142" />
+          <attvalue for="3" value="0.5215582" />
+          <attvalue for="4" value="0.02727272727272727" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012701819624723395" />
+          <attvalue for="7" value="0.0016478852320574232" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1799.3251" />
+          <attvalue for="10" value="997.9076" />
+        </attvalues>
+      </node>
+      <node id="手推车" label="手推车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10770737166037209" />
+          <attvalue for="3" value="0.5709015" />
+          <attvalue for="4" value="0.02987012987012987" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013523005916997602" />
+          <attvalue for="7" value="0.0019356922536839297" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1712.933" />
+          <attvalue for="10" value="941.6867" />
+        </attvalues>
+      </node>
+      <node id="卡丁车" label="卡丁车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10784313725490197" />
+          <attvalue for="3" value="0.5843014" />
+          <attvalue for="4" value="0.032467532467532464" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.00162272969403624" />
+          <attvalue for="7" value="0.0024510015248713993" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1632.274" />
+          <attvalue for="10" value="948.0488" />
+        </attvalues>
+      </node>
+      <node id="婴儿车" label="婴儿车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10820685778527263" />
+          <attvalue for="3" value="0.5208753" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0006327189898985843" />
+          <attvalue for="7" value="0.0008751917400581295" />
+          <attvalue for="8" value="0" />
+          <attvalue for="9" value="1122.693" />
+          <attvalue for="10" value="509.55844" />
+        </attvalues>
+      </node>
+      <node id="消防车" label="消防车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.11897404202719407" />
+          <attvalue for="3" value="0.21381906" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010101208696794068" />
+          <attvalue for="7" value="0.0004268321772133411" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="999.60394" />
+          <attvalue for="10" value="873.67346" />
+        </attvalues>
+      </node>
+      <node id="推土机" label="推土机">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10650069156293222" />
+          <attvalue for="3" value="0.62865794" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0005014751058637391" />
+          <attvalue for="7" value="0.00017785198375122038" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1483.3766" />
+          <attvalue for="10" value="1112.0942" />
+        </attvalues>
+      </node>
+      <node id="潜艇" label="潜艇">
+        <attvalues>
+          <attvalue for="0" value="船" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.08825214899713467" />
+          <attvalue for="3" value="0.59485096" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.000782711285243602" />
+          <attvalue for="7" value="7.776906907349446e-05" />
+          <attvalue for="8" value="11" />
+          <attvalue for="9" value="1312.6115" />
+          <attvalue for="10" value="1497.2959" />
+        </attvalues>
+      </node>
+      <node id="四轮马车" label="四轮马车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10764714105969524" />
+          <attvalue for="3" value="0.4890683" />
+          <attvalue for="4" value="0.024675324675324677" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0011712946524453543" />
+          <attvalue for="7" value="0.001410672291824137" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1787.0493" />
+          <attvalue for="10" value="949.626" />
+        </attvalues>
+      </node>
+      <node id="碰碰车" label="碰碰车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.09895900269888189" />
+          <attvalue for="3" value="0.23065847" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.000657078764565366" />
+          <attvalue for="7" value="0.0002762774321916353" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1823.0618" />
+          <attvalue for="10" value="837.69653" />
+        </attvalues>
+      </node>
+      <node id="帆船" label="帆船">
+        <attvalues>
+          <attvalue for="0" value="船" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.08115514333895447" />
+          <attvalue for="3" value="0.42961067" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010459898761298165" />
+          <attvalue for="7" value="0.00011535250228204982" />
+          <attvalue for="8" value="11" />
+          <attvalue for="9" value="1238.4728" />
+          <attvalue for="10" value="1488.953" />
+        </attvalues>
+      </node>
+      <node id="轿车" label="轿车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10787335388063883" />
+          <attvalue for="3" value="0.60369176" />
+          <attvalue for="4" value="0.03506493506493506" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0018028828913360234" />
+          <attvalue for="7" value="0.0029314227435873405" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1669.3353" />
+          <attvalue for="10" value="1024.1895" />
+        </attvalues>
+      </node>
+      <node id="汽车" label="汽车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.11913971839702925" />
+          <attvalue for="3" value="0.47157732" />
+          <attvalue for="4" value="0.04155844155844156" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0022153622943588006" />
+          <attvalue for="7" value="0.003522038428224938" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1594.8616" />
+          <attvalue for="10" value="1022.4159" />
+        </attvalues>
+      </node>
+      <node id="电动汽车" label="电动汽车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.1079035874439462" />
+          <attvalue for="3" value="0.53343296" />
+          <attvalue for="4" value="0.03766233766233766" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0018833660828640952" />
+          <attvalue for="7" value="0.002951310297675668" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1699.2087" />
+          <attvalue for="10" value="1059.7308" />
+        </attvalues>
+      </node>
+      <node id="豪华轿车" label="豪华轿车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10785824345146379" />
+          <attvalue for="3" value="0.60782033" />
+          <attvalue for="4" value="0.033766233766233764" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0016957637107118508" />
+          <attvalue for="7" value="0.0027013644944407166" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1631.8469" />
+          <attvalue for="10" value="1025.5548" />
+        </attvalues>
+      </node>
+      <node id="三轮车" label="三轮车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10787335388063883" />
+          <attvalue for="3" value="0.55078006" />
+          <attvalue for="4" value="0.03506493506493506" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0016773404921069464" />
+          <attvalue for="7" value="0.002584965663796427" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1737.4023" />
+          <attvalue for="10" value="1092.7351" />
+        </attvalues>
+      </node>
+      <node id="缆车" label="缆车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10770737166037209" />
+          <attvalue for="3" value="0.5643271" />
+          <attvalue for="4" value="0.02987012987012987" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012809218082397748" />
+          <attvalue for="7" value="0.001826683410232092" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1670.7086" />
+          <attvalue for="10" value="917.3147" />
+        </attvalues>
+      </node>
+      <node id="自行车" label="自行车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10775258886090121" />
+          <attvalue for="3" value="0.56235236" />
+          <attvalue for="4" value="0.033766233766233764" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0015305774654944871" />
+          <attvalue for="7" value="0.0023055591986014348" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1750.5204" />
+          <attvalue for="10" value="918.2241" />
+        </attvalues>
+      </node>
+      <node id="房车" label="房车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10692959311206778" />
+          <attvalue for="3" value="0.6145609" />
+          <attvalue for="4" value="0.024675324675324677" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013071508045885147" />
+          <attvalue for="7" value="0.001693483535271644" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1580.4729" />
+          <attvalue for="10" value="1104.5968" />
+        </attvalues>
+      </node>
+      <node id="洒水车" label="洒水车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10633890346637205" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.003896103896103896" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0005568885603865602" />
+          <attvalue for="7" value="5.066240952122833e-05" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1014.23737" />
+          <attvalue for="10" value="903.31165" />
+        </attvalues>
+      </node>
+      <node id="行李车" label="行李车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10864964018625653" />
+          <attvalue for="3" value="0.4761991" />
+          <attvalue for="4" value="0.033766233766233764" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0015915767761135464" />
+          <attvalue for="7" value="0.0021066349422799962" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1728.4802" />
+          <attvalue for="10" value="863.46533" />
+        </attvalues>
+      </node>
+      <node id="游轮" label="游轮">
+        <attvalues>
+          <attvalue for="0" value="船" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.08826226501604768" />
+          <attvalue for="3" value="0.47159934" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010724776906881708" />
+          <attvalue for="7" value="0.00012913194214346263" />
+          <attvalue for="8" value="11" />
+          <attvalue for="9" value="1260.7201" />
+          <attvalue for="10" value="1469.5842" />
+        </attvalues>
+      </node>
+      <node id="皮艇" label="皮艇">
+        <attvalues>
+          <attvalue for="0" value="船" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.08826226501604768" />
+          <attvalue for="3" value="0.6049149" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010024049120602053" />
+          <attvalue for="7" value="0.0001163326125357436" />
+          <attvalue for="8" value="11" />
+          <attvalue for="9" value="1288.8896" />
+          <attvalue for="10" value="1517.5665" />
+        </attvalues>
+      </node>
+      <node id="赛车" label="赛车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.1125073056691993" />
+          <attvalue for="3" value="0.5523939" />
+          <attvalue for="4" value="0.03766233766233766" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0019137338086937523" />
+          <attvalue for="7" value="0.0031273495912052737" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1667.574" />
+          <attvalue for="10" value="973.3516" />
+        </attvalues>
+      </node>
+      <node id="出租车" label="出租车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10779784404311914" />
+          <attvalue for="3" value="0.6612684" />
+          <attvalue for="4" value="0.02987012987012987" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001530501814801567" />
+          <attvalue for="7" value="0.002377737123060024" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1606.3629" />
+          <attvalue for="10" value="1060.6948" />
+        </attvalues>
+      </node>
+      <node id="吊车" label="吊车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.106544901065449" />
+          <attvalue for="3" value="0.5060934" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0005838202454793706" />
+          <attvalue for="7" value="0.00034340976448380263" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1516.1427" />
+          <attvalue for="10" value="1070.6595" />
+        </attvalues>
+      </node>
+      <node id="地铁" label="地铁">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10676650027731559" />
+          <attvalue for="3" value="0.52030295" />
+          <attvalue for="4" value="0.025974025974025976" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012100868570389263" />
+          <attvalue for="7" value="0.0015307809522236305" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1786.8547" />
+          <attvalue for="10" value="1042.7426" />
+        </attvalues>
+      </node>
+      <node id="挖掘机" label="挖掘机">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.1065891472868217" />
+          <attvalue for="3" value="0.46432376" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007658803165232578" />
+          <attvalue for="7" value="0.0006163622493223417" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1521.457" />
+          <attvalue for="10" value="1106.0521" />
+        </attvalues>
+      </node>
+      <node id="豪华客轮" label="豪华客轮">
+        <attvalues>
+          <attvalue for="0" value="船" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.09675797939180698" />
+          <attvalue for="3" value="0.20843421" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001424857813298331" />
+          <attvalue for="7" value="0.00023080568056125616" />
+          <attvalue for="8" value="11" />
+          <attvalue for="9" value="1310.0972" />
+          <attvalue for="10" value="1461.0367" />
+        </attvalues>
+      </node>
+      <node id="巴士" label="巴士">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10694444444444444" />
+          <attvalue for="3" value="0.58572483" />
+          <attvalue for="4" value="0.032467532467532464" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0015725532400200886" />
+          <attvalue for="7" value="0.0024149627899293855" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1682.0753" />
+          <attvalue for="10" value="1098.3868" />
+        </attvalues>
+      </node>
+      <node id="马车" label="马车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10763209393346379" />
+          <attvalue for="3" value="0.54670626" />
+          <attvalue for="4" value="0.024675324675324677" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0011009478257896894" />
+          <attvalue for="7" value="0.0014046661459880183" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1743.4762" />
+          <attvalue for="10" value="966.96326" />
+        </attvalues>
+      </node>
+      <node id="摩托车" label="摩托车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.11906602752435441" />
+          <attvalue for="3" value="0.5058093" />
+          <attvalue for="4" value="0.03636363636363636" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0018431678082856645" />
+          <attvalue for="7" value="0.0027736806432826825" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1574.8871" />
+          <attvalue for="10" value="969.8963" />
+        </attvalues>
+      </node>
+      <node id="火车" label="火车">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.10772243984331281" />
+          <attvalue for="3" value="0.56410533" />
+          <attvalue for="4" value="0.03116883116883117" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013744789007145784" />
+          <attvalue for="7" value="0.0019948591770282947" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1745.1135" />
+          <attvalue for="10" value="1024.7045" />
+        </attvalues>
+      </node>
+      <node id="车辆" label="车辆">
+        <attvalues>
+          <attvalue for="0" value="车" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.11252374689463686" />
+          <attvalue for="3" value="0.49223068" />
+          <attvalue for="4" value="0.03896103896103896" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0019508942437349314" />
+          <attvalue for="7" value="0.0030704066817330354" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="1631.6301" />
+          <attvalue for="10" value="1095.9104" />
+        </attvalues>
+      </node>
+      <node id="游艇" label="游艇">
+        <attvalues>
+          <attvalue for="0" value="船" />
+          <attvalue for="1" value="交通工具" />
+          <attvalue for="2" value="0.0882926269923174" />
+          <attvalue for="3" value="0.2956312" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0016414701960493607" />
+          <attvalue for="7" value="0.00021724759940416153" />
+          <attvalue for="8" value="11" />
+          <attvalue for="9" value="1260.5674" />
+          <attvalue for="10" value="1503.9158" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="救护车" target="巴士" id="32" weight="0.5957334637641907" />
+      <edge source="救护车" target="车辆" id="1441" weight="0.6142274737358093" />
+      <edge source="救护车" target="出租车" id="1540" weight="0.5972928404808044" />
+      <edge source="救护车" target="电动汽车" id="2360" weight="0.5608307123184204" />
+      <edge source="救护车" target="公交车" id="3715" weight="0.6224825382232666" />
+      <edge source="救护车" target="豪华轿车" id="4190" weight="0.5692341923713684" />
+      <edge source="救护车" target="吉普车" id="5090" weight="0.6106238961219788" />
+      <edge source="救护车" target="轿车" id="5368" weight="0.6168137192726135" />
+      <edge source="救护车" target="救护车" id="5599" weight="1.0" />
+      <edge source="救护车" target="卡车" id="5600" weight="0.5991299152374268" />
+      <edge source="救护车" target="卡丁车" id="5601" weight="0.5977340936660767" />
+      <edge source="救护车" target="摩托车" id="5602" weight="0.5613672733306885" />
+      <edge source="救护车" target="跑车" id="5603" weight="0.5827798247337341" />
+      <edge source="救护车" target="汽车" id="5604" weight="0.6011389493942261" />
+      <edge source="救护车" target="赛车" id="5605" weight="0.6511080861091614" />
+      <edge source="敞篷跑车" target="巴士" id="21" weight="0.7509114742279053" />
+      <edge source="敞篷跑车" target="敞篷跑车" id="1386" weight="1.0" />
+      <edge source="敞篷跑车" target="车辆" id="1387" weight="0.7069786787033081" />
+      <edge source="敞篷跑车" target="出租车" id="1388" weight="0.649714469909668" />
+      <edge source="敞篷跑车" target="电动汽车" id="1389" weight="0.6881073713302612" />
+      <edge source="敞篷跑车" target="房车" id="1390" weight="0.5675860643386841" />
+      <edge source="敞篷跑车" target="公交车" id="1391" weight="0.6453230381011963" />
+      <edge source="敞篷跑车" target="行李车" id="1392" weight="0.5395205020904541" />
+      <edge source="敞篷跑车" target="豪华轿车" id="1393" weight="0.7122080326080322" />
+      <edge source="敞篷跑车" target="吉普车" id="1394" weight="0.7450630068778992" />
+      <edge source="敞篷跑车" target="轿车" id="1395" weight="0.7019945979118347" />
+      <edge source="敞篷跑车" target="卡车" id="1396" weight="0.7533351182937622" />
+      <edge source="敞篷跑车" target="卡丁车" id="1397" weight="0.6271566152572632" />
+      <edge source="敞篷跑车" target="摩托车" id="1398" weight="0.7570958733558655" />
+      <edge source="敞篷跑车" target="跑车" id="1399" weight="0.7333301305770874" />
+      <edge source="敞篷跑车" target="汽车" id="1400" weight="0.7903105616569519" />
+      <edge source="敞篷跑车" target="赛车" id="1401" weight="0.7327027320861816" />
+      <edge source="敞篷跑车" target="三轮车" id="1402" weight="0.6263086199760437" />
+      <edge source="敞篷跑车" target="手推车" id="1403" weight="0.5486768484115601" />
+      <edge source="敞篷跑车" target="四轮马车" id="1404" weight="0.534949004650116" />
+      <edge source="敞篷跑车" target="自行车" id="1405" weight="0.5591419339179993" />
+      <edge source="独木舟" target="独木舟" id="2715" weight="1.0" />
+      <edge source="独木舟" target="帆船" id="2716" weight="0.6050798296928406" />
+      <edge source="独木舟" target="豪华客轮" id="2717" weight="0.5259736180305481" />
+      <edge source="独木舟" target="皮艇" id="2718" weight="0.7103933691978455" />
+      <edge source="独木舟" target="游艇" id="2719" weight="0.5414960384368896" />
+      <edge source="吉普车" target="巴士" id="30" weight="0.774795413017273" />
+      <edge source="吉普车" target="车辆" id="1439" weight="0.8273217678070068" />
+      <edge source="吉普车" target="出租车" id="1538" weight="0.782220184803009" />
+      <edge source="吉普车" target="地铁" id="2339" weight="0.6049097180366516" />
+      <edge source="吉普车" target="电动汽车" id="2358" weight="0.6810947060585022" />
+      <edge source="吉普车" target="房车" id="3180" weight="0.6988850235939026" />
+      <edge source="吉普车" target="公交车" id="3713" weight="0.774612545967102" />
+      <edge source="吉普车" target="行李车" id="4168" weight="0.588649570941925" />
+      <edge source="吉普车" target="豪华轿车" id="4188" weight="0.7824497818946838" />
+      <edge source="吉普车" target="火车" id="4988" weight="0.6494619250297546" />
+      <edge source="吉普车" target="吉普车" id="5088" weight="1.0" />
+      <edge source="吉普车" target="轿车" id="5089" weight="0.8503329157829285" />
+      <edge source="吉普车" target="卡车" id="5091" weight="0.908718466758728" />
+      <edge source="吉普车" target="卡丁车" id="5092" weight="0.7403053641319275" />
+      <edge source="吉普车" target="缆车" id="5093" weight="0.5785101056098938" />
+      <edge source="吉普车" target="马车" id="5094" weight="0.5219295024871826" />
+      <edge source="吉普车" target="摩托车" id="5095" weight="0.8130171895027161" />
+      <edge source="吉普车" target="跑车" id="5096" weight="0.7912395596504211" />
+      <edge source="吉普车" target="汽车" id="5097" weight="0.9065237045288086" />
+      <edge source="吉普车" target="赛车" id="5098" weight="0.8189248442649841" />
+      <edge source="吉普车" target="三轮车" id="5099" weight="0.8220272064208984" />
+      <edge source="吉普车" target="手推车" id="5100" weight="0.6205084323883057" />
+      <edge source="吉普车" target="四轮马车" id="5101" weight="0.5705252885818481" />
+      <edge source="吉普车" target="挖掘机" id="5102" weight="0.6229133009910583" />
+      <edge source="吉普车" target="消防车" id="5103" weight="0.5630177855491638" />
+      <edge source="吉普车" target="有轨电车" id="5104" weight="0.6140451431274414" />
+      <edge source="吉普车" target="运钞车" id="5105" weight="0.5647604465484619" />
+      <edge source="吉普车" target="自行车" id="5106" weight="0.650995135307312" />
+      <edge source="运钞车" target="车辆" id="1454" weight="0.5224887132644653" />
+      <edge source="运钞车" target="卡车" id="5858" weight="0.5957156419754028" />
+      <edge source="运钞车" target="摩托车" id="7020" weight="0.5509596467018127" />
+      <edge source="运钞车" target="汽车" id="7538" weight="0.5827224254608154" />
+      <edge source="运钞车" target="赛车" id="7838" weight="0.555568516254425" />
+      <edge source="运钞车" target="婴儿车" id="8893" weight="0.5657873153686523" />
+      <edge source="运钞车" target="运钞车" id="9023" weight="1.0" />
+      <edge source="跑车" target="巴士" id="38" weight="0.7158923745155334" />
+      <edge source="跑车" target="车辆" id="1447" weight="0.8343186974525452" />
+      <edge source="跑车" target="出租车" id="1545" weight="0.7856000661849976" />
+      <edge source="跑车" target="地铁" id="2343" weight="0.5233498215675354" />
+      <edge source="跑车" target="电动汽车" id="2366" weight="0.7670340538024902" />
+      <edge source="跑车" target="房车" id="3185" weight="0.6968622803688049" />
+      <edge source="跑车" target="公交车" id="3721" weight="0.7874082326889038" />
+      <edge source="跑车" target="行李车" id="4175" weight="0.5251826047897339" />
+      <edge source="跑车" target="豪华轿车" id="4196" weight="0.8465402722358704" />
+      <edge source="跑车" target="火车" id="4994" weight="0.5508366227149963" />
+      <edge source="跑车" target="轿车" id="5374" weight="0.8408041000366211" />
+      <edge source="跑车" target="卡车" id="5848" weight="0.8344902992248535" />
+      <edge source="跑车" target="卡丁车" id="5863" weight="0.7666112780570984" />
+      <edge source="跑车" target="缆车" id="6154" weight="0.5853556990623474" />
+      <edge source="跑车" target="马车" id="6643" weight="0.5305129885673523" />
+      <edge source="跑车" target="摩托车" id="7012" weight="0.7322567701339722" />
+      <edge source="跑车" target="跑车" id="7279" weight="1.0" />
+      <edge source="跑车" target="汽车" id="7280" weight="0.8745976090431213" />
+      <edge source="跑车" target="赛车" id="7281" weight="0.8805723786354065" />
+      <edge source="跑车" target="三轮车" id="7282" weight="0.668826699256897" />
+      <edge source="跑车" target="手推车" id="7283" weight="0.529761791229248" />
+      <edge source="跑车" target="有轨电车" id="7284" weight="0.5230863094329834" />
+      <edge source="跑车" target="自行车" id="7285" weight="0.5873828530311584" />
+      <edge source="卡车" target="巴士" id="33" weight="0.7089663147926331" />
+      <edge source="卡车" target="车辆" id="1442" weight="0.8147837519645691" />
+      <edge source="卡车" target="出租车" id="1541" weight="0.7586699724197388" />
+      <edge source="卡车" target="地铁" id="2341" weight="0.5613293647766113" />
+      <edge source="卡车" target="电动汽车" id="2361" weight="0.7410761713981628" />
+      <edge source="卡车" target="吊车" id="2452" weight="0.5871995687484741" />
+      <edge source="卡车" target="房车" id="3182" weight="0.6911131739616394" />
+      <edge source="卡车" target="公交车" id="3716" weight="0.7834894061088562" />
+      <edge source="卡车" target="行李车" id="4170" weight="0.6650072336196899" />
+      <edge source="卡车" target="豪华轿车" id="4191" weight="0.8032235503196716" />
+      <edge source="卡车" target="火车" id="4990" weight="0.6294267773628235" />
+      <edge source="卡车" target="轿车" id="5369" weight="0.8232443928718567" />
+      <edge source="卡车" target="卡车" id="5844" weight="1.0" />
+      <edge source="卡车" target="卡丁车" id="5845" weight="0.7827204465866089" />
+      <edge source="卡车" target="缆车" id="5846" weight="0.5567154288291931" />
+      <edge source="卡车" target="摩托车" id="5847" weight="0.8504303693771362" />
+      <edge source="卡车" target="汽车" id="5849" weight="0.9357998371124268" />
+      <edge source="卡车" target="赛车" id="5850" weight="0.8627216815948486" />
+      <edge source="卡车" target="三轮车" id="5851" weight="0.8057023286819458" />
+      <edge source="卡车" target="手推车" id="5852" weight="0.6816314458847046" />
+      <edge source="卡车" target="四轮马车" id="5853" weight="0.556316614151001" />
+      <edge source="卡车" target="推土机" id="5854" weight="0.5279539823532104" />
+      <edge source="卡车" target="挖掘机" id="5855" weight="0.6155554056167603" />
+      <edge source="卡车" target="消防车" id="5856" weight="0.5883414149284363" />
+      <edge source="卡车" target="有轨电车" id="5857" weight="0.5745114088058472" />
+      <edge source="卡车" target="自行车" id="5859" weight="0.6671609282493591" />
+      <edge source="公交车" target="巴士" id="27" weight="0.8446021676063538" />
+      <edge source="公交车" target="车辆" id="1435" weight="0.8037590980529785" />
+      <edge source="公交车" target="出租车" id="1534" weight="0.8748542666435242" />
+      <edge source="公交车" target="地铁" id="2336" weight="0.6009178757667542" />
+      <edge source="公交车" target="电动汽车" id="2354" weight="0.7556267380714417" />
+      <edge source="公交车" target="房车" id="3177" weight="0.6915269494056702" />
+      <edge source="公交车" target="公交车" id="3709" weight="1.0" />
+      <edge source="公交车" target="行李车" id="3710" weight="0.5346973538398743" />
+      <edge source="公交车" target="豪华轿车" id="3711" weight="0.7705699801445007" />
+      <edge source="公交车" target="火车" id="3712" weight="0.6393739581108093" />
+      <edge source="公交车" target="轿车" id="3714" weight="0.8307369351387024" />
+      <edge source="公交车" target="卡丁车" id="3717" weight="0.7151538729667664" />
+      <edge source="公交车" target="缆车" id="3718" weight="0.5799919366836548" />
+      <edge source="公交车" target="马车" id="3719" weight="0.527052104473114" />
+      <edge source="公交车" target="摩托车" id="3720" weight="0.7076961994171143" />
+      <edge source="公交车" target="汽车" id="3722" weight="0.8182588815689087" />
+      <edge source="公交车" target="赛车" id="3723" weight="0.7802652716636658" />
+      <edge source="公交车" target="三轮车" id="3724" weight="0.6699146032333374" />
+      <edge source="公交车" target="手推车" id="3725" weight="0.5468763709068298" />
+      <edge source="公交车" target="有轨电车" id="3726" weight="0.5955896973609924" />
+      <edge source="公交车" target="自行车" id="3727" weight="0.5980774760246277" />
+      <edge source="有轨电车" target="巴士" id="42" weight="0.5436434745788574" />
+      <edge source="有轨电车" target="车辆" id="1453" weight="0.5235823392868042" />
+      <edge source="有轨电车" target="地铁" id="2349" weight="0.9156648516654968" />
+      <edge source="有轨电车" target="电动汽车" id="2373" weight="0.5841020941734314" />
+      <edge source="有轨电车" target="行李车" id="4182" weight="0.537880539894104" />
+      <edge source="有轨电车" target="豪华轿车" id="4201" weight="0.5294849872589111" />
+      <edge source="有轨电车" target="火车" id="5000" weight="0.7353835701942444" />
+      <edge source="有轨电车" target="轿车" id="5379" weight="0.5474434494972229" />
+      <edge source="有轨电车" target="马车" id="6648" weight="0.6530824899673462" />
+      <edge source="有轨电车" target="汽车" id="7537" weight="0.6007418632507324" />
+      <edge source="有轨电车" target="赛车" id="7837" weight="0.5546520352363586" />
+      <edge source="有轨电车" target="三轮车" id="7845" weight="0.5932444930076599" />
+      <edge source="有轨电车" target="四轮马车" id="8219" weight="0.7006055116653442" />
+      <edge source="有轨电车" target="有轨电车" id="8965" weight="1.0" />
+      <edge source="有轨电车" target="自行车" id="8966" weight="0.5591995120048523" />
+      <edge source="手推车" target="车辆" id="1451" weight="0.5550665259361267" />
+      <edge source="手推车" target="地铁" id="2347" weight="0.5214959979057312" />
+      <edge source="手推车" target="电动汽车" id="2371" weight="0.696580708026886" />
+      <edge source="手推车" target="行李车" id="4180" weight="0.831016480922699" />
+      <edge source="手推车" target="豪华轿车" id="4200" weight="0.5200584530830383" />
+      <edge source="手推车" target="火车" id="4998" weight="0.5955848097801208" />
+      <edge source="手推车" target="轿车" id="5378" weight="0.5255095362663269" />
+      <edge source="手推车" target="卡丁车" id="5868" weight="0.5268158912658691" />
+      <edge source="手推车" target="缆车" id="6158" weight="0.5957843065261841" />
+      <edge source="手推车" target="马车" id="6646" weight="0.627623438835144" />
+      <edge source="手推车" target="摩托车" id="7016" weight="0.656684935092926" />
+      <edge source="手推车" target="汽车" id="7533" weight="0.6257199048995972" />
+      <edge source="手推车" target="赛车" id="7835" weight="0.5984340906143188" />
+      <edge source="手推车" target="三轮车" id="7842" weight="0.5977379083633423" />
+      <edge source="手推车" target="手推车" id="8027" weight="1.0" />
+      <edge source="手推车" target="四轮马车" id="8028" weight="0.7169434428215027" />
+      <edge source="手推车" target="自行车" id="8029" weight="0.7614017128944397" />
+      <edge source="卡丁车" target="巴士" id="34" weight="0.6528300046920776" />
+      <edge source="卡丁车" target="车辆" id="1443" weight="0.7563714981079102" />
+      <edge source="卡丁车" target="出租车" id="1542" weight="0.7420467138290405" />
+      <edge source="卡丁车" target="电动汽车" id="2362" weight="0.7303321361541748" />
+      <edge source="卡丁车" target="房车" id="3183" weight="0.620684802532196" />
+      <edge source="卡丁车" target="行李车" id="4171" weight="0.5938249826431274" />
+      <edge source="卡丁车" target="豪华轿车" id="4192" weight="0.7821722626686096" />
+      <edge source="卡丁车" target="火车" id="4991" weight="0.533915638923645" />
+      <edge source="卡丁车" target="轿车" id="5370" weight="0.836329460144043" />
+      <edge source="卡丁车" target="卡丁车" id="5860" weight="1.0" />
+      <edge source="卡丁车" target="缆车" id="5861" weight="0.552323579788208" />
+      <edge source="卡丁车" target="摩托车" id="5862" weight="0.6932286620140076" />
+      <edge source="卡丁车" target="碰碰车" id="5864" weight="0.5407074689865112" />
+      <edge source="卡丁车" target="汽车" id="5865" weight="0.7919889688491821" />
+      <edge source="卡丁车" target="赛车" id="5866" weight="0.8684808611869812" />
+      <edge source="卡丁车" target="三轮车" id="5867" weight="0.6287141442298889" />
+      <edge source="卡丁车" target="自行车" id="5869" weight="0.5288417935371399" />
+      <edge source="婴儿车" target="婴儿车" id="8891" weight="1.0" />
+      <edge source="消防车" target="摩托车" id="7019" weight="0.5405535697937012" />
+      <edge source="消防车" target="汽车" id="7536" weight="0.5602179169654846" />
+      <edge source="消防车" target="洒水车" id="7832" weight="0.533301055431366" />
+      <edge source="消防车" target="消防车" id="8727" weight="1.0" />
+      <edge source="推土机" target="吊车" id="2454" weight="0.6021542549133301" />
+      <edge source="推土机" target="推土机" id="8428" weight="1.0" />
+      <edge source="推土机" target="挖掘机" id="8429" weight="0.7777918577194214" />
+      <edge source="潜艇" target="豪华客轮" id="4205" weight="0.541564404964447" />
+      <edge source="潜艇" target="潜艇" id="7561" weight="1.0" />
+      <edge source="潜艇" target="游艇" id="7562" weight="0.520562469959259" />
+      <edge source="四轮马车" target="地铁" id="2348" weight="0.697292685508728" />
+      <edge source="四轮马车" target="电动汽车" id="2372" weight="0.6125106811523438" />
+      <edge source="四轮马车" target="行李车" id="4181" weight="0.5878181457519531" />
+      <edge source="四轮马车" target="火车" id="4999" weight="0.529710590839386" />
+      <edge source="四轮马车" target="缆车" id="6159" weight="0.5295509696006775" />
+      <edge source="四轮马车" target="马车" id="6647" weight="0.9262535572052002" />
+      <edge source="四轮马车" target="摩托车" id="7017" weight="0.5666655898094177" />
+      <edge source="四轮马车" target="汽车" id="7534" weight="0.6008243560791016" />
+      <edge source="四轮马车" target="赛车" id="7836" weight="0.544025719165802" />
+      <edge source="四轮马车" target="三轮车" id="7843" weight="0.5456864833831787" />
+      <edge source="四轮马车" target="四轮马车" id="8218" weight="1.0" />
+      <edge source="四轮马车" target="自行车" id="8220" weight="0.6240675449371338" />
+      <edge source="碰碰车" target="电动汽车" id="2367" weight="0.5214365720748901" />
+      <edge source="碰碰车" target="行李车" id="4176" weight="0.5673316717147827" />
+      <edge source="碰碰车" target="碰碰车" id="7331" weight="1.0" />
+      <edge source="帆船" target="帆船" id="2963" weight="1.0" />
+      <edge source="帆船" target="游轮" id="2964" weight="0.6251122355461121" />
+      <edge source="帆船" target="游艇" id="2965" weight="0.6642991900444031" />
+      <edge source="轿车" target="巴士" id="31" weight="0.7573477029800415" />
+      <edge source="轿车" target="车辆" id="1440" weight="0.8672817945480347" />
+      <edge source="轿车" target="出租车" id="1539" weight="0.8777283430099487" />
+      <edge source="轿车" target="地铁" id="2340" weight="0.54686039686203" />
+      <edge source="轿车" target="电动汽车" id="2359" weight="0.789207935333252" />
+      <edge source="轿车" target="房车" id="3181" weight="0.7037054896354675" />
+      <edge source="轿车" target="行李车" id="4169" weight="0.606904149055481" />
+      <edge source="轿车" target="豪华轿车" id="4189" weight="0.864210307598114" />
+      <edge source="轿车" target="火车" id="4989" weight="0.5767527222633362" />
+      <edge source="轿车" target="轿车" id="5367" weight="1.0" />
+      <edge source="轿车" target="缆车" id="5371" weight="0.5900468826293945" />
+      <edge source="轿车" target="马车" id="5372" weight="0.5448458194732666" />
+      <edge source="轿车" target="摩托车" id="5373" weight="0.7363407015800476" />
+      <edge source="轿车" target="汽车" id="5375" weight="0.8625688552856445" />
+      <edge source="轿车" target="赛车" id="5376" weight="0.8574870228767395" />
+      <edge source="轿车" target="三轮车" id="5377" weight="0.708160400390625" />
+      <edge source="轿车" target="自行车" id="5380" weight="0.5666111707687378" />
+      <edge source="汽车" target="巴士" id="39" weight="0.7307165265083313" />
+      <edge source="汽车" target="车辆" id="1448" weight="0.8589632511138916" />
+      <edge source="汽车" target="出租车" id="1546" weight="0.795786440372467" />
+      <edge source="汽车" target="地铁" id="2344" weight="0.5925018191337585" />
+      <edge source="汽车" target="电动汽车" id="2368" weight="0.7590731382369995" />
+      <edge source="汽车" target="吊车" id="2453" weight="0.5531677603721619" />
+      <edge source="汽车" target="房车" id="3186" weight="0.6900041699409485" />
+      <edge source="汽车" target="行李车" id="4177" weight="0.5931881070137024" />
+      <edge source="汽车" target="豪华轿车" id="4197" weight="0.8540835380554199" />
+      <edge source="汽车" target="火车" id="4995" weight="0.640925407409668" />
+      <edge source="汽车" target="缆车" id="6155" weight="0.5665420889854431" />
+      <edge source="汽车" target="马车" id="6644" weight="0.5329775810241699" />
+      <edge source="汽车" target="摩托车" id="7013" weight="0.8364573121070862" />
+      <edge source="汽车" target="汽车" id="7530" weight="1.0" />
+      <edge source="汽车" target="赛车" id="7531" weight="0.9026521444320679" />
+      <edge source="汽车" target="三轮车" id="7532" weight="0.7757477164268494" />
+      <edge source="汽车" target="挖掘机" id="7535" weight="0.600735604763031" />
+      <edge source="汽车" target="自行车" id="7539" weight="0.686150074005127" />
+      <edge source="电动汽车" target="巴士" id="25" weight="0.6922805309295654" />
+      <edge source="电动汽车" target="车辆" id="1432" weight="0.7527615427970886" />
+      <edge source="电动汽车" target="出租车" id="1532" weight="0.6938801407814026" />
+      <edge source="电动汽车" target="地铁" id="2335" weight="0.5666306018829346" />
+      <edge source="电动汽车" target="电动汽车" id="2352" weight="1.0" />
+      <edge source="电动汽车" target="房车" id="2353" weight="0.6082472205162048" />
+      <edge source="电动汽车" target="行李车" id="2355" weight="0.6883490085601807" />
+      <edge source="电动汽车" target="豪华轿车" id="2356" weight="0.7218201160430908" />
+      <edge source="电动汽车" target="火车" id="2357" weight="0.6095787286758423" />
+      <edge source="电动汽车" target="缆车" id="2363" weight="0.7217831611633301" />
+      <edge source="电动汽车" target="马车" id="2364" weight="0.6516116857528687" />
+      <edge source="电动汽车" target="摩托车" id="2365" weight="0.6932624578475952" />
+      <edge source="电动汽车" target="赛车" id="2369" weight="0.8248487710952759" />
+      <edge source="电动汽车" target="三轮车" id="2370" weight="0.6678006649017334" />
+      <edge source="电动汽车" target="自行车" id="2374" weight="0.7211582660675049" />
+      <edge source="豪华轿车" target="巴士" id="28" weight="0.7012483477592468" />
+      <edge source="豪华轿车" target="车辆" id="1437" weight="0.8075036406517029" />
+      <edge source="豪华轿车" target="出租车" id="1536" weight="0.8381388783454895" />
+      <edge source="豪华轿车" target="房车" id="3178" weight="0.7141551375389099" />
+      <edge source="豪华轿车" target="行李车" id="4166" weight="0.5722798109054565" />
+      <edge source="豪华轿车" target="豪华轿车" id="4186" weight="1.0" />
+      <edge source="豪华轿车" target="火车" id="4187" weight="0.5834636092185974" />
+      <edge source="豪华轿车" target="缆车" id="4193" weight="0.5477089285850525" />
+      <edge source="豪华轿车" target="马车" id="4194" weight="0.5326873660087585" />
+      <edge source="豪华轿车" target="摩托车" id="4195" weight="0.695182204246521" />
+      <edge source="豪华轿车" target="赛车" id="4198" weight="0.831220805644989" />
+      <edge source="豪华轿车" target="三轮车" id="4199" weight="0.6564567685127258" />
+      <edge source="豪华轿车" target="自行车" id="4202" weight="0.5955721139907837" />
+      <edge source="三轮车" target="巴士" id="41" weight="0.6656011343002319" />
+      <edge source="三轮车" target="车辆" id="1450" weight="0.6780363917350769" />
+      <edge source="三轮车" target="出租车" id="1548" weight="0.6339755654335022" />
+      <edge source="三轮车" target="地铁" id="2346" weight="0.5841107964515686" />
+      <edge source="三轮车" target="房车" id="3188" weight="0.6114935278892517" />
+      <edge source="三轮车" target="行李车" id="4179" weight="0.6035165786743164" />
+      <edge source="三轮车" target="火车" id="4997" weight="0.6106113195419312" />
+      <edge source="三轮车" target="缆车" id="6157" weight="0.5509197115898132" />
+      <edge source="三轮车" target="摩托车" id="7015" weight="0.7485232949256897" />
+      <edge source="三轮车" target="赛车" id="7834" weight="0.6987375020980835" />
+      <edge source="三轮车" target="三轮车" id="7841" weight="1.0" />
+      <edge source="三轮车" target="挖掘机" id="7844" weight="0.5244724154472351" />
+      <edge source="三轮车" target="自行车" id="7846" weight="0.7421059012413025" />
+      <edge source="缆车" target="巴士" id="35" weight="0.5715025067329407" />
+      <edge source="缆车" target="车辆" id="1444" weight="0.5584126114845276" />
+      <edge source="缆车" target="出租车" id="1543" weight="0.5451618432998657" />
+      <edge source="缆车" target="行李车" id="4172" weight="0.5890718698501587" />
+      <edge source="缆车" target="火车" id="4992" weight="0.5449539422988892" />
+      <edge source="缆车" target="缆车" id="6151" weight="1.0" />
+      <edge source="缆车" target="马车" id="6152" weight="0.5754374265670776" />
+      <edge source="缆车" target="摩托车" id="6153" weight="0.5746719241142273" />
+      <edge source="缆车" target="赛车" id="6156" weight="0.6014537811279297" />
+      <edge source="缆车" target="自行车" id="6160" weight="0.6256037950515747" />
+      <edge source="自行车" target="巴士" id="43" weight="0.5340100526809692" />
+      <edge source="自行车" target="车辆" id="1455" weight="0.5724916458129883" />
+      <edge source="自行车" target="出租车" id="1549" weight="0.5633096098899841" />
+      <edge source="自行车" target="地铁" id="2350" weight="0.5431687831878662" />
+      <edge source="自行车" target="行李车" id="4183" weight="0.7042126059532166" />
+      <edge source="自行车" target="火车" id="5001" weight="0.6189285516738892" />
+      <edge source="自行车" target="马车" id="6649" weight="0.5645200610160828" />
+      <edge source="自行车" target="摩托车" id="7021" weight="0.7611777782440186" />
+      <edge source="自行车" target="赛车" id="7839" weight="0.6013094782829285" />
+      <edge source="自行车" target="自行车" id="9122" weight="1.0" />
+      <edge source="房车" target="巴士" id="26" weight="0.6534038782119751" />
+      <edge source="房车" target="车辆" id="1434" weight="0.6801985502243042" />
+      <edge source="房车" target="出租车" id="1533" weight="0.6942539811134338" />
+      <edge source="房车" target="房车" id="3176" weight="1.0" />
+      <edge source="房车" target="豪华客轮" id="3179" weight="0.5652784705162048" />
+      <edge source="房车" target="摩托车" id="3184" weight="0.6233633756637573" />
+      <edge source="房车" target="赛车" id="3187" weight="0.6801488399505615" />
+      <edge source="洒水车" target="洒水车" id="7831" weight="1.0" />
+      <edge source="行李车" target="车辆" id="1436" weight="0.5338652729988098" />
+      <edge source="行李车" target="出租车" id="1535" weight="0.5476107001304626" />
+      <edge source="行李车" target="行李车" id="4165" weight="1.0" />
+      <edge source="行李车" target="火车" id="4167" weight="0.5816518664360046" />
+      <edge source="行李车" target="马车" id="4173" weight="0.5327163934707642" />
+      <edge source="行李车" target="摩托车" id="4174" weight="0.6281225681304932" />
+      <edge source="行李车" target="赛车" id="4178" weight="0.571506142616272" />
+      <edge source="游轮" target="豪华客轮" id="4206" weight="0.6595821380615234" />
+      <edge source="游轮" target="游轮" id="8962" weight="1.0" />
+      <edge source="游轮" target="游艇" id="8963" weight="0.7818459868431091" />
+      <edge source="皮艇" target="豪华客轮" id="4204" weight="0.5450193285942078" />
+      <edge source="皮艇" target="皮艇" id="7397" weight="1.0" />
+      <edge source="皮艇" target="游艇" id="7398" weight="0.5827139019966125" />
+      <edge source="赛车" target="巴士" id="40" weight="0.7270706295967102" />
+      <edge source="赛车" target="车辆" id="1449" weight="0.8739965558052063" />
+      <edge source="赛车" target="出租车" id="1547" weight="0.7536189556121826" />
+      <edge source="赛车" target="地铁" id="2345" weight="0.5414624810218811" />
+      <edge source="赛车" target="火车" id="4996" weight="0.5789036750793457" />
+      <edge source="赛车" target="马车" id="6645" weight="0.5559227466583252" />
+      <edge source="赛车" target="摩托车" id="7014" weight="0.750457763671875" />
+      <edge source="赛车" target="赛车" id="7833" weight="1.0" />
+      <edge source="出租车" target="巴士" id="23" weight="0.7742133140563965" />
+      <edge source="出租车" target="车辆" id="1430" weight="0.817265510559082" />
+      <edge source="出租车" target="出租车" id="1531" weight="1.0" />
+      <edge source="出租车" target="火车" id="1537" weight="0.5765384435653687" />
+      <edge source="出租车" target="摩托车" id="1544" weight="0.6818727850914001" />
+      <edge source="吊车" target="车辆" id="1433" weight="0.5618932843208313" />
+      <edge source="吊车" target="吊车" id="2451" weight="1.0" />
+      <edge source="吊车" target="挖掘机" id="2455" weight="0.6778280138969421" />
+      <edge source="地铁" target="巴士" id="24" weight="0.5263470411300659" />
+      <edge source="地铁" target="车辆" id="1431" weight="0.531514585018158" />
+      <edge source="地铁" target="地铁" id="2334" weight="1.0" />
+      <edge source="地铁" target="火车" id="2338" weight="0.7115522027015686" />
+      <edge source="地铁" target="马车" id="2342" weight="0.668043851852417" />
+      <edge source="挖掘机" target="车辆" id="1452" weight="0.6000064015388489" />
+      <edge source="挖掘机" target="摩托车" id="7018" weight="0.5610536336898804" />
+      <edge source="挖掘机" target="挖掘机" id="8460" weight="1.0" />
+      <edge source="豪华客轮" target="豪华客轮" id="4203" weight="1.0" />
+      <edge source="豪华客轮" target="游艇" id="4207" weight="0.7466233968734741" />
+      <edge source="巴士" target="巴士" id="20" weight="1.0" />
+      <edge source="巴士" target="车辆" id="22" weight="0.7302682995796204" />
+      <edge source="巴士" target="火车" id="29" weight="0.5952173471450806" />
+      <edge source="巴士" target="马车" id="36" weight="0.5310448408126831" />
+      <edge source="巴士" target="摩托车" id="37" weight="0.6632782816886902" />
+      <edge source="马车" target="车辆" id="1445" weight="0.527673602104187" />
+      <edge source="马车" target="马车" id="6642" weight="1.0" />
+      <edge source="摩托车" target="车辆" id="1446" weight="0.7321013808250427" />
+      <edge source="摩托车" target="火车" id="4993" weight="0.5270265936851501" />
+      <edge source="摩托车" target="摩托车" id="7011" weight="1.0" />
+      <edge source="火车" target="车辆" id="1438" weight="0.5454536080360413" />
+      <edge source="火车" target="火车" id="4987" weight="1.0" />
+      <edge source="车辆" target="车辆" id="1429" weight="1.0" />
+      <edge source="游艇" target="游艇" id="8964" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

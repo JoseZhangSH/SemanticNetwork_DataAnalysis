@@ -1,0 +1,2605 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2022-02-28">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="subcategory" type="string" />
+      <attribute id="1" title="maincategory" type="string" />
+      <attribute id="2" title="closeness_centrality" type="double" />
+      <attribute id="3" title="clustering_coefficent" type="double" />
+      <attribute id="4" title="degree_centrality" type="double" />
+      <attribute id="5" title="betweenness_centrality" type="long" />
+      <attribute id="6" title="pagerank" type="double" />
+      <attribute id="7" title="laplacian_centrality" type="double" />
+      <attribute id="8" title="louvain_community" type="long" />
+      <attribute id="9" title="x" type="double" />
+      <attribute id="10" title="y" type="double" />
+    </attributes>
+    <nodes>
+      <node id="大饼" label="大饼">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.0659981143395903" />
+          <attvalue for="3" value="0.23273635" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013176334540015097" />
+          <attvalue for="7" value="0.00018809463972446652" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1914.9056" />
+          <attvalue for="10" value="505.08334" />
+        </attvalues>
+      </node>
+      <node id="饼干" label="饼干">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06378396288933068" />
+          <attvalue for="3" value="0.12975307" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001342543450026855" />
+          <attvalue for="7" value="0.00019922146311985935" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1776.2543" />
+          <attvalue for="10" value="636.49304" />
+        </attvalues>
+      </node>
+      <node id="白糖" label="白糖">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.07653314779842958" />
+          <attvalue for="3" value="0.7261339" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001087783132410136" />
+          <attvalue for="7" value="0.00019381450219069826" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1637.7297" />
+          <attvalue for="10" value="-687.4364" />
+        </attvalues>
+      </node>
+      <node id="全脂牛奶" label="全脂牛奶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08526187576126674" />
+          <attvalue for="3" value="0.5338085" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012076987861933354" />
+          <attvalue for="7" value="0.00014226371436763813" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1696.4833" />
+          <attvalue for="10" value="87.62844" />
+        </attvalues>
+      </node>
+      <node id="蛋糕" label="蛋糕">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06102393406245047" />
+          <attvalue for="3" value="0.24353777" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0015448290261199005" />
+          <attvalue for="7" value="0.00022835219299908394" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1916.1041" />
+          <attvalue for="10" value="649.5554" />
+        </attvalues>
+      </node>
+      <node id="面包酱" label="面包酱">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08741060279259848" />
+          <attvalue for="3" value="0.3515309" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013901910992002828" />
+          <attvalue for="7" value="0.00023458120748334247" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1624.2023" />
+          <attvalue for="10" value="-569.06274" />
+        </attvalues>
+      </node>
+      <node id="花生" label="花生">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.0947808961102905" />
+          <attvalue for="3" value="0.36953348" />
+          <attvalue for="4" value="0.023376623376623377" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010224267140250074" />
+          <attvalue for="7" value="0.0012151401218635854" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-1027.9126" />
+          <attvalue for="10" value="-174.6054" />
+        </attvalues>
+      </node>
+      <node id="煎饼" label="煎饼">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06107233502538071" />
+          <attvalue for="3" value="0.5816835" />
+          <attvalue for="4" value="0.014285714285714285" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0016360738808107486" />
+          <attvalue for="7" value="0.0005572890932569709" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1864.128" />
+          <attvalue for="10" value="797.15924" />
+        </attvalues>
+      </node>
+      <node id="牛肉面" label="牛肉面">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06308889799262597" />
+          <attvalue for="3" value="0.35501957" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0016132855807494508" />
+          <attvalue for="7" value="0.00023985061959510794" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-2068.1157" />
+          <attvalue for="10" value="383.0915" />
+        </attvalues>
+      </node>
+      <node id="酱油" label="酱油">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.0926037282020445" />
+          <attvalue for="3" value="0.15519397" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0014809744916254297" />
+          <attvalue for="7" value="0.00021592486978064414" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1620.5773" />
+          <attvalue for="10" value="-488.44177" />
+        </attvalues>
+      </node>
+      <node id="煎蛋卷" label="煎蛋卷">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06492411467116357" />
+          <attvalue for="3" value="0.15181679" />
+          <attvalue for="4" value="0.015584415584415584" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.002162923949453189" />
+          <attvalue for="7" value="0.00041481538084629625" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1844.4521" />
+          <attvalue for="10" value="647.6243" />
+        </attvalues>
+      </node>
+      <node id="稀饭" label="稀饭">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08242346392635409" />
+          <attvalue for="3" value="0.19680968" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001209284123555819" />
+          <attvalue for="7" value="9.774855111360333e-05" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1778.7408" />
+          <attvalue for="10" value="235.48364" />
+        </attvalues>
+      </node>
+      <node id="巧克力冰淇淋" label="巧克力冰淇淋">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05509838998211091" />
+          <attvalue for="3" value="0.6661242" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0011070715294030562" />
+          <attvalue for="7" value="8.217949007819795e-05" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-1455.7034" />
+          <attvalue for="10" value="681.8221" />
+        </attvalues>
+      </node>
+      <node id="大米" label="大米">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08672147764387882" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.00048551596374235085" />
+          <attvalue for="7" value="9.421543878772267e-05" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-1080.3577" />
+          <attvalue for="10" value="-298.17017" />
+        </attvalues>
+      </node>
+      <node id="寿司" label="寿司">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.055591654032199844" />
+          <attvalue for="3" value="0.62041324" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0006801172442934465" />
+          <attvalue for="7" value="0.000141588599287284" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1788.5348" />
+          <attvalue for="10" value="830.7989" />
+        </attvalues>
+      </node>
+      <node id="巧克力" label="巧克力">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.07393182909265482" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0009948183742069894" />
+          <attvalue for="7" value="7.007586759059969e-05" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-921.6469" />
+          <attvalue for="10" value="239.6292" />
+        </attvalues>
+      </node>
+      <node id="味精" label="味精">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08284023668639054" />
+          <attvalue for="3" value="0.48763266" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0015633864337304326" />
+          <attvalue for="7" value="0.0003378460484725924" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1634.535" />
+          <attvalue for="10" value="-666.2754" />
+        </attvalues>
+      </node>
+      <node id="黑胡椒" label="黑胡椒">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.0904286553141515" />
+          <attvalue for="3" value="0.15908681" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0006230426307043293" />
+          <attvalue for="7" value="0.0004429543330139143" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-935.60223" />
+          <attvalue for="10" value="-690.5279" />
+        </attvalues>
+      </node>
+      <node id="粥" label="粥">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08861779261134768" />
+          <attvalue for="3" value="0.2209726" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0009694048440410815" />
+          <attvalue for="7" value="0.00011263274844120333" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1695.8978" />
+          <attvalue for="10" value="179.88057" />
+        </attvalues>
+      </node>
+      <node id="面筋" label="面筋">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.0619618572463185" />
+          <attvalue for="3" value="0.23644719" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001354024008330047" />
+          <attvalue for="7" value="0.00016110746161629276" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1961.3701" />
+          <attvalue for="10" value="505.04956" />
+        </attvalues>
+      </node>
+      <node id="凉皮" label="凉皮">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06445672191528545" />
+          <attvalue for="3" value="0.44380403" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001459142357059511" />
+          <attvalue for="7" value="0.0001991125776707178" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1947.3542" />
+          <attvalue for="10" value="472.08646" />
+        </attvalues>
+      </node>
+      <node id="冷面" label="冷面">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.059367771781033155" />
+          <attvalue for="3" value="0.5140539" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001360333603458932" />
+          <attvalue for="7" value="0.00018545751922419606" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-2097.7935" />
+          <attvalue for="10" value="372.98804" />
+        </attvalues>
+      </node>
+      <node id="辣椒粉" label="辣椒粉">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09019561906993089" />
+          <attvalue for="3" value="0.21863726" />
+          <attvalue for="4" value="0.016883116883116882" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.002171455025770226" />
+          <attvalue for="7" value="0.00046617490736739473" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1549.4707" />
+          <attvalue for="10" value="-644.8601" />
+        </attvalues>
+      </node>
+      <node id="棒棒糖" label="棒棒糖">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.07311746272908555" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.003896103896103896" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007832035334453867" />
+          <attvalue for="7" value="5.169087267795281e-05" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-695.6925" />
+          <attvalue for="10" value="82.56079" />
+        </attvalues>
+      </node>
+      <node id="凉粉" label="凉粉">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06307856148111739" />
+          <attvalue for="3" value="0.5151325" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0011922590689341498" />
+          <attvalue for="7" value="0.0001492295831215348" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1981.3617" />
+          <attvalue for="10" value="475.34396" />
+        </attvalues>
+      </node>
+      <node id="草莓酱" label="草莓酱">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.07447528774542993" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.003896103896103896" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007755362670903319" />
+          <attvalue for="7" value="4.400515016453203e-05" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1717.0654" />
+          <attvalue for="10" value="-598.9309" />
+        </attvalues>
+      </node>
+      <node id="纯净水" label="纯净水">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.11741384568465996" />
+          <attvalue for="3" value="0.2233425" />
+          <attvalue for="4" value="0.014285714285714285" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001824084979848568" />
+          <attvalue for="7" value="0.0003835072591783799" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1096.7734" />
+          <attvalue for="10" value="341.78168" />
+        </attvalues>
+      </node>
+      <node id="花生米" label="花生米">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08851592137027245" />
+          <attvalue for="3" value="0.47348562" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0006272394971477841" />
+          <attvalue for="7" value="0.0004062682823279332" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-1027.2269" />
+          <attvalue for="10" value="-116.26589" />
+        </attvalues>
+      </node>
+      <node id="卷饼" label="卷饼">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05761316872427984" />
+          <attvalue for="3" value="0.73260397" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0014456221440698957" />
+          <attvalue for="7" value="0.0004879440787598838" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1879.8025" />
+          <attvalue for="10" value="853.8373" />
+        </attvalues>
+      </node>
+      <node id="热水" label="热水">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09542694261990334" />
+          <attvalue for="3" value="0.59370583" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013763452173830917" />
+          <attvalue for="7" value="0.0003102040411902574" />
+          <attvalue for="8" value="19" />
+          <attvalue for="9" value="-1431.2527" />
+          <attvalue for="10" value="534.8833" />
+        </attvalues>
+      </node>
+      <node id="奶酪" label="奶酪">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06225743855109961" />
+          <attvalue for="3" value="0.382629" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0011787975631862991" />
+          <attvalue for="7" value="9.79164695690953e-05" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-1442.9567" />
+          <attvalue for="10" value="598.36804" />
+        </attvalues>
+      </node>
+      <node id="豆浆" label="豆浆">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09580689311932312" />
+          <attvalue for="3" value="0.29287302" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0016093362439995075" />
+          <attvalue for="7" value="0.0003527142798145909" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1626.5979" />
+          <attvalue for="10" value="95.75313" />
+        </attvalues>
+      </node>
+      <node id="香草冰淇淋" label="香草冰淇淋">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05829358770535241" />
+          <attvalue for="3" value="0.4163783" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001284383173007446" />
+          <attvalue for="7" value="0.00010348522615366924" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-1435.1034" />
+          <attvalue for="10" value="657.3337" />
+        </attvalues>
+      </node>
+      <node id="谷物" label="谷物">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08906882591093117" />
+          <attvalue for="3" value="0.16482455" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0006412550685295603" />
+          <attvalue for="7" value="0.00035404910656328055" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-921.43445" />
+          <attvalue for="10" value="-307.80466" />
+        </attvalues>
+      </node>
+      <node id="馄饨" label="馄饨">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05761316872427984" />
+          <attvalue for="3" value="0.7329709" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0014470303267566326" />
+          <attvalue for="7" value="0.0004880644156542591" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1847.7545" />
+          <attvalue for="10" value="858.09326" />
+        </attvalues>
+      </node>
+      <node id="麻花" label="麻花">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06095147629225046" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0008535260361747201" />
+          <attvalue for="7" value="7.929972042517127e-05" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1891.0725" />
+          <attvalue for="10" value="582.49945" />
+        </attvalues>
+      </node>
+      <node id="冰棍" label="冰棍">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05222817608356508" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.003896103896103896" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010338231653017108" />
+          <attvalue for="7" value="5.765836292535893e-05" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-1438.4048" />
+          <attvalue for="10" value="744.3256" />
+        </attvalues>
+      </node>
+      <node id="八宝粥" label="八宝粥">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.07670850767085077" />
+          <attvalue for="3" value="0.590429" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010190433119078096" />
+          <attvalue for="7" value="7.080785784441036e-05" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1808.928" />
+          <attvalue for="10" value="254.25255" />
+        </attvalues>
+      </node>
+      <node id="泉水" label="泉水">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.10534956902449036" />
+          <attvalue for="3" value="0.4440125" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013557026451017585" />
+          <attvalue for="7" value="0.000304886150497454" />
+          <attvalue for="8" value="19" />
+          <attvalue for="9" value="-1378.3494" />
+          <attvalue for="10" value="479.37567" />
+        </attvalues>
+      </node>
+      <node id="水" label="水">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.11786315628348386" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007832141859952933" />
+          <attvalue for="7" value="8.119298525013935e-05" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-45.20149" />
+          <attvalue for="10" value="606.40063" />
+        </attvalues>
+      </node>
+      <node id="芝士蛋糕" label="芝士蛋糕">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05872035384732708" />
+          <attvalue for="3" value="0.39701515" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001194806501121807" />
+          <attvalue for="7" value="0.00013907605376579032" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1953.0015" />
+          <attvalue for="10" value="649.1882" />
+        </attvalues>
+      </node>
+      <node id="红茶" label="红茶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.1014893897456175" />
+          <attvalue for="3" value="0.3890511" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007902075750510285" />
+          <attvalue for="7" value="0.0005740934324177661" />
+          <attvalue for="8" value="18" />
+          <attvalue for="9" value="-148.474" />
+          <attvalue for="10" value="257.26782" />
+        </attvalues>
+      </node>
+      <node id="油饼" label="油饼">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06488035052241321" />
+          <attvalue for="3" value="0.13542189" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0018708792363165184" />
+          <attvalue for="7" value="0.00031043058527124677" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1859.9663" />
+          <attvalue for="10" value="599.14545" />
+        </attvalues>
+      </node>
+      <node id="棉花糖" label="棉花糖">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06588517155814153" />
+          <attvalue for="3" value="0.1913145" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0014424952243069413" />
+          <attvalue for="7" value="0.00012458254782301298" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-1357.3153" />
+          <attvalue for="10" value="553.48627" />
+        </attvalues>
+      </node>
+      <node id="蔗糖" label="蔗糖">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08280460264544574" />
+          <attvalue for="3" value="0.60198087" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.00142140836563382" />
+          <attvalue for="7" value="0.00029813004163546544" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1602.2098" />
+          <attvalue for="10" value="-661.88855" />
+        </attvalues>
+      </node>
+      <node id="威士忌酒" label="威士忌酒">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08283132530120482" />
+          <attvalue for="3" value="0.6641509" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001576389990431181" />
+          <attvalue for="7" value="0.0004941691473876963" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1922.0479" />
+          <attvalue for="10" value="-125.14697" />
+        </attvalues>
+      </node>
+      <node id="蛋卷" label="蛋卷">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.061057806676710805" />
+          <attvalue for="3" value="0.24488686" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.00151731928629017" />
+          <attvalue for="7" value="0.00023025120189058734" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1884.4901" />
+          <attvalue for="10" value="640.1299" />
+        </attvalues>
+      </node>
+      <node id="可可巧克力" label="可可巧克力">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06957621758380772" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010176645054665895" />
+          <attvalue for="7" value="6.914962298010031e-05" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-1135.2948" />
+          <attvalue for="10" value="396.7291" />
+        </attvalues>
+      </node>
+      <node id="比萨" label="比萨">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06239364719228588" />
+          <attvalue for="3" value="0.18211538" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0011986905963495284" />
+          <attvalue for="7" value="0.00021030420083071948" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1816.1111" />
+          <attvalue for="10" value="708.15466" />
+        </attvalues>
+      </node>
+      <node id="蜂蜜" label="蜂蜜">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09520276953511375" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010470758202436444" />
+          <attvalue for="7" value="0.00010851308919457651" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1613.1293" />
+          <attvalue for="10" value="-245.99374" />
+        </attvalues>
+      </node>
+      <node id="葡萄酒" label="葡萄酒">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09021675454012888" />
+          <attvalue for="3" value="0.40345305" />
+          <attvalue for="4" value="0.015584415584415584" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0017255499528275723" />
+          <attvalue for="7" value="0.0005336069781897571" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1844.9553" />
+          <attvalue for="10" value="-70.057434" />
+        </attvalues>
+      </node>
+      <node id="菠萝汁" label="菠萝汁">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09422418012726383" />
+          <attvalue for="3" value="0.65242237" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0009559188938234987" />
+          <attvalue for="7" value="0.00018151804360692488" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1536.718" />
+          <attvalue for="10" value="84.958664" />
+        </attvalues>
+      </node>
+      <node id="披萨" label="披萨">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.058819035978916814" />
+          <attvalue for="3" value="0.40899357" />
+          <attvalue for="4" value="0.016883116883116882" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0018947041681330746" />
+          <attvalue for="7" value="0.0006168699943157034" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1825.8823" />
+          <attvalue for="10" value="800.1108" />
+        </attvalues>
+      </node>
+      <node id="白水" label="白水">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.1130524152106886" />
+          <attvalue for="3" value="0.24355653" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0008686183508600035" />
+          <attvalue for="7" value="0.0001327331461933536" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-963.6431" />
+          <attvalue for="10" value="339.9625" />
+        </attvalues>
+      </node>
+      <node id="牛奶" label="牛奶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09316394434361766" />
+          <attvalue for="3" value="0.14811757" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0016392011162389012" />
+          <attvalue for="7" value="0.0002697767250786485" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1671.2228" />
+          <attvalue for="10" value="117.52676" />
+        </attvalues>
+      </node>
+      <node id="冰糖" label="冰糖">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08280460264544574" />
+          <attvalue for="3" value="0.5930192" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013935661242533252" />
+          <attvalue for="7" value="0.0002912753733916349" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1582.6775" />
+          <attvalue for="10" value="-683.64056" />
+        </attvalues>
+      </node>
+      <node id="糕点" label="糕点">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05761316872427984" />
+          <attvalue for="3" value="0.70366645" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013698949799640942" />
+          <attvalue for="7" value="0.00045089242660834077" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1824.1395" />
+          <attvalue for="10" value="872.80225" />
+        </attvalues>
+      </node>
+      <node id="冰淇淋蛋糕" label="冰淇淋蛋糕">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05872035384732708" />
+          <attvalue for="3" value="0.19387537" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010031894548629635" />
+          <attvalue for="7" value="0.00010847398106304472" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1936.1891" />
+          <attvalue for="10" value="676.55927" />
+        </attvalues>
+      </node>
+      <node id="茶包" label="茶包">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09847806624888093" />
+          <attvalue for="3" value="0.41240916" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0006252856181657861" />
+          <attvalue for="7" value="0.00015933037442614228" />
+          <attvalue for="8" value="18" />
+          <attvalue for="9" value="-229.28618" />
+          <attvalue for="10" value="348.41385" />
+        </attvalues>
+      </node>
+      <node id="蛋卷冰淇淋" label="蛋卷冰淇淋">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.058302415385780265" />
+          <attvalue for="3" value="0.20818914" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0016281446956361632" />
+          <attvalue for="7" value="0.00013646423682714146" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-1423.8557" />
+          <attvalue for="10" value="683.7047" />
+        </attvalues>
+      </node>
+      <node id="米线" label="米线">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06307856148111739" />
+          <attvalue for="3" value="0.5316967" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012559773901206876" />
+          <attvalue for="7" value="0.00016157736465368682" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1975.7839" />
+          <attvalue for="10" value="449.50238" />
+        </attvalues>
+      </node>
+      <node id="清酒" label="清酒">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08281350828135083" />
+          <attvalue for="3" value="0.7753622" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001396027983937258" />
+          <attvalue for="7" value="0.0004337759580622365" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1903.2418" />
+          <attvalue for="10" value="-73.12315" />
+        </attvalues>
+      </node>
+      <node id="绿豆汤" label="绿豆汤">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.07860351163740302" />
+          <attvalue for="3" value="0.6068735" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0009229398285584542" />
+          <attvalue for="7" value="7.03447507264946e-05" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1790.8301" />
+          <attvalue for="10" value="71.48804" />
+        </attvalues>
+      </node>
+      <node id="冰红茶" label="冰红茶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.10931289040318001" />
+          <attvalue for="3" value="0.21565543" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007309396647263774" />
+          <attvalue for="7" value="0.00011337018804326547" />
+          <attvalue for="8" value="18" />
+          <attvalue for="9" value="-527.99207" />
+          <attvalue for="10" value="363.8543" />
+        </attvalues>
+      </node>
+      <node id="白饭" label="白饭">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.07271697044102371" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010393423665834454" />
+          <attvalue for="7" value="7.727282352495e-05" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1879.5856" />
+          <attvalue for="10" value="331.96527" />
+        </attvalues>
+      </node>
+      <node id="馒头" label="馒头">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06607173502660031" />
+          <attvalue for="3" value="0.30014408" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012463710210901782" />
+          <attvalue for="7" value="0.00018695091414272844" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1882.0664" />
+          <attvalue for="10" value="537.3452" />
+        </attvalues>
+      </node>
+      <node id="橘子汽水" label="橘子汽水">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.10064043915827996" />
+          <attvalue for="3" value="0.3261495" />
+          <attvalue for="4" value="0.014285714285714285" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0017335000809546037" />
+          <attvalue for="7" value="0.00043641580704194825" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1409.0659" />
+          <attvalue for="10" value="194.84612" />
+        </attvalues>
+      </node>
+      <node id="甜甜圈" label="甜甜圈">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06099493029150824" />
+          <attvalue for="3" value="0.58013326" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0009159714423173662" />
+          <attvalue for="7" value="0.00011458341305243869" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1870.8466" />
+          <attvalue for="10" value="677.31824" />
+        </attvalues>
+      </node>
+      <node id="鸡尾酒" label="鸡尾酒">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08281350828135083" />
+          <attvalue for="3" value="0.75566685" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001347875778034657" />
+          <attvalue for="7" value="0.00041248783433494495" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1875.7473" />
+          <attvalue for="10" value="-86.725365" />
+        </attvalues>
+      </node>
+      <node id="果酱" label="果酱">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08045977011494253" />
+          <attvalue for="3" value="0.19537072" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010598364966545822" />
+          <attvalue for="7" value="0.00010236761235445247" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1685.612" />
+          <attvalue for="10" value="-592.6947" />
+        </attvalues>
+      </node>
+      <node id="小米" label="小米">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08266237251744499" />
+          <attvalue for="3" value="0.18578853" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0005210820968081091" />
+          <attvalue for="7" value="0.00012891144578848626" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-1074.3878" />
+          <attvalue for="10" value="-337.05762" />
+        </attvalues>
+      </node>
+      <node id="白酒" label="白酒">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08281350828135083" />
+          <attvalue for="3" value="0.7359314" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001300982652842077" />
+          <attvalue for="7" value="0.00039078876843011477" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1868.0767" />
+          <attvalue for="10" value="-111.82956" />
+        </attvalues>
+      </node>
+      <node id="苹果汁" label="苹果汁">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09493280729873012" />
+          <attvalue for="3" value="0.47388119" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0014819429924906773" />
+          <attvalue for="7" value="0.00033933015128327285" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1562.1421" />
+          <attvalue for="10" value="105.920715" />
+        </attvalues>
+      </node>
+      <node id="小麦" label="小麦">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09487432232626909" />
+          <attvalue for="3" value="0.4003187" />
+          <attvalue for="4" value="0.02857142857142857" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.000729556121513453" />
+          <attvalue for="7" value="0.002607648167350409" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-420.64212" />
+          <attvalue for="10" value="-393.8825" />
+        </attvalues>
+      </node>
+      <node id="清汤" label="清汤">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.07861153649821337" />
+          <attvalue for="3" value="0.47404462" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013184331776684732" />
+          <attvalue for="7" value="0.00011947492195191751" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1802.9233" />
+          <attvalue for="10" value="98.56289" />
+        </attvalues>
+      </node>
+      <node id="谷子" label="谷子">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.10086455331412104" />
+          <attvalue for="3" value="0.22944069" />
+          <attvalue for="4" value="0.05584415584415584" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001354737647669653" />
+          <attvalue for="7" value="0.005552284726371753" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-362.92087" />
+          <attvalue for="10" value="-257.5449" />
+        </attvalues>
+      </node>
+      <node id="方便面" label="方便面">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05936319481921209" />
+          <attvalue for="3" value="0.66822124" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012275706167109266" />
+          <attvalue for="7" value="0.0001659771206434853" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-2084.2078" />
+          <attvalue for="10" value="349.46524" />
+        </attvalues>
+      </node>
+      <node id="肉汤" label="肉汤">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.07860351163740302" />
+          <attvalue for="3" value="0.8152603" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001115058809798528" />
+          <attvalue for="7" value="0.00010010578501671288" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1794.5782" />
+          <attvalue for="10" value="125.907074" />
+        </attvalues>
+      </node>
+      <node id="果汁" label="果汁">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.10156971375807941" />
+          <attvalue for="3" value="0.20838754" />
+          <attvalue for="4" value="0.02077922077922078" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0025282537629196123" />
+          <attvalue for="7" value="0.0006726831369719146" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1495.0052" />
+          <attvalue for="10" value="157.12613" />
+        </attvalues>
+      </node>
+      <node id="二锅头" label="二锅头">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08283132530120482" />
+          <attvalue for="3" value="0.65733516" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0015582003569032722" />
+          <attvalue for="7" value="0.00048522770251307486" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1923.6797" />
+          <attvalue for="10" value="-89.42942" />
+        </attvalues>
+      </node>
+      <node id="坚果" label="坚果">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08954529596464705" />
+          <attvalue for="3" value="0.494161" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0006495259622597422" />
+          <attvalue for="7" value="0.0005370486644529295" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-968.186" />
+          <attvalue for="10" value="-116.51065" />
+        </attvalues>
+      </node>
+      <node id="香槟" label="香槟">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08281350828135083" />
+          <attvalue for="3" value="0.7184601" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001259147514898488" />
+          <attvalue for="7" value="0.00037240635117934655" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1891.6575" />
+          <attvalue for="10" value="-133.60753" />
+        </attvalues>
+      </node>
+      <node id="醋" label="醋">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08476442095992955" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.003896103896103896" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007138355962781187" />
+          <attvalue for="7" value="5.378326554599594e-05" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1651.6022" />
+          <attvalue for="10" value="-483.93597" />
+        </attvalues>
+      </node>
+      <node id="柠檬水" label="柠檬水">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.0922266139657444" />
+          <attvalue for="3" value="0.614262" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0006874123040151621" />
+          <attvalue for="7" value="0.00010754540838246901" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1462.7109" />
+          <attvalue for="10" value="193.1036" />
+        </attvalues>
+      </node>
+      <node id="法式面包" label="法式面包">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05759593088488294" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001110451868753254" />
+          <attvalue for="7" value="0.00010269121705848202" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1926.3214" />
+          <attvalue for="10" value="574.4891" />
+        </attvalues>
+      </node>
+      <node id="汉堡" label="汉堡">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.061052965429749445" />
+          <attvalue for="3" value="0.080777235" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013398423006292788" />
+          <attvalue for="7" value="0.00023415893237316204" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1845.7617" />
+          <attvalue for="10" value="734.7635" />
+        </attvalues>
+      </node>
+      <node id="通心粉" label="通心粉">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06727240957539751" />
+          <attvalue for="3" value="0.1321568" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001994183649597886" />
+          <attvalue for="7" value="0.00028926572773116496" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1943.7639" />
+          <attvalue for="10" value="433.84778" />
+        </attvalues>
+      </node>
+      <node id="葡萄汁" label="葡萄汁">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09806418746816098" />
+          <attvalue for="3" value="0.3035015" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0016075633197946075" />
+          <attvalue for="7" value="0.0003690969242259234" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1573.813" />
+          <attvalue for="10" value="32.827744" />
+        </attvalues>
+      </node>
+      <node id="咖啡豆" label="咖啡豆">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08725212464589235" />
+          <attvalue for="3" value="0.6052551" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0004677134784360552" />
+          <attvalue for="7" value="0.00021747991662416876" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-1114.7537" />
+          <attvalue for="10" value="-183.82072" />
+        </attvalues>
+      </node>
+      <node id="热狗" label="热狗">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05754427920185337" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.003896103896103896" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0006621538318961495" />
+          <attvalue for="7" value="5.581177060379858e-05" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1883.1085" />
+          <attvalue for="10" value="739.6846" />
+        </attvalues>
+      </node>
+      <node id="意大利面" label="意大利面">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.059367771781033155" />
+          <attvalue for="3" value="0.53871816" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0014828831964071808" />
+          <attvalue for="7" value="0.00020866481983189777" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-2126.802" />
+          <attvalue for="10" value="368.71442" />
+        </attvalues>
+      </node>
+      <node id="椒盐" label="椒盐">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08274231678486997" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.003896103896103896" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0006457013311787285" />
+          <attvalue for="7" value="6.257607514070996e-05" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1531.7113" />
+          <attvalue for="10" value="-673.33105" />
+        </attvalues>
+      </node>
+      <node id="魔芋" label="魔芋">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09468765371372356" />
+          <attvalue for="3" value="0.22253998" />
+          <attvalue for="4" value="0.08181818181818182" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0016842993646971702" />
+          <attvalue for="7" value="0.010506198731990466" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-308.19183" />
+          <attvalue for="10" value="-296.8506" />
+        </attvalues>
+      </node>
+      <node id="巧克力牛奶" label="巧克力牛奶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.07857944688233494" />
+          <attvalue for="3" value="0.89478326" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010306990294870538" />
+          <attvalue for="7" value="0.00010639282894448285" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1725.239" />
+          <attvalue for="10" value="90.5502" />
+        </attvalues>
+      </node>
+      <node id="炸酱面" label="炸酱面">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05936319481921209" />
+          <attvalue for="3" value="0.6600501" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012032475616504325" />
+          <attvalue for="7" value="0.0001606140927129085" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-2113.775" />
+          <attvalue for="10" value="342.6716" />
+        </attvalues>
+      </node>
+      <node id="奶油" label="奶油">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06187223784652471" />
+          <attvalue for="3" value="0.1989455" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0014853684868853952" />
+          <attvalue for="7" value="0.00013281160077587348" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-1409.1573" />
+          <attvalue for="10" value="621.7103" />
+        </attvalues>
+      </node>
+      <node id="酸奶" label="酸奶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09230400383601055" />
+          <attvalue for="3" value="0.5871543" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007604768501635265" />
+          <attvalue for="7" value="0.00010427586170022139" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1636.1691" />
+          <attvalue for="10" value="148.00954" />
+        </attvalues>
+      </node>
+      <node id="烤面包" label="烤面包">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.058475091130012154" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0009159676046161917" />
+          <attvalue for="7" value="7.719718410166223e-05" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1953.1143" />
+          <attvalue for="10" value="540.3789" />
+        </attvalues>
+      </node>
+      <node id="羹汤" label="羹汤">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08529020824102791" />
+          <attvalue for="3" value="0.23702231" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0014684834693619525" />
+          <attvalue for="7" value="0.00015156197531803874" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1766.6046" />
+          <attvalue for="10" value="104.70573" />
+        </attvalues>
+      </node>
+      <node id="芝麻" label="芝麻">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09390243902439024" />
+          <attvalue for="3" value="0.2428332" />
+          <attvalue for="4" value="0.015584415584415584" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.00043050090743206287" />
+          <attvalue for="7" value="0.0011886372375318193" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-360.11905" />
+          <attvalue for="10" value="-542.1604" />
+        </attvalues>
+      </node>
+      <node id="爆米花" label="爆米花">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06264746562525425" />
+          <attvalue for="3" value="0.1790749" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0010896141693235715" />
+          <attvalue for="7" value="9.679281167274763e-05" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-1532.5039" />
+          <attvalue for="10" value="599.74207" />
+        </attvalues>
+      </node>
+      <node id="可口可乐" label="可口可乐">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.10810051944405447" />
+          <attvalue for="3" value="0.5781466" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0015131111149150151" />
+          <attvalue for="7" value="0.0003798156577970235" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1279.1654" />
+          <attvalue for="10" value="246.14825" />
+        </attvalues>
+      </node>
+      <node id="牦牛奶" label="牦牛奶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08526187576126674" />
+          <attvalue for="3" value="0.5338085" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012238190133681175" />
+          <attvalue for="7" value="0.00014471526372703358" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1706.9518" />
+          <attvalue for="10" value="113.70651" />
+        </attvalues>
+      </node>
+      <node id="百事可乐" label="百事可乐">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.10810051944405447" />
+          <attvalue for="3" value="0.5936278" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001570941516674201" />
+          <attvalue for="7" value="0.00040128590323979104" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1314.3741" />
+          <attvalue for="10" value="240.93953" />
+        </attvalues>
+      </node>
+      <node id="糖浆" label="糖浆">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08693688607880773" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.003896103896103896" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007737826639437925" />
+          <attvalue for="7" value="4.895540789920637e-05" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1643.4014" />
+          <attvalue for="10" value="-255.35524" />
+        </attvalues>
+      </node>
+      <node id="冰淇淋" label="冰淇淋">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.055102332903964504" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012640814776953256" />
+          <attvalue for="7" value="8.215834500576566e-05" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-1430.7842" />
+          <attvalue for="10" value="720.897" />
+        </attvalues>
+      </node>
+      <node id="糖果" label="糖果">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.07887727924605614" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012563196074055496" />
+          <attvalue for="7" value="0.00012520172519894326" />
+          <attvalue for="8" value="13" />
+          <attvalue for="9" value="-674.7577" />
+          <attvalue for="10" value="55.876568" />
+        </attvalues>
+      </node>
+      <node id="橙汁" label="橙汁">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09493280729873012" />
+          <attvalue for="3" value="0.4779918" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001504349476480941" />
+          <attvalue for="7" value="0.00034492905547399514" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1536.291" />
+          <attvalue for="10" value="120.91957" />
+        </attvalues>
+      </node>
+      <node id="包子" label="包子">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05761316872427984" />
+          <attvalue for="3" value="0.6988831" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013531396026751576" />
+          <attvalue for="7" value="0.00044186457784662166" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1862.6918" />
+          <attvalue for="10" value="881.1002" />
+        </attvalues>
+      </node>
+      <node id="苏打水" label="苏打水">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.1081308804943126" />
+          <attvalue for="3" value="0.47199142" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0017838570257890979" />
+          <attvalue for="7" value="0.00044749002329916114" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1271.6974" />
+          <attvalue for="10" value="281.50363" />
+        </attvalues>
+      </node>
+      <node id="春卷" label="春卷">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.057647675376207234" />
+          <attvalue for="3" value="0.50570744" />
+          <attvalue for="4" value="0.015584415584415584" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0017550919191973765" />
+          <attvalue for="7" value="0.0005854247054575119" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1881.7332" />
+          <attvalue for="10" value="826.1919" />
+        </attvalues>
+      </node>
+      <node id="奶茶" label="奶茶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.10378757244911713" />
+          <attvalue for="3" value="0.32234436" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007347555424737892" />
+          <attvalue for="7" value="0.00015498993064363392" />
+          <attvalue for="8" value="18" />
+          <attvalue for="9" value="-331.8616" />
+          <attvalue for="10" value="366.26285" />
+        </attvalues>
+      </node>
+      <node id="花生酱" label="花生酱">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09019561906993089" />
+          <attvalue for="3" value="0.24476743" />
+          <attvalue for="4" value="0.016883116883116882" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.002174732248233348" />
+          <attvalue for="7" value="0.00048424389687834083" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1581.0404" />
+          <attvalue for="10" value="-627.381" />
+        </attvalues>
+      </node>
+      <node id="葵花籽" label="葵花籽">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08960782031886419" />
+          <attvalue for="3" value="0.29190236" />
+          <attvalue for="4" value="0.03116883116883117" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0011837840123597569" />
+          <attvalue for="7" value="0.0019327554270081003" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-967.62683" />
+          <attvalue for="10" value="-230.10516" />
+        </attvalues>
+      </node>
+      <node id="全麦饼干" label="全麦饼干">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05871587616287936" />
+          <attvalue for="3" value="0.60048336" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0009966843454103078" />
+          <attvalue for="7" value="0.00011057756972937758" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1943.041" />
+          <attvalue for="10" value="620.2195" />
+        </attvalues>
+      </node>
+      <node id="碧螺春" label="碧螺春">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.1014893897456175" />
+          <attvalue for="3" value="0.40144476" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.000744779049093316" />
+          <attvalue for="7" value="0.0005510316991222598" />
+          <attvalue for="8" value="18" />
+          <attvalue for="9" value="-118.91699" />
+          <attvalue for="10" value="277.12366" />
+        </attvalues>
+      </node>
+      <node id="面粉" label="面粉">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06566604127579738" />
+          <attvalue for="3" value="0.57625633" />
+          <attvalue for="4" value="0.005194805194805195" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0008836832534541111" />
+          <attvalue for="7" value="7.812020569823287e-05" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1934.838" />
+          <attvalue for="10" value="403.29422" />
+        </attvalues>
+      </node>
+      <node id="咖喱酱" label="咖喱酱">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08279569892473118" />
+          <attvalue for="3" value="0.630562" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.000886319008376579" />
+          <attvalue for="7" value="0.00014312232983090136" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1620.4362" />
+          <attvalue for="10" value="-633.9226" />
+        </attvalues>
+      </node>
+      <node id="布丁" label="布丁">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.060020266583521706" />
+          <attvalue for="3" value="0.24021323" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013733193265626723" />
+          <attvalue for="7" value="0.0001735042174429452" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1907.1432" />
+          <attvalue for="10" value="623.853" />
+        </attvalues>
+      </node>
+      <node id="馅饼" label="馅饼">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.057647675376207234" />
+          <attvalue for="3" value="0.511276" />
+          <attvalue for="4" value="0.015584415584415584" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0017686346575793506" />
+          <attvalue for="7" value="0.0005943929498946506" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1824.1498" />
+          <attvalue for="10" value="836.94604" />
+        </attvalues>
+      </node>
+      <node id="普洱茶" label="普洱茶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.10240723500465487" />
+          <attvalue for="3" value="0.36279362" />
+          <attvalue for="4" value="0.014285714285714285" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0007979416569248695" />
+          <attvalue for="7" value="0.0008042056068181807" />
+          <attvalue for="8" value="18" />
+          <attvalue for="9" value="-173.49088" />
+          <attvalue for="10" value="285.70148" />
+        </attvalues>
+      </node>
+      <node id="甜点" label="甜点">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06101909818527617" />
+          <attvalue for="3" value="0.2994216" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001327202422984197" />
+          <attvalue for="7" value="0.0001864694041875896" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1898.6362" />
+          <attvalue for="10" value="680.50653" />
+        </attvalues>
+      </node>
+      <node id="干果" label="干果">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08426351499233968" />
+          <attvalue for="3" value="0.24023458" />
+          <attvalue for="4" value="0.00909090909090909" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0006975656098744006" />
+          <attvalue for="7" value="0.0002286490615835741" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-946.11194" />
+          <attvalue for="10" value="-69.448845" />
+        </attvalues>
+      </node>
+      <node id="油条" label="油条">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06342668863261944" />
+          <attvalue for="3" value="0.6405946" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0009801693557361332" />
+          <attvalue for="7" value="0.00013862914389632541" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1845.0477" />
+          <attvalue for="10" value="569.11505" />
+        </attvalues>
+      </node>
+      <node id="胡椒" label="胡椒">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08816120906801007" />
+          <attvalue for="3" value="0.20787989" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0008284583778696803" />
+          <attvalue for="7" value="0.000167260356159622" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1324.7775" />
+          <attvalue for="10" value="-680.40533" />
+        </attvalues>
+      </node>
+      <node id="豆奶" label="豆奶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09376522162688748" />
+          <attvalue for="3" value="0.38106462" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0013403289064353207" />
+          <attvalue for="7" value="0.0002594187227554663" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1601.2247" />
+          <attvalue for="10" value="132.32109" />
+        </attvalues>
+      </node>
+      <node id="瓶装水" label="瓶装水">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.11050516647531573" />
+          <attvalue for="3" value="0.49473858" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012775242951278715" />
+          <attvalue for="7" value="0.0002687105832053845" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1182.5629" />
+          <attvalue for="10" value="296.36484" />
+        </attvalues>
+      </node>
+      <node id="炒面" label="炒面">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05935861856305889" />
+          <attvalue for="3" value="0.61626273" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.000961127680625907" />
+          <attvalue for="7" value="0.00011321454110660933" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-2110.721" />
+          <attvalue for="10" value="401.6654" />
+        </attvalues>
+      </node>
+      <node id="番茄酱" label="番茄酱">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.0827867971185894" />
+          <attvalue for="3" value="0.56891435" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.000863635327037116" />
+          <attvalue for="7" value="0.0001221513541304216" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1615.0026" />
+          <attvalue for="10" value="-602.40924" />
+        </attvalues>
+      </node>
+      <node id="汽水" label="汽水">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.10810051944405447" />
+          <attvalue for="3" value="0.58820283" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0015556447196207082" />
+          <attvalue for="7" value="0.0003984842893311142" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1308.9819" />
+          <attvalue for="10" value="274.1847" />
+        </attvalues>
+      </node>
+      <node id="荞麦" label="荞麦">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.1" />
+          <attvalue for="3" value="0.22672984" />
+          <attvalue for="4" value="0.07012987012987013" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0015098516866862775" />
+          <attvalue for="7" value="0.008274458857064898" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="-284.2909" />
+          <attvalue for="10" value="-82.09655" />
+        </attvalues>
+      </node>
+      <node id="米饭" label="米饭">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.06899641577060932" />
+          <attvalue for="3" value="0.19208544" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0012040530679211757" />
+          <attvalue for="7" value="0.00011209924757937959" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1911.9918" />
+          <attvalue for="10" value="374.8834" />
+        </attvalues>
+      </node>
+      <node id="红酒" label="红酒">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08283132530120482" />
+          <attvalue for="3" value="0.6686228" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0015918430366050331" />
+          <attvalue for="7" value="0.0005012017896783364" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1900.8188" />
+          <attvalue for="10" value="-104.120964" />
+        </attvalues>
+      </node>
+      <node id="辣椒酱" label="辣椒酱">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.0828580652103734" />
+          <attvalue for="3" value="0.23876245" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001778546447537301" />
+          <attvalue for="7" value="0.00031901453860308634" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1647.2327" />
+          <attvalue for="10" value="-611.79474" />
+        </attvalues>
+      </node>
+      <node id="白粥" label="白粥">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.0772626931567329" />
+          <attvalue for="3" value="0.19680968" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001259779528389323" />
+          <attvalue for="7" value="9.494202554234618e-05" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="-1829.1895" />
+          <attvalue for="10" value="277.26346" />
+        </attvalues>
+      </node>
+      <node id="饺子" label="饺子">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05761316872427984" />
+          <attvalue for="3" value="0.74981844" />
+          <attvalue for="4" value="0.012987012987012988" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0014874982670430709" />
+          <attvalue for="7" value="0.0005083135064977746" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1848.1932" />
+          <attvalue for="10" value="821.82544" />
+        </attvalues>
+      </node>
+      <node id="沙拉酱" label="沙拉酱">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08486718836107131" />
+          <attvalue for="3" value="0.29558146" />
+          <attvalue for="4" value="0.007792207792207792" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001132987361824128" />
+          <attvalue for="7" value="0.00014549122297269392" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1662.27" />
+          <attvalue for="10" value="-559.1372" />
+        </attvalues>
+      </node>
+      <node id="茶" label="茶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.09673366834170855" />
+          <attvalue for="3" value="0.24686843" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0004952978436017655" />
+          <attvalue for="7" value="0.0004690682278372102" />
+          <attvalue for="8" value="18" />
+          <attvalue for="9" value="-164.16573" />
+          <attvalue for="10" value="161.78075" />
+        </attvalues>
+      </node>
+      <node id="白砂糖" label="白砂糖">
+        <attvalues>
+          <attvalue for="0" value="调料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.08280460264544574" />
+          <attvalue for="3" value="0.61941725" />
+          <attvalue for="4" value="0.01038961038961039" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.001485486621414477" />
+          <attvalue for="7" value="0.0003161195616780309" />
+          <attvalue for="8" value="8" />
+          <attvalue for="9" value="-1608.4805" />
+          <attvalue for="10" value="-690.2251" />
+        </attvalues>
+      </node>
+      <node id="乌龙茶" label="乌龙茶">
+        <attvalues>
+          <attvalue for="0" value="酒水饮料" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.10670731707317073" />
+          <attvalue for="3" value="0.33721814" />
+          <attvalue for="4" value="0.011688311688311689" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.0009300087962324038" />
+          <attvalue for="7" value="0.0003004064847393126" />
+          <attvalue for="8" value="18" />
+          <attvalue for="9" value="-276.85764" />
+          <attvalue for="10" value="342.36914" />
+        </attvalues>
+      </node>
+      <node id="三明治" label="三明治">
+        <attvalues>
+          <attvalue for="0" value="固态干粮" />
+          <attvalue for="1" value="食物" />
+          <attvalue for="2" value="0.05881005117238219" />
+          <attvalue for="3" value="0.3865078" />
+          <attvalue for="4" value="0.006493506493506494" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0.00081056242783343" />
+          <attvalue for="7" value="0.00012178820369372848" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="-1808.9951" />
+          <attvalue for="10" value="741.803" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="大饼" target="大饼" id="1829" weight="1.0" />
+      <edge source="大饼" target="凉皮" id="1830" weight="0.5413830280303955" />
+      <edge source="大饼" target="馒头" id="1831" weight="0.52253657579422" />
+      <edge source="大饼" target="面筋" id="1832" weight="0.5745837688446045" />
+      <edge source="大饼" target="通心粉" id="1833" weight="0.6345061659812927" />
+      <edge source="大饼" target="油饼" id="1834" weight="0.647300660610199" />
+      <edge source="饼干" target="爆米花" id="593" weight="0.5414379835128784" />
+      <edge source="饼干" target="比萨" id="837" weight="0.6989819407463074" />
+      <edge source="饼干" target="饼干" id="968" weight="1.0" />
+      <edge source="饼干" target="布丁" id="969" weight="0.6101832389831543" />
+      <edge source="饼干" target="煎蛋卷" id="970" weight="0.6905120015144348" />
+      <edge source="饼干" target="油饼" id="971" weight="0.5389237403869629" />
+      <edge source="白糖" target="白砂糖" id="307" weight="0.8171035647392273" />
+      <edge source="白糖" target="白糖" id="317" weight="1.0" />
+      <edge source="白糖" target="冰糖" id="318" weight="0.6639376282691956" />
+      <edge source="白糖" target="味精" id="319" weight="0.6494696736335754" />
+      <edge source="白糖" target="蔗糖" id="320" weight="0.7288705706596375" />
+      <edge source="全脂牛奶" target="牦牛奶" id="6837" weight="0.9172652363777161" />
+      <edge source="全脂牛奶" target="牛奶" id="7247" weight="0.6175486445426941" />
+      <edge source="全脂牛奶" target="巧克力牛奶" id="7614" weight="0.8622145056724548" />
+      <edge source="全脂牛奶" target="全脂牛奶" id="7777" weight="1.0" />
+      <edge source="蛋糕" target="布丁" id="1044" weight="0.6676778793334961" />
+      <edge source="蛋糕" target="蛋糕" id="2130" weight="1.0" />
+      <edge source="蛋糕" target="蛋卷" id="2131" weight="0.5842341780662537" />
+      <edge source="蛋糕" target="煎蛋卷" id="2132" weight="0.5951647758483887" />
+      <edge source="蛋糕" target="全麦饼干" id="2133" weight="0.6396664977073669" />
+      <edge source="蛋糕" target="甜点" id="2134" weight="0.5230240821838379" />
+      <edge source="蛋糕" target="芝士蛋糕" id="2135" weight="0.6673883199691772" />
+      <edge source="面包酱" target="番茄酱" id="3029" weight="0.5502838492393494" />
+      <edge source="面包酱" target="花生酱" id="4788" weight="0.6311821937561035" />
+      <edge source="面包酱" target="酱油" id="5289" weight="0.5813895463943481" />
+      <edge source="面包酱" target="辣椒粉" id="6061" weight="0.5258271098136902" />
+      <edge source="面包酱" target="辣椒酱" id="6065" weight="0.5577595233917236" />
+      <edge source="面包酱" target="面包酱" id="7002" weight="1.0" />
+      <edge source="面包酱" target="沙拉酱" id="7003" weight="0.6486664414405823" />
+      <edge source="花生" target="谷子" id="3833" weight="0.5246520042419434" />
+      <edge source="花生" target="花生" id="4772" weight="1.0" />
+      <edge source="花生" target="花生米" id="4773" weight="0.6433190703392029" />
+      <edge source="花生" target="咖啡豆" id="4774" weight="0.5415670275688171" />
+      <edge source="花生" target="葵花籽" id="4776" weight="0.6235442757606506" />
+      <edge source="煎饼" target="包子" id="516" weight="0.6985217332839966" />
+      <edge source="煎饼" target="春卷" id="1696" weight="0.7730330228805542" />
+      <edge source="煎饼" target="糕点" id="3699" weight="0.8135498762130737" />
+      <edge source="煎饼" target="馄饨" id="4982" weight="0.6488564610481262" />
+      <edge source="煎饼" target="煎饼" id="5222" weight="1.0" />
+      <edge source="煎饼" target="煎蛋卷" id="5223" weight="0.5553271174430847" />
+      <edge source="煎饼" target="饺子" id="5224" weight="0.7799871563911438" />
+      <edge source="煎饼" target="卷饼" id="5225" weight="0.6996196508407593" />
+      <edge source="煎饼" target="披萨" id="5226" weight="0.8093914985656738" />
+      <edge source="煎饼" target="馅饼" id="5227" weight="0.8619224429130554" />
+      <edge source="牛肉面" target="炒面" id="1408" weight="0.5822581052780151" />
+      <edge source="牛肉面" target="方便面" id="3032" weight="0.6916356682777405" />
+      <edge source="牛肉面" target="冷面" id="6183" weight="0.7189614176750183" />
+      <edge source="牛肉面" target="牛肉面" id="7249" weight="1.0" />
+      <edge source="牛肉面" target="通心粉" id="7250" weight="0.5671922564506531" />
+      <edge source="牛肉面" target="意大利面" id="7251" weight="0.7378060221672058" />
+      <edge source="牛肉面" target="炸酱面" id="7252" weight="0.617359459400177" />
+      <edge source="酱油" target="醋" id="1769" weight="0.6191141605377197" />
+      <edge source="酱油" target="蜂蜜" id="3304" weight="0.58745938539505" />
+      <edge source="酱油" target="花生酱" id="4784" weight="0.5609090924263" />
+      <edge source="酱油" target="酱油" id="5287" weight="1.0" />
+      <edge source="酱油" target="辣椒粉" id="5288" weight="0.5467333793640137" />
+      <edge source="酱油" target="沙拉酱" id="5290" weight="0.5206171274185181" />
+      <edge source="煎蛋卷" target="比萨" id="839" weight="0.6000800132751465" />
+      <edge source="煎蛋卷" target="蛋卷" id="2138" weight="0.6494832634925842" />
+      <edge source="煎蛋卷" target="煎蛋卷" id="5228" weight="1.0" />
+      <edge source="煎蛋卷" target="馒头" id="5229" weight="0.600749135017395" />
+      <edge source="煎蛋卷" target="甜点" id="5230" weight="0.5880642533302307" />
+      <edge source="煎蛋卷" target="甜甜圈" id="5231" weight="0.5488038063049316" />
+      <edge source="煎蛋卷" target="油饼" id="5232" weight="0.6909845471382141" />
+      <edge source="煎蛋卷" target="油条" id="5233" weight="0.6756671667098999" />
+      <edge source="稀饭" target="八宝粥" id="19" weight="0.564622700214386" />
+      <edge source="稀饭" target="白粥" id="351" weight="0.621391773223877" />
+      <edge source="稀饭" target="稀饭" id="8654" weight="1.0" />
+      <edge source="稀饭" target="粥" id="8655" weight="0.600532054901123" />
+      <edge source="巧克力冰淇淋" target="蛋卷冰淇淋" id="2144" weight="0.7600557804107666" />
+      <edge source="巧克力冰淇淋" target="巧克力冰淇淋" id="7611" weight="1.0" />
+      <edge source="巧克力冰淇淋" target="香草冰淇淋" id="7612" weight="0.5676316022872925" />
+      <edge source="大米" target="大米" id="1892" weight="1.0" />
+      <edge source="大米" target="小米" id="1894" weight="0.5372520089149475" />
+      <edge source="寿司" target="春卷" id="1700" weight="0.5669731497764587" />
+      <edge source="寿司" target="披萨" id="7359" weight="0.5386364459991455" />
+      <edge source="寿司" target="寿司" id="8036" weight="1.0" />
+      <edge source="寿司" target="馅饼" id="8037" weight="0.5357930064201355" />
+      <edge source="巧克力" target="可可巧克力" id="5920" weight="0.5885672569274902" />
+      <edge source="巧克力" target="巧克力" id="7609" weight="1.0" />
+      <edge source="巧克力" target="糖果" id="7610" weight="0.5585355162620544" />
+      <edge source="味精" target="白砂糖" id="311" weight="0.807246208190918" />
+      <edge source="味精" target="冰糖" id="966" weight="0.6212475299835205" />
+      <edge source="味精" target="花生酱" id="4789" weight="0.6744255423545837" />
+      <edge source="味精" target="辣椒粉" id="6062" weight="0.6128199100494385" />
+      <edge source="味精" target="辣椒酱" id="6067" weight="0.5420467853546143" />
+      <edge source="味精" target="味精" id="8552" weight="1.0" />
+      <edge source="味精" target="蔗糖" id="8553" weight="0.8009197115898132" />
+      <edge source="黑胡椒" target="黑胡椒" id="4412" weight="1.0" />
+      <edge source="黑胡椒" target="胡椒" id="4413" weight="0.6520949006080627" />
+      <edge source="粥" target="豆浆" id="2646" weight="0.5644490122795105" />
+      <edge source="粥" target="豆奶" id="2651" weight="0.5718733668327332" />
+      <edge source="粥" target="粥" id="9113" weight="1.0" />
+      <edge source="面筋" target="烤面包" id="5912" weight="0.5434404015541077" />
+      <edge source="面筋" target="凉粉" id="6484" weight="0.5299198627471924" />
+      <edge source="面筋" target="凉皮" id="6488" weight="0.5801121592521667" />
+      <edge source="面筋" target="米线" id="6981" weight="0.5765547752380371" />
+      <edge source="面筋" target="面筋" id="7006" weight="1.0" />
+      <edge source="凉皮" target="凉粉" id="6482" weight="0.6767538785934448" />
+      <edge source="凉皮" target="凉皮" id="6486" weight="1.0" />
+      <edge source="凉皮" target="米线" id="6487" weight="0.7788126468658447" />
+      <edge source="凉皮" target="通心粉" id="6489" weight="0.6862099766731262" />
+      <edge source="冷面" target="炒面" id="1407" weight="0.5239287614822388" />
+      <edge source="冷面" target="方便面" id="3031" weight="0.5564973950386047" />
+      <edge source="冷面" target="冷面" id="6182" weight="1.0" />
+      <edge source="冷面" target="意大利面" id="6184" weight="0.659274697303772" />
+      <edge source="冷面" target="炸酱面" id="6185" weight="0.6285942792892456" />
+      <edge source="辣椒粉" target="白砂糖" id="310" weight="0.5852752327919006" />
+      <edge source="辣椒粉" target="冰糖" id="965" weight="0.6120346784591675" />
+      <edge source="辣椒粉" target="胡椒" id="4547" weight="0.6411628127098083" />
+      <edge source="辣椒粉" target="花生酱" id="4786" weight="0.7235983610153198" />
+      <edge source="辣椒粉" target="椒盐" id="5324" weight="0.5906457304954529" />
+      <edge source="辣椒粉" target="咖喱酱" id="5842" weight="0.5767261385917664" />
+      <edge source="辣椒粉" target="辣椒粉" id="6059" weight="1.0" />
+      <edge source="辣椒粉" target="辣椒酱" id="6060" weight="0.6802987456321716" />
+      <edge source="辣椒粉" target="蔗糖" id="6063" weight="0.578972339630127" />
+      <edge source="棒棒糖" target="棒棒糖" id="496" weight="1.0" />
+      <edge source="棒棒糖" target="糖果" id="497" weight="0.656258225440979" />
+      <edge source="凉粉" target="凉粉" id="6481" weight="1.0" />
+      <edge source="凉粉" target="米线" id="6483" weight="0.6003729104995728" />
+      <edge source="凉粉" target="通心粉" id="6485" weight="0.5768862962722778" />
+      <edge source="草莓酱" target="草莓酱" id="1304" weight="1.0" />
+      <edge source="草莓酱" target="果酱" id="1305" weight="0.5225682854652405" />
+      <edge source="纯净水" target="白水" id="315" weight="0.77875816822052" />
+      <edge source="纯净水" target="百事可乐" id="408" weight="0.5981004238128662" />
+      <edge source="纯净水" target="纯净水" id="1702" weight="1.0" />
+      <edge source="纯净水" target="可口可乐" id="1703" weight="0.5802631378173828" />
+      <edge source="纯净水" target="瓶装水" id="1705" weight="0.8007445335388184" />
+      <edge source="纯净水" target="汽水" id="1706" weight="0.5676905512809753" />
+      <edge source="纯净水" target="泉水" id="1707" weight="0.5404446721076965" />
+      <edge source="纯净水" target="水" id="1708" weight="0.5844530463218689" />
+      <edge source="纯净水" target="苏打水" id="1709" weight="0.670242428779602" />
+      <edge source="花生米" target="干果" id="3585" weight="0.5239081978797913" />
+      <edge source="花生米" target="花生米" id="4791" weight="1.0" />
+      <edge source="花生米" target="葵花籽" id="4793" weight="0.5853539705276489" />
+      <edge source="卷饼" target="包子" id="518" weight="0.6631397604942322" />
+      <edge source="卷饼" target="春卷" id="1698" weight="0.7968741655349731" />
+      <edge source="卷饼" target="糕点" id="3701" weight="0.5663744211196899" />
+      <edge source="卷饼" target="馄饨" id="4984" weight="0.9102758765220642" />
+      <edge source="卷饼" target="饺子" id="5326" weight="0.7595899701118469" />
+      <edge source="卷饼" target="卷饼" id="5691" weight="1.0" />
+      <edge source="卷饼" target="披萨" id="5692" weight="0.7607247829437256" />
+      <edge source="卷饼" target="馅饼" id="5693" weight="0.7277584671974182" />
+      <edge source="热水" target="泉水" id="7779" weight="0.9064295887947083" />
+      <edge source="热水" target="热水" id="7817" weight="1.0" />
+      <edge source="奶酪" target="爆米花" id="595" weight="0.5267124772071838" />
+      <edge source="奶酪" target="棉花糖" id="7000" weight="0.5344986319541931" />
+      <edge source="奶酪" target="奶酪" id="7162" weight="1.0" />
+      <edge source="奶酪" target="奶油" id="7163" weight="0.6222209334373474" />
+      <edge source="豆浆" target="橙汁" id="1518" weight="0.5835404992103577" />
+      <edge source="豆浆" target="豆浆" id="2639" weight="1.0" />
+      <edge source="豆浆" target="豆奶" id="2640" weight="0.9025149941444397" />
+      <edge source="豆浆" target="果汁" id="2641" weight="0.589101254940033" />
+      <edge source="豆浆" target="牛奶" id="2642" weight="0.623291015625" />
+      <edge source="豆浆" target="苹果汁" id="2643" weight="0.5709519386291504" />
+      <edge source="豆浆" target="葡萄酒" id="2644" weight="0.5206820368766785" />
+      <edge source="豆浆" target="葡萄汁" id="2645" weight="0.5392230153083801" />
+      <edge source="香草冰淇淋" target="蛋卷冰淇淋" id="2145" weight="0.6850994825363159" />
+      <edge source="香草冰淇淋" target="奶油" id="7165" weight="0.5426561236381531" />
+      <edge source="香草冰淇淋" target="香草冰淇淋" id="8692" weight="1.0" />
+      <edge source="谷物" target="谷物" id="3819" weight="1.0" />
+      <edge source="谷物" target="小麦" id="3823" weight="0.6150277853012085" />
+      <edge source="谷物" target="小米" id="3824" weight="0.5718339681625366" />
+      <edge source="馄饨" target="包子" id="515" weight="0.7159225344657898" />
+      <edge source="馄饨" target="春卷" id="1695" weight="0.8221868276596069" />
+      <edge source="馄饨" target="糕点" id="3698" weight="0.581853985786438" />
+      <edge source="馄饨" target="馄饨" id="4981" weight="1.0" />
+      <edge source="馄饨" target="饺子" id="4983" weight="0.8025002479553223" />
+      <edge source="馄饨" target="披萨" id="4985" weight="0.7046900391578674" />
+      <edge source="馄饨" target="馅饼" id="4986" weight="0.7085142731666565" />
+      <edge source="麻花" target="法式面包" id="2962" weight="0.5782272219657898" />
+      <edge source="麻花" target="麻花" id="6640" weight="1.0" />
+      <edge source="麻花" target="油饼" id="6641" weight="0.5535354614257812" />
+      <edge source="冰棍" target="冰棍" id="952" weight="1.0" />
+      <edge source="冰棍" target="冰淇淋" id="953" weight="0.8660421967506409" />
+      <edge source="八宝粥" target="八宝粥" id="17" weight="1.0" />
+      <edge source="八宝粥" target="白粥" id="18" weight="0.5866502523422241" />
+      <edge source="泉水" target="泉水" id="7778" weight="1.0" />
+      <edge source="水" target="水" id="8081" weight="1.0" />
+      <edge source="芝士蛋糕" target="冰淇淋蛋糕" id="962" weight="0.617572546005249" />
+      <edge source="芝士蛋糕" target="布丁" id="1046" weight="0.5604527592658997" />
+      <edge source="芝士蛋糕" target="全麦饼干" id="7776" weight="0.533479630947113" />
+      <edge source="芝士蛋糕" target="芝士蛋糕" id="9098" weight="1.0" />
+      <edge source="红茶" target="碧螺春" id="858" weight="0.7597405314445496" />
+      <edge source="红茶" target="茶" id="1321" weight="0.5988809466362" />
+      <edge source="红茶" target="红茶" id="4416" weight="1.0" />
+      <edge source="红茶" target="奶茶" id="4420" weight="0.5706729292869568" />
+      <edge source="红茶" target="普洱茶" id="4421" weight="0.8334481120109558" />
+      <edge source="红茶" target="乌龙茶" id="4422" weight="0.6759812235832214" />
+      <edge source="油饼" target="蛋卷" id="2141" weight="0.5733320713043213" />
+      <edge source="油饼" target="汉堡" id="4164" weight="0.6013576984405518" />
+      <edge source="油饼" target="馒头" id="6697" weight="0.5909531116485596" />
+      <edge source="油饼" target="油饼" id="8943" weight="1.0" />
+      <edge source="油饼" target="油条" id="8944" weight="0.7063109278678894" />
+      <edge source="棉花糖" target="爆米花" id="594" weight="0.5507413148880005" />
+      <edge source="棉花糖" target="可可巧克力" id="5919" weight="0.5354386568069458" />
+      <edge source="棉花糖" target="棉花糖" id="6999" weight="1.0" />
+      <edge source="棉花糖" target="奶油" id="7001" weight="0.6847187280654907" />
+      <edge source="蔗糖" target="白砂糖" id="312" weight="0.7868430018424988" />
+      <edge source="蔗糖" target="冰糖" id="967" weight="0.681499719619751" />
+      <edge source="蔗糖" target="花生酱" id="4790" weight="0.6157275438308716" />
+      <edge source="蔗糖" target="蔗糖" id="9080" weight="1.0" />
+      <edge source="威士忌酒" target="白酒" id="212" weight="0.7357109189033508" />
+      <edge source="威士忌酒" target="二锅头" id="2957" weight="0.8683609366416931" />
+      <edge source="威士忌酒" target="红酒" id="4427" weight="0.9495348334312439" />
+      <edge source="威士忌酒" target="鸡尾酒" id="5086" weight="0.8471572399139404" />
+      <edge source="威士忌酒" target="葡萄酒" id="7498" weight="0.8080347776412964" />
+      <edge source="威士忌酒" target="清酒" id="7716" weight="0.8292204141616821" />
+      <edge source="威士忌酒" target="威士忌酒" id="8510" weight="1.0" />
+      <edge source="威士忌酒" target="香槟" id="8511" weight="0.7239896059036255" />
+      <edge source="蛋卷" target="蛋卷" id="2136" weight="1.0" />
+      <edge source="蛋卷" target="法式面包" id="2137" weight="0.5581482648849487" />
+      <edge source="蛋卷" target="甜点" id="2139" weight="0.7252208590507507" />
+      <edge source="蛋卷" target="甜甜圈" id="2140" weight="0.5222710967063904" />
+      <edge source="可可巧克力" target="可可巧克力" id="5918" weight="1.0" />
+      <edge source="比萨" target="比萨" id="836" weight="1.0" />
+      <edge source="比萨" target="汉堡" id="838" weight="0.637173593044281" />
+      <edge source="比萨" target="披萨" id="840" weight="0.6138246059417725" />
+      <edge source="比萨" target="三明治" id="841" weight="0.5427724719047546" />
+      <edge source="蜂蜜" target="蜂蜜" id="3303" weight="1.0" />
+      <edge source="蜂蜜" target="葡萄汁" id="3305" weight="0.5276655554771423" />
+      <edge source="蜂蜜" target="糖浆" id="3306" weight="0.6348001956939697" />
+      <edge source="葡萄酒" target="白酒" id="210" weight="0.6389599442481995" />
+      <edge source="葡萄酒" target="二锅头" id="2955" weight="0.7656171917915344" />
+      <edge source="葡萄酒" target="红酒" id="4425" weight="0.8617215752601624" />
+      <edge source="葡萄酒" target="鸡尾酒" id="5084" weight="0.7203799486160278" />
+      <edge source="葡萄酒" target="葡萄酒" id="7495" weight="1.0" />
+      <edge source="葡萄酒" target="葡萄汁" id="7496" weight="0.5459036231040955" />
+      <edge source="葡萄酒" target="清酒" id="7497" weight="0.7520188093185425" />
+      <edge source="葡萄酒" target="香槟" id="7499" weight="0.6551260352134705" />
+      <edge source="菠萝汁" target="菠萝汁" id="1033" weight="1.0" />
+      <edge source="菠萝汁" target="橙汁" id="1034" weight="0.6367579102516174" />
+      <edge source="菠萝汁" target="果汁" id="1035" weight="0.5398591160774231" />
+      <edge source="菠萝汁" target="苹果汁" id="1036" weight="0.6372016668319702" />
+      <edge source="菠萝汁" target="葡萄汁" id="1037" weight="0.6131621599197388" />
+      <edge source="披萨" target="包子" id="519" weight="0.6150999069213867" />
+      <edge source="披萨" target="春卷" id="1699" weight="0.7569208145141602" />
+      <edge source="披萨" target="糕点" id="3702" weight="0.6812711954116821" />
+      <edge source="披萨" target="饺子" id="5327" weight="0.796615481376648" />
+      <edge source="披萨" target="披萨" id="7357" weight="1.0" />
+      <edge source="披萨" target="三明治" id="7358" weight="0.5410593152046204" />
+      <edge source="披萨" target="馅饼" id="7360" weight="0.8301534652709961" />
+      <edge source="白水" target="白水" id="313" weight="1.0" />
+      <edge source="白水" target="冰红茶" id="314" weight="0.5800614356994629" />
+      <edge source="白水" target="瓶装水" id="316" weight="0.6255564093589783" />
+      <edge source="牛奶" target="豆奶" id="2649" weight="0.5624473094940186" />
+      <edge source="牛奶" target="羹汤" id="3706" weight="0.5410852432250977" />
+      <edge source="牛奶" target="果汁" id="3951" weight="0.5319105982780457" />
+      <edge source="牛奶" target="牦牛奶" id="6835" weight="0.6229208111763" />
+      <edge source="牛奶" target="牛奶" id="7246" weight="1.0" />
+      <edge source="牛奶" target="酸奶" id="7248" weight="0.6956542134284973" />
+      <edge source="冰糖" target="白砂糖" id="308" weight="0.8314725756645203" />
+      <edge source="冰糖" target="冰糖" id="963" weight="1.0" />
+      <edge source="冰糖" target="花生酱" id="964" weight="0.6693260073661804" />
+      <edge source="糕点" target="包子" id="514" weight="0.7352098226547241" />
+      <edge source="糕点" target="春卷" id="1693" weight="0.676156222820282" />
+      <edge source="糕点" target="糕点" id="3697" weight="1.0" />
+      <edge source="糕点" target="饺子" id="3700" weight="0.6820074319839478" />
+      <edge source="糕点" target="馅饼" id="3703" weight="0.7468013167381287" />
+      <edge source="冰淇淋蛋糕" target="冰淇淋蛋糕" id="959" weight="1.0" />
+      <edge source="冰淇淋蛋糕" target="布丁" id="960" weight="0.5684662461280823" />
+      <edge source="冰淇淋蛋糕" target="甜点" id="961" weight="0.5840286612510681" />
+      <edge source="茶包" target="碧螺春" id="857" weight="0.539050817489624" />
+      <edge source="茶包" target="茶包" id="1324" weight="1.0" />
+      <edge source="茶包" target="奶茶" id="1325" weight="0.5428229570388794" />
+      <edge source="茶包" target="普洱茶" id="1326" weight="0.5389505624771118" />
+      <edge source="茶包" target="乌龙茶" id="1327" weight="0.6969690322875977" />
+      <edge source="蛋卷冰淇淋" target="冰淇淋" id="958" weight="0.5668361186981201" />
+      <edge source="蛋卷冰淇淋" target="蛋卷冰淇淋" id="2142" weight="1.0" />
+      <edge source="蛋卷冰淇淋" target="奶油" id="2143" weight="0.5330294370651245" />
+      <edge source="米线" target="米线" id="6980" weight="1.0" />
+      <edge source="米线" target="通心粉" id="6982" weight="0.6361287236213684" />
+      <edge source="清酒" target="白酒" id="211" weight="0.7470934987068176" />
+      <edge source="清酒" target="二锅头" id="2956" weight="0.8972193002700806" />
+      <edge source="清酒" target="红酒" id="4426" weight="0.8493167161941528" />
+      <edge source="清酒" target="鸡尾酒" id="5085" weight="0.7574940323829651" />
+      <edge source="清酒" target="清酒" id="7715" weight="1.0" />
+      <edge source="清酒" target="香槟" id="7717" weight="0.6616511940956116" />
+      <edge source="绿豆汤" target="羹汤" id="3705" weight="0.5239164233207703" />
+      <edge source="绿豆汤" target="绿豆汤" id="6638" weight="1.0" />
+      <edge source="绿豆汤" target="清汤" id="6639" weight="0.5355973839759827" />
+      <edge source="冰红茶" target="冰红茶" id="954" weight="1.0" />
+      <edge source="冰红茶" target="奶茶" id="955" weight="0.6404792070388794" />
+      <edge source="冰红茶" target="乌龙茶" id="956" weight="0.6060338020324707" />
+      <edge source="白饭" target="白饭" id="158" weight="1.0" />
+      <edge source="白饭" target="白粥" id="159" weight="0.5472687482833862" />
+      <edge source="白饭" target="米饭" id="160" weight="0.7335063219070435" />
+      <edge source="馒头" target="馒头" id="6695" weight="1.0" />
+      <edge source="馒头" target="通心粉" id="6696" weight="0.5292404294013977" />
+      <edge source="馒头" target="油条" id="6698" weight="0.5663526058197021" />
+      <edge source="橘子汽水" target="百事可乐" id="410" weight="0.7349934577941895" />
+      <edge source="橘子汽水" target="橙汁" id="1521" weight="0.5522240400314331" />
+      <edge source="橘子汽水" target="果汁" id="3948" weight="0.6719686388969421" />
+      <edge source="橘子汽水" target="橘子汽水" id="5683" weight="1.0" />
+      <edge source="橘子汽水" target="可口可乐" id="5684" weight="0.680479884147644" />
+      <edge source="橘子汽水" target="柠檬水" id="5685" weight="0.532178521156311" />
+      <edge source="橘子汽水" target="苹果汁" id="5686" weight="0.5923848748207092" />
+      <edge source="橘子汽水" target="葡萄汁" id="5687" weight="0.546896755695343" />
+      <edge source="橘子汽水" target="汽水" id="5688" weight="0.7203768491744995" />
+      <edge source="橘子汽水" target="苏打水" id="5689" weight="0.7507545948028564" />
+      <edge source="甜甜圈" target="甜点" id="8328" weight="0.5711426138877869" />
+      <edge source="甜甜圈" target="甜甜圈" id="8329" weight="1.0" />
+      <edge source="鸡尾酒" target="白酒" id="209" weight="0.6438740491867065" />
+      <edge source="鸡尾酒" target="二锅头" id="2954" weight="0.7718501091003418" />
+      <edge source="鸡尾酒" target="红酒" id="4424" weight="0.8439298868179321" />
+      <edge source="鸡尾酒" target="鸡尾酒" id="5083" weight="1.0" />
+      <edge source="鸡尾酒" target="香槟" id="5087" weight="0.6619665622711182" />
+      <edge source="果酱" target="果酱" id="3944" weight="1.0" />
+      <edge source="果酱" target="辣椒酱" id="3945" weight="0.6214151382446289" />
+      <edge source="果酱" target="沙拉酱" id="3946" weight="0.5263327360153198" />
+      <edge source="小米" target="小米" id="8739" weight="1.0" />
+      <edge source="白酒" target="白酒" id="206" weight="1.0" />
+      <edge source="白酒" target="二锅头" id="207" weight="0.8306349515914917" />
+      <edge source="白酒" target="红酒" id="208" weight="0.7190927863121033" />
+      <edge source="白酒" target="香槟" id="213" weight="0.6903862953186035" />
+      <edge source="苹果汁" target="橙汁" id="1522" weight="0.7865327596664429" />
+      <edge source="苹果汁" target="豆奶" id="2650" weight="0.5286211967468262" />
+      <edge source="苹果汁" target="果汁" id="3952" weight="0.7733508944511414" />
+      <edge source="苹果汁" target="苹果汁" id="7456" weight="1.0" />
+      <edge source="苹果汁" target="葡萄汁" id="7457" weight="0.7309942841529846" />
+      <edge source="小麦" target="谷子" id="3853" weight="0.672797679901123" />
+      <edge source="小麦" target="魔芋" id="7062" weight="0.560890257358551" />
+      <edge source="小麦" target="荞麦" id="7602" weight="0.7250727415084839" />
+      <edge source="小麦" target="小麦" id="8736" weight="1.0" />
+      <edge source="清汤" target="羹汤" id="3707" weight="0.7965152859687805" />
+      <edge source="清汤" target="清汤" id="7718" weight="1.0" />
+      <edge source="清汤" target="肉汤" id="7719" weight="0.8183910846710205" />
+      <edge source="谷子" target="谷子" id="3825" weight="1.0" />
+      <edge source="谷子" target="魔芋" id="3841" weight="0.5353463888168335" />
+      <edge source="谷子" target="荞麦" id="3843" weight="0.6914584040641785" />
+      <edge source="谷子" target="芝麻" id="3854" weight="0.5943470597267151" />
+      <edge source="方便面" target="方便面" id="3030" weight="1.0" />
+      <edge source="方便面" target="意大利面" id="3033" weight="0.7754566073417664" />
+      <edge source="方便面" target="炸酱面" id="3034" weight="0.648701012134552" />
+      <edge source="肉汤" target="羹汤" id="3708" weight="0.831254243850708" />
+      <edge source="肉汤" target="肉汤" id="7823" weight="1.0" />
+      <edge source="果汁" target="百事可乐" id="409" weight="0.5880013704299927" />
+      <edge source="果汁" target="橙汁" id="1520" weight="0.7167137861251831" />
+      <edge source="果汁" target="豆奶" id="2648" weight="0.5716325640678406" />
+      <edge source="果汁" target="果汁" id="3947" weight="1.0" />
+      <edge source="果汁" target="可口可乐" id="3949" weight="0.5592003464698792" />
+      <edge source="果汁" target="柠檬水" id="3950" weight="0.6481186151504517" />
+      <edge source="果汁" target="葡萄汁" id="3953" weight="0.6554667353630066" />
+      <edge source="果汁" target="汽水" id="3954" weight="0.7208989262580872" />
+      <edge source="果汁" target="苏打水" id="3955" weight="0.6150386333465576" />
+      <edge source="果汁" target="酸奶" id="3956" weight="0.5470471978187561" />
+      <edge source="二锅头" target="二锅头" id="2952" weight="1.0" />
+      <edge source="二锅头" target="红酒" id="2953" weight="0.8703842163085938" />
+      <edge source="二锅头" target="香槟" id="2958" weight="0.659673810005188" />
+      <edge source="坚果" target="干果" id="3586" weight="0.7114789485931396" />
+      <edge source="坚果" target="坚果" id="5201" weight="1.0" />
+      <edge source="坚果" target="葵花籽" id="5203" weight="0.5507745146751404" />
+      <edge source="香槟" target="红酒" id="4428" weight="0.7359609007835388" />
+      <edge source="香槟" target="香槟" id="8681" weight="1.0" />
+      <edge source="醋" target="醋" id="1768" weight="1.0" />
+      <edge source="柠檬水" target="柠檬水" id="7245" weight="1.0" />
+      <edge source="法式面包" target="法式面包" id="2960" weight="1.0" />
+      <edge source="法式面包" target="烤面包" id="2961" weight="0.6783425211906433" />
+      <edge source="汉堡" target="春卷" id="1694" weight="0.5442631840705872" />
+      <edge source="汉堡" target="汉堡" id="4160" weight="1.0" />
+      <edge source="汉堡" target="热狗" id="4161" weight="0.6479974985122681" />
+      <edge source="汉堡" target="三明治" id="4162" weight="0.6079359650611877" />
+      <edge source="汉堡" target="馅饼" id="4163" weight="0.5333859324455261" />
+      <edge source="通心粉" target="米饭" id="6979" weight="0.6285912394523621" />
+      <edge source="通心粉" target="面粉" id="7005" weight="0.5585280656814575" />
+      <edge source="通心粉" target="通心粉" id="8344" weight="1.0" />
+      <edge source="葡萄汁" target="橙汁" id="1523" weight="0.8847804069519043" />
+      <edge source="葡萄汁" target="葡萄汁" id="7501" weight="1.0" />
+      <edge source="咖啡豆" target="咖啡豆" id="5840" weight="1.0" />
+      <edge source="热狗" target="热狗" id="7816" weight="1.0" />
+      <edge source="意大利面" target="炒面" id="1409" weight="0.626059353351593" />
+      <edge source="意大利面" target="意大利面" id="8888" weight="1.0" />
+      <edge source="意大利面" target="炸酱面" id="8889" weight="0.6936260461807251" />
+      <edge source="椒盐" target="椒盐" id="5323" weight="1.0" />
+      <edge source="魔芋" target="魔芋" id="7046" weight="1.0" />
+      <edge source="魔芋" target="荞麦" id="7050" weight="0.7111244797706604" />
+      <edge source="巧克力牛奶" target="牦牛奶" id="6836" weight="0.9058228135108948" />
+      <edge source="巧克力牛奶" target="巧克力牛奶" id="7613" weight="1.0" />
+      <edge source="炸酱面" target="炸酱面" id="9058" weight="1.0" />
+      <edge source="奶油" target="奶油" id="7164" weight="1.0" />
+      <edge source="酸奶" target="酸奶" id="8236" weight="1.0" />
+      <edge source="烤面包" target="烤面包" id="5911" weight="1.0" />
+      <edge source="羹汤" target="羹汤" id="3704" weight="1.0" />
+      <edge source="芝麻" target="芝麻" id="9097" weight="1.0" />
+      <edge source="爆米花" target="爆米花" id="592" weight="1.0" />
+      <edge source="可口可乐" target="百事可乐" id="411" weight="0.8647212386131287" />
+      <edge source="可口可乐" target="可口可乐" id="5921" weight="1.0" />
+      <edge source="可口可乐" target="瓶装水" id="5922" weight="0.598705530166626" />
+      <edge source="可口可乐" target="汽水" id="5923" weight="0.8157355785369873" />
+      <edge source="可口可乐" target="苏打水" id="5924" weight="0.8453177213668823" />
+      <edge source="牦牛奶" target="牦牛奶" id="6834" weight="1.0" />
+      <edge source="百事可乐" target="百事可乐" id="407" weight="1.0" />
+      <edge source="百事可乐" target="瓶装水" id="412" weight="0.5819072723388672" />
+      <edge source="百事可乐" target="汽水" id="413" weight="0.8842746615409851" />
+      <edge source="百事可乐" target="苏打水" id="414" weight="0.9424433708190918" />
+      <edge source="糖浆" target="糖浆" id="8306" weight="1.0" />
+      <edge source="冰淇淋" target="冰淇淋" id="957" weight="1.0" />
+      <edge source="糖果" target="干果" id="3588" weight="0.5249038338661194" />
+      <edge source="糖果" target="糖果" id="8305" weight="1.0" />
+      <edge source="橙汁" target="橙汁" id="1517" weight="1.0" />
+      <edge source="橙汁" target="豆奶" id="1519" weight="0.5485645532608032" />
+      <edge source="包子" target="包子" id="512" weight="1.0" />
+      <edge source="包子" target="春卷" id="513" weight="0.6131779551506042" />
+      <edge source="包子" target="饺子" id="517" weight="0.6667292714118958" />
+      <edge source="包子" target="馅饼" id="520" weight="0.694351851940155" />
+      <edge source="苏打水" target="瓶装水" id="7461" weight="0.6578508615493774" />
+      <edge source="苏打水" target="汽水" id="7541" weight="0.8785482048988342" />
+      <edge source="苏打水" target="苏打水" id="8228" weight="1.0" />
+      <edge source="春卷" target="春卷" id="1692" weight="1.0" />
+      <edge source="春卷" target="饺子" id="1697" weight="0.812556803226471" />
+      <edge source="春卷" target="馅饼" id="1701" weight="0.8092301487922668" />
+      <edge source="奶茶" target="奶茶" id="7160" weight="1.0" />
+      <edge source="奶茶" target="乌龙茶" id="7161" weight="0.6976587176322937" />
+      <edge source="花生酱" target="白砂糖" id="309" weight="0.6225439310073853" />
+      <edge source="花生酱" target="番茄酱" id="3027" weight="0.5739139318466187" />
+      <edge source="花生酱" target="胡椒" id="4546" weight="0.5309364199638367" />
+      <edge source="花生酱" target="花生酱" id="4783" weight="1.0" />
+      <edge source="花生酱" target="咖喱酱" id="4785" weight="0.5904775857925415" />
+      <edge source="花生酱" target="辣椒酱" id="4787" weight="0.6472452282905579" />
+      <edge source="葵花籽" target="葵花籽" id="6001" weight="1.0" />
+      <edge source="全麦饼干" target="布丁" id="1045" weight="0.5874904990196228" />
+      <edge source="全麦饼干" target="全麦饼干" id="7775" weight="1.0" />
+      <edge source="碧螺春" target="碧螺春" id="855" weight="1.0" />
+      <edge source="碧螺春" target="茶" id="856" weight="0.5343144536018372" />
+      <edge source="碧螺春" target="普洱茶" id="862" weight="0.7473522424697876" />
+      <edge source="碧螺春" target="乌龙茶" id="863" weight="0.6051197648048401" />
+      <edge source="面粉" target="米饭" id="6978" weight="0.545046865940094" />
+      <edge source="面粉" target="面粉" id="7004" weight="1.0" />
+      <edge source="咖喱酱" target="咖喱酱" id="5841" weight="1.0" />
+      <edge source="咖喱酱" target="辣椒酱" id="5843" weight="0.653040885925293" />
+      <edge source="布丁" target="布丁" id="1043" weight="1.0" />
+      <edge source="馅饼" target="饺子" id="5328" weight="0.8009001612663269" />
+      <edge source="馅饼" target="馅饼" id="8680" weight="1.0" />
+      <edge source="普洱茶" target="茶" id="1322" weight="0.5544459819793701" />
+      <edge source="普洱茶" target="普洱茶" id="7515" weight="1.0" />
+      <edge source="普洱茶" target="乌龙茶" id="7516" weight="0.6394874453544617" />
+      <edge source="甜点" target="甜点" id="8327" weight="1.0" />
+      <edge source="干果" target="干果" id="3583" weight="1.0" />
+      <edge source="油条" target="油条" id="8961" weight="1.0" />
+      <edge source="胡椒" target="胡椒" id="4545" weight="1.0" />
+      <edge source="豆奶" target="豆奶" id="2647" weight="1.0" />
+      <edge source="瓶装水" target="瓶装水" id="7459" weight="1.0" />
+      <edge source="瓶装水" target="汽水" id="7460" weight="0.5425103902816772" />
+      <edge source="炒面" target="炒面" id="1406" weight="1.0" />
+      <edge source="番茄酱" target="番茄酱" id="3026" weight="1.0" />
+      <edge source="番茄酱" target="辣椒酱" id="3028" weight="0.5229203701019287" />
+      <edge source="汽水" target="汽水" id="7540" weight="1.0" />
+      <edge source="荞麦" target="荞麦" id="7593" weight="1.0" />
+      <edge source="米饭" target="米饭" id="6977" weight="1.0" />
+      <edge source="红酒" target="红酒" id="4423" weight="1.0" />
+      <edge source="辣椒酱" target="辣椒酱" id="6064" weight="1.0" />
+      <edge source="辣椒酱" target="沙拉酱" id="6066" weight="0.6156018972396851" />
+      <edge source="白粥" target="白粥" id="350" weight="1.0" />
+      <edge source="饺子" target="饺子" id="5325" weight="1.0" />
+      <edge source="沙拉酱" target="沙拉酱" id="7867" weight="1.0" />
+      <edge source="茶" target="茶" id="1320" weight="1.0" />
+      <edge source="白砂糖" target="白砂糖" id="306" weight="1.0" />
+      <edge source="乌龙茶" target="乌龙茶" id="8578" weight="1.0" />
+      <edge source="三明治" target="三明治" id="7847" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>
