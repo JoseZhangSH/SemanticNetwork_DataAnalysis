@@ -25,6 +25,50 @@ with open('02_Graph/MasterConceptNetwork_Baseline-Test.json') as f:
 #     else:
 #         return 'POST'
 
+@app.route("/experimentProgress",methods=['GET','POST'])
+@cross_origin(origin='*',headers=['Content-Type','Authorization'])
+def Experiment_Progress():
+    experiment_progress = {
+        "current":0,
+        "PN_ImageAmount":120,
+        "SFAData":[
+            {
+                "date": "2022-02-18",
+                "dose": 18.9,
+            },
+            {
+                "date": "2022-02-19",
+                "dose": 28.8,
+            },
+            {
+                "date": "2022-02-20",
+                "dose": 39.3,
+            },
+            {
+                "date": "2022-02-22",
+                "dose": 81.4,
+            },
+            {
+                "date": "2022-02-23",
+                "dose": 47,
+            },
+            {
+                "date": "2022-02-24",
+                "dose": 20.3,
+            },
+            {
+                "date": "2022-02-25",
+                "dose": 24,
+            },
+            {
+                "date": "2022-02-28",
+                "dose": 35.6,
+            },
+        ],
+    }
+    return experiment_progress
+
+
 
 @app.route("/shortestPath/<concept>",methods=['GET','POST'])
 @cross_origin(origin='*',headers=['Content-Type','Authorization'])
@@ -54,7 +98,6 @@ def Shortest_Path(concept):
 @app.route("/therapyPlan/<para>",methods=['GET','POST'])
 @cross_origin(origin='*',headers=['Content-Type','Authorization'])
 def Therapy_Plan(para):
-    
     plan_a = {"plans": [
         {
             "type":"subgraph",
