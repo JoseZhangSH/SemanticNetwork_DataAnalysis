@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2022-03-25">
+  <meta lastmodifieddate="2022-03-31">
     <creator>NetworkX 2.6.3</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -20,97 +20,18 @@
       <attribute id="12" title="picture_naming_time" type="string" />
     </attributes>
     <nodes>
-      <node id="白银" label="白银">
+      <node id="冰块" label="冰块">
         <attvalues>
           <attvalue for="0" value="自然物" />
           <attvalue for="1" value="自然物" />
-          <attvalue for="2" value="0.021978021978021973" />
-          <attvalue for="3" value="0.05826444816773074" />
-          <attvalue for="4" value="0.41590434966954987" />
-          <attvalue for="5" value="0.0041727029641659705" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="16" />
-          <attvalue for="8" value="1201.9314" />
-          <attvalue for="9" value="-2377.436" />
-        </attvalues>
-      </node>
-      <node id="宝石" label="宝石">
-        <attvalues>
-          <attvalue for="0" value="自然物" />
-          <attvalue for="1" value="自然物" />
-          <attvalue for="2" value="0.14285714285714285" />
-          <attvalue for="3" value="0.2121571620200235" />
-          <attvalue for="4" value="0.6858980136993665" />
-          <attvalue for="5" value="0.0533221686738147" />
-          <attvalue for="6" value="0.2594651165025642" />
-          <attvalue for="7" value="0" />
-          <attvalue for="8" value="1452.7377" />
-          <attvalue for="9" value="-2871.968" />
-        </attvalues>
-      </node>
-      <node id="岩石" label="岩石">
-        <attvalues>
-          <attvalue for="0" value="自然物" />
-          <attvalue for="1" value="自然物" />
-          <attvalue for="2" value="0.04395604395604396" />
-          <attvalue for="3" value="0.12338663155768918" />
-          <attvalue for="4" value="0.5592949561070142" />
-          <attvalue for="5" value="0.010923756728945614" />
-          <attvalue for="6" value="0.08553458778299468" />
-          <attvalue for="7" value="12" />
-          <attvalue for="8" value="643.69946" />
-          <attvalue for="9" value="-1020.99963" />
-          <attvalue for="10" value="true" />
-          <attvalue for="11" value="true" />
-          <attvalue for="12" value="3.00" />
-        </attvalues>
-      </node>
-      <node id="水晶" label="水晶">
-        <attvalues>
-          <attvalue for="0" value="自然物" />
-          <attvalue for="1" value="自然物" />
-          <attvalue for="2" value="0.05494505494505494" />
-          <attvalue for="3" value="0.11015970936391428" />
-          <attvalue for="4" value="0.5002789310997321" />
-          <attvalue for="5" value="0.012580560320859897" />
-          <attvalue for="6" value="0.2323820782367509" />
-          <attvalue for="7" value="16" />
-          <attvalue for="8" value="1122.1682" />
-          <attvalue for="9" value="-1924.1791" />
-          <attvalue for="10" value="true" />
-          <attvalue for="11" value="false" />
-          <attvalue for="12" value="0.00" />
-        </attvalues>
-      </node>
-      <node id="钻石" label="钻石">
-        <attvalues>
-          <attvalue for="0" value="自然物" />
-          <attvalue for="1" value="自然物" />
-          <attvalue for="2" value="0.0879120879120879" />
-          <attvalue for="3" value="0.14553701203369615" />
-          <attvalue for="4" value="0.6402488711658147" />
-          <attvalue for="5" value="0.030301261618402766" />
-          <attvalue for="6" value="0.3608906491755273" />
-          <attvalue for="7" value="0" />
-          <attvalue for="8" value="1350.8839" />
-          <attvalue for="9" value="-2693.9036" />
-          <attvalue for="10" value="true" />
-          <attvalue for="11" value="true" />
-          <attvalue for="12" value="2.40" />
-        </attvalues>
-      </node>
-      <node id="沙粒" label="沙粒">
-        <attvalues>
-          <attvalue for="0" value="自然物" />
-          <attvalue for="1" value="自然物" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.03669958242882723" />
-          <attvalue for="4" value="0.3393302511649523" />
-          <attvalue for="5" value="0.0003507941365566157" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="12" />
-          <attvalue for="8" value="652.5913" />
-          <attvalue for="9" value="-982.2618" />
+          <attvalue for="2" value="0.1648351648351648" />
+          <attvalue for="3" value="0.15669331665872285" />
+          <attvalue for="4" value="0.8000675358233499" />
+          <attvalue for="5" value="0.10056481281794731" />
+          <attvalue for="6" value="0.3148120296453231" />
+          <attvalue for="7" value="7" />
+          <attvalue for="8" value="-707.04565" />
+          <attvalue for="9" value="920.28467" />
         </attvalues>
       </node>
       <node id="石头" label="石头">
@@ -144,6 +65,99 @@
           <attvalue for="12" value="6.20" />
         </attvalues>
       </node>
+      <node id="白银" label="白银">
+        <attvalues>
+          <attvalue for="0" value="自然物" />
+          <attvalue for="1" value="自然物" />
+          <attvalue for="2" value="0.021978021978021973" />
+          <attvalue for="3" value="0.05826444816773074" />
+          <attvalue for="4" value="0.41590434966954987" />
+          <attvalue for="5" value="0.0041727029641659705" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="16" />
+          <attvalue for="8" value="1201.9314" />
+          <attvalue for="9" value="-2377.436" />
+        </attvalues>
+      </node>
+      <node id="沙粒" label="沙粒">
+        <attvalues>
+          <attvalue for="0" value="自然物" />
+          <attvalue for="1" value="自然物" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.03669958242882723" />
+          <attvalue for="4" value="0.3393302511649523" />
+          <attvalue for="5" value="0.0003507941365566157" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="12" />
+          <attvalue for="8" value="652.5913" />
+          <attvalue for="9" value="-982.2618" />
+        </attvalues>
+      </node>
+      <node id="水晶" label="水晶">
+        <attvalues>
+          <attvalue for="0" value="自然物" />
+          <attvalue for="1" value="自然物" />
+          <attvalue for="2" value="0.05494505494505494" />
+          <attvalue for="3" value="0.11015970936391428" />
+          <attvalue for="4" value="0.5002789310997321" />
+          <attvalue for="5" value="0.012580560320859897" />
+          <attvalue for="6" value="0.2323820782367509" />
+          <attvalue for="7" value="16" />
+          <attvalue for="8" value="1122.1682" />
+          <attvalue for="9" value="-1924.1791" />
+          <attvalue for="10" value="true" />
+          <attvalue for="11" value="false" />
+          <attvalue for="12" value="0.00" />
+        </attvalues>
+      </node>
+      <node id="宝石" label="宝石">
+        <attvalues>
+          <attvalue for="0" value="自然物" />
+          <attvalue for="1" value="自然物" />
+          <attvalue for="2" value="0.14285714285714285" />
+          <attvalue for="3" value="0.2121571620200235" />
+          <attvalue for="4" value="0.6858980136993665" />
+          <attvalue for="5" value="0.0533221686738147" />
+          <attvalue for="6" value="0.2594651165025642" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="1452.7377" />
+          <attvalue for="9" value="-2871.968" />
+        </attvalues>
+      </node>
+      <node id="钻石" label="钻石">
+        <attvalues>
+          <attvalue for="0" value="自然物" />
+          <attvalue for="1" value="自然物" />
+          <attvalue for="2" value="0.0879120879120879" />
+          <attvalue for="3" value="0.14553701203369615" />
+          <attvalue for="4" value="0.6402488711658147" />
+          <attvalue for="5" value="0.030301261618402766" />
+          <attvalue for="6" value="0.3608906491755273" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="1350.8839" />
+          <attvalue for="9" value="-2693.9036" />
+          <attvalue for="10" value="true" />
+          <attvalue for="11" value="true" />
+          <attvalue for="12" value="2.40" />
+        </attvalues>
+      </node>
+      <node id="岩石" label="岩石">
+        <attvalues>
+          <attvalue for="0" value="自然物" />
+          <attvalue for="1" value="自然物" />
+          <attvalue for="2" value="0.04395604395604396" />
+          <attvalue for="3" value="0.12338663155768918" />
+          <attvalue for="4" value="0.5592949561070142" />
+          <attvalue for="5" value="0.010923756728945614" />
+          <attvalue for="6" value="0.08553458778299468" />
+          <attvalue for="7" value="12" />
+          <attvalue for="8" value="643.69946" />
+          <attvalue for="9" value="-1020.99963" />
+          <attvalue for="10" value="true" />
+          <attvalue for="11" value="true" />
+          <attvalue for="12" value="3.00" />
+        </attvalues>
+      </node>
       <node id="珍珠" label="珍珠">
         <attvalues>
           <attvalue for="0" value="自然物" />
@@ -161,34 +175,20 @@
           <attvalue for="12" value="1.60" />
         </attvalues>
       </node>
-      <node id="冰块" label="冰块">
-        <attvalues>
-          <attvalue for="0" value="自然物" />
-          <attvalue for="1" value="自然物" />
-          <attvalue for="2" value="0.1648351648351648" />
-          <attvalue for="3" value="0.15669331665872285" />
-          <attvalue for="4" value="0.8000675358233499" />
-          <attvalue for="5" value="0.10056481281794731" />
-          <attvalue for="6" value="0.3148120296453231" />
-          <attvalue for="7" value="7" />
-          <attvalue for="8" value="-707.04565" />
-          <attvalue for="9" value="920.28467" />
-        </attvalues>
-      </node>
     </nodes>
     <edges>
+      <edge source="冰块" target="石头" id="798" weight="0.6757138967514038" />
+      <edge source="石头" target="宝石" id="357" weight="0.6921119689941406" />
+      <edge source="石头" target="岩石" id="7621" weight="0.6853265762329102" />
+      <edge source="石头" target="钻石" id="7627" weight="0.640373170375824" />
+      <edge source="大理石" target="岩石" id="1840" weight="0.6468758583068848" />
       <edge source="白银" target="钻石" id="211" weight="0.6228442192077637" />
-      <edge source="宝石" target="石头" id="357" weight="0.6921119689941406" />
-      <edge source="宝石" target="水晶" id="358" weight="0.6726039052009583" />
+      <edge source="沙粒" target="岩石" id="7470" weight="0.6263782978057861" />
+      <edge source="水晶" target="宝石" id="358" weight="0.6726039052009583" />
+      <edge source="水晶" target="珍珠" id="7770" weight="0.648006796836853" />
       <edge source="宝石" target="珍珠" id="362" weight="0.6550748944282532" />
       <edge source="宝石" target="钻石" id="363" weight="0.8187729716300964" />
-      <edge source="岩石" target="大理石" id="1840" weight="0.6468758583068848" />
-      <edge source="岩石" target="沙粒" id="7470" weight="0.6263782978057861" />
-      <edge source="岩石" target="石头" id="7621" weight="0.6853265762329102" />
-      <edge source="水晶" target="珍珠" id="7770" weight="0.648006796836853" />
-      <edge source="钻石" target="石头" id="7627" weight="0.640373170375824" />
       <edge source="钻石" target="珍珠" id="8688" weight="0.6238337755203247" />
-      <edge source="石头" target="冰块" id="798" weight="0.6757138967514038" />
     </edges>
   </graph>
 </gexf>

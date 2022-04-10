@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2022-03-25">
+  <meta lastmodifieddate="2022-03-31">
     <creator>NetworkX 2.6.3</creator>
   </meta>
   <graph defaultedgetype="undirected" mode="static" name="">
@@ -20,49 +20,32 @@
       <attribute id="12" title="picture_naming_time" type="string" />
     </attributes>
     <nodes>
-      <node id="脚后跟" label="脚后跟">
+      <node id="肩膀" label="肩膀">
         <attvalues>
           <attvalue for="0" value="身体部位" />
           <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.04395604395604396" />
-          <attvalue for="3" value="0.05224170875932638" />
-          <attvalue for="4" value="0.4796617374075562" />
-          <attvalue for="5" value="0.016684787524658493" />
-          <attvalue for="6" value="0.8456203552984193" />
+          <attvalue for="2" value="0.021978021978021973" />
+          <attvalue for="3" value="0.05932101137100762" />
+          <attvalue for="4" value="0.2711044693273291" />
+          <attvalue for="5" value="0.004740607868000088" />
+          <attvalue for="6" value="0.6304447892704566" />
           <attvalue for="7" value="17" />
-          <attvalue for="8" value="918.42694" />
-          <attvalue for="9" value="-3578.7627" />
+          <attvalue for="8" value="619.44794" />
+          <attvalue for="9" value="-3794.3494" />
         </attvalues>
       </node>
-      <node id="手掌" label="手掌">
+      <node id="皮肤" label="皮肤">
         <attvalues>
           <attvalue for="0" value="身体部位" />
           <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.03296703296703297" />
-          <attvalue for="3" value="0.09494087519591218" />
-          <attvalue for="4" value="0.3299708010761124" />
-          <attvalue for="5" value="0.007151949235804636" />
-          <attvalue for="6" value="0.4848197639850823" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="717.6576" />
-          <attvalue for="9" value="-3569.3745" />
-          <attvalue for="10" value="true" />
-          <attvalue for="11" value="true" />
-          <attvalue for="12" value="2.60" />
-        </attvalues>
-      </node>
-      <node id="耳垂" label="耳垂">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.010989010989010988" />
-          <attvalue for="3" value="0.03997970143872374" />
-          <attvalue for="4" value="0.3614457307960525" />
-          <attvalue for="5" value="0.0030535007030038294" />
-          <attvalue for="6" value="0.8894847944139982" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="1353.5677" />
-          <attvalue for="9" value="-2747.857" />
+          <attvalue for="2" value="0.0769230769230769" />
+          <attvalue for="3" value="0.1049171510447575" />
+          <attvalue for="4" value="0.6563539386868131" />
+          <attvalue for="5" value="0.028995778843133684" />
+          <attvalue for="6" value="0.2886433021197148" />
+          <attvalue for="7" value="11" />
+          <attvalue for="8" value="518.4787" />
+          <attvalue for="9" value="-2574.6702" />
         </attvalues>
       </node>
       <node id="指甲" label="指甲">
@@ -82,210 +65,21 @@
           <attvalue for="12" value="3.20" />
         </attvalues>
       </node>
-      <node id="嘴唇" label="嘴唇">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.06593406593406592" />
-          <attvalue for="3" value="0.14901882525754254" />
-          <attvalue for="4" value="0.4173012861857894" />
-          <attvalue for="5" value="0.01393365396279075" />
-          <attvalue for="6" value="0.33482102185155" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="1178.2465" />
-          <attvalue for="9" value="-2887.8464" />
-          <attvalue for="10" value="true" />
-          <attvalue for="11" value="true" />
-          <attvalue for="12" value="2.80" />
-        </attvalues>
-      </node>
-      <node id="脚背" label="脚背">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.0769230769230769" />
-          <attvalue for="3" value="0.08481276183716897" />
-          <attvalue for="4" value="0.5389730342079704" />
-          <attvalue for="5" value="0.035764803029652494" />
-          <attvalue for="6" value="0.5546320809253927" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="965.2752" />
-          <attvalue for="9" value="-3682.981" />
-        </attvalues>
-      </node>
-      <node id="睫毛" label="睫毛">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.04395604395604396" />
-          <attvalue for="3" value="0.08637663337054999" />
-          <attvalue for="4" value="0.4173012861857894" />
-          <attvalue for="5" value="0.009270282741246645" />
-          <attvalue for="6" value="0.27263457815871384" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="807.6215" />
-          <attvalue for="9" value="-2955.357" />
-          <attvalue for="10" value="true" />
-          <attvalue for="11" value="true" />
-          <attvalue for="12" value="3.40" />
-        </attvalues>
-      </node>
-      <node id="耳朵" label="耳朵">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.0769230769230769" />
-          <attvalue for="3" value="0.16489926142372216" />
-          <attvalue for="4" value="0.5787207362104958" />
-          <attvalue for="5" value="0.020987936384781872" />
-          <attvalue for="6" value="0.22714049000244332" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="1483.2255" />
-          <attvalue for="9" value="-2530.55" />
-          <attvalue for="10" value="true" />
-          <attvalue for="11" value="true" />
-          <attvalue for="12" value="3.80" />
-        </attvalues>
-      </node>
-      <node id="脚趾" label="脚趾">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.13186813186813187" />
-          <attvalue for="3" value="0.19184157296011745" />
-          <attvalue for="4" value="0.6477106933696894" />
-          <attvalue for="5" value="0.052056075266753425" />
-          <attvalue for="6" value="0.2343361307600364" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="860.5179" />
-          <attvalue for="9" value="-3046.2239" />
-        </attvalues>
-      </node>
-      <node id="鼻子" label="鼻子">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.03296703296703297" />
-          <attvalue for="3" value="0.0813292339549808" />
-          <attvalue for="4" value="0.37101519261911947" />
-          <attvalue for="5" value="0.0074694729913357145" />
-          <attvalue for="6" value="0.7471944697016855" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="1227.233" />
-          <attvalue for="9" value="-2832.5886" />
-          <attvalue for="10" value="true" />
-          <attvalue for="11" value="true" />
-          <attvalue for="12" value="1.40" />
-        </attvalues>
-      </node>
-      <node id="脚" label="脚">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.0769230769230769" />
-          <attvalue for="3" value="0.09328438709749072" />
-          <attvalue for="4" value="0.5565416272845995" />
-          <attvalue for="5" value="0.02995737193304155" />
-          <attvalue for="6" value="0.45699685246086746" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="986.0563" />
-          <attvalue for="9" value="-3393.6038" />
-          <attvalue for="10" value="true" />
-          <attvalue for="11" value="true" />
-          <attvalue for="12" value="1.40" />
-        </attvalues>
-      </node>
-      <node id="头" label="头">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.03296703296703297" />
-          <attvalue for="3" value="0.038672680012032314" />
-          <attvalue for="4" value="0.583503859039677" />
-          <attvalue for="5" value="0.01071805604503936" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="1" />
-          <attvalue for="8" value="1211.1614" />
-          <attvalue for="9" value="-1318.5055" />
-          <attvalue for="10" value="true" />
-          <attvalue for="11" value="true" />
-          <attvalue for="12" value="5.00" />
-        </attvalues>
-      </node>
-      <node id="皮肤" label="皮肤">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.0769230769230769" />
-          <attvalue for="3" value="0.1049171510447575" />
-          <attvalue for="4" value="0.6563539386868131" />
-          <attvalue for="5" value="0.028995778843133684" />
-          <attvalue for="6" value="0.2886433021197148" />
-          <attvalue for="7" value="11" />
-          <attvalue for="8" value="518.4787" />
-          <attvalue for="9" value="-2574.6702" />
-        </attvalues>
-      </node>
-      <node id="骨头" label="骨头">
+      <node id="胡须" label="胡须">
         <attvalues>
           <attvalue for="0" value="身体部位" />
           <attvalue for="1" value="身体部位" />
           <attvalue for="2" value="0.0989010989010989" />
-          <attvalue for="3" value="0.1452542202985534" />
-          <attvalue for="4" value="0.7420198208016489" />
-          <attvalue for="5" value="0.042765620467739705" />
-          <attvalue for="6" value="0.17707809362727842" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="488.2803" />
-          <attvalue for="9" value="-640.1665" />
-        </attvalues>
-      </node>
-      <node id="牙齿" label="牙齿">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.12087912087912088" />
-          <attvalue for="3" value="0.19220054740964368" />
-          <attvalue for="4" value="0.6712259274885243" />
-          <attvalue for="5" value="0.038675995714039235" />
-          <attvalue for="6" value="0.13341162922891106" />
-          <attvalue for="7" value="12" />
-          <attvalue for="8" value="960.32764" />
-          <attvalue for="9" value="-1122.5697" />
-          <attvalue for="10" value="true" />
-          <attvalue for="11" value="true" />
-          <attvalue for="12" value="2.80" />
-        </attvalues>
-      </node>
-      <node id="头发" label="头发">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.15384615384615383" />
-          <attvalue for="3" value="0.20953392139025545" />
-          <attvalue for="4" value="0.6609966241385818" />
-          <attvalue for="5" value="0.06825572098507378" />
-          <attvalue for="6" value="0.2308662263078814" />
+          <attvalue for="3" value="0.127446623035341" />
+          <attvalue for="4" value="0.6745807732343982" />
+          <attvalue for="5" value="0.03954740361697473" />
+          <attvalue for="6" value="0.25991703963271295" />
           <attvalue for="7" value="0" />
-          <attvalue for="8" value="1227.1649" />
-          <attvalue for="9" value="-3064.5022" />
+          <attvalue for="8" value="1266.7864" />
+          <attvalue for="9" value="-2885.467" />
           <attvalue for="10" value="true" />
           <attvalue for="11" value="true" />
           <attvalue for="12" value="2.40" />
-        </attvalues>
-      </node>
-      <node id="关节" label="关节">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.03296703296703297" />
-          <attvalue for="3" value="0.053464964686906334" />
-          <attvalue for="4" value="0.5275674931967824" />
-          <attvalue for="5" value="0.008572214774424151" />
-          <attvalue for="6" value="0.44409124613425016" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="908.5056" />
-          <attvalue for="9" value="-1843.0162" />
         </attvalues>
       </node>
       <node id="手指" label="手指">
@@ -302,46 +96,18 @@
           <attvalue for="9" value="-3243.829" />
         </attvalues>
       </node>
-      <node id="肩膀" label="肩膀">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.021978021978021973" />
-          <attvalue for="3" value="0.05932101137100762" />
-          <attvalue for="4" value="0.2711044693273291" />
-          <attvalue for="5" value="0.004740607868000088" />
-          <attvalue for="6" value="0.6304447892704566" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="619.44794" />
-          <attvalue for="9" value="-3794.3494" />
-        </attvalues>
-      </node>
-      <node id="肋骨" label="肋骨">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.013341317715355771" />
-          <attvalue for="4" value="0.4530236597817057" />
-          <attvalue for="5" value="0.001016474827047632" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="524.8637" />
-          <attvalue for="9" value="-527.03015" />
-        </attvalues>
-      </node>
-      <node id="辫子" label="辫子">
+      <node id="关节" label="关节">
         <attvalues>
           <attvalue for="0" value="身体部位" />
           <attvalue for="1" value="身体部位" />
           <attvalue for="2" value="0.03296703296703297" />
-          <attvalue for="3" value="0.029388022185470934" />
-          <attvalue for="4" value="0.4906771575370368" />
-          <attvalue for="5" value="0.01277737357176033" />
-          <attvalue for="6" value="0.7456432771792628" />
-          <attvalue for="7" value="0" />
-          <attvalue for="8" value="1385.3418" />
-          <attvalue for="9" value="-3404.0854" />
+          <attvalue for="3" value="0.053464964686906334" />
+          <attvalue for="4" value="0.5275674931967824" />
+          <attvalue for="5" value="0.008572214774424151" />
+          <attvalue for="6" value="0.44409124613425016" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="908.5056" />
+          <attvalue for="9" value="-1843.0162" />
         </attvalues>
       </node>
       <node id="手臂" label="手臂">
@@ -361,63 +127,38 @@
           <attvalue for="12" value="3.20" />
         </attvalues>
       </node>
-      <node id="臀部" label="臀部">
+      <node id="脚" label="脚">
         <attvalues>
           <attvalue for="0" value="身体部位" />
           <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.05494505494505494" />
-          <attvalue for="3" value="0.07728438524798366" />
-          <attvalue for="4" value="0.4564197154886519" />
-          <attvalue for="5" value="0.018991587451344494" />
-          <attvalue for="6" value="0.42908928958929426" />
+          <attvalue for="2" value="0.0769230769230769" />
+          <attvalue for="3" value="0.09328438709749072" />
+          <attvalue for="4" value="0.5565416272845995" />
+          <attvalue for="5" value="0.02995737193304155" />
+          <attvalue for="6" value="0.45699685246086746" />
           <attvalue for="7" value="17" />
-          <attvalue for="8" value="634.35223" />
-          <attvalue for="9" value="-3912.6936" />
-        </attvalues>
-      </node>
-      <node id="口腔" label="口腔">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.0" />
-          <attvalue for="3" value="0.014361357473835797" />
-          <attvalue for="4" value="0.4098399250338916" />
-          <attvalue for="5" value="0.0015196856865230925" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="12" />
-          <attvalue for="8" value="990.3641" />
-          <attvalue for="9" value="-1080.0627" />
-        </attvalues>
-      </node>
-      <node id="拇指" label="拇指">
-        <attvalues>
-          <attvalue for="0" value="身体部位" />
-          <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.010989010989010988" />
-          <attvalue for="3" value="0.04481861736369407" />
-          <attvalue for="4" value="0.3282378079722306" />
-          <attvalue for="5" value="0.003231555682822253" />
-          <attvalue for="6" value="0.9908359984377278" />
-          <attvalue for="7" value="17" />
-          <attvalue for="8" value="780.6187" />
-          <attvalue for="9" value="-3434.2817" />
+          <attvalue for="8" value="986.0563" />
+          <attvalue for="9" value="-3393.6038" />
           <attvalue for="10" value="true" />
           <attvalue for="11" value="true" />
-          <attvalue for="12" value="3.40" />
+          <attvalue for="12" value="1.40" />
         </attvalues>
       </node>
-      <node id="眼睛" label="眼睛">
+      <node id="睫毛" label="睫毛">
         <attvalues>
           <attvalue for="0" value="身体部位" />
           <attvalue for="1" value="身体部位" />
           <attvalue for="2" value="0.04395604395604396" />
-          <attvalue for="3" value="0.10150900032319315" />
-          <attvalue for="4" value="0.381435957018809" />
-          <attvalue for="5" value="0.009326135901700562" />
-          <attvalue for="6" value="0.536352013455649" />
+          <attvalue for="3" value="0.08637663337054999" />
+          <attvalue for="4" value="0.4173012861857894" />
+          <attvalue for="5" value="0.009270282741246645" />
+          <attvalue for="6" value="0.27263457815871384" />
           <attvalue for="7" value="17" />
-          <attvalue for="8" value="1128.0187" />
-          <attvalue for="9" value="-2903.358" />
+          <attvalue for="8" value="807.6215" />
+          <attvalue for="9" value="-2955.357" />
+          <attvalue for="10" value="true" />
+          <attvalue for="11" value="true" />
+          <attvalue for="12" value="3.40" />
         </attvalues>
       </node>
       <node id="眉毛" label="眉毛">
@@ -435,6 +176,54 @@
           <attvalue for="10" value="true" />
           <attvalue for="11" value="true" />
           <attvalue for="12" value="2.80" />
+        </attvalues>
+      </node>
+      <node id="手掌" label="手掌">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.03296703296703297" />
+          <attvalue for="3" value="0.09494087519591218" />
+          <attvalue for="4" value="0.3299708010761124" />
+          <attvalue for="5" value="0.007151949235804636" />
+          <attvalue for="6" value="0.4848197639850823" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="717.6576" />
+          <attvalue for="9" value="-3569.3745" />
+          <attvalue for="10" value="true" />
+          <attvalue for="11" value="true" />
+          <attvalue for="12" value="2.60" />
+        </attvalues>
+      </node>
+      <node id="耳朵" label="耳朵">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.0769230769230769" />
+          <attvalue for="3" value="0.16489926142372216" />
+          <attvalue for="4" value="0.5787207362104958" />
+          <attvalue for="5" value="0.020987936384781872" />
+          <attvalue for="6" value="0.22714049000244332" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="1483.2255" />
+          <attvalue for="9" value="-2530.55" />
+          <attvalue for="10" value="true" />
+          <attvalue for="11" value="true" />
+          <attvalue for="12" value="3.80" />
+        </attvalues>
+      </node>
+      <node id="眼睛" label="眼睛">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.04395604395604396" />
+          <attvalue for="3" value="0.10150900032319315" />
+          <attvalue for="4" value="0.381435957018809" />
+          <attvalue for="5" value="0.009326135901700562" />
+          <attvalue for="6" value="0.536352013455649" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="1128.0187" />
+          <attvalue for="9" value="-2903.358" />
         </attvalues>
       </node>
       <node id="膝盖" label="膝盖">
@@ -468,6 +257,183 @@
           <attvalue for="9" value="-2903.3506" />
         </attvalues>
       </node>
+      <node id="头" label="头">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.03296703296703297" />
+          <attvalue for="3" value="0.038672680012032314" />
+          <attvalue for="4" value="0.583503859039677" />
+          <attvalue for="5" value="0.01071805604503936" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="1211.1614" />
+          <attvalue for="9" value="-1318.5055" />
+          <attvalue for="10" value="true" />
+          <attvalue for="11" value="true" />
+          <attvalue for="12" value="5.00" />
+        </attvalues>
+      </node>
+      <node id="头发" label="头发">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.15384615384615383" />
+          <attvalue for="3" value="0.20953392139025545" />
+          <attvalue for="4" value="0.6609966241385818" />
+          <attvalue for="5" value="0.06825572098507378" />
+          <attvalue for="6" value="0.2308662263078814" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="1227.1649" />
+          <attvalue for="9" value="-3064.5022" />
+          <attvalue for="10" value="true" />
+          <attvalue for="11" value="true" />
+          <attvalue for="12" value="2.40" />
+        </attvalues>
+      </node>
+      <node id="骨头" label="骨头">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.0989010989010989" />
+          <attvalue for="3" value="0.1452542202985534" />
+          <attvalue for="4" value="0.7420198208016489" />
+          <attvalue for="5" value="0.042765620467739705" />
+          <attvalue for="6" value="0.17707809362727842" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="488.2803" />
+          <attvalue for="9" value="-640.1665" />
+        </attvalues>
+      </node>
+      <node id="口腔" label="口腔">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.014361357473835797" />
+          <attvalue for="4" value="0.4098399250338916" />
+          <attvalue for="5" value="0.0015196856865230925" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="12" />
+          <attvalue for="8" value="990.3641" />
+          <attvalue for="9" value="-1080.0627" />
+        </attvalues>
+      </node>
+      <node id="鼻子" label="鼻子">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.03296703296703297" />
+          <attvalue for="3" value="0.0813292339549808" />
+          <attvalue for="4" value="0.37101519261911947" />
+          <attvalue for="5" value="0.0074694729913357145" />
+          <attvalue for="6" value="0.7471944697016855" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="1227.233" />
+          <attvalue for="9" value="-2832.5886" />
+          <attvalue for="10" value="true" />
+          <attvalue for="11" value="true" />
+          <attvalue for="12" value="1.40" />
+        </attvalues>
+      </node>
+      <node id="脚趾" label="脚趾">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.13186813186813187" />
+          <attvalue for="3" value="0.19184157296011745" />
+          <attvalue for="4" value="0.6477106933696894" />
+          <attvalue for="5" value="0.052056075266753425" />
+          <attvalue for="6" value="0.2343361307600364" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="860.5179" />
+          <attvalue for="9" value="-3046.2239" />
+        </attvalues>
+      </node>
+      <node id="辫子" label="辫子">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.03296703296703297" />
+          <attvalue for="3" value="0.029388022185470934" />
+          <attvalue for="4" value="0.4906771575370368" />
+          <attvalue for="5" value="0.01277737357176033" />
+          <attvalue for="6" value="0.7456432771792628" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="1385.3418" />
+          <attvalue for="9" value="-3404.0854" />
+        </attvalues>
+      </node>
+      <node id="臀部" label="臀部">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.05494505494505494" />
+          <attvalue for="3" value="0.07728438524798366" />
+          <attvalue for="4" value="0.4564197154886519" />
+          <attvalue for="5" value="0.018991587451344494" />
+          <attvalue for="6" value="0.42908928958929426" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="634.35223" />
+          <attvalue for="9" value="-3912.6936" />
+        </attvalues>
+      </node>
+      <node id="肋骨" label="肋骨">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.013341317715355771" />
+          <attvalue for="4" value="0.4530236597817057" />
+          <attvalue for="5" value="0.001016474827047632" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="524.8637" />
+          <attvalue for="9" value="-527.03015" />
+        </attvalues>
+      </node>
+      <node id="脚后跟" label="脚后跟">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.04395604395604396" />
+          <attvalue for="3" value="0.05224170875932638" />
+          <attvalue for="4" value="0.4796617374075562" />
+          <attvalue for="5" value="0.016684787524658493" />
+          <attvalue for="6" value="0.8456203552984193" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="918.42694" />
+          <attvalue for="9" value="-3578.7627" />
+        </attvalues>
+      </node>
+      <node id="耳垂" label="耳垂">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.010989010989010988" />
+          <attvalue for="3" value="0.03997970143872374" />
+          <attvalue for="4" value="0.3614457307960525" />
+          <attvalue for="5" value="0.0030535007030038294" />
+          <attvalue for="6" value="0.8894847944139982" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="1353.5677" />
+          <attvalue for="9" value="-2747.857" />
+        </attvalues>
+      </node>
+      <node id="脚背" label="脚背">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.0769230769230769" />
+          <attvalue for="3" value="0.08481276183716897" />
+          <attvalue for="4" value="0.5389730342079704" />
+          <attvalue for="5" value="0.035764803029652494" />
+          <attvalue for="6" value="0.5546320809253927" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="965.2752" />
+          <attvalue for="9" value="-3682.981" />
+        </attvalues>
+      </node>
       <node id="腿" label="腿">
         <attvalues>
           <attvalue for="0" value="身体部位" />
@@ -485,21 +451,38 @@
           <attvalue for="12" value="2.00" />
         </attvalues>
       </node>
-      <node id="胡须" label="胡须">
+      <node id="嘴唇" label="嘴唇">
         <attvalues>
           <attvalue for="0" value="身体部位" />
           <attvalue for="1" value="身体部位" />
-          <attvalue for="2" value="0.0989010989010989" />
-          <attvalue for="3" value="0.127446623035341" />
-          <attvalue for="4" value="0.6745807732343982" />
-          <attvalue for="5" value="0.03954740361697473" />
-          <attvalue for="6" value="0.25991703963271295" />
-          <attvalue for="7" value="0" />
-          <attvalue for="8" value="1266.7864" />
-          <attvalue for="9" value="-2885.467" />
+          <attvalue for="2" value="0.06593406593406592" />
+          <attvalue for="3" value="0.14901882525754254" />
+          <attvalue for="4" value="0.4173012861857894" />
+          <attvalue for="5" value="0.01393365396279075" />
+          <attvalue for="6" value="0.33482102185155" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="1178.2465" />
+          <attvalue for="9" value="-2887.8464" />
           <attvalue for="10" value="true" />
           <attvalue for="11" value="true" />
-          <attvalue for="12" value="2.40" />
+          <attvalue for="12" value="2.80" />
+        </attvalues>
+      </node>
+      <node id="拇指" label="拇指">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.010989010989010988" />
+          <attvalue for="3" value="0.04481861736369407" />
+          <attvalue for="4" value="0.3282378079722306" />
+          <attvalue for="5" value="0.003231555682822253" />
+          <attvalue for="6" value="0.9908359984377278" />
+          <attvalue for="7" value="17" />
+          <attvalue for="8" value="780.6187" />
+          <attvalue for="9" value="-3434.2817" />
+          <attvalue for="10" value="true" />
+          <attvalue for="11" value="true" />
+          <attvalue for="12" value="3.40" />
         </attvalues>
       </node>
       <node id="大腿" label="大腿">
@@ -516,77 +499,94 @@
           <attvalue for="9" value="-3982.6833" />
         </attvalues>
       </node>
+      <node id="牙齿" label="牙齿">
+        <attvalues>
+          <attvalue for="0" value="身体部位" />
+          <attvalue for="1" value="身体部位" />
+          <attvalue for="2" value="0.12087912087912088" />
+          <attvalue for="3" value="0.19220054740964368" />
+          <attvalue for="4" value="0.6712259274885243" />
+          <attvalue for="5" value="0.038675995714039235" />
+          <attvalue for="6" value="0.13341162922891106" />
+          <attvalue for="7" value="12" />
+          <attvalue for="8" value="960.32764" />
+          <attvalue for="9" value="-1122.5697" />
+          <attvalue for="10" value="true" />
+          <attvalue for="11" value="true" />
+          <attvalue for="12" value="2.80" />
+        </attvalues>
+      </node>
     </nodes>
     <edges>
-      <edge source="脚后跟" target="脚" id="5087" weight="0.7104890942573547" />
-      <edge source="脚后跟" target="脚背" id="5095" weight="0.7497879266738892" />
-      <edge source="脚后跟" target="脚趾" id="5102" weight="0.719536304473877" />
-      <edge source="脚后跟" target="膝盖" id="5104" weight="0.7055414319038391" />
-      <edge source="手掌" target="肩膀" id="4922" weight="0.6364150643348694" />
-      <edge source="手掌" target="拇指" id="6634" weight="0.7029969096183777" />
-      <edge source="手掌" target="手臂" id="7644" weight="0.7280181050300598" />
-      <edge source="手掌" target="手指" id="7689" weight="0.745971143245697" />
-      <edge source="耳垂" target="耳朵" id="2706" weight="0.6721798181533813" />
-      <edge source="耳垂" target="嘴唇" id="2707" weight="0.6860333681106567" />
+      <edge source="肩膀" target="大腿" id="1937" weight="0.680520236492157" />
+      <edge source="肩膀" target="手臂" id="4921" weight="0.7206672430038452" />
+      <edge source="肩膀" target="手掌" id="4922" weight="0.6364150643348694" />
+      <edge source="皮肤" target="胡须" id="4227" weight="0.6253887414932251" />
+      <edge source="皮肤" target="头发" id="7034" weight="0.688012421131134" />
+      <edge source="皮肤" target="头皮" id="7035" weight="0.6953632831573486" />
+      <edge source="皮肤" target="牙齿" id="7036" weight="0.6350014209747314" />
       <edge source="指甲" target="脚趾" id="5118" weight="0.6299123764038086" />
       <edge source="指甲" target="睫毛" id="5148" weight="0.6391009092330933" />
       <edge source="指甲" target="眉毛" id="6431" weight="0.6412213444709778" />
       <edge source="指甲" target="手指" id="7692" weight="0.6610121726989746" />
       <edge source="指甲" target="嘴唇" id="8706" weight="0.626802384853363" />
-      <edge source="嘴唇" target="鼻子" id="641" weight="0.6539440155029297" />
-      <edge source="嘴唇" target="耳朵" id="2714" weight="0.6212892532348633" />
-      <edge source="嘴唇" target="眉毛" id="6432" weight="0.6501272320747375" />
-      <edge source="嘴唇" target="手指" id="7693" weight="0.6477240324020386" />
-      <edge source="嘴唇" target="眼睛" id="8448" weight="0.6379700303077698" />
-      <edge source="脚背" target="脚" id="5086" weight="0.6945151090621948" />
-      <edge source="脚背" target="脚趾" id="5096" weight="0.6829233765602112" />
-      <edge source="脚背" target="膝盖" id="5098" weight="0.6988973617553711" />
-      <edge source="睫毛" target="眉毛" id="5146" weight="0.7424370646476746" />
-      <edge source="睫毛" target="眼睛" id="5147" weight="0.6290642023086548" />
-      <edge source="耳朵" target="鼻子" id="638" weight="0.714871346950531" />
-      <edge source="耳朵" target="眼睛" id="2713" weight="0.7056827545166016" />
-      <edge source="脚趾" target="骨头" id="3425" weight="0.6591744422912598" />
-      <edge source="脚趾" target="关节" id="3445" weight="0.6444727182388306" />
-      <edge source="脚趾" target="脚" id="5088" weight="0.736075758934021" />
-      <edge source="脚趾" target="手指" id="5113" weight="0.6563472151756287" />
-      <edge source="脚趾" target="腿" id="5114" weight="0.6292055249214172" />
-      <edge source="脚趾" target="膝盖" id="5116" weight="0.6990387439727783" />
-      <edge source="脚趾" target="牙齿" id="5117" weight="0.6306191682815552" />
-      <edge source="鼻子" target="眉毛" id="639" weight="0.6564885377883911" />
-      <edge source="鼻子" target="眼睛" id="640" weight="0.6696352958679199" />
-      <edge source="脚" target="头" id="5090" weight="0.6617189645767212" />
-      <edge source="脚" target="膝盖" id="5092" weight="0.6543681025505066" />
-      <edge source="头" target="头发" id="7961" weight="0.6378286480903625" />
-      <edge source="皮肤" target="胡须" id="4227" weight="0.6253887414932251" />
-      <edge source="皮肤" target="头发" id="7034" weight="0.688012421131134" />
-      <edge source="皮肤" target="头皮" id="7035" weight="0.6953632831573486" />
-      <edge source="皮肤" target="牙齿" id="7036" weight="0.6350014209747314" />
-      <edge source="骨头" target="关节" id="3422" weight="0.6451795101165771" />
-      <edge source="骨头" target="肋骨" id="3426" weight="0.6448968052864075" />
-      <edge source="骨头" target="膝盖" id="3429" weight="0.6433418393135071" />
-      <edge source="骨头" target="牙齿" id="3430" weight="0.6697766184806824" />
-      <edge source="牙齿" target="胡须" id="4231" weight="0.6441900134086609" />
-      <edge source="牙齿" target="口腔" id="5557" weight="0.7089341282844543" />
-      <edge source="牙齿" target="头发" id="7967" weight="0.6658185124397278" />
-      <edge source="头发" target="辫子" id="730" weight="0.6959287524223328" />
-      <edge source="头发" target="胡须" id="4229" weight="0.7626519799232483" />
-      <edge source="头发" target="眉毛" id="6429" weight="0.6530958414077759" />
-      <edge source="头发" target="头皮" id="7965" weight="0.7268871665000916" />
-      <edge source="关节" target="膝盖" id="3446" weight="0.6726039052009583" />
+      <edge source="胡须" target="辫子" id="729" weight="0.6564885377883911" />
+      <edge source="胡须" target="眉毛" id="4226" weight="0.6788238883018494" />
+      <edge source="胡须" target="头发" id="4229" weight="0.7626519799232483" />
+      <edge source="胡须" target="牙齿" id="4231" weight="0.6441900134086609" />
+      <edge source="手指" target="脚趾" id="5113" weight="0.6563472151756287" />
       <edge source="手指" target="拇指" id="6635" weight="0.7551597356796265" />
       <edge source="手指" target="手臂" id="7645" weight="0.7099236845970154" />
-      <edge source="肩膀" target="大腿" id="1937" weight="0.680520236492157" />
-      <edge source="肩膀" target="手臂" id="4921" weight="0.7206672430038452" />
-      <edge source="辫子" target="胡须" id="729" weight="0.6564885377883911" />
+      <edge source="手指" target="手掌" id="7689" weight="0.745971143245697" />
+      <edge source="手指" target="嘴唇" id="7693" weight="0.6477240324020386" />
+      <edge source="关节" target="骨头" id="3422" weight="0.6451795101165771" />
+      <edge source="关节" target="脚趾" id="3445" weight="0.6444727182388306" />
+      <edge source="关节" target="膝盖" id="3446" weight="0.6726039052009583" />
       <edge source="手臂" target="大腿" id="1938" weight="0.7236358523368835" />
+      <edge source="手臂" target="手掌" id="7644" weight="0.7280181050300598" />
       <edge source="手臂" target="腿" id="7646" weight="0.6711902618408203" />
       <edge source="手臂" target="臀部" id="7647" weight="0.6516821980476379" />
+      <edge source="脚" target="脚背" id="5086" weight="0.6945151090621948" />
+      <edge source="脚" target="脚后跟" id="5087" weight="0.7104890942573547" />
+      <edge source="脚" target="脚趾" id="5088" weight="0.736075758934021" />
+      <edge source="脚" target="头" id="5090" weight="0.6617189645767212" />
+      <edge source="脚" target="膝盖" id="5092" weight="0.6543681025505066" />
+      <edge source="睫毛" target="眉毛" id="5146" weight="0.7424370646476746" />
+      <edge source="睫毛" target="眼睛" id="5147" weight="0.6290642023086548" />
+      <edge source="眉毛" target="鼻子" id="639" weight="0.6564885377883911" />
+      <edge source="眉毛" target="头发" id="6429" weight="0.6530958414077759" />
+      <edge source="眉毛" target="眼睛" id="6430" weight="0.6443313360214233" />
+      <edge source="眉毛" target="嘴唇" id="6432" weight="0.6501272320747375" />
+      <edge source="手掌" target="拇指" id="6634" weight="0.7029969096183777" />
+      <edge source="耳朵" target="鼻子" id="638" weight="0.714871346950531" />
+      <edge source="耳朵" target="耳垂" id="2706" weight="0.6721798181533813" />
+      <edge source="耳朵" target="眼睛" id="2713" weight="0.7056827545166016" />
+      <edge source="耳朵" target="嘴唇" id="2714" weight="0.6212892532348633" />
+      <edge source="眼睛" target="鼻子" id="640" weight="0.6696352958679199" />
+      <edge source="眼睛" target="嘴唇" id="8448" weight="0.6379700303077698" />
+      <edge source="膝盖" target="大腿" id="1941" weight="0.6829233765602112" />
+      <edge source="膝盖" target="骨头" id="3429" weight="0.6433418393135071" />
+      <edge source="膝盖" target="脚背" id="5098" weight="0.6988973617553711" />
+      <edge source="膝盖" target="脚后跟" id="5104" weight="0.7055414319038391" />
+      <edge source="膝盖" target="脚趾" id="5116" weight="0.6990387439727783" />
+      <edge source="膝盖" target="臀部" id="8029" weight="0.6290642023086548" />
+      <edge source="头皮" target="头发" id="7965" weight="0.7268871665000916" />
+      <edge source="头" target="头发" id="7961" weight="0.6378286480903625" />
+      <edge source="头发" target="辫子" id="730" weight="0.6959287524223328" />
+      <edge source="头发" target="牙齿" id="7967" weight="0.6658185124397278" />
+      <edge source="骨头" target="脚趾" id="3425" weight="0.6591744422912598" />
+      <edge source="骨头" target="肋骨" id="3426" weight="0.6448968052864075" />
+      <edge source="骨头" target="牙齿" id="3430" weight="0.6697766184806824" />
+      <edge source="口腔" target="牙齿" id="5557" weight="0.7089341282844543" />
+      <edge source="鼻子" target="嘴唇" id="641" weight="0.6539440155029297" />
+      <edge source="脚趾" target="脚背" id="5096" weight="0.6829233765602112" />
+      <edge source="脚趾" target="脚后跟" id="5102" weight="0.719536304473877" />
+      <edge source="脚趾" target="腿" id="5114" weight="0.6292055249214172" />
+      <edge source="脚趾" target="牙齿" id="5117" weight="0.6306191682815552" />
       <edge source="臀部" target="大腿" id="1940" weight="0.7410234808921814" />
       <edge source="臀部" target="腿" id="8027" weight="0.6499858498573303" />
-      <edge source="臀部" target="膝盖" id="8029" weight="0.6290642023086548" />
-      <edge source="眼睛" target="眉毛" id="6430" weight="0.6443313360214233" />
-      <edge source="眉毛" target="胡须" id="4226" weight="0.6788238883018494" />
-      <edge source="膝盖" target="大腿" id="1941" weight="0.6829233765602112" />
+      <edge source="脚后跟" target="脚背" id="5095" weight="0.7497879266738892" />
+      <edge source="耳垂" target="嘴唇" id="2707" weight="0.6860333681106567" />
       <edge source="腿" target="大腿" id="1939" weight="0.7295730710029602" />
     </edges>
   </graph>
