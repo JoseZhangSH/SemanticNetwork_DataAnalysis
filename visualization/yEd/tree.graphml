@@ -1,0 +1,4898 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="身体部位">
+  <data key="d0">身体部位</data>
+</node>
+<node id="动物">
+  <data key="d0">动物</data>
+</node>
+<node id="昆虫">
+  <data key="d0">昆虫</data>
+</node>
+<node id="陆生动物">
+  <data key="d0">陆生动物</data>
+</node>
+<node id="水生动物">
+  <data key="d0">水生动物</data>
+</node>
+<node id="鸟">
+  <data key="d0">鸟</data>
+</node>
+<node id="人造物">
+  <data key="d0">人造物</data>
+</node>
+<node id="服饰">
+  <data key="d0">服饰</data>
+</node>
+<node id="玩具">
+  <data key="d0">玩具</data>
+</node>
+<node id="建筑">
+  <data key="d0">建筑</data>
+</node>
+<node id="家具">
+  <data key="d0">家具</data>
+</node>
+<node id="武器">
+  <data key="d0">武器</data>
+</node>
+<node id="乐器">
+  <data key="d0">乐器</data>
+</node>
+<node id="工具">
+  <data key="d0">工具</data>
+</node>
+<node id="电器">
+  <data key="d0">电器</data>
+</node>
+<node id="运动器材">
+  <data key="d0">运动器材</data>
+</node>
+<node id="餐具">
+  <data key="d0">餐具</data>
+</node>
+<node id="医疗用品">
+  <data key="d0">医疗用品</data>
+</node>
+<node id="自然物">
+  <data key="d0">自然物</data>
+</node>
+<node id="植物">
+  <data key="d0">植物</data>
+</node>
+<node id="水果">
+  <data key="d0">水果</data>
+</node>
+<node id="树木">
+  <data key="d0">树木</data>
+</node>
+<node id="花草">
+  <data key="d0">花草</data>
+</node>
+<node id="蔬菜">
+  <data key="d0">蔬菜</data>
+</node>
+<node id="交通工具">
+  <data key="d0">交通工具</data>
+</node>
+<node id="飞机">
+  <data key="d0">飞机</data>
+</node>
+<node id="船">
+  <data key="d0">船</data>
+</node>
+<node id="车">
+  <data key="d0">车</data>
+</node>
+<node id="食物">
+  <data key="d0">食物</data>
+</node>
+<node id="肉食">
+  <data key="d0">肉食</data>
+</node>
+<node id="调料">
+  <data key="d0">调料</data>
+</node>
+<node id="固态干粮">
+  <data key="d0">固态干粮</data>
+</node>
+<node id="酒水饮料">
+  <data key="d0">酒水饮料</data>
+</node>
+<node id="安全带">
+  <data key="d0">安全带</data>
+</node>
+<node id="安全帽">
+  <data key="d0">安全帽</data>
+</node>
+<node id="鹌鹑">
+  <data key="d0">鹌鹑</data>
+</node>
+<node id="按键">
+  <data key="d0">按键</data>
+</node>
+<node id="按钮">
+  <data key="d0">按钮</data>
+</node>
+<node id="八宝粥">
+  <data key="d0">八宝粥</data>
+</node>
+<node id="巴士">
+  <data key="d0">巴士</data>
+</node>
+<node id="霸王龙">
+  <data key="d0">霸王龙</data>
+</node>
+<node id="吧台">
+  <data key="d0">吧台</data>
+</node>
+<node id="白菜">
+  <data key="d0">白菜</data>
+</node>
+<node id="白饭">
+  <data key="d0">白饭</data>
+</node>
+<node id="白果">
+  <data key="d0">白果</data>
+</node>
+<node id="白桦树">
+  <data key="d0">白桦树</data>
+</node>
+<node id="白酒">
+  <data key="d0">白酒</data>
+</node>
+<node id="白萝卜">
+  <data key="d0">白萝卜</data>
+</node>
+<node id="白皮松">
+  <data key="d0">白皮松</data>
+</node>
+<node id="白砂糖">
+  <data key="d0">白砂糖</data>
+</node>
+<node id="白糖">
+  <data key="d0">白糖</data>
+</node>
+<node id="白杨">
+  <data key="d0">白杨</data>
+</node>
+<node id="白蚁">
+  <data key="d0">白蚁</data>
+</node>
+<node id="白银">
+  <data key="d0">白银</data>
+</node>
+<node id="白粥">
+  <data key="d0">白粥</data>
+</node>
+<node id="百合">
+  <data key="d0">百合</data>
+</node>
+<node id="百事可乐">
+  <data key="d0">百事可乐</data>
+</node>
+<node id="百香果">
+  <data key="d0">百香果</data>
+</node>
+<node id="柏树">
+  <data key="d0">柏树</data>
+</node>
+<node id="柏油路">
+  <data key="d0">柏油路</data>
+</node>
+<node id="摆钟">
+  <data key="d0">摆钟</data>
+</node>
+<node id="扳手">
+  <data key="d0">扳手</data>
+</node>
+<node id="斑马">
+  <data key="d0">斑马</data>
+</node>
+<node id="板栗">
+  <data key="d0">板栗</data>
+</node>
+<node id="棒棒糖">
+  <data key="d0">棒棒糖</data>
+</node>
+<node id="包装纸">
+  <data key="d0">包装纸</data>
+</node>
+<node id="包子">
+  <data key="d0">包子</data>
+</node>
+<node id="薄荷">
+  <data key="d0">薄荷</data>
+</node>
+<node id="宝石">
+  <data key="d0">宝石</data>
+</node>
+<node id="保龄球">
+  <data key="d0">保龄球</data>
+</node>
+<node id="保鲜膜">
+  <data key="d0">保鲜膜</data>
+</node>
+<node id="保险柜">
+  <data key="d0">保险柜</data>
+</node>
+<node id="报警器">
+  <data key="d0">报警器</data>
+</node>
+<node id="报纸">
+  <data key="d0">报纸</data>
+</node>
+<node id="豹子">
+  <data key="d0">豹子</data>
+</node>
+<node id="鲍鱼">
+  <data key="d0">鲍鱼</data>
+</node>
+<node id="爆米花">
+  <data key="d0">爆米花</data>
+</node>
+<node id="杯垫">
+  <data key="d0">杯垫</data>
+</node>
+<node id="杯子">
+  <data key="d0">杯子</data>
+</node>
+<node id="背包">
+  <data key="d0">背包</data>
+</node>
+<node id="背带裤">
+  <data key="d0">背带裤</data>
+</node>
+<node id="背心">
+  <data key="d0">背心</data>
+</node>
+<node id="被子">
+  <data key="d0">被子</data>
+</node>
+<node id="绷带">
+  <data key="d0">绷带</data>
+</node>
+<node id="蹦床">
+  <data key="d0">蹦床</data>
+</node>
+<node id="鼻环">
+  <data key="d0">鼻环</data>
+</node>
+<node id="鼻烟壶">
+  <data key="d0">鼻烟壶</data>
+</node>
+<node id="鼻子">
+  <data key="d0">鼻子</data>
+</node>
+<node id="匕首">
+  <data key="d0">匕首</data>
+</node>
+<node id="比萨">
+  <data key="d0">比萨</data>
+</node>
+<node id="笔芯">
+  <data key="d0">笔芯</data>
+</node>
+<node id="碧螺春">
+  <data key="d0">碧螺春</data>
+</node>
+<node id="壁橱">
+  <data key="d0">壁橱</data>
+</node>
+<node id="壁画">
+  <data key="d0">壁画</data>
+</node>
+<node id="避雷针">
+  <data key="d0">避雷针</data>
+</node>
+<node id="避孕套">
+  <data key="d0">避孕套</data>
+</node>
+<node id="蝙蝠">
+  <data key="d0">蝙蝠</data>
+</node>
+<node id="鞭子">
+  <data key="d0">鞭子</data>
+</node>
+<node id="扁豆">
+  <data key="d0">扁豆</data>
+</node>
+<node id="变色龙">
+  <data key="d0">变色龙</data>
+</node>
+<node id="便盆">
+  <data key="d0">便盆</data>
+</node>
+<node id="辫子">
+  <data key="d0">辫子</data>
+</node>
+<node id="槟榔">
+  <data key="d0">槟榔</data>
+</node>
+<node id="冰棍">
+  <data key="d0">冰棍</data>
+</node>
+<node id="冰红茶">
+  <data key="d0">冰红茶</data>
+</node>
+<node id="冰咖啡">
+  <data key="d0">冰咖啡</data>
+</node>
+<node id="冰块">
+  <data key="d0">冰块</data>
+</node>
+<node id="冰淇淋">
+  <data key="d0">冰淇淋</data>
+</node>
+<node id="冰球">
+  <data key="d0">冰球</data>
+</node>
+<node id="冰糖">
+  <data key="d0">冰糖</data>
+</node>
+<node id="冰糖葫芦">
+  <data key="d0">冰糖葫芦</data>
+</node>
+<node id="冰箱">
+  <data key="d0">冰箱</data>
+</node>
+<node id="饼干">
+  <data key="d0">饼干</data>
+</node>
+<node id="波斯猫">
+  <data key="d0">波斯猫</data>
+</node>
+<node id="玻璃">
+  <data key="d0">玻璃</data>
+</node>
+<node id="玻璃珠">
+  <data key="d0">玻璃珠</data>
+</node>
+<node id="菠菜">
+  <data key="d0">菠菜</data>
+</node>
+<node id="菠萝汁">
+  <data key="d0">菠萝汁</data>
+</node>
+<node id="簸箕">
+  <data key="d0">簸箕</data>
+</node>
+<node id="捕蝇草">
+  <data key="d0">捕蝇草</data>
+</node>
+<node id="布丁">
+  <data key="d0">布丁</data>
+</node>
+<node id="步枪">
+  <data key="d0">步枪</data>
+</node>
+<node id="彩陶">
+  <data key="d0">彩陶</data>
+</node>
+<node id="菜板">
+  <data key="d0">菜板</data>
+</node>
+<node id="菜籽油">
+  <data key="d0">菜籽油</data>
+</node>
+<node id="餐刀">
+  <data key="d0">餐刀</data>
+</node>
+<node id="餐巾纸">
+  <data key="d0">餐巾纸</data>
+</node>
+<node id="餐桌">
+  <data key="d0">餐桌</data>
+</node>
+<node id="蚕豆">
+  <data key="d0">蚕豆</data>
+</node>
+<node id="苍鹰">
+  <data key="d0">苍鹰</data>
+</node>
+<node id="苍蝇">
+  <data key="d0">苍蝇</data>
+</node>
+<node id="藏獒犬">
+  <data key="d0">藏獒犬</data>
+</node>
+<node id="藏红花">
+  <data key="d0">藏红花</data>
+</node>
+<node id="草">
+  <data key="d0">草</data>
+</node>
+<node id="草帽">
+  <data key="d0">草帽</data>
+</node>
+<node id="草莓">
+  <data key="d0">草莓</data>
+</node>
+<node id="草莓酱">
+  <data key="d0">草莓酱</data>
+</node>
+<node id="草鱼">
+  <data key="d0">草鱼</data>
+</node>
+<node id="叉子">
+  <data key="d0">叉子</data>
+</node>
+<node id="插头">
+  <data key="d0">插头</data>
+</node>
+<node id="插座">
+  <data key="d0">插座</data>
+</node>
+<node id="茶">
+  <data key="d0">茶</data>
+</node>
+<node id="茶包">
+  <data key="d0">茶包</data>
+</node>
+<node id="茶壶">
+  <data key="d0">茶壶</data>
+</node>
+<node id="茶花">
+  <data key="d0">茶花</data>
+</node>
+<node id="茶碗">
+  <data key="d0">茶碗</data>
+</node>
+<node id="蟾蜍">
+  <data key="d0">蟾蜍</data>
+</node>
+<node id="炒锅">
+  <data key="d0">炒锅</data>
+</node>
+<node id="炒面">
+  <data key="d0">炒面</data>
+</node>
+<node id="车窗">
+  <data key="d0">车窗</data>
+</node>
+<node id="车库">
+  <data key="d0">车库</data>
+</node>
+<node id="车辆">
+  <data key="d0">车辆</data>
+</node>
+<node id="车轮">
+  <data key="d0">车轮</data>
+</node>
+<node id="车门">
+  <data key="d0">车门</data>
+</node>
+<node id="车票">
+  <data key="d0">车票</data>
+</node>
+<node id="衬衫">
+  <data key="d0">衬衫</data>
+</node>
+<node id="蛏子">
+  <data key="d0">蛏子</data>
+</node>
+<node id="橙汁">
+  <data key="d0">橙汁</data>
+</node>
+<node id="尺子">
+  <data key="d0">尺子</data>
+</node>
+<node id="齿轮">
+  <data key="d0">齿轮</data>
+</node>
+<node id="冲浪板">
+  <data key="d0">冲浪板</data>
+</node>
+<node id="充电器">
+  <data key="d0">充电器</data>
+</node>
+<node id="抽屉">
+  <data key="d0">抽屉</data>
+</node>
+<node id="臭豆腐">
+  <data key="d0">臭豆腐</data>
+</node>
+<node id="出租车">
+  <data key="d0">出租车</data>
+</node>
+<node id="除草机">
+  <data key="d0">除草机</data>
+</node>
+<node id="锄头">
+  <data key="d0">锄头</data>
+</node>
+<node id="雏菊">
+  <data key="d0">雏菊</data>
+</node>
+<node id="橱柜">
+  <data key="d0">橱柜</data>
+</node>
+<node id="储蓄罐">
+  <data key="d0">储蓄罐</data>
+</node>
+<node id="传真机">
+  <data key="d0">传真机</data>
+</node>
+<node id="窗户">
+  <data key="d0">窗户</data>
+</node>
+<node id="窗帘">
+  <data key="d0">窗帘</data>
+</node>
+<node id="床">
+  <data key="d0">床</data>
+</node>
+<node id="床垫">
+  <data key="d0">床垫</data>
+</node>
+<node id="床罩">
+  <data key="d0">床罩</data>
+</node>
+<node id="创可贴">
+  <data key="d0">创可贴</data>
+</node>
+<node id="垂柳">
+  <data key="d0">垂柳</data>
+</node>
+<node id="锤子">
+  <data key="d0">锤子</data>
+</node>
+<node id="纯净水">
+  <data key="d0">纯净水</data>
+</node>
+<node id="磁带">
+  <data key="d0">磁带</data>
+</node>
+<node id="磁铁">
+  <data key="d0">磁铁</data>
+</node>
+<node id="刺刀">
+  <data key="d0">刺刀</data>
+</node>
+<node id="刺猬">
+  <data key="d0">刺猬</data>
+</node>
+<node id="葱">
+  <data key="d0">葱</data>
+</node>
+<node id="醋">
+  <data key="d0">醋</data>
+</node>
+<node id="催泪弹">
+  <data key="d0">催泪弹</data>
+</node>
+<node id="锉刀">
+  <data key="d0">锉刀</data>
+</node>
+<node id="打气筒">
+  <data key="d0">打气筒</data>
+</node>
+<node id="打印机">
+  <data key="d0">打印机</data>
+</node>
+<node id="大饼">
+  <data key="d0">大饼</data>
+</node>
+<node id="大豆">
+  <data key="d0">大豆</data>
+</node>
+<node id="大灰狼">
+  <data key="d0">大灰狼</data>
+</node>
+<node id="大理石">
+  <data key="d0">大理石</data>
+</node>
+<node id="大米">
+  <data key="d0">大米</data>
+</node>
+<node id="大脑">
+  <data key="d0">大脑</data>
+</node>
+<node id="大炮">
+  <data key="d0">大炮</data>
+</node>
+<node id="大蒜">
+  <data key="d0">大蒜</data>
+</node>
+<node id="大提琴">
+  <data key="d0">大提琴</data>
+</node>
+<node id="大头菜">
+  <data key="d0">大头菜</data>
+</node>
+<node id="大头针">
+  <data key="d0">大头针</data>
+</node>
+<node id="大腿">
+  <data key="d0">大腿</data>
+</node>
+<node id="大象">
+  <data key="d0">大象</data>
+</node>
+<node id="大猩猩">
+  <data key="d0">大猩猩</data>
+</node>
+<node id="大衣">
+  <data key="d0">大衣</data>
+</node>
+<node id="大枣">
+  <data key="d0">大枣</data>
+</node>
+<node id="带鱼">
+  <data key="d0">带鱼</data>
+</node>
+<node id="担架">
+  <data key="d0">担架</data>
+</node>
+<node id="单簧管">
+  <data key="d0">单簧管</data>
+</node>
+<node id="单肩包">
+  <data key="d0">单肩包</data>
+</node>
+<node id="单人床">
+  <data key="d0">单人床</data>
+</node>
+<node id="弹簧">
+  <data key="d0">弹簧</data>
+</node>
+<node id="弹簧刀">
+  <data key="d0">弹簧刀</data>
+</node>
+<node id="弹药">
+  <data key="d0">弹药</data>
+</node>
+<node id="蛋糕">
+  <data key="d0">蛋糕</data>
+</node>
+<node id="蛋黄">
+  <data key="d0">蛋黄</data>
+</node>
+<node id="刀">
+  <data key="d0">刀</data>
+</node>
+<node id="刀豆">
+  <data key="d0">刀豆</data>
+</node>
+<node id="导弹">
+  <data key="d0">导弹</data>
+</node>
+<node id="导盲犬">
+  <data key="d0">导盲犬</data>
+</node>
+<node id="灯">
+  <data key="d0">灯</data>
+</node>
+<node id="灯笼">
+  <data key="d0">灯笼</data>
+</node>
+<node id="灯笼椒">
+  <data key="d0">灯笼椒</data>
+</node>
+<node id="灯泡">
+  <data key="d0">灯泡</data>
+</node>
+<node id="灯塔">
+  <data key="d0">灯塔</data>
+</node>
+<node id="灯罩">
+  <data key="d0">灯罩</data>
+</node>
+<node id="地球">
+  <data key="d0">地球</data>
+</node>
+<node id="地毯">
+  <data key="d0">地毯</data>
+</node>
+<node id="地铁">
+  <data key="d0">地铁</data>
+</node>
+<node id="地图">
+  <data key="d0">地图</data>
+</node>
+<node id="帝王蟹">
+  <data key="d0">帝王蟹</data>
+</node>
+<node id="电冰箱">
+  <data key="d0">电冰箱</data>
+</node>
+<node id="电池">
+  <data key="d0">电池</data>
+</node>
+<node id="电风扇">
+  <data key="d0">电风扇</data>
+</node>
+<node id="电话簿">
+  <data key="d0">电话簿</data>
+</node>
+<node id="电话亭">
+  <data key="d0">电话亭</data>
+</node>
+<node id="电吉他">
+  <data key="d0">电吉他</data>
+</node>
+<node id="电锯">
+  <data key="d0">电锯</data>
+</node>
+<node id="电路板">
+  <data key="d0">电路板</data>
+</node>
+<node id="电视">
+  <data key="d0">电视</data>
+</node>
+<node id="电梯">
+  <data key="d0">电梯</data>
+</node>
+<node id="电蚊拍">
+  <data key="d0">电蚊拍</data>
+</node>
+<node id="电线杆">
+  <data key="d0">电线杆</data>
+</node>
+<node id="电影">
+  <data key="d0">电影</data>
+</node>
+<node id="貂皮大衣">
+  <data key="d0">貂皮大衣</data>
+</node>
+<node id="雕塑">
+  <data key="d0">雕塑</data>
+</node>
+<node id="吊车">
+  <data key="d0">吊车</data>
+</node>
+<node id="吊床">
+  <data key="d0">吊床</data>
+</node>
+<node id="吊桥">
+  <data key="d0">吊桥</data>
+</node>
+<node id="吊坠">
+  <data key="d0">吊坠</data>
+</node>
+<node id="钓竿">
+  <data key="d0">钓竿</data>
+</node>
+<node id="钓鱼线">
+  <data key="d0">钓鱼线</data>
+</node>
+<node id="丁香">
+  <data key="d0">丁香</data>
+</node>
+<node id="丁字裤">
+  <data key="d0">丁字裤</data>
+</node>
+<node id="订书机">
+  <data key="d0">订书机</data>
+</node>
+<node id="钉子">
+  <data key="d0">钉子</data>
+</node>
+<node id="冬瓜">
+  <data key="d0">冬瓜</data>
+</node>
+<node id="斗篷">
+  <data key="d0">斗篷</data>
+</node>
+<node id="豆豉">
+  <data key="d0">豆豉</data>
+</node>
+<node id="豆腐">
+  <data key="d0">豆腐</data>
+</node>
+<node id="豆腐干">
+  <data key="d0">豆腐干</data>
+</node>
+<node id="豆腐脑">
+  <data key="d0">豆腐脑</data>
+</node>
+<node id="豆浆">
+  <data key="d0">豆浆</data>
+</node>
+<node id="豆奶">
+  <data key="d0">豆奶</data>
+</node>
+<node id="豆芽">
+  <data key="d0">豆芽</data>
+</node>
+<node id="豆子">
+  <data key="d0">豆子</data>
+</node>
+<node id="毒蛇">
+  <data key="d0">毒蛇</data>
+</node>
+<node id="独木舟">
+  <data key="d0">独木舟</data>
+</node>
+<node id="短笛">
+  <data key="d0">短笛</data>
+</node>
+<node id="短裤">
+  <data key="d0">短裤</data>
+</node>
+<node id="短裙">
+  <data key="d0">短裙</data>
+</node>
+<node id="短袖">
+  <data key="d0">短袖</data>
+</node>
+<node id="炖锅">
+  <data key="d0">炖锅</data>
+</node>
+<node id="炖肉">
+  <data key="d0">炖肉</data>
+</node>
+<node id="多宝鱼">
+  <data key="d0">多宝鱼</data>
+</node>
+<node id="鹅">
+  <data key="d0">鹅</data>
+</node>
+<node id="耳垂">
+  <data key="d0">耳垂</data>
+</node>
+<node id="耳朵">
+  <data key="d0">耳朵</data>
+</node>
+<node id="耳环">
+  <data key="d0">耳环</data>
+</node>
+<node id="耳机">
+  <data key="d0">耳机</data>
+</node>
+<node id="耳塞">
+  <data key="d0">耳塞</data>
+</node>
+<node id="耳罩">
+  <data key="d0">耳罩</data>
+</node>
+<node id="二锅头">
+  <data key="d0">二锅头</data>
+</node>
+<node id="发夹">
+  <data key="d0">发夹</data>
+</node>
+<node id="帆船">
+  <data key="d0">帆船</data>
+</node>
+<node id="番茄">
+  <data key="d0">番茄</data>
+</node>
+<node id="番茄酱">
+  <data key="d0">番茄酱</data>
+</node>
+<node id="方便面">
+  <data key="d0">方便面</data>
+</node>
+<node id="方向盘">
+  <data key="d0">方向盘</data>
+</node>
+<node id="防潮垫">
+  <data key="d0">防潮垫</data>
+</node>
+<node id="防尘罩">
+  <data key="d0">防尘罩</data>
+</node>
+<node id="防弹衣">
+  <data key="d0">防弹衣</data>
+</node>
+<node id="防火门">
+  <data key="d0">防火门</data>
+</node>
+<node id="防晒霜">
+  <data key="d0">防晒霜</data>
+</node>
+<node id="房车">
+  <data key="d0">房车</data>
+</node>
+<node id="纺织机">
+  <data key="d0">纺织机</data>
+</node>
+<node id="放大镜">
+  <data key="d0">放大镜</data>
+</node>
+<node id="飞镖">
+  <data key="d0">飞镖</data>
+</node>
+<node id="飞船">
+  <data key="d0">飞船</data>
+</node>
+<node id="飞碟">
+  <data key="d0">飞碟</data>
+</node>
+<node id="飞盘">
+  <data key="d0">飞盘</data>
+</node>
+<node id="飞毯">
+  <data key="d0">飞毯</data>
+</node>
+<node id="飞艇">
+  <data key="d0">飞艇</data>
+</node>
+<node id="非洲象">
+  <data key="d0">非洲象</data>
+</node>
+<node id="肥皂">
+  <data key="d0">肥皂</data>
+</node>
+<node id="肥皂盒">
+  <data key="d0">肥皂盒</data>
+</node>
+<node id="狒狒">
+  <data key="d0">狒狒</data>
+</node>
+<node id="废物箱">
+  <data key="d0">废物箱</data>
+</node>
+<node id="粪便">
+  <data key="d0">粪便</data>
+</node>
+<node id="风车">
+  <data key="d0">风车</data>
+</node>
+<node id="风铃">
+  <data key="d0">风铃</data>
+</node>
+<node id="风扇">
+  <data key="d0">风扇</data>
+</node>
+<node id="风信子">
+  <data key="d0">风信子</data>
+</node>
+<node id="风衣">
+  <data key="d0">风衣</data>
+</node>
+<node id="风筝">
+  <data key="d0">风筝</data>
+</node>
+<node id="枫树">
+  <data key="d0">枫树</data>
+</node>
+<node id="蜂蜜">
+  <data key="d0">蜂蜜</data>
+</node>
+<node id="蜂箱">
+  <data key="d0">蜂箱</data>
+</node>
+<node id="缝纫机">
+  <data key="d0">缝纫机</data>
+</node>
+<node id="缝衣针">
+  <data key="d0">缝衣针</data>
+</node>
+<node id="扶手椅">
+  <data key="d0">扶手椅</data>
+</node>
+<node id="浮萍">
+  <data key="d0">浮萍</data>
+</node>
+<node id="浮桥">
+  <data key="d0">浮桥</data>
+</node>
+<node id="斧头">
+  <data key="d0">斧头</data>
+</node>
+<node id="复印机">
+  <data key="d0">复印机</data>
+</node>
+<node id="蝮蛇">
+  <data key="d0">蝮蛇</data>
+</node>
+<node id="甘蓝">
+  <data key="d0">甘蓝</data>
+</node>
+<node id="甘蔗">
+  <data key="d0">甘蔗</data>
+</node>
+<node id="柑橘">
+  <data key="d0">柑橘</data>
+</node>
+<node id="橄榄">
+  <data key="d0">橄榄</data>
+</node>
+<node id="橄榄球">
+  <data key="d0">橄榄球</data>
+</node>
+<node id="橄榄树">
+  <data key="d0">橄榄树</data>
+</node>
+<node id="擀面杖">
+  <data key="d0">擀面杖</data>
+</node>
+<node id="干电池">
+  <data key="d0">干电池</data>
+</node>
+<node id="干果">
+  <data key="d0">干果</data>
+</node>
+<node id="钢笔">
+  <data key="d0">钢笔</data>
+</node>
+<node id="钢筋">
+  <data key="d0">钢筋</data>
+</node>
+<node id="钢琴">
+  <data key="d0">钢琴</data>
+</node>
+<node id="高尔夫球">
+  <data key="d0">高尔夫球</data>
+</node>
+<node id="高粱">
+  <data key="d0">高粱</data>
+</node>
+<node id="糕点">
+  <data key="d0">糕点</data>
+</node>
+<node id="鸽子">
+  <data key="d0">鸽子</data>
+</node>
+<node id="割草机">
+  <data key="d0">割草机</data>
+</node>
+<node id="羹汤">
+  <data key="d0">羹汤</data>
+</node>
+<node id="公鸡">
+  <data key="d0">公鸡</data>
+</node>
+<node id="公交车">
+  <data key="d0">公交车</data>
+</node>
+<node id="公墓">
+  <data key="d0">公墓</data>
+</node>
+<node id="公文包">
+  <data key="d0">公文包</data>
+</node>
+<node id="拱门">
+  <data key="d0">拱门</data>
+</node>
+<node id="篝火">
+  <data key="d0">篝火</data>
+</node>
+<node id="狗">
+  <data key="d0">狗</data>
+</node>
+<node id="狗粮">
+  <data key="d0">狗粮</data>
+</node>
+<node id="狗肉">
+  <data key="d0">狗肉</data>
+</node>
+<node id="枸杞">
+  <data key="d0">枸杞</data>
+</node>
+<node id="古董">
+  <data key="d0">古董</data>
+</node>
+<node id="谷物">
+  <data key="d0">谷物</data>
+</node>
+<node id="骨灰">
+  <data key="d0">骨灰</data>
+</node>
+<node id="骨灰盒">
+  <data key="d0">骨灰盒</data>
+</node>
+<node id="骨头">
+  <data key="d0">骨头</data>
+</node>
+<node id="鼓">
+  <data key="d0">鼓</data>
+</node>
+<node id="鼓槌">
+  <data key="d0">鼓槌</data>
+</node>
+<node id="瓜子">
+  <data key="d0">瓜子</data>
+</node>
+<node id="拐杖">
+  <data key="d0">拐杖</data>
+</node>
+<node id="关节">
+  <data key="d0">关节</data>
+</node>
+<node id="棺材">
+  <data key="d0">棺材</data>
+</node>
+<node id="管道">
+  <data key="d0">管道</data>
+</node>
+<node id="灌木">
+  <data key="d0">灌木</data>
+</node>
+<node id="罐头">
+  <data key="d0">罐头</data>
+</node>
+<node id="罐子">
+  <data key="d0">罐子</data>
+</node>
+<node id="光盘">
+  <data key="d0">光盘</data>
+</node>
+<node id="棍棒">
+  <data key="d0">棍棒</data>
+</node>
+<node id="锅">
+  <data key="d0">锅</data>
+</node>
+<node id="蝈蝈">
+  <data key="d0">蝈蝈</data>
+</node>
+<node id="果冻">
+  <data key="d0">果冻</data>
+</node>
+<node id="果酱">
+  <data key="d0">果酱</data>
+</node>
+<node id="果蝇">
+  <data key="d0">果蝇</data>
+</node>
+<node id="果汁">
+  <data key="d0">果汁</data>
+</node>
+<node id="过山车">
+  <data key="d0">过山车</data>
+</node>
+<node id="哈巴狗">
+  <data key="d0">哈巴狗</data>
+</node>
+<node id="哈密瓜">
+  <data key="d0">哈密瓜</data>
+</node>
+<node id="哈士奇">
+  <data key="d0">哈士奇</data>
+</node>
+<node id="海报">
+  <data key="d0">海报</data>
+</node>
+<node id="海豹">
+  <data key="d0">海豹</data>
+</node>
+<node id="海参">
+  <data key="d0">海参</data>
+</node>
+<node id="海草">
+  <data key="d0">海草</data>
+</node>
+<node id="海带">
+  <data key="d0">海带</data>
+</node>
+<node id="海胆">
+  <data key="d0">海胆</data>
+</node>
+<node id="海龟">
+  <data key="d0">海龟</data>
+</node>
+<node id="海绵">
+  <data key="d0">海绵</data>
+</node>
+<node id="海鸥">
+  <data key="d0">海鸥</data>
+</node>
+<node id="海蛇">
+  <data key="d0">海蛇</data>
+</node>
+<node id="海狮">
+  <data key="d0">海狮</data>
+</node>
+<node id="海獭">
+  <data key="d0">海獭</data>
+</node>
+<node id="海苔">
+  <data key="d0">海苔</data>
+</node>
+<node id="海棠">
+  <data key="d0">海棠</data>
+</node>
+<node id="海豚">
+  <data key="d0">海豚</data>
+</node>
+<node id="海象">
+  <data key="d0">海象</data>
+</node>
+<node id="海星">
+  <data key="d0">海星</data>
+</node>
+<node id="海洋">
+  <data key="d0">海洋</data>
+</node>
+<node id="海藻">
+  <data key="d0">海藻</data>
+</node>
+<node id="海蜇">
+  <data key="d0">海蜇</data>
+</node>
+<node id="含羞草">
+  <data key="d0">含羞草</data>
+</node>
+<node id="汉堡">
+  <data key="d0">汉堡</data>
+</node>
+<node id="航母">
+  <data key="d0">航母</data>
+</node>
+<node id="和服">
+  <data key="d0">和服</data>
+</node>
+<node id="河马">
+  <data key="d0">河马</data>
+</node>
+<node id="河豚">
+  <data key="d0">河豚</data>
+</node>
+<node id="荷包蛋">
+  <data key="d0">荷包蛋</data>
+</node>
+<node id="荷花">
+  <data key="d0">荷花</data>
+</node>
+<node id="荷兰豆">
+  <data key="d0">荷兰豆</data>
+</node>
+<node id="核弹">
+  <data key="d0">核弹</data>
+</node>
+<node id="核桃">
+  <data key="d0">核桃</data>
+</node>
+<node id="核桃树">
+  <data key="d0">核桃树</data>
+</node>
+<node id="核武器">
+  <data key="d0">核武器</data>
+</node>
+<node id="盒子">
+  <data key="d0">盒子</data>
+</node>
+<node id="贺卡">
+  <data key="d0">贺卡</data>
+</node>
+<node id="黑板">
+  <data key="d0">黑板</data>
+</node>
+<node id="黑板擦">
+  <data key="d0">黑板擦</data>
+</node>
+<node id="黑胡椒">
+  <data key="d0">黑胡椒</data>
+</node>
+<node id="黑莓">
+  <data key="d0">黑莓</data>
+</node>
+<node id="黑天鹅">
+  <data key="d0">黑天鹅</data>
+</node>
+<node id="红包">
+  <data key="d0">红包</data>
+</node>
+<node id="红茶">
+  <data key="d0">红茶</data>
+</node>
+<node id="红酒">
+  <data key="d0">红酒</data>
+</node>
+<node id="红酒杯">
+  <data key="d0">红酒杯</data>
+</node>
+<node id="红烧肉">
+  <data key="d0">红烧肉</data>
+</node>
+<node id="红薯">
+  <data key="d0">红薯</data>
+</node>
+<node id="红糖">
+  <data key="d0">红糖</data>
+</node>
+<node id="猴">
+  <data key="d0">猴</data>
+</node>
+<node id="猴面包树">
+  <data key="d0">猴面包树</data>
+</node>
+<node id="猴子">
+  <data key="d0">猴子</data>
+</node>
+<node id="后视镜">
+  <data key="d0">后视镜</data>
+</node>
+<node id="呼吸机">
+  <data key="d0">呼吸机</data>
+</node>
+<node id="狐狸">
+  <data key="d0">狐狸</data>
+</node>
+<node id="胡椒">
+  <data key="d0">胡椒</data>
+</node>
+<node id="胡萝卜">
+  <data key="d0">胡萝卜</data>
+</node>
+<node id="胡须">
+  <data key="d0">胡须</data>
+</node>
+<node id="蝴蝶兰">
+  <data key="d0">蝴蝶兰</data>
+</node>
+<node id="护目镜">
+  <data key="d0">护目镜</data>
+</node>
+<node id="护手霜">
+  <data key="d0">护手霜</data>
+</node>
+<node id="护腕">
+  <data key="d0">护腕</data>
+</node>
+<node id="护照">
+  <data key="d0">护照</data>
+</node>
+<node id="花菜">
+  <data key="d0">花菜</data>
+</node>
+<node id="花露水">
+  <data key="d0">花露水</data>
+</node>
+<node id="花盆">
+  <data key="d0">花盆</data>
+</node>
+<node id="花生">
+  <data key="d0">花生</data>
+</node>
+<node id="花生酱">
+  <data key="d0">花生酱</data>
+</node>
+<node id="花生米">
+  <data key="d0">花生米</data>
+</node>
+<node id="花生油">
+  <data key="d0">花生油</data>
+</node>
+<node id="滑板">
+  <data key="d0">滑板</data>
+</node>
+<node id="滑轮">
+  <data key="d0">滑轮</data>
+</node>
+<node id="滑翔机">
+  <data key="d0">滑翔机</data>
+</node>
+<node id="化妆品">
+  <data key="d0">化妆品</data>
+</node>
+<node id="画笔">
+  <data key="d0">画笔</data>
+</node>
+<node id="画架">
+  <data key="d0">画架</data>
+</node>
+<node id="画眉鸟">
+  <data key="d0">画眉鸟</data>
+</node>
+<node id="画纸">
+  <data key="d0">画纸</data>
+</node>
+<node id="桦木">
+  <data key="d0">桦木</data>
+</node>
+<node id="怀表">
+  <data key="d0">怀表</data>
+</node>
+<node id="槐树">
+  <data key="d0">槐树</data>
+</node>
+<node id="换气扇">
+  <data key="d0">换气扇</data>
+</node>
+<node id="黄灯">
+  <data key="d0">黄灯</data>
+</node>
+<node id="黄瓜">
+  <data key="d0">黄瓜</data>
+</node>
+<node id="黄花鱼">
+  <data key="d0">黄花鱼</data>
+</node>
+<node id="黄鼠狼">
+  <data key="d0">黄鼠狼</data>
+</node>
+<node id="黄水仙">
+  <data key="d0">黄水仙</data>
+</node>
+<node id="黄油">
+  <data key="d0">黄油</data>
+</node>
+<node id="婚纱">
+  <data key="d0">婚纱</data>
+</node>
+<node id="馄饨">
+  <data key="d0">馄饨</data>
+</node>
+<node id="火车">
+  <data key="d0">火车</data>
+</node>
+<node id="火锅">
+  <data key="d0">火锅</data>
+</node>
+<node id="火鸡">
+  <data key="d0">火鸡</data>
+</node>
+<node id="火箭">
+  <data key="d0">火箭</data>
+</node>
+<node id="火烈鸟">
+  <data key="d0">火烈鸟</data>
+</node>
+<node id="火腿">
+  <data key="d0">火腿</data>
+</node>
+<node id="火腿肠">
+  <data key="d0">火腿肠</data>
+</node>
+<node id="火焰">
+  <data key="d0">火焰</data>
+</node>
+<node id="火药">
+  <data key="d0">火药</data>
+</node>
+<node id="机票">
+  <data key="d0">机票</data>
+</node>
+<node id="机器人">
+  <data key="d0">机器人</data>
+</node>
+<node id="机枪">
+  <data key="d0">机枪</data>
+</node>
+<node id="鸡蛋">
+  <data key="d0">鸡蛋</data>
+</node>
+<node id="鸡冠花">
+  <data key="d0">鸡冠花</data>
+</node>
+<node id="鸡肉">
+  <data key="d0">鸡肉</data>
+</node>
+<node id="鸡尾酒">
+  <data key="d0">鸡尾酒</data>
+</node>
+<node id="积木">
+  <data key="d0">积木</data>
+</node>
+<node id="吉普车">
+  <data key="d0">吉普车</data>
+</node>
+<node id="吉他">
+  <data key="d0">吉他</data>
+</node>
+<node id="记事本">
+  <data key="d0">记事本</data>
+</node>
+<node id="寄居蟹">
+  <data key="d0">寄居蟹</data>
+</node>
+<node id="鲫鱼">
+  <data key="d0">鲫鱼</data>
+</node>
+<node id="家鼠">
+  <data key="d0">家鼠</data>
+</node>
+<node id="夹克">
+  <data key="d0">夹克</data>
+</node>
+<node id="夹竹桃">
+  <data key="d0">夹竹桃</data>
+</node>
+<node id="甲鱼">
+  <data key="d0">甲鱼</data>
+</node>
+<node id="假发">
+  <data key="d0">假发</data>
+</node>
+<node id="假山">
+  <data key="d0">假山</data>
+</node>
+<node id="坚果">
+  <data key="d0">坚果</data>
+</node>
+<node id="肩膀">
+  <data key="d0">肩膀</data>
+</node>
+<node id="煎饼">
+  <data key="d0">煎饼</data>
+</node>
+<node id="煎蛋卷">
+  <data key="d0">煎蛋卷</data>
+</node>
+<node id="减速带">
+  <data key="d0">减速带</data>
+</node>
+<node id="减震器">
+  <data key="d0">减震器</data>
+</node>
+<node id="剪刀">
+  <data key="d0">剪刀</data>
+</node>
+<node id="剑">
+  <data key="d0">剑</data>
+</node>
+<node id="键盘">
+  <data key="d0">键盘</data>
+</node>
+<node id="豇豆">
+  <data key="d0">豇豆</data>
+</node>
+<node id="浆果">
+  <data key="d0">浆果</data>
+</node>
+<node id="奖章">
+  <data key="d0">奖章</data>
+</node>
+<node id="降落伞">
+  <data key="d0">降落伞</data>
+</node>
+<node id="酱油">
+  <data key="d0">酱油</data>
+</node>
+<node id="交通灯">
+  <data key="d0">交通灯</data>
+</node>
+<node id="胶带">
+  <data key="d0">胶带</data>
+</node>
+<node id="胶卷">
+  <data key="d0">胶卷</data>
+</node>
+<node id="胶囊">
+  <data key="d0">胶囊</data>
+</node>
+<node id="胶水">
+  <data key="d0">胶水</data>
+</node>
+<node id="椒盐">
+  <data key="d0">椒盐</data>
+</node>
+<node id="饺子">
+  <data key="d0">饺子</data>
+</node>
+<node id="绞肉机">
+  <data key="d0">绞肉机</data>
+</node>
+<node id="脚">
+  <data key="d0">脚</data>
+</node>
+<node id="脚背">
+  <data key="d0">脚背</data>
+</node>
+<node id="脚后跟">
+  <data key="d0">脚后跟</data>
+</node>
+<node id="脚链">
+  <data key="d0">脚链</data>
+</node>
+<node id="脚趾">
+  <data key="d0">脚趾</data>
+</node>
+<node id="搅拌机">
+  <data key="d0">搅拌机</data>
+</node>
+<node id="轿车">
+  <data key="d0">轿车</data>
+</node>
+<node id="轿子">
+  <data key="d0">轿子</data>
+</node>
+<node id="睫毛">
+  <data key="d0">睫毛</data>
+</node>
+<node id="戒尺">
+  <data key="d0">戒尺</data>
+</node>
+<node id="戒指">
+  <data key="d0">戒指</data>
+</node>
+<node id="金龟子">
+  <data key="d0">金龟子</data>
+</node>
+<node id="金橘">
+  <data key="d0">金橘</data>
+</node>
+<node id="金毛犬">
+  <data key="d0">金毛犬</data>
+</node>
+<node id="金钱草">
+  <data key="d0">金钱草</data>
+</node>
+<node id="金枪鱼">
+  <data key="d0">金枪鱼</data>
+</node>
+<node id="金条">
+  <data key="d0">金条</data>
+</node>
+<node id="金银花">
+  <data key="d0">金银花</data>
+</node>
+<node id="金鱼">
+  <data key="d0">金鱼</data>
+</node>
+<node id="金针菇">
+  <data key="d0">金针菇</data>
+</node>
+<node id="紧身衣">
+  <data key="d0">紧身衣</data>
+</node>
+<node id="鲸鱼">
+  <data key="d0">鲸鱼</data>
+</node>
+<node id="警犬">
+  <data key="d0">警犬</data>
+</node>
+<node id="净化器">
+  <data key="d0">净化器</data>
+</node>
+<node id="净水器">
+  <data key="d0">净水器</data>
+</node>
+<node id="镜框">
+  <data key="d0">镜框</data>
+</node>
+<node id="镜子">
+  <data key="d0">镜子</data>
+</node>
+<node id="韭菜">
+  <data key="d0">韭菜</data>
+</node>
+<node id="酒杯">
+  <data key="d0">酒杯</data>
+</node>
+<node id="酒壶">
+  <data key="d0">酒壶</data>
+</node>
+<node id="救护车">
+  <data key="d0">救护车</data>
+</node>
+<node id="救生圈">
+  <data key="d0">救生圈</data>
+</node>
+<node id="桔子">
+  <data key="d0">桔子</data>
+</node>
+<node id="菊花">
+  <data key="d0">菊花</data>
+</node>
+<node id="卷笔刀">
+  <data key="d0">卷笔刀</data>
+</node>
+<node id="卷饼">
+  <data key="d0">卷饼</data>
+</node>
+<node id="卷帘">
+  <data key="d0">卷帘</data>
+</node>
+<node id="卷心菜">
+  <data key="d0">卷心菜</data>
+</node>
+<node id="蕨菜">
+  <data key="d0">蕨菜</data>
+</node>
+<node id="军装">
+  <data key="d0">军装</data>
+</node>
+<node id="咖啡">
+  <data key="d0">咖啡</data>
+</node>
+<node id="咖啡豆">
+  <data key="d0">咖啡豆</data>
+</node>
+<node id="咖啡机">
+  <data key="d0">咖啡机</data>
+</node>
+<node id="卡车">
+  <data key="d0">卡车</data>
+</node>
+<node id="卡丁车">
+  <data key="d0">卡丁车</data>
+</node>
+<node id="开瓶器">
+  <data key="d0">开瓶器</data>
+</node>
+<node id="开心果">
+  <data key="d0">开心果</data>
+</node>
+<node id="康乃馨">
+  <data key="d0">康乃馨</data>
+</node>
+<node id="考拉">
+  <data key="d0">考拉</data>
+</node>
+<node id="烤翅">
+  <data key="d0">烤翅</data>
+</node>
+<node id="烤面包">
+  <data key="d0">烤面包</data>
+</node>
+<node id="烤肉">
+  <data key="d0">烤肉</data>
+</node>
+<node id="烤肉串">
+  <data key="d0">烤肉串</data>
+</node>
+<node id="烤羊肉">
+  <data key="d0">烤羊肉</data>
+</node>
+<node id="靠垫">
+  <data key="d0">靠垫</data>
+</node>
+<node id="可口可乐">
+  <data key="d0">可口可乐</data>
+</node>
+<node id="孔雀鱼">
+  <data key="d0">孔雀鱼</data>
+</node>
+<node id="恐龙">
+  <data key="d0">恐龙</data>
+</node>
+<node id="口腔">
+  <data key="d0">口腔</data>
+</node>
+<node id="口琴">
+  <data key="d0">口琴</data>
+</node>
+<node id="裤子">
+  <data key="d0">裤子</data>
+</node>
+<node id="筷子">
+  <data key="d0">筷子</data>
+</node>
+<node id="葵花">
+  <data key="d0">葵花</data>
+</node>
+<node id="葵花籽">
+  <data key="d0">葵花籽</data>
+</node>
+<node id="扩音器">
+  <data key="d0">扩音器</data>
+</node>
+<node id="拉链">
+  <data key="d0">拉链</data>
+</node>
+<node id="喇叭">
+  <data key="d0">喇叭</data>
+</node>
+<node id="喇叭花">
+  <data key="d0">喇叭花</data>
+</node>
+<node id="腊肠">
+  <data key="d0">腊肠</data>
+</node>
+<node id="腊肠犬">
+  <data key="d0">腊肠犬</data>
+</node>
+<node id="腊肉">
+  <data key="d0">腊肉</data>
+</node>
+<node id="蜡笔">
+  <data key="d0">蜡笔</data>
+</node>
+<node id="蜡烛">
+  <data key="d0">蜡烛</data>
+</node>
+<node id="辣椒粉">
+  <data key="d0">辣椒粉</data>
+</node>
+<node id="辣椒酱">
+  <data key="d0">辣椒酱</data>
+</node>
+<node id="兰花">
+  <data key="d0">兰花</data>
+</node>
+<node id="栏杆">
+  <data key="d0">栏杆</data>
+</node>
+<node id="蓝莓">
+  <data key="d0">蓝莓</data>
+</node>
+<node id="篮球">
+  <data key="d0">篮球</data>
+</node>
+<node id="缆车">
+  <data key="d0">缆车</data>
+</node>
+<node id="狼">
+  <data key="d0">狼</data>
+</node>
+<node id="老虎">
+  <data key="d0">老虎</data>
+</node>
+<node id="老鼠">
+  <data key="d0">老鼠</data>
+</node>
+<node id="雷达">
+  <data key="d0">雷达</data>
+</node>
+<node id="肋骨">
+  <data key="d0">肋骨</data>
+</node>
+<node id="泪珠">
+  <data key="d0">泪珠</data>
+</node>
+<node id="梨">
+  <data key="d0">梨</data>
+</node>
+<node id="篱笆">
+  <data key="d0">篱笆</data>
+</node>
+<node id="礼服">
+  <data key="d0">礼服</data>
+</node>
+<node id="礼帽">
+  <data key="d0">礼帽</data>
+</node>
+<node id="李子">
+  <data key="d0">李子</data>
+</node>
+<node id="鲤鱼">
+  <data key="d0">鲤鱼</data>
+</node>
+<node id="立交桥">
+  <data key="d0">立交桥</data>
+</node>
+<node id="沥青">
+  <data key="d0">沥青</data>
+</node>
+<node id="荔枝">
+  <data key="d0">荔枝</data>
+</node>
+<node id="连翘">
+  <data key="d0">连翘</data>
+</node>
+<node id="连体衣">
+  <data key="d0">连体衣</data>
+</node>
+<node id="连衣裙">
+  <data key="d0">连衣裙</data>
+</node>
+<node id="莲花">
+  <data key="d0">莲花</data>
+</node>
+<node id="莲藕">
+  <data key="d0">莲藕</data>
+</node>
+<node id="镰刀">
+  <data key="d0">镰刀</data>
+</node>
+<node id="凉粉">
+  <data key="d0">凉粉</data>
+</node>
+<node id="凉皮">
+  <data key="d0">凉皮</data>
+</node>
+<node id="凉鞋">
+  <data key="d0">凉鞋</data>
+</node>
+<node id="猎狗">
+  <data key="d0">猎狗</data>
+</node>
+<node id="羚羊">
+  <data key="d0">羚羊</data>
+</node>
+<node id="领带">
+  <data key="d0">领带</data>
+</node>
+<node id="榴莲">
+  <data key="d0">榴莲</data>
+</node>
+<node id="柳树">
+  <data key="d0">柳树</data>
+</node>
+<node id="龙猫">
+  <data key="d0">龙猫</data>
+</node>
+<node id="龙虾">
+  <data key="d0">龙虾</data>
+</node>
+<node id="楼梯">
+  <data key="d0">楼梯</data>
+</node>
+<node id="芦荟">
+  <data key="d0">芦荟</data>
+</node>
+<node id="录像带">
+  <data key="d0">录像带</data>
+</node>
+<node id="录像机">
+  <data key="d0">录像机</data>
+</node>
+<node id="录音机">
+  <data key="d0">录音机</data>
+</node>
+<node id="路灯">
+  <data key="d0">路灯</data>
+</node>
+<node id="路由器">
+  <data key="d0">路由器</data>
+</node>
+<node id="露珠">
+  <data key="d0">露珠</data>
+</node>
+<node id="轮胎">
+  <data key="d0">轮胎</data>
+</node>
+<node id="轮椅">
+  <data key="d0">轮椅</data>
+</node>
+<node id="罗汉松">
+  <data key="d0">罗汉松</data>
+</node>
+<node id="萝卜">
+  <data key="d0">萝卜</data>
+</node>
+<node id="骡子">
+  <data key="d0">骡子</data>
+</node>
+<node id="螺丝刀">
+  <data key="d0">螺丝刀</data>
+</node>
+<node id="螺蛳">
+  <data key="d0">螺蛳</data>
+</node>
+<node id="骆驼">
+  <data key="d0">骆驼</data>
+</node>
+<node id="驴肉">
+  <data key="d0">驴肉</data>
+</node>
+<node id="绿灯">
+  <data key="d0">绿灯</data>
+</node>
+<node id="绿豆">
+  <data key="d0">绿豆</data>
+</node>
+<node id="绿豆汤">
+  <data key="d0">绿豆汤</data>
+</node>
+<node id="马车">
+  <data key="d0">马车</data>
+</node>
+<node id="马齿苋">
+  <data key="d0">马齿苋</data>
+</node>
+<node id="马桶">
+  <data key="d0">马桶</data>
+</node>
+<node id="蚂蝗">
+  <data key="d0">蚂蝗</data>
+</node>
+<node id="蚂蚁">
+  <data key="d0">蚂蚁</data>
+</node>
+<node id="麦穗">
+  <data key="d0">麦穗</data>
+</node>
+<node id="麦田">
+  <data key="d0">麦田</data>
+</node>
+<node id="馒头">
+  <data key="d0">馒头</data>
+</node>
+<node id="鳗鱼">
+  <data key="d0">鳗鱼</data>
+</node>
+<node id="满天星">
+  <data key="d0">满天星</data>
+</node>
+<node id="螨虫">
+  <data key="d0">螨虫</data>
+</node>
+<node id="蔓越莓">
+  <data key="d0">蔓越莓</data>
+</node>
+<node id="芒果">
+  <data key="d0">芒果</data>
+</node>
+<node id="蟒蛇">
+  <data key="d0">蟒蛇</data>
+</node>
+<node id="猫砂">
+  <data key="d0">猫砂</data>
+</node>
+<node id="猫头鹰">
+  <data key="d0">猫头鹰</data>
+</node>
+<node id="毛豆">
+  <data key="d0">毛豆</data>
+</node>
+<node id="毛驴">
+  <data key="d0">毛驴</data>
+</node>
+<node id="毛毛虫">
+  <data key="d0">毛毛虫</data>
+</node>
+<node id="毛毯">
+  <data key="d0">毛毯</data>
+</node>
+<node id="毛衣">
+  <data key="d0">毛衣</data>
+</node>
+<node id="牦牛">
+  <data key="d0">牦牛</data>
+</node>
+<node id="牦牛奶">
+  <data key="d0">牦牛奶</data>
+</node>
+<node id="帽子">
+  <data key="d0">帽子</data>
+</node>
+<node id="玫瑰">
+  <data key="d0">玫瑰</data>
+</node>
+<node id="眉毛">
+  <data key="d0">眉毛</data>
+</node>
+<node id="梅花">
+  <data key="d0">梅花</data>
+</node>
+<node id="煤气">
+  <data key="d0">煤气</data>
+</node>
+<node id="煤炭">
+  <data key="d0">煤炭</data>
+</node>
+<node id="煤田">
+  <data key="d0">煤田</data>
+</node>
+<node id="门">
+  <data key="d0">门</data>
+</node>
+<node id="门把手">
+  <data key="d0">门把手</data>
+</node>
+<node id="门铃">
+  <data key="d0">门铃</data>
+</node>
+<node id="门锁">
+  <data key="d0">门锁</data>
+</node>
+<node id="孟加拉虎">
+  <data key="d0">孟加拉虎</data>
+</node>
+<node id="迷彩服">
+  <data key="d0">迷彩服</data>
+</node>
+<node id="迷迭香">
+  <data key="d0">迷迭香</data>
+</node>
+<node id="迷宫">
+  <data key="d0">迷宫</data>
+</node>
+<node id="猕猴桃">
+  <data key="d0">猕猴桃</data>
+</node>
+<node id="麋鹿">
+  <data key="d0">麋鹿</data>
+</node>
+<node id="米饭">
+  <data key="d0">米饭</data>
+</node>
+<node id="米线">
+  <data key="d0">米线</data>
+</node>
+<node id="蜜蜂">
+  <data key="d0">蜜蜂</data>
+</node>
+<node id="蜜饯">
+  <data key="d0">蜜饯</data>
+</node>
+<node id="蜜桃">
+  <data key="d0">蜜桃</data>
+</node>
+<node id="棉花">
+  <data key="d0">棉花</data>
+</node>
+<node id="棉花糖">
+  <data key="d0">棉花糖</data>
+</node>
+<node id="面粉">
+  <data key="d0">面粉</data>
+</node>
+<node id="面筋">
+  <data key="d0">面筋</data>
+</node>
+<node id="秒表">
+  <data key="d0">秒表</data>
+</node>
+<node id="灭火器">
+  <data key="d0">灭火器</data>
+</node>
+<node id="摩天轮">
+  <data key="d0">摩天轮</data>
+</node>
+<node id="摩托车">
+  <data key="d0">摩托车</data>
+</node>
+<node id="磨砂膏">
+  <data key="d0">磨砂膏</data>
+</node>
+<node id="蘑菇">
+  <data key="d0">蘑菇</data>
+</node>
+<node id="抹布">
+  <data key="d0">抹布</data>
+</node>
+<node id="抹香鲸">
+  <data key="d0">抹香鲸</data>
+</node>
+<node id="茉莉花">
+  <data key="d0">茉莉花</data>
+</node>
+<node id="母鸡">
+  <data key="d0">母鸡</data>
+</node>
+<node id="母羊">
+  <data key="d0">母羊</data>
+</node>
+<node id="牡丹">
+  <data key="d0">牡丹</data>
+</node>
+<node id="牡蛎">
+  <data key="d0">牡蛎</data>
+</node>
+<node id="拇指">
+  <data key="d0">拇指</data>
+</node>
+<node id="木槌">
+  <data key="d0">木槌</data>
+</node>
+<node id="木耳">
+  <data key="d0">木耳</data>
+</node>
+<node id="木瓜">
+  <data key="d0">木瓜</data>
+</node>
+<node id="木炭">
+  <data key="d0">木炭</data>
+</node>
+<node id="沐浴液">
+  <data key="d0">沐浴液</data>
+</node>
+<node id="墓碑">
+  <data key="d0">墓碑</data>
+</node>
+<node id="奶茶">
+  <data key="d0">奶茶</data>
+</node>
+<node id="奶粉">
+  <data key="d0">奶粉</data>
+</node>
+<node id="奶酪">
+  <data key="d0">奶酪</data>
+</node>
+<node id="奶牛">
+  <data key="d0">奶牛</data>
+</node>
+<node id="奶瓶">
+  <data key="d0">奶瓶</data>
+</node>
+<node id="奶油">
+  <data key="d0">奶油</data>
+</node>
+<node id="南瓜">
+  <data key="d0">南瓜</data>
+</node>
+<node id="闹钟">
+  <data key="d0">闹钟</data>
+</node>
+<node id="内裤">
+  <data key="d0">内裤</data>
+</node>
+<node id="内衣">
+  <data key="d0">内衣</data>
+</node>
+<node id="泥鳅">
+  <data key="d0">泥鳅</data>
+</node>
+<node id="鲶鱼">
+  <data key="d0">鲶鱼</data>
+</node>
+<node id="尿布">
+  <data key="d0">尿布</data>
+</node>
+<node id="柠檬">
+  <data key="d0">柠檬</data>
+</node>
+<node id="柠檬水">
+  <data key="d0">柠檬水</data>
+</node>
+<node id="牛">
+  <data key="d0">牛</data>
+</node>
+<node id="牛奶">
+  <data key="d0">牛奶</data>
+</node>
+<node id="牛排">
+  <data key="d0">牛排</data>
+</node>
+<node id="牛肉">
+  <data key="d0">牛肉</data>
+</node>
+<node id="牛肉干">
+  <data key="d0">牛肉干</data>
+</node>
+<node id="牛肉面">
+  <data key="d0">牛肉面</data>
+</node>
+<node id="牛仔裤">
+  <data key="d0">牛仔裤</data>
+</node>
+<node id="牛轧糖">
+  <data key="d0">牛轧糖</data>
+</node>
+<node id="纽扣">
+  <data key="d0">纽扣</data>
+</node>
+<node id="暖气片">
+  <data key="d0">暖气片</data>
+</node>
+<node id="排气扇">
+  <data key="d0">排气扇</data>
+</node>
+<node id="排球">
+  <data key="d0">排球</data>
+</node>
+<node id="排水管">
+  <data key="d0">排水管</data>
+</node>
+<node id="盘子">
+  <data key="d0">盘子</data>
+</node>
+<node id="螃蟹">
+  <data key="d0">螃蟹</data>
+</node>
+<node id="跑步机">
+  <data key="d0">跑步机</data>
+</node>
+<node id="跑车">
+  <data key="d0">跑车</data>
+</node>
+<node id="跑道">
+  <data key="d0">跑道</data>
+</node>
+<node id="跑鞋">
+  <data key="d0">跑鞋</data>
+</node>
+<node id="泡菜">
+  <data key="d0">泡菜</data>
+</node>
+<node id="泡泡糖">
+  <data key="d0">泡泡糖</data>
+</node>
+<node id="培根">
+  <data key="d0">培根</data>
+</node>
+<node id="喷泉">
+  <data key="d0">喷泉</data>
+</node>
+<node id="盆">
+  <data key="d0">盆</data>
+</node>
+<node id="盆栽">
+  <data key="d0">盆栽</data>
+</node>
+<node id="碰碰车">
+  <data key="d0">碰碰车</data>
+</node>
+<node id="披风">
+  <data key="d0">披风</data>
+</node>
+<node id="披萨">
+  <data key="d0">披萨</data>
+</node>
+<node id="皮带">
+  <data key="d0">皮带</data>
+</node>
+<node id="皮肤">
+  <data key="d0">皮肤</data>
+</node>
+<node id="皮夹克">
+  <data key="d0">皮夹克</data>
+</node>
+<node id="皮帽">
+  <data key="d0">皮帽</data>
+</node>
+<node id="皮艇">
+  <data key="d0">皮艇</data>
+</node>
+<node id="枇杷">
+  <data key="d0">枇杷</data>
+</node>
+<node id="啤酒杯">
+  <data key="d0">啤酒杯</data>
+</node>
+<node id="琵琶">
+  <data key="d0">琵琶</data>
+</node>
+<node id="漂白剂">
+  <data key="d0">漂白剂</data>
+</node>
+<node id="瓢虫">
+  <data key="d0">瓢虫</data>
+</node>
+<node id="拼图">
+  <data key="d0">拼图</data>
+</node>
+<node id="乒乓球">
+  <data key="d0">乒乓球</data>
+</node>
+<node id="平菇">
+  <data key="d0">平菇</data>
+</node>
+<node id="苹果">
+  <data key="d0">苹果</data>
+</node>
+<node id="苹果汁">
+  <data key="d0">苹果汁</data>
+</node>
+<node id="屏幕">
+  <data key="d0">屏幕</data>
+</node>
+<node id="瓶盖">
+  <data key="d0">瓶盖</data>
+</node>
+<node id="瓶装水">
+  <data key="d0">瓶装水</data>
+</node>
+<node id="瓶子">
+  <data key="d0">瓶子</data>
+</node>
+<node id="扑克">
+  <data key="d0">扑克</data>
+</node>
+<node id="葡萄">
+  <data key="d0">葡萄</data>
+</node>
+<node id="葡萄干">
+  <data key="d0">葡萄干</data>
+</node>
+<node id="葡萄酒">
+  <data key="d0">葡萄酒</data>
+</node>
+<node id="葡萄汁">
+  <data key="d0">葡萄汁</data>
+</node>
+<node id="蒲公英">
+  <data key="d0">蒲公英</data>
+</node>
+<node id="普洱茶">
+  <data key="d0">普洱茶</data>
+</node>
+<node id="七巧板">
+  <data key="d0">七巧板</data>
+</node>
+<node id="脐橙">
+  <data key="d0">脐橙</data>
+</node>
+<node id="棋盘">
+  <data key="d0">棋盘</data>
+</node>
+<node id="企鹅">
+  <data key="d0">企鹅</data>
+</node>
+<node id="气球">
+  <data key="d0">气球</data>
+</node>
+<node id="汽车">
+  <data key="d0">汽车</data>
+</node>
+<node id="汽水">
+  <data key="d0">汽水</data>
+</node>
+<node id="铅笔">
+  <data key="d0">铅笔</data>
+</node>
+<node id="铅笔盒">
+  <data key="d0">铅笔盒</data>
+</node>
+<node id="铅球">
+  <data key="d0">铅球</data>
+</node>
+<node id="钱包">
+  <data key="d0">钱包</data>
+</node>
+<node id="潜艇">
+  <data key="d0">潜艇</data>
+</node>
+<node id="枪">
+  <data key="d0">枪</data>
+</node>
+<node id="墙纸">
+  <data key="d0">墙纸</data>
+</node>
+<node id="荞麦">
+  <data key="d0">荞麦</data>
+</node>
+<node id="巧克力">
+  <data key="d0">巧克力</data>
+</node>
+<node id="切割机">
+  <data key="d0">切割机</data>
+</node>
+<node id="茄子">
+  <data key="d0">茄子</data>
+</node>
+<node id="芹菜">
+  <data key="d0">芹菜</data>
+</node>
+<node id="青菜">
+  <data key="d0">青菜</data>
+</node>
+<node id="青苔">
+  <data key="d0">青苔</data>
+</node>
+<node id="清酒">
+  <data key="d0">清酒</data>
+</node>
+<node id="清汤">
+  <data key="d0">清汤</data>
+</node>
+<node id="秋葵">
+  <data key="d0">秋葵</data>
+</node>
+<node id="秋千">
+  <data key="d0">秋千</data>
+</node>
+<node id="蚯蚓">
+  <data key="d0">蚯蚓</data>
+</node>
+<node id="球拍">
+  <data key="d0">球拍</data>
+</node>
+<node id="球鞋">
+  <data key="d0">球鞋</data>
+</node>
+<node id="球衣">
+  <data key="d0">球衣</data>
+</node>
+<node id="曲棍球">
+  <data key="d0">曲棍球</data>
+</node>
+<node id="裙子">
+  <data key="d0">裙子</data>
+</node>
+<node id="燃气灶">
+  <data key="d0">燃气灶</data>
+</node>
+<node id="热狗">
+  <data key="d0">热狗</data>
+</node>
+<node id="热气球">
+  <data key="d0">热气球</data>
+</node>
+<node id="热水">
+  <data key="d0">热水</data>
+</node>
+<node id="热水袋">
+  <data key="d0">热水袋</data>
+</node>
+<node id="肉末">
+  <data key="d0">肉末</data>
+</node>
+<node id="肉汤">
+  <data key="d0">肉汤</data>
+</node>
+<node id="肉丸">
+  <data key="d0">肉丸</data>
+</node>
+<node id="乳鸽">
+  <data key="d0">乳鸽</data>
+</node>
+<node id="润肤霜">
+  <data key="d0">润肤霜</data>
+</node>
+<node id="洒水车">
+  <data key="d0">洒水车</data>
+</node>
+<node id="赛车">
+  <data key="d0">赛车</data>
+</node>
+<node id="赛道">
+  <data key="d0">赛道</data>
+</node>
+<node id="三轮车">
+  <data key="d0">三轮车</data>
+</node>
+<node id="三明治">
+  <data key="d0">三明治</data>
+</node>
+<node id="三文鱼">
+  <data key="d0">三文鱼</data>
+</node>
+<node id="三叶草">
+  <data key="d0">三叶草</data>
+</node>
+<node id="桑葚">
+  <data key="d0">桑葚</data>
+</node>
+<node id="扫帚">
+  <data key="d0">扫帚</data>
+</node>
+<node id="沙丁鱼">
+  <data key="d0">沙丁鱼</data>
+</node>
+<node id="沙发">
+  <data key="d0">沙发</data>
+</node>
+<node id="沙拉">
+  <data key="d0">沙拉</data>
+</node>
+<node id="沙拉酱">
+  <data key="d0">沙拉酱</data>
+</node>
+<node id="沙粒">
+  <data key="d0">沙粒</data>
+</node>
+<node id="纱布">
+  <data key="d0">纱布</data>
+</node>
+<node id="砂锅">
+  <data key="d0">砂锅</data>
+</node>
+<node id="鲨鱼">
+  <data key="d0">鲨鱼</data>
+</node>
+<node id="山羊">
+  <data key="d0">山羊</data>
+</node>
+<node id="山药">
+  <data key="d0">山药</data>
+</node>
+<node id="山楂">
+  <data key="d0">山楂</data>
+</node>
+<node id="山竹">
+  <data key="d0">山竹</data>
+</node>
+<node id="杉木">
+  <data key="d0">杉木</data>
+</node>
+<node id="珊瑚">
+  <data key="d0">珊瑚</data>
+</node>
+<node id="扇贝">
+  <data key="d0">扇贝</data>
+</node>
+<node id="烧杯">
+  <data key="d0">烧杯</data>
+</node>
+<node id="烧烤">
+  <data key="d0">烧烤</data>
+</node>
+<node id="勺子">
+  <data key="d0">勺子</data>
+</node>
+<node id="蛇">
+  <data key="d0">蛇</data>
+</node>
+<node id="摄像机">
+  <data key="d0">摄像机</data>
+</node>
+<node id="生菜">
+  <data key="d0">生菜</data>
+</node>
+<node id="生蚝">
+  <data key="d0">生蚝</data>
+</node>
+<node id="生鱼片">
+  <data key="d0">生鱼片</data>
+</node>
+<node id="绳子">
+  <data key="d0">绳子</data>
+</node>
+<node id="圣诞树">
+  <data key="d0">圣诞树</data>
+</node>
+<node id="圣诞袜">
+  <data key="d0">圣诞袜</data>
+</node>
+<node id="狮子">
+  <data key="d0">狮子</data>
+</node>
+<node id="石碑">
+  <data key="d0">石碑</data>
+</node>
+<node id="石膏">
+  <data key="d0">石膏</data>
+</node>
+<node id="石榴">
+  <data key="d0">石榴</data>
+</node>
+<node id="石头">
+  <data key="d0">石头</data>
+</node>
+<node id="石油">
+  <data key="d0">石油</data>
+</node>
+<node id="时钟">
+  <data key="d0">时钟</data>
+</node>
+<node id="收费站">
+  <data key="d0">收费站</data>
+</node>
+<node id="收割机">
+  <data key="d0">收割机</data>
+</node>
+<node id="收音机">
+  <data key="d0">收音机</data>
+</node>
+<node id="手臂">
+  <data key="d0">手臂</data>
+</node>
+<node id="手表">
+  <data key="d0">手表</data>
+</node>
+<node id="手电筒">
+  <data key="d0">手电筒</data>
+</node>
+<node id="手风琴">
+  <data key="d0">手风琴</data>
+</node>
+<node id="手机">
+  <data key="d0">手机</data>
+</node>
+<node id="手榴弹">
+  <data key="d0">手榴弹</data>
+</node>
+<node id="手枪">
+  <data key="d0">手枪</data>
+</node>
+<node id="手术刀">
+  <data key="d0">手术刀</data>
+</node>
+<node id="手套">
+  <data key="d0">手套</data>
+</node>
+<node id="手推车">
+  <data key="d0">手推车</data>
+</node>
+<node id="手掌">
+  <data key="d0">手掌</data>
+</node>
+<node id="手指">
+  <data key="d0">手指</data>
+</node>
+<node id="寿司">
+  <data key="d0">寿司</data>
+</node>
+<node id="寿衣">
+  <data key="d0">寿衣</data>
+</node>
+<node id="书">
+  <data key="d0">书</data>
+</node>
+<node id="书包">
+  <data key="d0">书包</data>
+</node>
+<node id="书柜">
+  <data key="d0">书柜</data>
+</node>
+<node id="梳妆台">
+  <data key="d0">梳妆台</data>
+</node>
+<node id="鼠">
+  <data key="d0">鼠</data>
+</node>
+<node id="鼠标">
+  <data key="d0">鼠标</data>
+</node>
+<node id="鼠标垫">
+  <data key="d0">鼠标垫</data>
+</node>
+<node id="涮羊肉">
+  <data key="d0">涮羊肉</data>
+</node>
+<node id="双人床">
+  <data key="d0">双人床</data>
+</node>
+<node id="爽身粉">
+  <data key="d0">爽身粉</data>
+</node>
+<node id="水表">
+  <data key="d0">水表</data>
+</node>
+<node id="水槽">
+  <data key="d0">水槽</data>
+</node>
+<node id="水草">
+  <data key="d0">水草</data>
+</node>
+<node id="水管">
+  <data key="d0">水管</data>
+</node>
+<node id="水壶">
+  <data key="d0">水壶</data>
+</node>
+<node id="水晶">
+  <data key="d0">水晶</data>
+</node>
+<node id="水晶球">
+  <data key="d0">水晶球</data>
+</node>
+<node id="水龙头">
+  <data key="d0">水龙头</data>
+</node>
+<node id="水蜜桃">
+  <data key="d0">水蜜桃</data>
+</node>
+<node id="水母">
+  <data key="d0">水母</data>
+</node>
+<node id="水泥">
+  <data key="d0">水泥</data>
+</node>
+<node id="水牛">
+  <data key="d0">水牛</data>
+</node>
+<node id="水枪">
+  <data key="d0">水枪</data>
+</node>
+<node id="水杉">
+  <data key="d0">水杉</data>
+</node>
+<node id="水蛇">
+  <data key="d0">水蛇</data>
+</node>
+<node id="水仙花">
+  <data key="d0">水仙花</data>
+</node>
+<node id="水蛭">
+  <data key="d0">水蛭</data>
+</node>
+<node id="睡袋">
+  <data key="d0">睡袋</data>
+</node>
+<node id="睡衣">
+  <data key="d0">睡衣</data>
+</node>
+<node id="丝瓜">
+  <data key="d0">丝瓜</data>
+</node>
+<node id="丝袜">
+  <data key="d0">丝袜</data>
+</node>
+<node id="四季豆">
+  <data key="d0">四季豆</data>
+</node>
+<node id="四轮马车">
+  <data key="d0">四轮马车</data>
+</node>
+<node id="松狮">
+  <data key="d0">松狮</data>
+</node>
+<node id="松鼠">
+  <data key="d0">松鼠</data>
+</node>
+<node id="松树">
+  <data key="d0">松树</data>
+</node>
+<node id="苏打水">
+  <data key="d0">苏打水</data>
+</node>
+<node id="塑料袋">
+  <data key="d0">塑料袋</data>
+</node>
+<node id="酸菜">
+  <data key="d0">酸菜</data>
+</node>
+<node id="酸奶">
+  <data key="d0">酸奶</data>
+</node>
+<node id="蒜泥">
+  <data key="d0">蒜泥</data>
+</node>
+<node id="笋">
+  <data key="d0">笋</data>
+</node>
+<node id="锁">
+  <data key="d0">锁</data>
+</node>
+<node id="台球">
+  <data key="d0">台球</data>
+</node>
+<node id="台球桌">
+  <data key="d0">台球桌</data>
+</node>
+<node id="苔藓">
+  <data key="d0">苔藓</data>
+</node>
+<node id="太空舱">
+  <data key="d0">太空舱</data>
+</node>
+<node id="太空服">
+  <data key="d0">太空服</data>
+</node>
+<node id="太师椅">
+  <data key="d0">太师椅</data>
+</node>
+<node id="太阳镜">
+  <data key="d0">太阳镜</data>
+</node>
+<node id="坛子">
+  <data key="d0">坛子</data>
+</node>
+<node id="昙花">
+  <data key="d0">昙花</data>
+</node>
+<node id="坦克">
+  <data key="d0">坦克</data>
+</node>
+<node id="汤匙">
+  <data key="d0">汤匙</data>
+</node>
+<node id="汤碗">
+  <data key="d0">汤碗</data>
+</node>
+<node id="糖果">
+  <data key="d0">糖果</data>
+</node>
+<node id="糖浆">
+  <data key="d0">糖浆</data>
+</node>
+<node id="螳螂">
+  <data key="d0">螳螂</data>
+</node>
+<node id="桃子">
+  <data key="d0">桃子</data>
+</node>
+<node id="陶罐">
+  <data key="d0">陶罐</data>
+</node>
+<node id="体温计">
+  <data key="d0">体温计</data>
+</node>
+<node id="剃须刀">
+  <data key="d0">剃须刀</data>
+</node>
+<node id="天鹅">
+  <data key="d0">天鹅</data>
+</node>
+<node id="天线">
+  <data key="d0">天线</data>
+</node>
+<node id="天竺葵">
+  <data key="d0">天竺葵</data>
+</node>
+<node id="甜点">
+  <data key="d0">甜点</data>
+</node>
+<node id="甜甜圈">
+  <data key="d0">甜甜圈</data>
+</node>
+<node id="甜玉米">
+  <data key="d0">甜玉米</data>
+</node>
+<node id="铁链">
+  <data key="d0">铁链</data>
+</node>
+<node id="铁丝网">
+  <data key="d0">铁丝网</data>
+</node>
+<node id="通心粉">
+  <data key="d0">通心粉</data>
+</node>
+<node id="茼蒿">
+  <data key="d0">茼蒿</data>
+</node>
+<node id="头">
+  <data key="d0">头</data>
+</node>
+<node id="头发">
+  <data key="d0">头发</data>
+</node>
+<node id="头巾">
+  <data key="d0">头巾</data>
+</node>
+<node id="头盔">
+  <data key="d0">头盔</data>
+</node>
+<node id="头皮">
+  <data key="d0">头皮</data>
+</node>
+<node id="头饰">
+  <data key="d0">头饰</data>
+</node>
+<node id="骰子">
+  <data key="d0">骰子</data>
+</node>
+<node id="秃鹰">
+  <data key="d0">秃鹰</data>
+</node>
+<node id="图钉">
+  <data key="d0">图钉</data>
+</node>
+<node id="土豆">
+  <data key="d0">土豆</data>
+</node>
+<node id="土豆泥">
+  <data key="d0">土豆泥</data>
+</node>
+<node id="兔">
+  <data key="d0">兔</data>
+</node>
+<node id="兔子">
+  <data key="d0">兔子</data>
+</node>
+<node id="推土机">
+  <data key="d0">推土机</data>
+</node>
+<node id="腿">
+  <data key="d0">腿</data>
+</node>
+<node id="臀部">
+  <data key="d0">臀部</data>
+</node>
+<node id="托盘">
+  <data key="d0">托盘</data>
+</node>
+<node id="拖把">
+  <data key="d0">拖把</data>
+</node>
+<node id="拖鞋">
+  <data key="d0">拖鞋</data>
+</node>
+<node id="鸵鸟">
+  <data key="d0">鸵鸟</data>
+</node>
+<node id="挖掘机">
+  <data key="d0">挖掘机</data>
+</node>
+<node id="袜子">
+  <data key="d0">袜子</data>
+</node>
+<node id="外套">
+  <data key="d0">外套</data>
+</node>
+<node id="豌豆">
+  <data key="d0">豌豆</data>
+</node>
+<node id="碗">
+  <data key="d0">碗</data>
+</node>
+<node id="网纹蟒">
+  <data key="d0">网纹蟒</data>
+</node>
+<node id="望远镜">
+  <data key="d0">望远镜</data>
+</node>
+<node id="围巾">
+  <data key="d0">围巾</data>
+</node>
+<node id="围裙">
+  <data key="d0">围裙</data>
+</node>
+<node id="卫生巾">
+  <data key="d0">卫生巾</data>
+</node>
+<node id="卫生纸">
+  <data key="d0">卫生纸</data>
+</node>
+<node id="味精">
+  <data key="d0">味精</data>
+</node>
+<node id="温度计">
+  <data key="d0">温度计</data>
+</node>
+<node id="蚊帐">
+  <data key="d0">蚊帐</data>
+</node>
+<node id="蚊子">
+  <data key="d0">蚊子</data>
+</node>
+<node id="莴笋">
+  <data key="d0">莴笋</data>
+</node>
+<node id="蜗牛">
+  <data key="d0">蜗牛</data>
+</node>
+<node id="乌龟">
+  <data key="d0">乌龟</data>
+</node>
+<node id="乌龙茶">
+  <data key="d0">乌龙茶</data>
+</node>
+<node id="乌鸦">
+  <data key="d0">乌鸦</data>
+</node>
+<node id="乌贼">
+  <data key="d0">乌贼</data>
+</node>
+<node id="无花果">
+  <data key="d0">无花果</data>
+</node>
+<node id="无人机">
+  <data key="d0">无人机</data>
+</node>
+<node id="蜈蚣">
+  <data key="d0">蜈蚣</data>
+</node>
+<node id="西瓜">
+  <data key="d0">西瓜</data>
+</node>
+<node id="西红柿">
+  <data key="d0">西红柿</data>
+</node>
+<node id="西葫芦">
+  <data key="d0">西葫芦</data>
+</node>
+<node id="西裤">
+  <data key="d0">西裤</data>
+</node>
+<node id="西兰花">
+  <data key="d0">西兰花</data>
+</node>
+<node id="西装">
+  <data key="d0">西装</data>
+</node>
+<node id="吸管">
+  <data key="d0">吸管</data>
+</node>
+<node id="吸油烟机">
+  <data key="d0">吸油烟机</data>
+</node>
+<node id="稀饭">
+  <data key="d0">稀饭</data>
+</node>
+<node id="犀牛">
+  <data key="d0">犀牛</data>
+</node>
+<node id="蜥蜴">
+  <data key="d0">蜥蜴</data>
+</node>
+<node id="膝盖">
+  <data key="d0">膝盖</data>
+</node>
+<node id="蟋蟀">
+  <data key="d0">蟋蟀</data>
+</node>
+<node id="洗脸盆">
+  <data key="d0">洗脸盆</data>
+</node>
+<node id="洗手液">
+  <data key="d0">洗手液</data>
+</node>
+<node id="洗碗机">
+  <data key="d0">洗碗机</data>
+</node>
+<node id="洗衣机">
+  <data key="d0">洗衣机</data>
+</node>
+<node id="喜鹊">
+  <data key="d0">喜鹊</data>
+</node>
+<node id="虾">
+  <data key="d0">虾</data>
+</node>
+<node id="仙人掌">
+  <data key="d0">仙人掌</data>
+</node>
+<node id="显示器">
+  <data key="d0">显示器</data>
+</node>
+<node id="显微镜">
+  <data key="d0">显微镜</data>
+</node>
+<node id="馅饼">
+  <data key="d0">馅饼</data>
+</node>
+<node id="相机">
+  <data key="d0">相机</data>
+</node>
+<node id="香槟">
+  <data key="d0">香槟</data>
+</node>
+<node id="香槟杯">
+  <data key="d0">香槟杯</data>
+</node>
+<node id="香菜">
+  <data key="d0">香菜</data>
+</node>
+<node id="香肠">
+  <data key="d0">香肠</data>
+</node>
+<node id="香菇">
+  <data key="d0">香菇</data>
+</node>
+<node id="香蕉">
+  <data key="d0">香蕉</data>
+</node>
+<node id="香水">
+  <data key="d0">香水</data>
+</node>
+<node id="香烟">
+  <data key="d0">香烟</data>
+</node>
+<node id="箱子">
+  <data key="d0">箱子</data>
+</node>
+<node id="响尾蛇">
+  <data key="d0">响尾蛇</data>
+</node>
+<node id="向日葵">
+  <data key="d0">向日葵</data>
+</node>
+<node id="项链">
+  <data key="d0">项链</data>
+</node>
+<node id="项圈">
+  <data key="d0">项圈</data>
+</node>
+<node id="橡皮">
+  <data key="d0">橡皮</data>
+</node>
+<node id="消防车">
+  <data key="d0">消防车</data>
+</node>
+<node id="消防栓">
+  <data key="d0">消防栓</data>
+</node>
+<node id="小白菜">
+  <data key="d0">小白菜</data>
+</node>
+<node id="小凳子">
+  <data key="d0">小凳子</data>
+</node>
+<node id="小龙虾">
+  <data key="d0">小龙虾</data>
+</node>
+<node id="小麦">
+  <data key="d0">小麦</data>
+</node>
+<node id="小米">
+  <data key="d0">小米</data>
+</node>
+<node id="小提琴">
+  <data key="d0">小提琴</data>
+</node>
+<node id="鞋">
+  <data key="d0">鞋</data>
+</node>
+<node id="鞋带">
+  <data key="d0">鞋带</data>
+</node>
+<node id="鞋垫">
+  <data key="d0">鞋垫</data>
+</node>
+<node id="鞋柜">
+  <data key="d0">鞋柜</data>
+</node>
+<node id="心脏">
+  <data key="d0">心脏</data>
+</node>
+<node id="信封">
+  <data key="d0">信封</data>
+</node>
+<node id="信纸">
+  <data key="d0">信纸</data>
+</node>
+<node id="猩猩">
+  <data key="d0">猩猩</data>
+</node>
+<node id="杏仁">
+  <data key="d0">杏仁</data>
+</node>
+<node id="杏子">
+  <data key="d0">杏子</data>
+</node>
+<node id="熊">
+  <data key="d0">熊</data>
+</node>
+<node id="熊猫">
+  <data key="d0">熊猫</data>
+</node>
+<node id="旋转门">
+  <data key="d0">旋转门</data>
+</node>
+<node id="旋转椅">
+  <data key="d0">旋转椅</data>
+</node>
+<node id="雪茄">
+  <data key="d0">雪茄</data>
+</node>
+<node id="血管">
+  <data key="d0">血管</data>
+</node>
+<node id="血压计">
+  <data key="d0">血压计</data>
+</node>
+<node id="血液">
+  <data key="d0">血液</data>
+</node>
+<node id="薰衣草">
+  <data key="d0">薰衣草</data>
+</node>
+<node id="鸭脖">
+  <data key="d0">鸭脖</data>
+</node>
+<node id="鸭梨">
+  <data key="d0">鸭梨</data>
+</node>
+<node id="鸭肉">
+  <data key="d0">鸭肉</data>
+</node>
+<node id="鸭子">
+  <data key="d0">鸭子</data>
+</node>
+<node id="鸭嘴兽">
+  <data key="d0">鸭嘴兽</data>
+</node>
+<node id="牙齿">
+  <data key="d0">牙齿</data>
+</node>
+<node id="牙签">
+  <data key="d0">牙签</data>
+</node>
+<node id="牙线">
+  <data key="d0">牙线</data>
+</node>
+<node id="哑铃">
+  <data key="d0">哑铃</data>
+</node>
+<node id="烟囱">
+  <data key="d0">烟囱</data>
+</node>
+<node id="烟灰缸">
+  <data key="d0">烟灰缸</data>
+</node>
+<node id="烟头">
+  <data key="d0">烟头</data>
+</node>
+<node id="岩石">
+  <data key="d0">岩石</data>
+</node>
+<node id="颜料">
+  <data key="d0">颜料</data>
+</node>
+<node id="眼睛">
+  <data key="d0">眼睛</data>
+</node>
+<node id="眼镜">
+  <data key="d0">眼镜</data>
+</node>
+<node id="眼镜盒">
+  <data key="d0">眼镜盒</data>
+</node>
+<node id="眼罩">
+  <data key="d0">眼罩</data>
+</node>
+<node id="鼹鼠">
+  <data key="d0">鼹鼠</data>
+</node>
+<node id="燕麦片">
+  <data key="d0">燕麦片</data>
+</node>
+<node id="燕尾服">
+  <data key="d0">燕尾服</data>
+</node>
+<node id="燕子">
+  <data key="d0">燕子</data>
+</node>
+<node id="扬声器">
+  <data key="d0">扬声器</data>
+</node>
+<node id="羊毛衣">
+  <data key="d0">羊毛衣</data>
+</node>
+<node id="羊皮纸">
+  <data key="d0">羊皮纸</data>
+</node>
+<node id="羊肉">
+  <data key="d0">羊肉</data>
+</node>
+<node id="羊驼">
+  <data key="d0">羊驼</data>
+</node>
+<node id="杨梅">
+  <data key="d0">杨梅</data>
+</node>
+<node id="杨桃">
+  <data key="d0">杨桃</data>
+</node>
+<node id="洋葱">
+  <data key="d0">洋葱</data>
+</node>
+<node id="腰带">
+  <data key="d0">腰带</data>
+</node>
+<node id="摇椅">
+  <data key="d0">摇椅</data>
+</node>
+<node id="钥匙">
+  <data key="d0">钥匙</data>
+</node>
+<node id="钥匙圈">
+  <data key="d0">钥匙圈</data>
+</node>
+<node id="椰子">
+  <data key="d0">椰子</data>
+</node>
+<node id="野鸡">
+  <data key="d0">野鸡</data>
+</node>
+<node id="野兔">
+  <data key="d0">野兔</data>
+</node>
+<node id="夜来香">
+  <data key="d0">夜来香</data>
+</node>
+<node id="衣柜">
+  <data key="d0">衣柜</data>
+</node>
+<node id="椅子">
+  <data key="d0">椅子</data>
+</node>
+<node id="疫苗">
+  <data key="d0">疫苗</data>
+</node>
+<node id="意大利面">
+  <data key="d0">意大利面</data>
+</node>
+<node id="翼龙">
+  <data key="d0">翼龙</data>
+</node>
+<node id="音乐盒">
+  <data key="d0">音乐盒</data>
+</node>
+<node id="音箱">
+  <data key="d0">音箱</data>
+</node>
+<node id="银耳">
+  <data key="d0">银耳</data>
+</node>
+<node id="银环蛇">
+  <data key="d0">银环蛇</data>
+</node>
+<node id="银幕">
+  <data key="d0">银幕</data>
+</node>
+<node id="饮水机">
+  <data key="d0">饮水机</data>
+</node>
+<node id="婴儿车">
+  <data key="d0">婴儿车</data>
+</node>
+<node id="罂粟">
+  <data key="d0">罂粟</data>
+</node>
+<node id="樱桃">
+  <data key="d0">樱桃</data>
+</node>
+<node id="鹰">
+  <data key="d0">鹰</data>
+</node>
+<node id="迎春花">
+  <data key="d0">迎春花</data>
+</node>
+<node id="荧光笔">
+  <data key="d0">荧光笔</data>
+</node>
+<node id="萤火虫">
+  <data key="d0">萤火虫</data>
+</node>
+<node id="映山红">
+  <data key="d0">映山红</data>
+</node>
+<node id="硬币">
+  <data key="d0">硬币</data>
+</node>
+<node id="泳裤">
+  <data key="d0">泳裤</data>
+</node>
+<node id="泳帽">
+  <data key="d0">泳帽</data>
+</node>
+<node id="泳装">
+  <data key="d0">泳装</data>
+</node>
+<node id="邮票">
+  <data key="d0">邮票</data>
+</node>
+<node id="邮筒">
+  <data key="d0">邮筒</data>
+</node>
+<node id="油">
+  <data key="d0">油</data>
+</node>
+<node id="油饼">
+  <data key="d0">油饼</data>
+</node>
+<node id="油菜花">
+  <data key="d0">油菜花</data>
+</node>
+<node id="油漆">
+  <data key="d0">油漆</data>
+</node>
+<node id="油条">
+  <data key="d0">油条</data>
+</node>
+<node id="鱿鱼">
+  <data key="d0">鱿鱼</data>
+</node>
+<node id="游轮">
+  <data key="d0">游轮</data>
+</node>
+<node id="游艇">
+  <data key="d0">游艇</data>
+</node>
+<node id="柚子">
+  <data key="d0">柚子</data>
+</node>
+<node id="鱼">
+  <data key="d0">鱼</data>
+</node>
+<node id="鱼丸">
+  <data key="d0">鱼丸</data>
+</node>
+<node id="羽毛">
+  <data key="d0">羽毛</data>
+</node>
+<node id="羽毛球">
+  <data key="d0">羽毛球</data>
+</node>
+<node id="羽毛球拍">
+  <data key="d0">羽毛球拍</data>
+</node>
+<node id="羽绒服">
+  <data key="d0">羽绒服</data>
+</node>
+<node id="雨伞">
+  <data key="d0">雨伞</data>
+</node>
+<node id="雨衣">
+  <data key="d0">雨衣</data>
+</node>
+<node id="玉兰">
+  <data key="d0">玉兰</data>
+</node>
+<node id="玉米">
+  <data key="d0">玉米</data>
+</node>
+<node id="玉米面">
+  <data key="d0">玉米面</data>
+</node>
+<node id="芋头">
+  <data key="d0">芋头</data>
+</node>
+<node id="郁金香">
+  <data key="d0">郁金香</data>
+</node>
+<node id="浴巾">
+  <data key="d0">浴巾</data>
+</node>
+<node id="浴帘">
+  <data key="d0">浴帘</data>
+</node>
+<node id="浴盆">
+  <data key="d0">浴盆</data>
+</node>
+<node id="浴衣">
+  <data key="d0">浴衣</data>
+</node>
+<node id="鸳鸯">
+  <data key="d0">鸳鸯</data>
+</node>
+<node id="原子弹">
+  <data key="d0">原子弹</data>
+</node>
+<node id="运钞车">
+  <data key="d0">运钞车</data>
+</node>
+<node id="运动服">
+  <data key="d0">运动服</data>
+</node>
+<node id="运动裤">
+  <data key="d0">运动裤</data>
+</node>
+<node id="运动鞋">
+  <data key="d0">运动鞋</data>
+</node>
+<node id="运动装">
+  <data key="d0">运动装</data>
+</node>
+<node id="枣">
+  <data key="d0">枣</data>
+</node>
+<node id="灶">
+  <data key="d0">灶</data>
+</node>
+<node id="栅栏">
+  <data key="d0">栅栏</data>
+</node>
+<node id="炸弹">
+  <data key="d0">炸弹</data>
+</node>
+<node id="炸酱面">
+  <data key="d0">炸酱面</data>
+</node>
+<node id="炸薯条">
+  <data key="d0">炸薯条</data>
+</node>
+<node id="榨汁机">
+  <data key="d0">榨汁机</data>
+</node>
+<node id="章鱼">
+  <data key="d0">章鱼</data>
+</node>
+<node id="樟子松">
+  <data key="d0">樟子松</data>
+</node>
+<node id="长凳">
+  <data key="d0">长凳</data>
+</node>
+<node id="长笛">
+  <data key="d0">长笛</data>
+</node>
+<node id="长号">
+  <data key="d0">长号</data>
+</node>
+<node id="长裤">
+  <data key="d0">长裤</data>
+</node>
+<node id="长袍">
+  <data key="d0">长袍</data>
+</node>
+<node id="长裙">
+  <data key="d0">长裙</data>
+</node>
+<node id="长袖">
+  <data key="d0">长袖</data>
+</node>
+<node id="帐篷">
+  <data key="d0">帐篷</data>
+</node>
+<node id="折叠椅">
+  <data key="d0">折叠椅</data>
+</node>
+<node id="蔗糖">
+  <data key="d0">蔗糖</data>
+</node>
+<node id="鹧鸪">
+  <data key="d0">鹧鸪</data>
+</node>
+<node id="针">
+  <data key="d0">针</data>
+</node>
+<node id="珍珠">
+  <data key="d0">珍珠</data>
+</node>
+<node id="枕套">
+  <data key="d0">枕套</data>
+</node>
+<node id="枕头">
+  <data key="d0">枕头</data>
+</node>
+<node id="蒸汽机">
+  <data key="d0">蒸汽机</data>
+</node>
+<node id="正装">
+  <data key="d0">正装</data>
+</node>
+<node id="芝麻">
+  <data key="d0">芝麻</data>
+</node>
+<node id="知更鸟">
+  <data key="d0">知更鸟</data>
+</node>
+<node id="蜘蛛">
+  <data key="d0">蜘蛛</data>
+</node>
+<node id="直升机">
+  <data key="d0">直升机</data>
+</node>
+<node id="止血剂">
+  <data key="d0">止血剂</data>
+</node>
+<node id="纸">
+  <data key="d0">纸</data>
+</node>
+<node id="纸巾">
+  <data key="d0">纸巾</data>
+</node>
+<node id="指甲">
+  <data key="d0">指甲</data>
+</node>
+<node id="指甲锉">
+  <data key="d0">指甲锉</data>
+</node>
+<node id="指甲油">
+  <data key="d0">指甲油</data>
+</node>
+<node id="指南针">
+  <data key="d0">指南针</data>
+</node>
+<node id="指纹">
+  <data key="d0">指纹</data>
+</node>
+<node id="制服">
+  <data key="d0">制服</data>
+</node>
+<node id="中山装">
+  <data key="d0">中山装</data>
+</node>
+<node id="中提琴">
+  <data key="d0">中提琴</data>
+</node>
+<node id="钟">
+  <data key="d0">钟</data>
+</node>
+<node id="粥">
+  <data key="d0">粥</data>
+</node>
+<node id="猪">
+  <data key="d0">猪</data>
+</node>
+<node id="猪笼草">
+  <data key="d0">猪笼草</data>
+</node>
+<node id="猪肉">
+  <data key="d0">猪肉</data>
+</node>
+<node id="竹节虫">
+  <data key="d0">竹节虫</data>
+</node>
+<node id="竹子">
+  <data key="d0">竹子</data>
+</node>
+<node id="烛台">
+  <data key="d0">烛台</data>
+</node>
+<node id="助听器">
+  <data key="d0">助听器</data>
+</node>
+<node id="注射器">
+  <data key="d0">注射器</data>
+</node>
+<node id="蛀虫">
+  <data key="d0">蛀虫</data>
+</node>
+<node id="砖头">
+  <data key="d0">砖头</data>
+</node>
+<node id="桌布">
+  <data key="d0">桌布</data>
+</node>
+<node id="子弹">
+  <data key="d0">子弹</data>
+</node>
+<node id="自行车">
+  <data key="d0">自行车</data>
+</node>
+<node id="钻石">
+  <data key="d0">钻石</data>
+</node>
+<node id="嘴唇">
+  <data key="d0">嘴唇</data>
+</node>
+<node id="座垫">
+  <data key="d0">座垫</data>
+</node>
+<edge source="身体部位" target="身体部位"/>
+<edge source="身体部位" target="鼻子"/>
+<edge source="身体部位" target="辫子"/>
+<edge source="身体部位" target="大脑"/>
+<edge source="身体部位" target="大腿"/>
+<edge source="身体部位" target="耳垂"/>
+<edge source="身体部位" target="耳朵"/>
+<edge source="身体部位" target="骨灰"/>
+<edge source="身体部位" target="骨头"/>
+<edge source="身体部位" target="关节"/>
+<edge source="身体部位" target="胡须"/>
+<edge source="身体部位" target="肩膀"/>
+<edge source="身体部位" target="脚"/>
+<edge source="身体部位" target="脚背"/>
+<edge source="身体部位" target="脚后跟"/>
+<edge source="身体部位" target="脚趾"/>
+<edge source="身体部位" target="睫毛"/>
+<edge source="身体部位" target="口腔"/>
+<edge source="身体部位" target="肋骨"/>
+<edge source="身体部位" target="泪珠"/>
+<edge source="身体部位" target="眉毛"/>
+<edge source="身体部位" target="拇指"/>
+<edge source="身体部位" target="皮肤"/>
+<edge source="身体部位" target="手臂"/>
+<edge source="身体部位" target="手掌"/>
+<edge source="身体部位" target="手指"/>
+<edge source="身体部位" target="头"/>
+<edge source="身体部位" target="头发"/>
+<edge source="身体部位" target="头皮"/>
+<edge source="身体部位" target="腿"/>
+<edge source="身体部位" target="臀部"/>
+<edge source="身体部位" target="膝盖"/>
+<edge source="身体部位" target="心脏"/>
+<edge source="身体部位" target="血管"/>
+<edge source="身体部位" target="牙齿"/>
+<edge source="身体部位" target="眼睛"/>
+<edge source="身体部位" target="羽毛"/>
+<edge source="身体部位" target="指甲"/>
+<edge source="身体部位" target="指纹"/>
+<edge source="身体部位" target="嘴唇"/>
+<edge source="动物" target="昆虫"/>
+<edge source="动物" target="陆生动物"/>
+<edge source="动物" target="水生动物"/>
+<edge source="动物" target="鸟"/>
+<edge source="昆虫" target="白蚁"/>
+<edge source="昆虫" target="苍蝇"/>
+<edge source="昆虫" target="蝈蝈"/>
+<edge source="昆虫" target="果蝇"/>
+<edge source="昆虫" target="金龟子"/>
+<edge source="昆虫" target="昆虫"/>
+<edge source="昆虫" target="蚂蝗"/>
+<edge source="昆虫" target="蚂蚁"/>
+<edge source="昆虫" target="螨虫"/>
+<edge source="昆虫" target="毛毛虫"/>
+<edge source="昆虫" target="蜜蜂"/>
+<edge source="昆虫" target="瓢虫"/>
+<edge source="昆虫" target="蚯蚓"/>
+<edge source="昆虫" target="水蛭"/>
+<edge source="昆虫" target="螳螂"/>
+<edge source="昆虫" target="蚊子"/>
+<edge source="昆虫" target="蜗牛"/>
+<edge source="昆虫" target="蜈蚣"/>
+<edge source="昆虫" target="蜥蜴"/>
+<edge source="昆虫" target="蟋蟀"/>
+<edge source="昆虫" target="萤火虫"/>
+<edge source="昆虫" target="蜘蛛"/>
+<edge source="昆虫" target="竹节虫"/>
+<edge source="昆虫" target="蛀虫"/>
+<edge source="陆生动物" target="霸王龙"/>
+<edge source="陆生动物" target="斑马"/>
+<edge source="陆生动物" target="豹子"/>
+<edge source="陆生动物" target="变色龙"/>
+<edge source="陆生动物" target="波斯猫"/>
+<edge source="陆生动物" target="藏獒犬"/>
+<edge source="陆生动物" target="蟾蜍"/>
+<edge source="陆生动物" target="刺猬"/>
+<edge source="陆生动物" target="大灰狼"/>
+<edge source="陆生动物" target="大象"/>
+<edge source="陆生动物" target="大猩猩"/>
+<edge source="陆生动物" target="导盲犬"/>
+<edge source="陆生动物" target="毒蛇"/>
+<edge source="陆生动物" target="非洲象"/>
+<edge source="陆生动物" target="狒狒"/>
+<edge source="陆生动物" target="蝮蛇"/>
+<edge source="陆生动物" target="狗"/>
+<edge source="陆生动物" target="哈巴狗"/>
+<edge source="陆生动物" target="哈士奇"/>
+<edge source="陆生动物" target="河马"/>
+<edge source="陆生动物" target="猴"/>
+<edge source="陆生动物" target="猴子"/>
+<edge source="陆生动物" target="狐狸"/>
+<edge source="陆生动物" target="黄鼠狼"/>
+<edge source="陆生动物" target="家鼠"/>
+<edge source="陆生动物" target="金毛犬"/>
+<edge source="陆生动物" target="警犬"/>
+<edge source="陆生动物" target="考拉"/>
+<edge source="陆生动物" target="恐龙"/>
+<edge source="陆生动物" target="腊肠犬"/>
+<edge source="陆生动物" target="狼"/>
+<edge source="陆生动物" target="老虎"/>
+<edge source="陆生动物" target="老鼠"/>
+<edge source="陆生动物" target="猎狗"/>
+<edge source="陆生动物" target="羚羊"/>
+<edge source="陆生动物" target="龙猫"/>
+<edge source="陆生动物" target="骡子"/>
+<edge source="陆生动物" target="骆驼"/>
+<edge source="陆生动物" target="蟒蛇"/>
+<edge source="陆生动物" target="毛驴"/>
+<edge source="陆生动物" target="牦牛"/>
+<edge source="陆生动物" target="孟加拉虎"/>
+<edge source="陆生动物" target="麋鹿"/>
+<edge source="陆生动物" target="母羊"/>
+<edge source="陆生动物" target="奶牛"/>
+<edge source="陆生动物" target="牛"/>
+<edge source="陆生动物" target="山羊"/>
+<edge source="陆生动物" target="蛇"/>
+<edge source="陆生动物" target="狮子"/>
+<edge source="陆生动物" target="鼠"/>
+<edge source="陆生动物" target="水牛"/>
+<edge source="陆生动物" target="松狮"/>
+<edge source="陆生动物" target="松鼠"/>
+<edge source="陆生动物" target="兔"/>
+<edge source="陆生动物" target="兔子"/>
+<edge source="陆生动物" target="网纹蟒"/>
+<edge source="陆生动物" target="犀牛"/>
+<edge source="陆生动物" target="响尾蛇"/>
+<edge source="陆生动物" target="猩猩"/>
+<edge source="陆生动物" target="熊"/>
+<edge source="陆生动物" target="熊猫"/>
+<edge source="陆生动物" target="鸭嘴兽"/>
+<edge source="陆生动物" target="鼹鼠"/>
+<edge source="陆生动物" target="羊驼"/>
+<edge source="陆生动物" target="野兔"/>
+<edge source="陆生动物" target="翼龙"/>
+<edge source="陆生动物" target="银环蛇"/>
+<edge source="陆生动物" target="猪"/>
+<edge source="水生动物" target="鲍鱼"/>
+<edge source="水生动物" target="草鱼"/>
+<edge source="水生动物" target="蛏子"/>
+<edge source="水生动物" target="带鱼"/>
+<edge source="水生动物" target="帝王蟹"/>
+<edge source="水生动物" target="多宝鱼"/>
+<edge source="水生动物" target="海豹"/>
+<edge source="水生动物" target="海参"/>
+<edge source="水生动物" target="海胆"/>
+<edge source="水生动物" target="海龟"/>
+<edge source="水生动物" target="海蛇"/>
+<edge source="水生动物" target="海狮"/>
+<edge source="水生动物" target="海獭"/>
+<edge source="水生动物" target="海豚"/>
+<edge source="水生动物" target="海象"/>
+<edge source="水生动物" target="海星"/>
+<edge source="水生动物" target="海蜇"/>
+<edge source="水生动物" target="河豚"/>
+<edge source="水生动物" target="黄花鱼"/>
+<edge source="水生动物" target="寄居蟹"/>
+<edge source="水生动物" target="鲫鱼"/>
+<edge source="水生动物" target="甲鱼"/>
+<edge source="水生动物" target="金枪鱼"/>
+<edge source="水生动物" target="金鱼"/>
+<edge source="水生动物" target="鲸鱼"/>
+<edge source="水生动物" target="孔雀鱼"/>
+<edge source="水生动物" target="鲤鱼"/>
+<edge source="水生动物" target="龙虾"/>
+<edge source="水生动物" target="螺蛳"/>
+<edge source="水生动物" target="鳗鱼"/>
+<edge source="水生动物" target="抹香鲸"/>
+<edge source="水生动物" target="牡蛎"/>
+<edge source="水生动物" target="泥鳅"/>
+<edge source="水生动物" target="鲶鱼"/>
+<edge source="水生动物" target="螃蟹"/>
+<edge source="水生动物" target="三文鱼"/>
+<edge source="水生动物" target="沙丁鱼"/>
+<edge source="水生动物" target="鲨鱼"/>
+<edge source="水生动物" target="珊瑚"/>
+<edge source="水生动物" target="扇贝"/>
+<edge source="水生动物" target="生蚝"/>
+<edge source="水生动物" target="水母"/>
+<edge source="水生动物" target="水蛇"/>
+<edge source="水生动物" target="乌龟"/>
+<edge source="水生动物" target="乌贼"/>
+<edge source="水生动物" target="虾"/>
+<edge source="水生动物" target="小龙虾"/>
+<edge source="水生动物" target="鱿鱼"/>
+<edge source="水生动物" target="鱼"/>
+<edge source="水生动物" target="章鱼"/>
+<edge source="鸟" target="鹌鹑"/>
+<edge source="鸟" target="蝙蝠"/>
+<edge source="鸟" target="苍鹰"/>
+<edge source="鸟" target="鹅"/>
+<edge source="鸟" target="鸽子"/>
+<edge source="鸟" target="公鸡"/>
+<edge source="鸟" target="海鸥"/>
+<edge source="鸟" target="黑天鹅"/>
+<edge source="鸟" target="画眉鸟"/>
+<edge source="鸟" target="火鸡"/>
+<edge source="鸟" target="火烈鸟"/>
+<edge source="鸟" target="猫头鹰"/>
+<edge source="鸟" target="母鸡"/>
+<edge source="鸟" target="鸟"/>
+<edge source="鸟" target="企鹅"/>
+<edge source="鸟" target="乳鸽"/>
+<edge source="鸟" target="天鹅"/>
+<edge source="鸟" target="秃鹰"/>
+<edge source="鸟" target="鸵鸟"/>
+<edge source="鸟" target="乌鸦"/>
+<edge source="鸟" target="喜鹊"/>
+<edge source="鸟" target="鸭子"/>
+<edge source="鸟" target="燕子"/>
+<edge source="鸟" target="野鸡"/>
+<edge source="鸟" target="鹰"/>
+<edge source="鸟" target="鸳鸯"/>
+<edge source="鸟" target="鹧鸪"/>
+<edge source="鸟" target="知更鸟"/>
+<edge source="人造物" target="服饰"/>
+<edge source="人造物" target="玩具"/>
+<edge source="人造物" target="建筑"/>
+<edge source="人造物" target="家具"/>
+<edge source="人造物" target="武器"/>
+<edge source="人造物" target="乐器"/>
+<edge source="人造物" target="工具"/>
+<edge source="人造物" target="电器"/>
+<edge source="人造物" target="运动器材"/>
+<edge source="人造物" target="餐具"/>
+<edge source="人造物" target="医疗用品"/>
+<edge source="服饰" target="背带裤"/>
+<edge source="服饰" target="背心"/>
+<edge source="服饰" target="鼻环"/>
+<edge source="服饰" target="草帽"/>
+<edge source="服饰" target="衬衫"/>
+<edge source="服饰" target="大衣"/>
+<edge source="服饰" target="单肩包"/>
+<edge source="服饰" target="貂皮大衣"/>
+<edge source="服饰" target="吊坠"/>
+<edge source="服饰" target="丁字裤"/>
+<edge source="服饰" target="斗篷"/>
+<edge source="服饰" target="短裤"/>
+<edge source="服饰" target="短裙"/>
+<edge source="服饰" target="短袖"/>
+<edge source="服饰" target="耳环"/>
+<edge source="服饰" target="发夹"/>
+<edge source="服饰" target="防弹衣"/>
+<edge source="服饰" target="风衣"/>
+<edge source="服饰" target="和服"/>
+<edge source="服饰" target="护腕"/>
+<edge source="服饰" target="花盆"/>
+<edge source="服饰" target="婚纱"/>
+<edge source="服饰" target="夹克"/>
+<edge source="服饰" target="假发"/>
+<edge source="服饰" target="脚链"/>
+<edge source="服饰" target="戒指"/>
+<edge source="服饰" target="紧身衣"/>
+<edge source="服饰" target="军装"/>
+<edge source="服饰" target="裤子"/>
+<edge source="服饰" target="拉链"/>
+<edge source="服饰" target="礼服"/>
+<edge source="服饰" target="礼帽"/>
+<edge source="服饰" target="连体衣"/>
+<edge source="服饰" target="连衣裙"/>
+<edge source="服饰" target="凉鞋"/>
+<edge source="服饰" target="领带"/>
+<edge source="服饰" target="毛衣"/>
+<edge source="服饰" target="帽子"/>
+<edge source="服饰" target="迷彩服"/>
+<edge source="服饰" target="内裤"/>
+<edge source="服饰" target="内衣"/>
+<edge source="服饰" target="尿布"/>
+<edge source="服饰" target="牛仔裤"/>
+<edge source="服饰" target="跑鞋"/>
+<edge source="服饰" target="披风"/>
+<edge source="服饰" target="皮带"/>
+<edge source="服饰" target="皮夹克"/>
+<edge source="服饰" target="皮帽"/>
+<edge source="服饰" target="球鞋"/>
+<edge source="服饰" target="球衣"/>
+<edge source="服饰" target="裙子"/>
+<edge source="服饰" target="圣诞袜"/>
+<edge source="服饰" target="手套"/>
+<edge source="服饰" target="寿衣"/>
+<edge source="服饰" target="睡衣"/>
+<edge source="服饰" target="丝袜"/>
+<edge source="服饰" target="太空服"/>
+<edge source="服饰" target="头巾"/>
+<edge source="服饰" target="头饰"/>
+<edge source="服饰" target="拖鞋"/>
+<edge source="服饰" target="袜子"/>
+<edge source="服饰" target="外套"/>
+<edge source="服饰" target="围巾"/>
+<edge source="服饰" target="围裙"/>
+<edge source="服饰" target="西裤"/>
+<edge source="服饰" target="西装"/>
+<edge source="服饰" target="项链"/>
+<edge source="服饰" target="鞋"/>
+<edge source="服饰" target="鞋带"/>
+<edge source="服饰" target="鞋垫"/>
+<edge source="服饰" target="燕尾服"/>
+<edge source="服饰" target="羊毛衣"/>
+<edge source="服饰" target="腰带"/>
+<edge source="服饰" target="泳裤"/>
+<edge source="服饰" target="泳帽"/>
+<edge source="服饰" target="泳装"/>
+<edge source="服饰" target="羽绒服"/>
+<edge source="服饰" target="雨衣"/>
+<edge source="服饰" target="浴巾"/>
+<edge source="服饰" target="浴衣"/>
+<edge source="服饰" target="运动服"/>
+<edge source="服饰" target="运动裤"/>
+<edge source="服饰" target="运动鞋"/>
+<edge source="服饰" target="运动装"/>
+<edge source="服饰" target="长裤"/>
+<edge source="服饰" target="长袍"/>
+<edge source="服饰" target="长裙"/>
+<edge source="服饰" target="长袖"/>
+<edge source="服饰" target="正装"/>
+<edge source="服饰" target="制服"/>
+<edge source="服饰" target="中山装"/>
+<edge source="玩具" target="蹦床"/>
+<edge source="玩具" target="玻璃珠"/>
+<edge source="玩具" target="飞盘"/>
+<edge source="玩具" target="飞毯"/>
+<edge source="玩具" target="风车"/>
+<edge source="玩具" target="风铃"/>
+<edge source="玩具" target="风筝"/>
+<edge source="玩具" target="过山车"/>
+<edge source="玩具" target="滑板"/>
+<edge source="玩具" target="滑轮"/>
+<edge source="玩具" target="积木"/>
+<edge source="玩具" target="迷宫"/>
+<edge source="玩具" target="摩天轮"/>
+<edge source="玩具" target="拼图"/>
+<edge source="玩具" target="扑克"/>
+<edge source="玩具" target="七巧板"/>
+<edge source="玩具" target="棋盘"/>
+<edge source="玩具" target="气球"/>
+<edge source="玩具" target="秋千"/>
+<edge source="玩具" target="水晶球"/>
+<edge source="玩具" target="水枪"/>
+<edge source="玩具" target="骰子"/>
+<edge source="建筑" target="吧台"/>
+<edge source="建筑" target="壁画"/>
+<edge source="建筑" target="车库"/>
+<edge source="建筑" target="灯塔"/>
+<edge source="建筑" target="电话亭"/>
+<edge source="建筑" target="吊桥"/>
+<edge source="建筑" target="浮桥"/>
+<edge source="建筑" target="公墓"/>
+<edge source="建筑" target="拱门"/>
+<edge source="建筑" target="假山"/>
+<edge source="建筑" target="减速带"/>
+<edge source="建筑" target="栏杆"/>
+<edge source="建筑" target="篱笆"/>
+<edge source="建筑" target="立交桥"/>
+<edge source="建筑" target="墓碑"/>
+<edge source="建筑" target="喷泉"/>
+<edge source="建筑" target="石碑"/>
+<edge source="建筑" target="收费站"/>
+<edge source="建筑" target="烟囱"/>
+<edge source="建筑" target="灶"/>
+<edge source="建筑" target="栅栏"/>
+<edge source="家具" target="保险柜"/>
+<edge source="家具" target="壁橱"/>
+<edge source="家具" target="餐桌"/>
+<edge source="家具" target="抽屉"/>
+<edge source="家具" target="橱柜"/>
+<edge source="家具" target="窗帘"/>
+<edge source="家具" target="床"/>
+<edge source="家具" target="床垫"/>
+<edge source="家具" target="床罩"/>
+<edge source="家具" target="单人床"/>
+<edge source="家具" target="地毯"/>
+<edge source="家具" target="扶手椅"/>
+<edge source="家具" target="卷帘"/>
+<edge source="家具" target="马桶"/>
+<edge source="家具" target="毛毯"/>
+<edge source="家具" target="暖气片"/>
+<edge source="家具" target="墙纸"/>
+<edge source="家具" target="沙发"/>
+<edge source="家具" target="书柜"/>
+<edge source="家具" target="梳妆台"/>
+<edge source="家具" target="双人床"/>
+<edge source="家具" target="台球桌"/>
+<edge source="家具" target="太师椅"/>
+<edge source="家具" target="箱子"/>
+<edge source="家具" target="小凳子"/>
+<edge source="家具" target="鞋柜"/>
+<edge source="家具" target="旋转椅"/>
+<edge source="家具" target="摇椅"/>
+<edge source="家具" target="衣柜"/>
+<edge source="家具" target="椅子"/>
+<edge source="家具" target="浴帘"/>
+<edge source="家具" target="浴盆"/>
+<edge source="家具" target="长凳"/>
+<edge source="家具" target="折叠椅"/>
+<edge source="家具" target="枕套"/>
+<edge source="家具" target="枕头"/>
+<edge source="家具" target="桌布"/>
+<edge source="家具" target="座垫"/>
+<edge source="武器" target="匕首"/>
+<edge source="武器" target="鞭子"/>
+<edge source="武器" target="步枪"/>
+<edge source="武器" target="刺刀"/>
+<edge source="武器" target="催泪弹"/>
+<edge source="武器" target="大炮"/>
+<edge source="武器" target="弹簧刀"/>
+<edge source="武器" target="弹药"/>
+<edge source="武器" target="刀"/>
+<edge source="武器" target="导弹"/>
+<edge source="武器" target="飞镖"/>
+<edge source="武器" target="棍棒"/>
+<edge source="武器" target="核弹"/>
+<edge source="武器" target="核武器"/>
+<edge source="武器" target="火药"/>
+<edge source="武器" target="机枪"/>
+<edge source="武器" target="剑"/>
+<edge source="武器" target="枪"/>
+<edge source="武器" target="手榴弹"/>
+<edge source="武器" target="手枪"/>
+<edge source="武器" target="坦克"/>
+<edge source="武器" target="原子弹"/>
+<edge source="武器" target="炸弹"/>
+<edge source="武器" target="子弹"/>
+<edge source="乐器" target="大提琴"/>
+<edge source="乐器" target="单簧管"/>
+<edge source="乐器" target="电吉他"/>
+<edge source="乐器" target="短笛"/>
+<edge source="乐器" target="钢琴"/>
+<edge source="乐器" target="鼓"/>
+<edge source="乐器" target="吉他"/>
+<edge source="乐器" target="口琴"/>
+<edge source="乐器" target="扩音器"/>
+<edge source="乐器" target="喇叭"/>
+<edge source="乐器" target="琵琶"/>
+<edge source="乐器" target="手风琴"/>
+<edge source="乐器" target="小提琴"/>
+<edge source="乐器" target="扬声器"/>
+<edge source="乐器" target="音乐盒"/>
+<edge source="乐器" target="长笛"/>
+<edge source="乐器" target="长号"/>
+<edge source="乐器" target="中提琴"/>
+<edge source="工具" target="安全带"/>
+<edge source="工具" target="安全帽"/>
+<edge source="工具" target="按键"/>
+<edge source="工具" target="柏油路"/>
+<edge source="工具" target="摆钟"/>
+<edge source="工具" target="扳手"/>
+<edge source="工具" target="包装纸"/>
+<edge source="工具" target="保鲜膜"/>
+<edge source="工具" target="报纸"/>
+<edge source="工具" target="背包"/>
+<edge source="工具" target="被子"/>
+<edge source="工具" target="鼻烟壶"/>
+<edge source="工具" target="笔芯"/>
+<edge source="工具" target="避雷针"/>
+<edge source="工具" target="避孕套"/>
+<edge source="工具" target="便盆"/>
+<edge source="工具" target="玻璃"/>
+<edge source="工具" target="簸箕"/>
+<edge source="工具" target="彩陶"/>
+<edge source="工具" target="菜板"/>
+<edge source="工具" target="餐巾纸"/>
+<edge source="工具" target="车窗"/>
+<edge source="工具" target="车轮"/>
+<edge source="工具" target="车门"/>
+<edge source="工具" target="车票"/>
+<edge source="工具" target="尺子"/>
+<edge source="工具" target="齿轮"/>
+<edge source="工具" target="冲浪板"/>
+<edge source="工具" target="锄头"/>
+<edge source="工具" target="储蓄罐"/>
+<edge source="工具" target="窗户"/>
+<edge source="工具" target="锤子"/>
+<edge source="工具" target="磁带"/>
+<edge source="工具" target="磁铁"/>
+<edge source="工具" target="锉刀"/>
+<edge source="工具" target="打气筒"/>
+<edge source="工具" target="大头针"/>
+<edge source="工具" target="弹簧"/>
+<edge source="工具" target="灯笼"/>
+<edge source="工具" target="灯罩"/>
+<edge source="工具" target="地图"/>
+<edge source="工具" target="电话簿"/>
+<edge source="工具" target="电影"/>
+<edge source="工具" target="雕塑"/>
+<edge source="工具" target="吊床"/>
+<edge source="工具" target="钓竿"/>
+<edge source="工具" target="钓鱼线"/>
+<edge source="工具" target="订书机"/>
+<edge source="工具" target="钉子"/>
+<edge source="工具" target="耳塞"/>
+<edge source="工具" target="耳罩"/>
+<edge source="工具" target="方向盘"/>
+<edge source="工具" target="防潮垫"/>
+<edge source="工具" target="防尘罩"/>
+<edge source="工具" target="防火门"/>
+<edge source="工具" target="防晒霜"/>
+<edge source="工具" target="放大镜"/>
+<edge source="工具" target="肥皂"/>
+<edge source="工具" target="肥皂盒"/>
+<edge source="工具" target="废物箱"/>
+<edge source="工具" target="蜂箱"/>
+<edge source="工具" target="缝衣针"/>
+<edge source="工具" target="斧头"/>
+<edge source="工具" target="擀面杖"/>
+<edge source="工具" target="钢笔"/>
+<edge source="工具" target="钢筋"/>
+<edge source="工具" target="公文包"/>
+<edge source="工具" target="古董"/>
+<edge source="工具" target="骨灰盒"/>
+<edge source="工具" target="鼓槌"/>
+<edge source="工具" target="拐杖"/>
+<edge source="工具" target="棺材"/>
+<edge source="工具" target="管道"/>
+<edge source="工具" target="罐子"/>
+<edge source="工具" target="海报"/>
+<edge source="工具" target="海绵"/>
+<edge source="工具" target="盒子"/>
+<edge source="工具" target="贺卡"/>
+<edge source="工具" target="黑板"/>
+<edge source="工具" target="黑板擦"/>
+<edge source="工具" target="红包"/>
+<edge source="工具" target="后视镜"/>
+<edge source="工具" target="护目镜"/>
+<edge source="工具" target="护手霜"/>
+<edge source="工具" target="护照"/>
+<edge source="工具" target="花露水"/>
+<edge source="工具" target="化妆品"/>
+<edge source="工具" target="画笔"/>
+<edge source="工具" target="画架"/>
+<edge source="工具" target="画纸"/>
+<edge source="工具" target="怀表"/>
+<edge source="工具" target="机票"/>
+<edge source="工具" target="记事本"/>
+<edge source="工具" target="减震器"/>
+<edge source="工具" target="剪刀"/>
+<edge source="工具" target="奖章"/>
+<edge source="工具" target="降落伞"/>
+<edge source="工具" target="胶卷"/>
+<edge source="工具" target="胶水"/>
+<edge source="工具" target="轿子"/>
+<edge source="工具" target="戒尺"/>
+<edge source="工具" target="金条"/>
+<edge source="工具" target="镜框"/>
+<edge source="工具" target="镜子"/>
+<edge source="工具" target="救生圈"/>
+<edge source="工具" target="卷笔刀"/>
+<edge source="工具" target="开瓶器"/>
+<edge source="工具" target="靠垫"/>
+<edge source="工具" target="蜡笔"/>
+<edge source="工具" target="蜡烛"/>
+<edge source="工具" target="沥青"/>
+<edge source="工具" target="镰刀"/>
+<edge source="工具" target="楼梯"/>
+<edge source="工具" target="轮胎"/>
+<edge source="工具" target="轮椅"/>
+<edge source="工具" target="螺丝刀"/>
+<edge source="工具" target="麦田"/>
+<edge source="工具" target="猫砂"/>
+<edge source="工具" target="门"/>
+<edge source="工具" target="门把手"/>
+<edge source="工具" target="门铃"/>
+<edge source="工具" target="门锁"/>
+<edge source="工具" target="秒表"/>
+<edge source="工具" target="灭火器"/>
+<edge source="工具" target="磨砂膏"/>
+<edge source="工具" target="抹布"/>
+<edge source="工具" target="木槌"/>
+<edge source="工具" target="木炭"/>
+<edge source="工具" target="沐浴液"/>
+<edge source="工具" target="闹钟"/>
+<edge source="工具" target="纽扣"/>
+<edge source="工具" target="排水管"/>
+<edge source="工具" target="跑道"/>
+<edge source="工具" target="盆"/>
+<edge source="工具" target="漂白剂"/>
+<edge source="工具" target="瓶盖"/>
+<edge source="工具" target="铅笔"/>
+<edge source="工具" target="铅笔盒"/>
+<edge source="工具" target="钱包"/>
+<edge source="工具" target="热水袋"/>
+<edge source="工具" target="润肤霜"/>
+<edge source="工具" target="赛道"/>
+<edge source="工具" target="扫帚"/>
+<edge source="工具" target="烧杯"/>
+<edge source="工具" target="绳子"/>
+<edge source="工具" target="时钟"/>
+<edge source="工具" target="手表"/>
+<edge source="工具" target="书"/>
+<edge source="工具" target="书包"/>
+<edge source="工具" target="鼠标垫"/>
+<edge source="工具" target="爽身粉"/>
+<edge source="工具" target="水表"/>
+<edge source="工具" target="水槽"/>
+<edge source="工具" target="水管"/>
+<edge source="工具" target="水龙头"/>
+<edge source="工具" target="水泥"/>
+<edge source="工具" target="睡袋"/>
+<edge source="工具" target="塑料袋"/>
+<edge source="工具" target="锁"/>
+<edge source="工具" target="太阳镜"/>
+<edge source="工具" target="坛子"/>
+<edge source="工具" target="陶罐"/>
+<edge source="工具" target="铁链"/>
+<edge source="工具" target="铁丝网"/>
+<edge source="工具" target="头盔"/>
+<edge source="工具" target="图钉"/>
+<edge source="工具" target="拖把"/>
+<edge source="工具" target="望远镜"/>
+<edge source="工具" target="卫生巾"/>
+<edge source="工具" target="卫生纸"/>
+<edge source="工具" target="温度计"/>
+<edge source="工具" target="蚊帐"/>
+<edge source="工具" target="吸管"/>
+<edge source="工具" target="洗脸盆"/>
+<edge source="工具" target="洗手液"/>
+<edge source="工具" target="显微镜"/>
+<edge source="工具" target="香水"/>
+<edge source="工具" target="项圈"/>
+<edge source="工具" target="橡皮"/>
+<edge source="工具" target="消防栓"/>
+<edge source="工具" target="信封"/>
+<edge source="工具" target="信纸"/>
+<edge source="工具" target="旋转门"/>
+<edge source="工具" target="血液"/>
+<edge source="工具" target="牙签"/>
+<edge source="工具" target="牙线"/>
+<edge source="工具" target="烟灰缸"/>
+<edge source="工具" target="烟头"/>
+<edge source="工具" target="颜料"/>
+<edge source="工具" target="眼镜"/>
+<edge source="工具" target="眼镜盒"/>
+<edge source="工具" target="眼罩"/>
+<edge source="工具" target="羊皮纸"/>
+<edge source="工具" target="钥匙"/>
+<edge source="工具" target="钥匙圈"/>
+<edge source="工具" target="银幕"/>
+<edge source="工具" target="荧光笔"/>
+<edge source="工具" target="硬币"/>
+<edge source="工具" target="邮票"/>
+<edge source="工具" target="邮筒"/>
+<edge source="工具" target="油漆"/>
+<edge source="工具" target="雨伞"/>
+<edge source="工具" target="帐篷"/>
+<edge source="工具" target="针"/>
+<edge source="工具" target="蒸汽机"/>
+<edge source="工具" target="纸"/>
+<edge source="工具" target="纸巾"/>
+<edge source="工具" target="指甲锉"/>
+<edge source="工具" target="指甲油"/>
+<edge source="工具" target="指南针"/>
+<edge source="工具" target="钟"/>
+<edge source="工具" target="烛台"/>
+<edge source="工具" target="砖头"/>
+<edge source="电器" target="按钮"/>
+<edge source="电器" target="报警器"/>
+<edge source="电器" target="冰箱"/>
+<edge source="电器" target="插头"/>
+<edge source="电器" target="插座"/>
+<edge source="电器" target="充电器"/>
+<edge source="电器" target="除草机"/>
+<edge source="电器" target="传真机"/>
+<edge source="电器" target="打印机"/>
+<edge source="电器" target="灯"/>
+<edge source="电器" target="灯泡"/>
+<edge source="电器" target="电冰箱"/>
+<edge source="电器" target="电池"/>
+<edge source="电器" target="电风扇"/>
+<edge source="电器" target="电锯"/>
+<edge source="电器" target="电路板"/>
+<edge source="电器" target="电视"/>
+<edge source="电器" target="电梯"/>
+<edge source="电器" target="电蚊拍"/>
+<edge source="电器" target="电线杆"/>
+<edge source="电器" target="耳机"/>
+<edge source="电器" target="纺织机"/>
+<edge source="电器" target="风扇"/>
+<edge source="电器" target="缝纫机"/>
+<edge source="电器" target="复印机"/>
+<edge source="电器" target="干电池"/>
+<edge source="电器" target="割草机"/>
+<edge source="电器" target="光盘"/>
+<edge source="电器" target="换气扇"/>
+<edge source="电器" target="黄灯"/>
+<edge source="电器" target="机器人"/>
+<edge source="电器" target="键盘"/>
+<edge source="电器" target="交通灯"/>
+<edge source="电器" target="绞肉机"/>
+<edge source="电器" target="搅拌机"/>
+<edge source="电器" target="净化器"/>
+<edge source="电器" target="净水器"/>
+<edge source="电器" target="咖啡机"/>
+<edge source="电器" target="雷达"/>
+<edge source="电器" target="录像带"/>
+<edge source="电器" target="录像机"/>
+<edge source="电器" target="录音机"/>
+<edge source="电器" target="路灯"/>
+<edge source="电器" target="路由器"/>
+<edge source="电器" target="绿灯"/>
+<edge source="电器" target="排气扇"/>
+<edge source="电器" target="跑步机"/>
+<edge source="电器" target="屏幕"/>
+<edge source="电器" target="切割机"/>
+<edge source="电器" target="燃气灶"/>
+<edge source="电器" target="摄像机"/>
+<edge source="电器" target="收割机"/>
+<edge source="电器" target="收音机"/>
+<edge source="电器" target="手电筒"/>
+<edge source="电器" target="手机"/>
+<edge source="电器" target="鼠标"/>
+<edge source="电器" target="剃须刀"/>
+<edge source="电器" target="天线"/>
+<edge source="电器" target="无人机"/>
+<edge source="电器" target="吸油烟机"/>
+<edge source="电器" target="洗碗机"/>
+<edge source="电器" target="洗衣机"/>
+<edge source="电器" target="显示器"/>
+<edge source="电器" target="相机"/>
+<edge source="电器" target="音箱"/>
+<edge source="电器" target="榨汁机"/>
+<edge source="电器" target="助听器"/>
+<edge source="运动器材" target="保龄球"/>
+<edge source="运动器材" target="冰球"/>
+<edge source="运动器材" target="橄榄球"/>
+<edge source="运动器材" target="高尔夫球"/>
+<edge source="运动器材" target="篮球"/>
+<edge source="运动器材" target="排球"/>
+<edge source="运动器材" target="乒乓球"/>
+<edge source="运动器材" target="铅球"/>
+<edge source="运动器材" target="球拍"/>
+<edge source="运动器材" target="曲棍球"/>
+<edge source="运动器材" target="台球"/>
+<edge source="运动器材" target="哑铃"/>
+<edge source="运动器材" target="羽毛球"/>
+<edge source="运动器材" target="羽毛球拍"/>
+<edge source="餐具" target="杯垫"/>
+<edge source="餐具" target="杯子"/>
+<edge source="餐具" target="餐刀"/>
+<edge source="餐具" target="叉子"/>
+<edge source="餐具" target="茶壶"/>
+<edge source="餐具" target="茶碗"/>
+<edge source="餐具" target="炒锅"/>
+<edge source="餐具" target="炖锅"/>
+<edge source="餐具" target="锅"/>
+<edge source="餐具" target="红酒杯"/>
+<edge source="餐具" target="酒杯"/>
+<edge source="餐具" target="酒壶"/>
+<edge source="餐具" target="筷子"/>
+<edge source="餐具" target="奶瓶"/>
+<edge source="餐具" target="盘子"/>
+<edge source="餐具" target="啤酒杯"/>
+<edge source="餐具" target="瓶子"/>
+<edge source="餐具" target="砂锅"/>
+<edge source="餐具" target="勺子"/>
+<edge source="餐具" target="水壶"/>
+<edge source="餐具" target="汤匙"/>
+<edge source="餐具" target="汤碗"/>
+<edge source="餐具" target="托盘"/>
+<edge source="餐具" target="碗"/>
+<edge source="餐具" target="香槟杯"/>
+<edge source="餐具" target="饮水机"/>
+<edge source="医疗用品" target="绷带"/>
+<edge source="医疗用品" target="创可贴"/>
+<edge source="医疗用品" target="担架"/>
+<edge source="医疗用品" target="呼吸机"/>
+<edge source="医疗用品" target="胶带"/>
+<edge source="医疗用品" target="胶囊"/>
+<edge source="医疗用品" target="纱布"/>
+<edge source="医疗用品" target="石膏"/>
+<edge source="医疗用品" target="手术刀"/>
+<edge source="医疗用品" target="体温计"/>
+<edge source="医疗用品" target="血压计"/>
+<edge source="医疗用品" target="疫苗"/>
+<edge source="医疗用品" target="止血剂"/>
+<edge source="医疗用品" target="注射器"/>
+<edge source="自然物" target="自然物"/>
+<edge source="自然物" target="白银"/>
+<edge source="自然物" target="宝石"/>
+<edge source="自然物" target="冰块"/>
+<edge source="自然物" target="大理石"/>
+<edge source="自然物" target="地球"/>
+<edge source="自然物" target="粪便"/>
+<edge source="自然物" target="篝火"/>
+<edge source="自然物" target="海洋"/>
+<edge source="自然物" target="火焰"/>
+<edge source="自然物" target="露珠"/>
+<edge source="自然物" target="煤气"/>
+<edge source="自然物" target="煤炭"/>
+<edge source="自然物" target="煤田"/>
+<edge source="自然物" target="沙粒"/>
+<edge source="自然物" target="石头"/>
+<edge source="自然物" target="石油"/>
+<edge source="自然物" target="水晶"/>
+<edge source="自然物" target="岩石"/>
+<edge source="自然物" target="珍珠"/>
+<edge source="自然物" target="钻石"/>
+<edge source="植物" target="水果"/>
+<edge source="植物" target="树木"/>
+<edge source="植物" target="花草"/>
+<edge source="植物" target="蔬菜"/>
+<edge source="水果" target="白果"/>
+<edge source="水果" target="百香果"/>
+<edge source="水果" target="板栗"/>
+<edge source="水果" target="薄荷"/>
+<edge source="水果" target="槟榔"/>
+<edge source="水果" target="草莓"/>
+<edge source="水果" target="大枣"/>
+<edge source="水果" target="甘蔗"/>
+<edge source="水果" target="柑橘"/>
+<edge source="水果" target="橄榄"/>
+<edge source="水果" target="枸杞"/>
+<edge source="水果" target="瓜子"/>
+<edge source="水果" target="哈密瓜"/>
+<edge source="水果" target="核桃"/>
+<edge source="水果" target="黑莓"/>
+<edge source="水果" target="浆果"/>
+<edge source="水果" target="金橘"/>
+<edge source="水果" target="桔子"/>
+<edge source="水果" target="开心果"/>
+<edge source="水果" target="蓝莓"/>
+<edge source="水果" target="梨"/>
+<edge source="水果" target="李子"/>
+<edge source="水果" target="荔枝"/>
+<edge source="水果" target="榴莲"/>
+<edge source="水果" target="芦荟"/>
+<edge source="水果" target="蔓越莓"/>
+<edge source="水果" target="芒果"/>
+<edge source="水果" target="猕猴桃"/>
+<edge source="水果" target="蜜桃"/>
+<edge source="水果" target="木瓜"/>
+<edge source="水果" target="柠檬"/>
+<edge source="水果" target="枇杷"/>
+<edge source="水果" target="苹果"/>
+<edge source="水果" target="葡萄"/>
+<edge source="水果" target="脐橙"/>
+<edge source="水果" target="桑葚"/>
+<edge source="水果" target="山楂"/>
+<edge source="水果" target="山竹"/>
+<edge source="水果" target="石榴"/>
+<edge source="水果" target="水蜜桃"/>
+<edge source="水果" target="苔藓"/>
+<edge source="水果" target="桃子"/>
+<edge source="水果" target="无花果"/>
+<edge source="水果" target="西瓜"/>
+<edge source="水果" target="香蕉"/>
+<edge source="水果" target="杏仁"/>
+<edge source="水果" target="杏子"/>
+<edge source="水果" target="鸭梨"/>
+<edge source="水果" target="杨梅"/>
+<edge source="水果" target="杨桃"/>
+<edge source="水果" target="椰子"/>
+<edge source="水果" target="樱桃"/>
+<edge source="水果" target="柚子"/>
+<edge source="水果" target="枣"/>
+<edge source="树木" target="白桦树"/>
+<edge source="树木" target="白皮松"/>
+<edge source="树木" target="白杨"/>
+<edge source="树木" target="柏树"/>
+<edge source="树木" target="垂柳"/>
+<edge source="树木" target="枫树"/>
+<edge source="树木" target="橄榄树"/>
+<edge source="树木" target="灌木"/>
+<edge source="树木" target="核桃树"/>
+<edge source="树木" target="猴面包树"/>
+<edge source="树木" target="桦木"/>
+<edge source="树木" target="槐树"/>
+<edge source="树木" target="柳树"/>
+<edge source="树木" target="罗汉松"/>
+<edge source="树木" target="杉木"/>
+<edge source="树木" target="圣诞树"/>
+<edge source="树木" target="水杉"/>
+<edge source="树木" target="松树"/>
+<edge source="树木" target="樟子松"/>
+<edge source="树木" target="竹子"/>
+<edge source="花草" target="百合"/>
+<edge source="花草" target="捕蝇草"/>
+<edge source="花草" target="藏红花"/>
+<edge source="花草" target="草"/>
+<edge source="花草" target="茶花"/>
+<edge source="花草" target="雏菊"/>
+<edge source="花草" target="丁香"/>
+<edge source="花草" target="风信子"/>
+<edge source="花草" target="浮萍"/>
+<edge source="花草" target="海棠"/>
+<edge source="花草" target="含羞草"/>
+<edge source="花草" target="荷花"/>
+<edge source="花草" target="蝴蝶兰"/>
+<edge source="花草" target="黄水仙"/>
+<edge source="花草" target="鸡冠花"/>
+<edge source="花草" target="夹竹桃"/>
+<edge source="花草" target="金钱草"/>
+<edge source="花草" target="金银花"/>
+<edge source="花草" target="菊花"/>
+<edge source="花草" target="康乃馨"/>
+<edge source="花草" target="葵花"/>
+<edge source="花草" target="喇叭花"/>
+<edge source="花草" target="兰花"/>
+<edge source="花草" target="连翘"/>
+<edge source="花草" target="莲花"/>
+<edge source="花草" target="麦穗"/>
+<edge source="花草" target="满天星"/>
+<edge source="花草" target="玫瑰"/>
+<edge source="花草" target="梅花"/>
+<edge source="花草" target="迷迭香"/>
+<edge source="花草" target="棉花"/>
+<edge source="花草" target="茉莉花"/>
+<edge source="花草" target="牡丹"/>
+<edge source="花草" target="盆栽"/>
+<edge source="花草" target="蒲公英"/>
+<edge source="花草" target="青苔"/>
+<edge source="花草" target="三叶草"/>
+<edge source="花草" target="水草"/>
+<edge source="花草" target="水仙花"/>
+<edge source="花草" target="昙花"/>
+<edge source="花草" target="天竺葵"/>
+<edge source="花草" target="仙人掌"/>
+<edge source="花草" target="向日葵"/>
+<edge source="花草" target="薰衣草"/>
+<edge source="花草" target="夜来香"/>
+<edge source="花草" target="罂粟"/>
+<edge source="花草" target="迎春花"/>
+<edge source="花草" target="映山红"/>
+<edge source="花草" target="油菜花"/>
+<edge source="花草" target="玉兰"/>
+<edge source="花草" target="郁金香"/>
+<edge source="花草" target="猪笼草"/>
+<edge source="蔬菜" target="白菜"/>
+<edge source="蔬菜" target="白萝卜"/>
+<edge source="蔬菜" target="扁豆"/>
+<edge source="蔬菜" target="菠菜"/>
+<edge source="蔬菜" target="蚕豆"/>
+<edge source="蔬菜" target="葱"/>
+<edge source="蔬菜" target="大豆"/>
+<edge source="蔬菜" target="大蒜"/>
+<edge source="蔬菜" target="大头菜"/>
+<edge source="蔬菜" target="刀豆"/>
+<edge source="蔬菜" target="灯笼椒"/>
+<edge source="蔬菜" target="冬瓜"/>
+<edge source="蔬菜" target="豆芽"/>
+<edge source="蔬菜" target="豆子"/>
+<edge source="蔬菜" target="番茄"/>
+<edge source="蔬菜" target="甘蓝"/>
+<edge source="蔬菜" target="高粱"/>
+<edge source="蔬菜" target="海草"/>
+<edge source="蔬菜" target="海带"/>
+<edge source="蔬菜" target="海苔"/>
+<edge source="蔬菜" target="海藻"/>
+<edge source="蔬菜" target="荷兰豆"/>
+<edge source="蔬菜" target="红薯"/>
+<edge source="蔬菜" target="胡萝卜"/>
+<edge source="蔬菜" target="花菜"/>
+<edge source="蔬菜" target="黄瓜"/>
+<edge source="蔬菜" target="豇豆"/>
+<edge source="蔬菜" target="金针菇"/>
+<edge source="蔬菜" target="韭菜"/>
+<edge source="蔬菜" target="卷心菜"/>
+<edge source="蔬菜" target="蕨菜"/>
+<edge source="蔬菜" target="莲藕"/>
+<edge source="蔬菜" target="萝卜"/>
+<edge source="蔬菜" target="绿豆"/>
+<edge source="蔬菜" target="马齿苋"/>
+<edge source="蔬菜" target="毛豆"/>
+<edge source="蔬菜" target="蘑菇"/>
+<edge source="蔬菜" target="木耳"/>
+<edge source="蔬菜" target="南瓜"/>
+<edge source="蔬菜" target="泡菜"/>
+<edge source="蔬菜" target="平菇"/>
+<edge source="蔬菜" target="茄子"/>
+<edge source="蔬菜" target="芹菜"/>
+<edge source="蔬菜" target="青菜"/>
+<edge source="蔬菜" target="秋葵"/>
+<edge source="蔬菜" target="山药"/>
+<edge source="蔬菜" target="生菜"/>
+<edge source="蔬菜" target="丝瓜"/>
+<edge source="蔬菜" target="四季豆"/>
+<edge source="蔬菜" target="酸菜"/>
+<edge source="蔬菜" target="蒜泥"/>
+<edge source="蔬菜" target="笋"/>
+<edge source="蔬菜" target="甜玉米"/>
+<edge source="蔬菜" target="茼蒿"/>
+<edge source="蔬菜" target="土豆"/>
+<edge source="蔬菜" target="豌豆"/>
+<edge source="蔬菜" target="莴笋"/>
+<edge source="蔬菜" target="西红柿"/>
+<edge source="蔬菜" target="西葫芦"/>
+<edge source="蔬菜" target="西兰花"/>
+<edge source="蔬菜" target="香菜"/>
+<edge source="蔬菜" target="香菇"/>
+<edge source="蔬菜" target="小白菜"/>
+<edge source="蔬菜" target="洋葱"/>
+<edge source="蔬菜" target="银耳"/>
+<edge source="蔬菜" target="玉米"/>
+<edge source="蔬菜" target="芋头"/>
+<edge source="交通工具" target="飞机"/>
+<edge source="交通工具" target="船"/>
+<edge source="交通工具" target="车"/>
+<edge source="飞机" target="飞船"/>
+<edge source="飞机" target="飞碟"/>
+<edge source="飞机" target="飞机"/>
+<edge source="飞机" target="飞艇"/>
+<edge source="飞机" target="航母"/>
+<edge source="飞机" target="滑翔机"/>
+<edge source="飞机" target="火箭"/>
+<edge source="飞机" target="热气球"/>
+<edge source="飞机" target="太空舱"/>
+<edge source="飞机" target="直升机"/>
+<edge source="船" target="独木舟"/>
+<edge source="船" target="帆船"/>
+<edge source="船" target="皮艇"/>
+<edge source="船" target="潜艇"/>
+<edge source="船" target="游轮"/>
+<edge source="船" target="游艇"/>
+<edge source="车" target="巴士"/>
+<edge source="车" target="车辆"/>
+<edge source="车" target="出租车"/>
+<edge source="车" target="地铁"/>
+<edge source="车" target="吊车"/>
+<edge source="车" target="房车"/>
+<edge source="车" target="公交车"/>
+<edge source="车" target="火车"/>
+<edge source="车" target="吉普车"/>
+<edge source="车" target="轿车"/>
+<edge source="车" target="救护车"/>
+<edge source="车" target="卡车"/>
+<edge source="车" target="卡丁车"/>
+<edge source="车" target="缆车"/>
+<edge source="车" target="马车"/>
+<edge source="车" target="摩托车"/>
+<edge source="车" target="跑车"/>
+<edge source="车" target="碰碰车"/>
+<edge source="车" target="汽车"/>
+<edge source="车" target="洒水车"/>
+<edge source="车" target="赛车"/>
+<edge source="车" target="三轮车"/>
+<edge source="车" target="手推车"/>
+<edge source="车" target="四轮马车"/>
+<edge source="车" target="推土机"/>
+<edge source="车" target="挖掘机"/>
+<edge source="车" target="消防车"/>
+<edge source="车" target="婴儿车"/>
+<edge source="车" target="运钞车"/>
+<edge source="车" target="自行车"/>
+<edge source="食物" target="肉食"/>
+<edge source="食物" target="调料"/>
+<edge source="食物" target="固态干粮"/>
+<edge source="食物" target="酒水饮料"/>
+<edge source="肉食" target="炖肉"/>
+<edge source="肉食" target="狗肉"/>
+<edge source="肉食" target="红烧肉"/>
+<edge source="肉食" target="火腿"/>
+<edge source="肉食" target="火腿肠"/>
+<edge source="肉食" target="鸡肉"/>
+<edge source="肉食" target="烤翅"/>
+<edge source="肉食" target="烤肉"/>
+<edge source="肉食" target="烤肉串"/>
+<edge source="肉食" target="烤羊肉"/>
+<edge source="肉食" target="腊肠"/>
+<edge source="肉食" target="腊肉"/>
+<edge source="肉食" target="驴肉"/>
+<edge source="肉食" target="牛排"/>
+<edge source="肉食" target="牛肉"/>
+<edge source="肉食" target="牛肉干"/>
+<edge source="肉食" target="培根"/>
+<edge source="肉食" target="肉末"/>
+<edge source="肉食" target="肉丸"/>
+<edge source="肉食" target="生鱼片"/>
+<edge source="肉食" target="涮羊肉"/>
+<edge source="肉食" target="香肠"/>
+<edge source="肉食" target="鸭脖"/>
+<edge source="肉食" target="鸭肉"/>
+<edge source="肉食" target="羊肉"/>
+<edge source="肉食" target="鱼丸"/>
+<edge source="肉食" target="猪肉"/>
+<edge source="调料" target="白砂糖"/>
+<edge source="调料" target="白糖"/>
+<edge source="调料" target="冰糖"/>
+<edge source="调料" target="草莓酱"/>
+<edge source="调料" target="醋"/>
+<edge source="调料" target="豆豉"/>
+<edge source="调料" target="番茄酱"/>
+<edge source="调料" target="果酱"/>
+<edge source="调料" target="黑胡椒"/>
+<edge source="调料" target="红糖"/>
+<edge source="调料" target="胡椒"/>
+<edge source="调料" target="花生酱"/>
+<edge source="调料" target="花生油"/>
+<edge source="调料" target="黄油"/>
+<edge source="调料" target="酱油"/>
+<edge source="调料" target="椒盐"/>
+<edge source="调料" target="辣椒粉"/>
+<edge source="调料" target="辣椒酱"/>
+<edge source="调料" target="沙拉酱"/>
+<edge source="调料" target="调料"/>
+<edge source="调料" target="味精"/>
+<edge source="调料" target="油"/>
+<edge source="调料" target="蔗糖"/>
+<edge source="固态干粮" target="白饭"/>
+<edge source="固态干粮" target="棒棒糖"/>
+<edge source="固态干粮" target="包子"/>
+<edge source="固态干粮" target="爆米花"/>
+<edge source="固态干粮" target="比萨"/>
+<edge source="固态干粮" target="冰棍"/>
+<edge source="固态干粮" target="冰淇淋"/>
+<edge source="固态干粮" target="冰糖葫芦"/>
+<edge source="固态干粮" target="饼干"/>
+<edge source="固态干粮" target="布丁"/>
+<edge source="固态干粮" target="炒面"/>
+<edge source="固态干粮" target="臭豆腐"/>
+<edge source="固态干粮" target="大饼"/>
+<edge source="固态干粮" target="大米"/>
+<edge source="固态干粮" target="蛋糕"/>
+<edge source="固态干粮" target="蛋黄"/>
+<edge source="固态干粮" target="豆腐"/>
+<edge source="固态干粮" target="豆腐干"/>
+<edge source="固态干粮" target="豆腐脑"/>
+<edge source="固态干粮" target="方便面"/>
+<edge source="固态干粮" target="干果"/>
+<edge source="固态干粮" target="糕点"/>
+<edge source="固态干粮" target="狗粮"/>
+<edge source="固态干粮" target="谷物"/>
+<edge source="固态干粮" target="罐头"/>
+<edge source="固态干粮" target="果冻"/>
+<edge source="固态干粮" target="汉堡"/>
+<edge source="固态干粮" target="荷包蛋"/>
+<edge source="固态干粮" target="花生"/>
+<edge source="固态干粮" target="花生米"/>
+<edge source="固态干粮" target="馄饨"/>
+<edge source="固态干粮" target="火锅"/>
+<edge source="固态干粮" target="鸡蛋"/>
+<edge source="固态干粮" target="坚果"/>
+<edge source="固态干粮" target="煎饼"/>
+<edge source="固态干粮" target="煎蛋卷"/>
+<edge source="固态干粮" target="饺子"/>
+<edge source="固态干粮" target="卷饼"/>
+<edge source="固态干粮" target="咖啡豆"/>
+<edge source="固态干粮" target="烤面包"/>
+<edge source="固态干粮" target="葵花籽"/>
+<edge source="固态干粮" target="凉粉"/>
+<edge source="固态干粮" target="凉皮"/>
+<edge source="固态干粮" target="馒头"/>
+<edge source="固态干粮" target="米饭"/>
+<edge source="固态干粮" target="米线"/>
+<edge source="固态干粮" target="蜜饯"/>
+<edge source="固态干粮" target="棉花糖"/>
+<edge source="固态干粮" target="面粉"/>
+<edge source="固态干粮" target="面筋"/>
+<edge source="固态干粮" target="奶酪"/>
+<edge source="固态干粮" target="奶油"/>
+<edge source="固态干粮" target="牛肉面"/>
+<edge source="固态干粮" target="牛轧糖"/>
+<edge source="固态干粮" target="泡泡糖"/>
+<edge source="固态干粮" target="披萨"/>
+<edge source="固态干粮" target="葡萄干"/>
+<edge source="固态干粮" target="荞麦"/>
+<edge source="固态干粮" target="巧克力"/>
+<edge source="固态干粮" target="热狗"/>
+<edge source="固态干粮" target="三明治"/>
+<edge source="固态干粮" target="沙拉"/>
+<edge source="固态干粮" target="烧烤"/>
+<edge source="固态干粮" target="寿司"/>
+<edge source="固态干粮" target="糖果"/>
+<edge source="固态干粮" target="甜点"/>
+<edge source="固态干粮" target="甜甜圈"/>
+<edge source="固态干粮" target="通心粉"/>
+<edge source="固态干粮" target="土豆泥"/>
+<edge source="固态干粮" target="馅饼"/>
+<edge source="固态干粮" target="香烟"/>
+<edge source="固态干粮" target="小麦"/>
+<edge source="固态干粮" target="小米"/>
+<edge source="固态干粮" target="雪茄"/>
+<edge source="固态干粮" target="意大利面"/>
+<edge source="固态干粮" target="油饼"/>
+<edge source="固态干粮" target="油条"/>
+<edge source="固态干粮" target="玉米面"/>
+<edge source="固态干粮" target="炸酱面"/>
+<edge source="固态干粮" target="炸薯条"/>
+<edge source="固态干粮" target="芝麻"/>
+<edge source="酒水饮料" target="八宝粥"/>
+<edge source="酒水饮料" target="白酒"/>
+<edge source="酒水饮料" target="白粥"/>
+<edge source="酒水饮料" target="百事可乐"/>
+<edge source="酒水饮料" target="碧螺春"/>
+<edge source="酒水饮料" target="冰红茶"/>
+<edge source="酒水饮料" target="冰咖啡"/>
+<edge source="酒水饮料" target="菠萝汁"/>
+<edge source="酒水饮料" target="菜籽油"/>
+<edge source="酒水饮料" target="茶"/>
+<edge source="酒水饮料" target="茶包"/>
+<edge source="酒水饮料" target="橙汁"/>
+<edge source="酒水饮料" target="纯净水"/>
+<edge source="酒水饮料" target="豆浆"/>
+<edge source="酒水饮料" target="豆奶"/>
+<edge source="酒水饮料" target="二锅头"/>
+<edge source="酒水饮料" target="蜂蜜"/>
+<edge source="酒水饮料" target="羹汤"/>
+<edge source="酒水饮料" target="果汁"/>
+<edge source="酒水饮料" target="红茶"/>
+<edge source="酒水饮料" target="红酒"/>
+<edge source="酒水饮料" target="鸡尾酒"/>
+<edge source="酒水饮料" target="咖啡"/>
+<edge source="酒水饮料" target="可口可乐"/>
+<edge source="酒水饮料" target="绿豆汤"/>
+<edge source="酒水饮料" target="牦牛奶"/>
+<edge source="酒水饮料" target="奶茶"/>
+<edge source="酒水饮料" target="奶粉"/>
+<edge source="酒水饮料" target="柠檬水"/>
+<edge source="酒水饮料" target="牛奶"/>
+<edge source="酒水饮料" target="苹果汁"/>
+<edge source="酒水饮料" target="瓶装水"/>
+<edge source="酒水饮料" target="葡萄酒"/>
+<edge source="酒水饮料" target="葡萄汁"/>
+<edge source="酒水饮料" target="普洱茶"/>
+<edge source="酒水饮料" target="汽水"/>
+<edge source="酒水饮料" target="清酒"/>
+<edge source="酒水饮料" target="清汤"/>
+<edge source="酒水饮料" target="热水"/>
+<edge source="酒水饮料" target="肉汤"/>
+<edge source="酒水饮料" target="苏打水"/>
+<edge source="酒水饮料" target="酸奶"/>
+<edge source="酒水饮料" target="糖浆"/>
+<edge source="酒水饮料" target="乌龙茶"/>
+<edge source="酒水饮料" target="稀饭"/>
+<edge source="酒水饮料" target="香槟"/>
+<edge source="酒水饮料" target="燕麦片"/>
+<edge source="酒水饮料" target="粥"/>
+</graph></graphml>
