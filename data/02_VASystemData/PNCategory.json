@@ -1,0 +1,91 @@
+[{
+    "maincategory": "交通工具",
+    "result": "命名失败",
+    "value": 3,
+    "percent": 0.15
+}, {
+    "maincategory": "交通工具",
+    "result": "命名成功",
+    "value": 15,
+    "percent": 0.75
+}, {
+    "maincategory": "交通工具",
+    "result": "语义提示",
+    "value": 2,
+    "percent": 0.1
+}, {
+    "maincategory": "人造物",
+    "result": "命名失败",
+    "value": 1,
+    "percent": 0.0285714286
+}, {
+    "maincategory": "人造物",
+    "result": "命名成功",
+    "value": 27,
+    "percent": 0.7714285714
+}, {
+    "maincategory": "人造物",
+    "result": "语义提示",
+    "value": 2,
+    "percent": 0.0571428571
+}, {
+    "maincategory": "人造物",
+    "result": "语音提示",
+    "value": 5,
+    "percent": 0.1428571429
+}, {
+    "maincategory": "动物",
+    "result": "命名成功",
+    "value": 14,
+    "percent": 0.7
+}, {
+    "maincategory": "动物",
+    "result": "语义提示",
+    "value": 3,
+    "percent": 0.15
+}, {
+    "maincategory": "动物",
+    "result": "语音提示",
+    "value": 3,
+    "percent": 0.15
+}, {
+    "maincategory": "植物",
+    "result": "命名成功",
+    "value": 20,
+    "percent": 1.0
+}, {
+    "maincategory": "自然物",
+    "result": "命名成功",
+    "value": 5,
+    "percent": 1.0
+}, {
+    "maincategory": "身体部位",
+    "result": "命名成功",
+    "value": 16,
+    "percent": 0.8
+}, {
+    "maincategory": "身体部位",
+    "result": "语义提示",
+    "value": 4,
+    "percent": 0.2
+}, {
+    "maincategory": "食物",
+    "result": "命名失败",
+    "value": 3,
+    "percent": 0.15
+}, {
+    "maincategory": "食物",
+    "result": "命名成功",
+    "value": 13,
+    "percent": 0.65
+}, {
+    "maincategory": "食物",
+    "result": "语义提示",
+    "value": 1,
+    "percent": 0.05
+}, {
+    "maincategory": "食物",
+    "result": "语音提示",
+    "value": 3,
+    "percent": 0.15
+}]
